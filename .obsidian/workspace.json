@@ -16,54 +16,6 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "Craft",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Skills/Craft.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Body",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Skills/Body.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Skills",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Skills/Skills.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":38},\"to\":{\"line\":34,\"ch\":38}}}"
-                },
-                {
-                  "title": "Intelligence",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Skills/Intelligence.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Skills",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Skills/Skills.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":43},\"to\":{\"line\":34,\"ch\":43}}}"
-                },
-                {
-                  "title": "Body",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Skills/Body.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Skills",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Skills/Skills.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":0},\"to\":{\"line\":27,\"ch\":0}},\"scroll\":28.36563071297989}"
-                },
-                {
-                  "title": "Skill Descriptions",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Skills/Skill Descriptions.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":30},\"to\":{\"line\":3,\"ch\":30}}}"
                 }
               ]
             },
@@ -75,8 +27,168 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f6c5b5bfc450d9bf",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Reputation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Reputation/Reputation.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Yennefer of Vengerberg",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Characters/Yennefer of Vengerberg.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Player Cards",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Characters/Player Cards.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Geralt of Rivia",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Characters/Geralt of Rivia.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "The Continent - Map",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"The Continent - Map.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":0}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rules/1. Creating Your Character/Races/Races.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0c19300d4ce41651",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Witchers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Races/Witchers.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":35,\"ch\":188}}}"
+                },
+                {
+                  "title": "Races",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Races/Races.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":231},\"to\":{\"line\":3,\"ch\":0}}}"
+                },
+                {
+                  "title": "Witchers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Races/Witchers.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":20},\"to\":{\"line\":35,\"ch\":20}}}"
+                },
+                {
+                  "title": "Races",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Races/Races.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":179},\"to\":{\"line\":9,\"ch\":0}}}"
+                },
+                {
+                  "title": "Witchers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Races/Witchers.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":0},\"to\":{\"line\":20,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "z_Templates/2_Mechanics Gallery/2_Mechanics Gallery.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "48086698cd9fad1d",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Template - Race",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Characters/Template - Race.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":223},\"to\":{\"line\":23,\"ch\":223}}}"
+                },
+                {
+                  "title": "Elves (The Aen Seidhe)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Races/Elves (The Aen Seidhe).md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":23,\"ch\":223}},\"scroll\":0}"
+                },
+                {
+                  "title": "Dwarves",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Races/Dwarves.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":129},\"to\":{\"line\":24,\"ch\":129}},\"scroll\":1.3902038332826285}"
+                },
+                {
+                  "title": "Elves (The Aen Seidhe)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Races/Elves (The Aen Seidhe).md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "Template - Race",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Characters/Template - Race.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Characters/Template.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rules/1. Creating Your Character/Races/Humans.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -178,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rules/1. Creating Your Character/Skills/Skills.md",
+                "file": "Rules/1. Creating Your Character/Races/Humans.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,7 +316,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rules/1. Creating Your Character/Skills/Skills.md",
+                "file": "Rules/1. Creating Your Character/Races/Humans.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -245,7 +357,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rules/1. Creating Your Character/Skills/Skills.md"
+                "file": "Rules/1. Creating Your Character/Races/Humans.md"
               }
             }
           },
@@ -361,17 +473,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "7c31854941fdd44c",
+  "active": "48086698cd9fad1d",
   "lastOpenFiles": [
-    "Rules/1. Creating Your Character/Skills/Craft.md",
-    "Rules/1. Creating Your Character/Skills/Body.md",
-    "Rules/1. Creating Your Character/Skills/Skills.md",
-    "Rules/1. Creating Your Character/Skills/Intelligence.md",
+    "z_Templates/2_Mechanics Gallery/Characters/Template - Race.md",
+    "Rules/1. Creating Your Character/Races/Elves (The Aen Seidhe).md",
+    "Rules/1. Creating Your Character/Races/Dwarves.md",
+    "z_Templates/2_Mechanics Gallery/Characters/Template.md",
+    "z_Templates/2_Mechanics Gallery/2_Mechanics Gallery.md",
+    "Rules/1. Creating Your Character/Races/Witchers.md",
+    "Rules/1. Creating Your Character/Races/Races.md",
+    "Rules/1. Creating Your Character/Reputation/Reputation.md",
     "Dodge/Escape.md",
-    "Rules/1. Creating Your Character/Skills/Skill Descriptions.md",
-    "Rules/1. Creating Your Character/Skills/Will.md",
-    "Rules/1. Creating Your Character/Skills/Empathy.md",
-    "Rules/1. Creating Your Character/Skills/Dexterity.md",
-    "Rules/1. Creating Your Character/Skills/Reflex.md"
+    "Characters/Yennefer of Vengerberg.md"
   ]
 }
