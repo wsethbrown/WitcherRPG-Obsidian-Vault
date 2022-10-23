@@ -141,6 +141,48 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Dwarves",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Races/Dwarves.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":129},\"to\":{\"line\":13,\"ch\":0}}}"
+                },
+                {
+                  "title": "Bard Skill Tree",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Skill Trees/Bard Skill Tree.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Skill Trees",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Skill Trees/Skill Trees.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Lifepath",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Lifepath.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":1},\"to\":{\"line\":4,\"ch\":1}}}"
+                },
+                {
+                  "title": "Statistics",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Statistics/Statistics.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Races",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Races/Races.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Humans",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Races/Humans.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{\"scroll\":1.7628401313226865}"
+                },
+                {
                   "title": "Template - Race",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Characters/Template - Race.md\",\"mode\":\"source\",\"source\":false}}",
@@ -181,14 +223,98 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rules/1. Creating Your Character/Races/Humans.md",
-                "mode": "preview",
+                "file": "Rules/1. Creating Your Character/Lifepath/Lifepath.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bed087ec23590276",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rules/1. Creating Your Character/Lifepath/Homeland.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "698566fc9c8b172a",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Automated Lifepath",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                },
+                {
+                  "title": "Homeland",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Homeland.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
+                },
+                {
+                  "title": "Automated Lifepath",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Homeland",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Homeland.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
+                },
+                {
+                  "title": "Automated Lifepath",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                },
+                {
+                  "title": "Homeland",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Homeland.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
+                },
+                {
+                  "title": "Automated Lifepath",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":17},\"to\":{\"line\":0,\"ch\":17}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rules/1. Creating Your Character/Lifepath/Homeland.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -290,7 +416,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rules/1. Creating Your Character/Races/Humans.md",
+                "file": "Rules/1. Creating Your Character/Lifepath/Homeland.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -316,7 +442,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rules/1. Creating Your Character/Races/Humans.md",
+                "file": "Rules/1. Creating Your Character/Lifepath/Homeland.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -357,7 +483,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rules/1. Creating Your Character/Races/Humans.md"
+                "file": "Rules/1. Creating Your Character/Lifepath/Homeland.md"
               }
             }
           },
@@ -473,17 +599,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "48086698cd9fad1d",
+  "active": "698566fc9c8b172a",
   "lastOpenFiles": [
-    "z_Templates/2_Mechanics Gallery/Characters/Template - Race.md",
-    "Rules/1. Creating Your Character/Races/Elves (The Aen Seidhe).md",
+    "Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md",
+    "Rules/1. Creating Your Character/Lifepath/Homeland.md",
+    "Rules/1. Creating Your Character/Lifepath/Lifepath.md",
     "Rules/1. Creating Your Character/Races/Dwarves.md",
-    "z_Templates/2_Mechanics Gallery/Characters/Template.md",
-    "z_Templates/2_Mechanics Gallery/2_Mechanics Gallery.md",
-    "Rules/1. Creating Your Character/Races/Witchers.md",
+    "Rules/1. Creating Your Character/Skill Trees/Bard Skill Tree.md",
+    "Rules/1. Creating Your Character/Skill Trees/Skill Trees.md",
+    "Rules/1. Creating Your Character/Statistics/Statistics.md",
     "Rules/1. Creating Your Character/Races/Races.md",
-    "Rules/1. Creating Your Character/Reputation/Reputation.md",
-    "Dodge/Escape.md",
-    "Characters/Yennefer of Vengerberg.md"
+    "Rules/1. Creating Your Character/Races/Humans.md",
+    "z_Templates/2_Mechanics Gallery/Characters/Template - Race.md"
   ]
 }
