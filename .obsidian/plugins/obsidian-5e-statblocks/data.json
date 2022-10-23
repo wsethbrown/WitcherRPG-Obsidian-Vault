@@ -1,0 +1,264 @@
+{
+  "monsters": [],
+  "layouts": [
+    {
+      "name": "Warhammer",
+      "blocks": [
+        {
+          "type": "image",
+          "id": "69e85b68588b",
+          "properties": [
+            "Image"
+          ],
+          "fallback": "-"
+        },
+        {
+          "type": "text",
+          "id": "3a2be9aa1a4a",
+          "properties": [
+            ""
+          ],
+          "text": null,
+          "fallback": "",
+          "heading": "Characteristics"
+        },
+        {
+          "type": "table",
+          "id": "a83949ea8b8a",
+          "properties": [
+            "Characteristics"
+          ],
+          "headers": [
+            "WS",
+            "BS",
+            "S",
+            "T",
+            "I",
+            "AG",
+            "Dex",
+            "Int",
+            "WP",
+            "Fel"
+          ],
+          "calculate": false,
+          "fallback": "-"
+        },
+        {
+          "type": "inline",
+          "id": "198bcaa8a978",
+          "properties": [],
+          "nested": [
+            {
+              "type": "table",
+              "id": "98891bba982b",
+              "properties": [],
+              "headers": [
+                "Movement",
+                "Walk",
+                "Run"
+              ],
+              "calculate": true,
+              "fallback": "-"
+            },
+            {
+              "type": "table",
+              "id": "ebc928db19ca",
+              "properties": [],
+              "headers": [
+                "Fortune",
+                "Fate",
+                "Resolve",
+                "Resilience"
+              ],
+              "calculate": true,
+              "fallback": "-"
+            },
+            {
+              "type": "table",
+              "id": "296a39997a5a",
+              "properties": [
+                "Random"
+              ],
+              "headers": [],
+              "calculate": true,
+              "fallback": "-"
+            }
+          ]
+        },
+        {
+          "type": "inline",
+          "id": "1b9b884aeaf9",
+          "properties": [],
+          "nested": [
+            {
+              "type": "table",
+              "id": "4bdb79aa39a9",
+              "properties": [],
+              "headers": [
+                "Critical Wounds"
+              ],
+              "calculate": false,
+              "fallback": "-"
+            },
+            {
+              "type": "table",
+              "id": "cbdb6aa85b49",
+              "properties": [],
+              "headers": [
+                "Corruption"
+              ],
+              "calculate": false,
+              "fallback": "-"
+            },
+            {
+              "type": "table",
+              "id": "490bd9a9e878",
+              "properties": [],
+              "headers": [
+                "Experience"
+              ],
+              "calculate": false,
+              "fallback": "-"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "id": "0ab8cab8497b",
+          "properties": [
+            "Career"
+          ],
+          "headers": [
+            "Career",
+            "Current",
+            "Complete",
+            "Level"
+          ],
+          "calculate": false,
+          "fallback": "-"
+        },
+        {
+          "type": "text",
+          "id": "1acb3b6bc828",
+          "properties": [],
+          "text": null,
+          "fallback": "",
+          "heading": "Skills"
+        },
+        {
+          "type": "inline",
+          "id": "59aa4afa3a3a",
+          "properties": [],
+          "nested": [
+            {
+              "type": "text",
+              "id": "a94bdbc9495b",
+              "properties": [],
+              "text": null,
+              "fallback": "",
+              "heading": "Basic Skills"
+            },
+            {
+              "type": "text",
+              "id": "d93ae94beb0b",
+              "properties": [],
+              "text": null,
+              "fallback": "",
+              "heading": "Advanced Skills"
+            }
+          ]
+        },
+        {
+          "type": "inline",
+          "id": "396b6b185a39",
+          "properties": [],
+          "nested": [
+            {
+              "type": "table",
+              "id": "29c87b889a8b",
+              "properties": [
+                "Basic Skills"
+              ],
+              "headers": [
+                "Name",
+                "Char",
+                "Adv.",
+                "Total"
+              ],
+              "calculate": false,
+              "fallback": "-"
+            },
+            {
+              "type": "table",
+              "id": "099ae94b4a29",
+              "properties": [
+                "Advanced Skills"
+              ],
+              "headers": [
+                "Name",
+                "Char.",
+                "Adv",
+                "Total"
+              ],
+              "calculate": false,
+              "fallback": "-"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "1a18991ab969",
+          "properties": [],
+          "text": null,
+          "fallback": "",
+          "heading": "Melee Weapons"
+        },
+        {
+          "type": "table",
+          "id": "2b59180849c8",
+          "properties": [
+            "Melee Weapons"
+          ],
+          "headers": [
+            "Type",
+            "Group",
+            "Damage",
+            "Reach"
+          ],
+          "calculate": false,
+          "fallback": "-",
+          "dice": false
+        },
+        {
+          "type": "table",
+          "id": "982b887ba9b8",
+          "properties": [],
+          "headers": [],
+          "calculate": true
+        },
+        {
+          "type": "table",
+          "id": "0808e83a3b2b",
+          "properties": [],
+          "headers": [],
+          "calculate": true
+        }
+      ]
+    }
+  ],
+  "default": "Warhammer",
+  "useDice": true,
+  "renderDice": false,
+  "export": true,
+  "showAdvanced": true,
+  "version": {
+    "major": 2,
+    "minor": 21,
+    "patch": 8
+  },
+  "paths": [],
+  "autoParse": false,
+  "disableSRD": true,
+  "tryToRenderLinks": true,
+  "debug": false
+}
