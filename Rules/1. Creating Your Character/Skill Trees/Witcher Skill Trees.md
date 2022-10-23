@@ -1,5 +1,6 @@
 ## Witcher Training (INT)
 Most of a Witcher’s early life is spent within the walls of their keep, studying huge, dusty tomes and going through hellish combat training. Many have argued that the Witcher’s greatest weapon is their knowledge of monsters and their adaptability in any situation. When in a hostile environment or difficult terrain, a Witcher can lessen the penalties by half their Witcher Training value (minimum 1). Witcher Training can also be used in any situation that you would normally use Monster Lore for.
+
 -tx-
 |The Spellsword|The Mutant|The Slayer|
 |---|---|---|

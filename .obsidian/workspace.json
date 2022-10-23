@@ -90,6 +90,552 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Armor List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Head Armorss",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Head Armorss.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":12},\"to\":{\"line\":0,\"ch\":12}}}"
+                },
+                {
+                  "title": "Armor List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Armored Hood",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armored Hood.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Aedirnian Gambeson",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Aedirnian Gambeson.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Armored Trousers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armored Trousers.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Head Armorss",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Head Armorss.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":15},\"to\":{\"line\":0,\"ch\":15}}}"
+                },
+                {
+                  "title": "Armor List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Cavalry Trousers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Cavalry Trousers.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Brigandine",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Brigandine.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Armored Trousers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armored Trousers.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Armor List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Verden Archer's Hood",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Verden Archer's Hood.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Temerian Armet",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Temerian Armet.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Spectacled Helm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Spectacled Helm.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Skellige Helm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Skellige Helm.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Redanian Halberdier's Armor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Redanian Halberdier's Armor.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":2},\"to\":{\"line\":10,\"ch\":2}}}"
+                },
+                {
+                  "title": "Redanian Greaves",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Redanian Greaves.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Plate Greaves",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Plate Greaves.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Plate Armor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Plate Armor.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":7},\"to\":{\"line\":1,\"ch\":7}}}"
+                },
+                {
+                  "title": "Padded Trousers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Padded Trousers.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Nilfgaardian Plate Armor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Nilfgaardian Plate Armor.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":7},\"to\":{\"line\":9,\"ch\":7}}}"
+                },
+                {
+                  "title": "Nilfgaardian Helm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Nilfgaardian Helm.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Nilfgaardian Greaves",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Nilfgaardian Greaves.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Lyrian Leather Trousers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Lyrian Leather Trousers.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Lyrian Leather Jacket",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Lyrian Leather Jacket.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":2},\"to\":{\"line\":9,\"ch\":2}}}"
+                },
+                {
+                  "title": "Leg Armor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Leg Armor.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Hindarsfjall Heavy Chausses",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Hindarsfjall Heavy Chausses.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Hindarsfjall Heavy Armor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Hindarsfjall Heavy Armor.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":2},\"to\":{\"line\":9,\"ch\":2}}}"
+                },
+                {
+                  "title": "Great Helm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Great Helm.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Gambeson",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Gambeson.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":7},\"to\":{\"line\":9,\"ch\":7}}}"
+                },
+                {
+                  "title": "Double Woven Trousers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Double Woven Trousers.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Double Woven Hood",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Double Woven Hood.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Double Woven Gambeson",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Double Woven Gambeson.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":1},\"to\":{\"line\":1,\"ch\":1}}}"
+                },
+                {
+                  "title": "Chain Coif",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Chain Coif.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Cavalry Trousers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Cavalry Trousers.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Brigandine",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Brigandine.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":2},\"to\":{\"line\":8,\"ch\":2}}}"
+                },
+                {
+                  "title": "Armored Trousers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armored Trousers.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Armor List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Head Armorss",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Head Armorss.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
+                },
+                {
+                  "title": "Armor List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Aedirnian Gambeson",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Aedirnian Gambeson.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Armor List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Head Armor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Head Armor.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Chain Coif",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Chain Coif.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Head Armor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Head Armor.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":12},\"to\":{\"line\":10,\"ch\":12}}}"
+                },
+                {
+                  "title": "Leg Armor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Leg Armor.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":10,\"ch\":3}}}"
+                },
+                {
+                  "title": "Head Armor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Head Armor.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Cavalry Trousers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Cavalry Trousers.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Armored Trousers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armored Trousers.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Verden Archer's Hood",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Verden Archer's Hood.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":20},\"to\":{\"line\":9,\"ch\":20}}}"
+                },
+                {
+                  "title": "Temerian Armet",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Temerian Armet.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":20},\"to\":{\"line\":11,\"ch\":20}}}"
+                },
+                {
+                  "title": "Spectacled Helm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Spectacled Helm.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":20},\"to\":{\"line\":9,\"ch\":20}}}"
+                },
+                {
+                  "title": "Skellige Helm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Skellige Helm.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":20},\"to\":{\"line\":11,\"ch\":20}}}"
+                },
+                {
+                  "title": "Nilfgaardian Helm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Nilfgaardian Helm.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":20},\"to\":{\"line\":11,\"ch\":20}}}"
+                },
+                {
+                  "title": "Great Helm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Great Helm.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":20},\"to\":{\"line\":11,\"ch\":20}}}"
+                },
+                {
+                  "title": "Double Woven Hood",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Double Woven Hood.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":20},\"to\":{\"line\":9,\"ch\":20}}}"
+                },
+                {
+                  "title": "Chain Coif",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Chain Coif.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":20},\"to\":{\"line\":9,\"ch\":20}}}"
+                },
+                {
+                  "title": "Armored Hood",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armored Hood.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                },
+                {
+                  "title": "Skill Trees",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Skill Trees/Skill Trees.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Craftsman Skill Tree",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Skill Trees/Craftsman Skill Tree.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Bard Skill Tree",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Skill Trees/Bard Skill Tree.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Staff",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Staves/Staff.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Double Woven Hood",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Double Woven Hood.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Great Helm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Great Helm.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Nilfgaardian Helm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Nilfgaardian Helm.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Skellige Helm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Skellige Helm.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Spectacled Helm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Spectacled Helm.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":187},\"to\":{\"line\":11,\"ch\":187}}}"
+                },
+                {
+                  "title": "Temerian Armet",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Temerian Armet.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Verden Archer's Hood",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Verden Archer's Hood.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":1},\"to\":{\"line\":10,\"ch\":1}}}"
+                },
+                {
+                  "title": "Leg Armor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Leg Armor.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Redanian Greaves",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Redanian Greaves.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":7},\"to\":{\"line\":9,\"ch\":7}}}"
+                },
+                {
+                  "title": "Plate Greaves",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Plate Greaves.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":1},\"to\":{\"line\":1,\"ch\":1}}}"
+                },
+                {
+                  "title": "Padded Trousers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Padded Trousers.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":1},\"to\":{\"line\":9,\"ch\":1}}}"
+                },
+                {
+                  "title": "Nilfgaardian Greaves",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Nilfgaardian Greaves.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":7},\"to\":{\"line\":9,\"ch\":7}}}"
+                },
+                {
+                  "title": "Lyrian Leather Trousers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Lyrian Leather Trousers.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":7},\"to\":{\"line\":9,\"ch\":7}}}"
+                },
+                {
+                  "title": "Hindarsfjall Heavy Chausses",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Hindarsfjall Heavy Chausses.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":1},\"to\":{\"line\":9,\"ch\":1}}}"
+                },
+                {
+                  "title": "Double Woven Trousers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Double Woven Trousers.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":7},\"to\":{\"line\":9,\"ch\":7}}}"
+                },
+                {
+                  "title": "Cavalry Trousers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Cavalry Trousers.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Armor List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Leg Armor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Leg Armor.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Double Woven Trousers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Double Woven Trousers.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":5},\"to\":{\"line\":3,\"ch\":5}}}"
+                },
+                {
+                  "title": "Cavalry Trousers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Cavalry Trousers.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":7},\"to\":{\"line\":9,\"ch\":7}}}"
+                },
+                {
+                  "title": "Armored Trousers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armored Trousers.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":1},\"to\":{\"line\":1,\"ch\":1}}}"
+                },
+                {
+                  "title": "Leg Armor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Leg Armor.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":3},\"to\":{\"line\":10,\"ch\":3}},\"scroll\":0}"
+                },
+                {
+                  "title": "Armored Trousers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armored Trousers.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":2},\"to\":{\"line\":2,\"ch\":2}}}"
+                },
+                {
+                  "title": "Mace",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bludgeons/Mace.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Highland Mauler",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bludgeons/Highland Mauler.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Brass Knuckles",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bludgeons/Brass Knuckles.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Bludgeons",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bludgeons/Bludgeons.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "2_Mechanics Gallery",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/2_Mechanics Gallery.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "Witchers",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Races/Witchers.md\",\"mode\":\"source\",\"source\":false}}",
@@ -122,367 +668,14 @@
               ]
             },
             "state": {
-              "type": "markdown",
+              "type": "database-plugin",
               "state": {
-                "file": "z_Templates/2_Mechanics Gallery/2_Mechanics Gallery.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "48086698cd9fad1d",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Dwarves",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Races/Dwarves.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":129},\"to\":{\"line\":13,\"ch\":0}}}"
-                },
-                {
-                  "title": "Bard Skill Tree",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Skill Trees/Bard Skill Tree.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Skill Trees",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Skill Trees/Skill Trees.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Lifepath",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Lifepath.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":1},\"to\":{\"line\":4,\"ch\":1}}}"
-                },
-                {
-                  "title": "Statistics",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Statistics/Statistics.md\",\"mode\":\"preview\",\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Races",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Races/Races.md\",\"mode\":\"preview\",\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Humans",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Races/Humans.md\",\"mode\":\"preview\",\"source\":false}}",
-                  "eState": "{\"scroll\":1.7628401313226865}"
-                },
-                {
-                  "title": "Template - Race",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Characters/Template - Race.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":223},\"to\":{\"line\":23,\"ch\":223}}}"
-                },
-                {
-                  "title": "Elves (The Aen Seidhe)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Races/Elves (The Aen Seidhe).md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":23,\"ch\":223}},\"scroll\":0}"
-                },
-                {
-                  "title": "Dwarves",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Races/Dwarves.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":129},\"to\":{\"line\":24,\"ch\":129}},\"scroll\":1.3902038332826285}"
-                },
-                {
-                  "title": "Elves (The Aen Seidhe)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Races/Elves (The Aen Seidhe).md\",\"mode\":\"preview\",\"source\":false}}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "Template - Race",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Characters/Template - Race.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Characters/Template.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rules/1. Creating Your Character/Lifepath/Lifepath.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bed087ec23590276",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rules/1. Creating Your Character/Lifepath/Homeland.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "698566fc9c8b172a",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "The Continent - Map",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"The Continent - Map.md\",\"mode\":\"preview\",\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Witcher_Symbols",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Witcher_Symbols.md\",\"mode\":\"preview\",\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "The Continent - Map",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"The Continent - Map.md\",\"mode\":\"preview\",\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Witcher_Symbols",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Witcher_Symbols.md\",\"mode\":\"preview\",\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Witchers",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Races/Witchers.md\",\"mode\":\"preview\",\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Witcher_Symbols",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Witcher_Symbols.md\",\"mode\":\"preview\",\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "The Continent - Map",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"The Continent - Map.md\",\"mode\":\"preview\",\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Witcher_Symbols",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Witcher_Symbols.md\",\"mode\":\"preview\",\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "The Continent - Map",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"The Continent - Map.md\",\"mode\":\"preview\",\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Witcher_Symbols",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Witcher_Symbols.md\",\"mode\":\"preview\",\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Automated Lifepath",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":21},\"to\":{\"line\":15,\"ch\":21}}}"
-                },
-                {
-                  "title": "Homeland",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Homeland.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":15},\"to\":{\"line\":5,\"ch\":15}}}"
-                },
-                {
-                  "title": "Automated Lifepath",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Homeland",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Homeland.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Automated Lifepath",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Homeland",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Homeland.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Automated Lifepath",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":37},\"to\":{\"line\":0,\"ch\":37}}}"
-                },
-                {
-                  "title": "Homeland",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Homeland.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":56},\"to\":{\"line\":1,\"ch\":0}}}"
-                },
-                {
-                  "title": "Automated Lifepath",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md\",\"mode\":\"preview\",\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Homeland",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Homeland.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Automated Lifepath",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-                },
-                {
-                  "title": "Homeland",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Homeland.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}}}"
-                },
-                {
-                  "title": "Automated Lifepath",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md\",\"mode\":\"preview\",\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Homeland",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Homeland.md\",\"mode\":\"preview\",\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Automated Lifepath",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md\",\"mode\":\"preview\",\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Homeland",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Homeland.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":12},\"to\":{\"line\":1,\"ch\":12}}}"
-                },
-                {
-                  "title": "Automated Lifepath",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":19},\"to\":{\"line\":0,\"ch\":19}}}"
-                },
-                {
-                  "title": "Homeland",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Homeland.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":16},\"to\":{\"line\":1,\"ch\":0}}}"
-                },
-                {
-                  "title": "Automated Lifepath",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-                },
-                {
-                  "title": "Homeland",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Homeland.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
-                },
-                {
-                  "title": "Automated Lifepath",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Homeland",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Homeland.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
-                },
-                {
-                  "title": "Automated Lifepath",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-                },
-                {
-                  "title": "Homeland",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Homeland.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
-                },
-                {
-                  "title": "Automated Lifepath",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":17},\"to\":{\"line\":0,\"ch\":17}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Witcher_Symbols.md",
-                "mode": "preview",
-                "source": false
+                "file": "Rules/2. Gear/Armor/Armor List/Armor List.md"
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -529,7 +722,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#WitcherHumanoids",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -555,8 +748,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -585,7 +777,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Witcher_Symbols.md",
+                "file": "Rules/2. Gear/Armor/Armor List/Armor List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -611,7 +803,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Witcher_Symbols.md",
+                "file": "Rules/2. Gear/Armor/Armor List/Armor List.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -652,7 +844,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Witcher_Symbols.md"
+                "file": "Rules/2. Gear/Armor/Armor List/Armor List.md"
               }
             }
           },
@@ -768,17 +960,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "8d404fb366bdc011",
+  "active": "0c19300d4ce41651",
   "lastOpenFiles": [
-    "The Continent - Map.md",
-    "Witcher_Symbols.md",
-    "Rules/1. Creating Your Character/Races/Witchers.md",
-    "Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md",
-    "Rules/1. Creating Your Character/Lifepath/Homeland.md",
-    "Rules/1. Creating Your Character/Lifepath/Lifepath.md",
-    "Rules/1. Creating Your Character/Races/Dwarves.md",
-    "Rules/1. Creating Your Character/Skill Trees/Bard Skill Tree.md",
-    "Rules/1. Creating Your Character/Skill Trees/Skill Trees.md",
-    "Rules/1. Creating Your Character/Statistics/Statistics.md"
+    "Rules/2. Gear/Armor/Armor List/Leg Armor.md",
+    "Rules/2. Gear/Armor/Armor List/Armor List.md",
+    "Rules/2. Gear/Armor/Armor List/Head Armorss.md",
+    "Rules/2. Gear/Armor/Armor List/Armored Hood.md",
+    "Rules/2. Gear/Armor/Armor List/Aedirnian Gambeson.md",
+    "Rules/2. Gear/Armor/Armor List/Armored Trousers.md",
+    "Rules/2. Gear/Armor/Armor List/Cavalry Trousers.md",
+    "Rules/2. Gear/Armor/Armor List/Brigandine.md",
+    "Rules/2. Gear/Armor/Armor List/Verden Archer's Hood.md",
+    "Rules/2. Gear/Armor/Armor List/Temerian Armet.md"
   ]
 }

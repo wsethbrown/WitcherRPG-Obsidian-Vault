@@ -4,9 +4,6 @@
 > More specific information about healing Critical Wounds can be found on pg.173.
 
 Anyone can apply some ointment and wrap a bandage around a cut, but a Doctor has true medical training which allows them to perform complex surgeries. A Doctor with Healing Hands is the only person who can heal a critical wound. To heal critical wounds a doctor must make a number of successful Healing Hands rolls based on the severity of the critical wound. The DC of the roll is based on the severity of the critical wound as well. Healing Hands can also be used for any First Aid task.
-<br>
-<br>
-<br>
 
 -tx-
 |The Surgeon|The Herbalist|The Anatomist|

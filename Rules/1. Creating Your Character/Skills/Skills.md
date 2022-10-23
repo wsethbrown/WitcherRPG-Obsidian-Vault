@@ -26,93 +26,45 @@ Your first 11 skills will come from your Profession's Skill Package and Defining
 >** Home Language**
 You are considered fluent in the language of your home- land. This means that you start with a +8 in your own home language for free and do not spend points on it. If you are from Nilfgaard, Dol Blathanna or Skellige you speak the Elder Speech, though they are separate dialects (see Dialects). If you are from the North you speak Common Speech, also known as Nordling. If you are from Mahakam you speak Dwarven.
 
--tx-
-|Intelligence|
->[!cards|2]
->|Intelligence||
->|:---:|:---:|
->Business||
->Deduction||
->Language (2)||
->Monster Lore (2)||
->Social Etiquette||
->Streetwise||
->Tactics (2)||
->Teaching||
->Wilderness Survival||
+>[!cards|4]
+>|Intelligence|
+>|:---:|
+>Business|
+>Deduction|
+>Language (2)|
+>Monster Lore (2)|
+>Social Etiquette|
+>Streetwise|
+>Tactics (2)|
+>Teaching|
+>Wilderness Survival|
 >
 >| [[REFLEX]]|
->|:---:|:---:|
->Brawling||
-> Dodge/Escape||
->Melee||
->Riding||
->Sailing||
->Small Blades||
->Staff/Spear||
->Swordsmanship||
+>|:---:|
+>Brawling|
+> Dodge/Escape|
+>Melee|
+>Riding|
+>Sailing|
+>Small Blades|
+>Staff/Spear|
+>Swordsmanship|
 >
 >|DEXTERITY|
->|:---:|:---:|
->Archery||
->Athletics||
-Crossbow||
-Sleight of Hand||
-Stealth||
-
-
-```start-multi-column
-id: skill-list
-number of columns: 2
-```
-| [[Skill Descriptions#Intelligence\|INTELLIGENCE]] |
-| ------------------------------------------------- |
-| [[Intelligence#Awareness\|Awareness]]                                         |
-| Business                                          |
-| Deduction                                         |
-| Education                                         |
-| Language (2)                                      |
-| Monster Lore (2)                                  |
-| Social Etiquette                                  |
-| Streetwise                                        |
-| Tactics (2)                                       |
-| Teaching                                          |
-| Wilderness Survival                               |
-
---- end-column---
-
-| [[REFLEX]]        |
-| ------------- |
-| Brawling      |
-| Dodge/[[Escape]]  |
-| Melee         |
-| Riding        |
-| Sailing       |
-| Small Blades  |
-| Staff/Spear   |
-| Swordsmanship |
-
-| [[DEXTERITY]]       |
-| --------------- |
-| Archery         |
-| Athletics       |
-| Crossbow        |
-| Sleight of Hand |
-| Stealth         |
-
-=== end-multi-column
-```start-multi-column
-ID: skill-list-2
-number of columns: 2
-```
-
-| [[BODY]]      |
-| --------- |
+>|:---:|
+>Archery|
+>Athletics|
+Crossbow|
+Sleight of Hand|
+Stealth|
+>
+>| [[BODY]]      |
+|:---:|
 | Physique  |
 | Endurance |
-
-| [[EMPATHY]]            |
-| ------------------ |
+>
+>| [[EMPATHY]]|
+|:---:|
 | Charisma           |
 | Deceit             |
 | Fine Arts          |
@@ -123,9 +75,7 @@ number of columns: 2
 | Persuasion         |
 | Performance        |
 | Seduction          |
-
---- end-column---
-
+>
 | [[CRAFT]]             |
 | ----------------- |
 | Alchemy (2)       |
@@ -135,7 +85,7 @@ number of columns: 2
 | Forgery           |
 | Pick Lock         |
 | Trap Crafting (2) |
-
+>
 | [[WILL]]                |
 | ------------------- |
 | Courage             |
@@ -146,4 +96,3 @@ number of columns: 2
 | Resist Coercion     |
 | Ritual Crafting (2) |
 
-=== end-multi-column

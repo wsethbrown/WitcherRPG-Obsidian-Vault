@@ -91,7 +91,7 @@ body a.tag.tag[href^="#WitcherAether"],
   /* Taken from original CSS */
   display: inline-flex;
   align-self: center;
-  top: 0.175em;
+  top: 0.5em;
   position: relative;
   height: 1.5em;
   width: 1.5em;
@@ -113,7 +113,7 @@ body a.tag.tag[href^="#WitcherBeasts"],
   /* Taken from original CSS */
   display: inline-flex;
   align-self: center;
-  top: 0.175em;
+  top: 0.5em;
   position: relative;
   height: 1.5em;
   width: 1.5em;
@@ -135,7 +135,7 @@ body a.tag.tag[href^="#WitcherCaelum"],
   /* Taken from original CSS */
   display: inline-flex;
   align-self: center;
-  top: 0.175em;
+  top: 0.5em;
   position: relative;
   height: 1.5em;
   width: 1.5em;
@@ -157,7 +157,7 @@ body a.tag.tag[href^="#WitcherCursedOnes"],
   /* Taken from original CSS */
   display: inline-flex;
   align-self: center;
-  top: 0.175em;
+  top: 0.5em;
   position: relative;
   height: 1.5em;
   width: 1.5em;
@@ -179,7 +179,7 @@ body a.tag.tag[href^="#WitcherDraconids"],
   /* Taken from original CSS */
   display: inline-flex;
   align-self: center;
-  top: 0.175em;
+  top: 0.5em;
   position: relative;
   height: 1.5em;
   width: 1.5em;
@@ -201,7 +201,7 @@ body a.tag.tag[href^="#WitcherElementa"],
   /* Taken from original CSS */
   display: inline-flex;
   align-self: center;
-  top: 0.175em;
+  top: 0.5em;
   position: relative;
   height: 1.5em;
   width: 1.5em;
@@ -223,7 +223,7 @@ body a.tag.tag[href^="#WitcherFulgur"],
   /* Taken from original CSS */
   display: inline-flex;
   align-self: center;
-  top: 0.175em;
+  top: 0.5em;
   position: relative;
   height: 1.5em;
   width: 1.5em;
@@ -245,7 +245,7 @@ body a.tag.tag[href^="#WitcherHumanoids"],
   /* Taken from original CSS */
   display: inline-flex;
   align-self: center;
-  top: 0.175em;
+  top: 0.5em;
   position: relative;
   height: 1.5em;
   width: 1.5em;
@@ -267,7 +267,7 @@ body a.tag.tag[href^="#WitcherHybrids"],
   /* Taken from original CSS */
   display: inline-flex;
   align-self: center;
-  top: 0.175em;
+  top: 0.5em;
   position: relative;
   height: 1.5em;
   width: 1.5em;
@@ -289,7 +289,7 @@ body a.tag.tag[href^="#WitcherHydragenum"],
   /* Taken from original CSS */
   display: inline-flex;
   align-self: center;
-  top: 0.175em;
+  top: 0.5em;
   position: relative;
   height: 1.5em;
   width: 1.5em;
@@ -311,7 +311,7 @@ body a.tag.tag[href^="#WitcherInsectoids"],
   /* Taken from original CSS */
   display: inline-flex;
   align-self: center;
-  top: 0.175em;
+  top: 0.5em;
   position: relative;
   height: 1.5em;
   width: 1.5em;
@@ -333,7 +333,7 @@ body a.tag.tag[href^="#WitcherNecrophages"],
   /* Taken from original CSS */
   display: inline-flex;
   align-self: center;
-  top: 0.175em;
+  top: 0.5em;
   position: relative;
   height: 1.5em;
   width: 1.5em;
@@ -355,7 +355,7 @@ body a.tag.tag[href^="#WitcherOgroids"],
   /* Taken from original CSS */
   display: inline-flex;
   align-self: center;
-  top: 0.175em;
+  top: 0.5em;
   position: relative;
   height: 1.5em;
   width: 1.5em;
@@ -377,7 +377,7 @@ body a.tag.tag[href^="#WitcherQuebrith"],
   /* Taken from original CSS */
   display: inline-flex;
   align-self: center;
-  top: 0.175em;
+  top: 0.5em;
   position: relative;
   height: 1.5em;
   width: 1.5em;
@@ -399,7 +399,7 @@ body a.tag.tag[href^="#WitcherRebis"],
   /* Taken from original CSS */
   display: inline-flex;
   align-self: center;
-  top: 0.175em;
+  top: 0.5em;
   position: relative;
   height: 1.5em;
   width: 1.5em;
@@ -421,7 +421,7 @@ body a.tag.tag[href^="#WitcherRelicts"],
   /* Taken from original CSS */
   display: inline-flex;
   align-self: center;
-  top: 0.175em;
+  top: 0.5em;
   position: relative;
   height: 1.5em;
   width: 1.5em;
@@ -443,7 +443,7 @@ body a.tag.tag[href^="#WitcherSol"],
   /* Taken from original CSS */
   display: inline-flex;
   align-self: center;
-  top: 0.175em;
+  top: 0.5em;
   position: relative;
   height: 1.5em;
   width: 1.5em;
@@ -465,7 +465,7 @@ body a.tag.tag[href^="#WitcherSpecters"],
   /* Taken from original CSS */
   display: inline-flex;
   align-self: center;
-  top: 0.175em;
+  top: 0.5em;
   position: relative;
   height: 1.5em;
   width: 1.5em;
@@ -487,7 +487,7 @@ body a.tag.tag[href^="#WitcherVampires"],
   /* Taken from original CSS */
   display: inline-flex;
   align-self: center;
-  top: 0.175em;
+  top: 0.5em;
   position: relative;
   height: 1.5em;
   width: 1.5em;
@@ -509,7 +509,7 @@ body a.tag.tag[href^="#WitcherVermilion"],
   /* Taken from original CSS */
   display: inline-flex;
   align-self: center;
-  top: 0.175em;
+  top: 0.5em;
   position: relative;
   height: 1.5em;
   width: 1.5em;
@@ -531,7 +531,7 @@ body a.tag.tag[href^="#WitcherVitriol"],
   /* Taken from original CSS */
   display: inline-flex;
   align-self: center;
-  top: 0.175em;
+  top: 0.5em;
   position: relative;
   height: 1.5em;
   width: 1.5em;
