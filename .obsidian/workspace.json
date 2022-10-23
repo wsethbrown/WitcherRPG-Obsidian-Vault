@@ -261,6 +261,174 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "The Continent - Map",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"The Continent - Map.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Witcher_Symbols",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Witcher_Symbols.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "The Continent - Map",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"The Continent - Map.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Witcher_Symbols",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Witcher_Symbols.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Witchers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Races/Witchers.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Witcher_Symbols",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Witcher_Symbols.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "The Continent - Map",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"The Continent - Map.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Witcher_Symbols",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Witcher_Symbols.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "The Continent - Map",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"The Continent - Map.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Witcher_Symbols",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Witcher_Symbols.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Automated Lifepath",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":21},\"to\":{\"line\":15,\"ch\":21}}}"
+                },
+                {
+                  "title": "Homeland",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Homeland.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":15},\"to\":{\"line\":5,\"ch\":15}}}"
+                },
+                {
+                  "title": "Automated Lifepath",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Homeland",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Homeland.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Automated Lifepath",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Homeland",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Homeland.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Automated Lifepath",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":37},\"to\":{\"line\":0,\"ch\":37}}}"
+                },
+                {
+                  "title": "Homeland",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Homeland.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":56},\"to\":{\"line\":1,\"ch\":0}}}"
+                },
+                {
+                  "title": "Automated Lifepath",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Homeland",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Homeland.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Automated Lifepath",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                },
+                {
+                  "title": "Homeland",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Homeland.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}}}"
+                },
+                {
+                  "title": "Automated Lifepath",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Homeland",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Homeland.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Automated Lifepath",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Homeland",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Homeland.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":12},\"to\":{\"line\":1,\"ch\":12}}}"
+                },
+                {
+                  "title": "Automated Lifepath",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":19},\"to\":{\"line\":0,\"ch\":19}}}"
+                },
+                {
+                  "title": "Homeland",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Homeland.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":16},\"to\":{\"line\":1,\"ch\":0}}}"
+                },
+                {
                   "title": "Automated Lifepath",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md\",\"mode\":\"source\",\"source\":false}}",
@@ -307,8 +475,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rules/1. Creating Your Character/Lifepath/Homeland.md",
-                "mode": "source",
+                "file": "Witcher_Symbols.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -361,7 +529,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Acrobatics",
+                "query": "tag:#WitcherHumanoids",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -387,7 +555,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -416,7 +585,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rules/1. Creating Your Character/Lifepath/Homeland.md",
+                "file": "Witcher_Symbols.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -442,7 +611,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rules/1. Creating Your Character/Lifepath/Homeland.md",
+                "file": "Witcher_Symbols.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -483,7 +652,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rules/1. Creating Your Character/Lifepath/Homeland.md"
+                "file": "Witcher_Symbols.md"
               }
             }
           },
@@ -599,17 +768,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "698566fc9c8b172a",
+  "active": "8d404fb366bdc011",
   "lastOpenFiles": [
+    "The Continent - Map.md",
+    "Witcher_Symbols.md",
+    "Rules/1. Creating Your Character/Races/Witchers.md",
     "Rules/1. Creating Your Character/Lifepath/Automated Lifepath.md",
     "Rules/1. Creating Your Character/Lifepath/Homeland.md",
     "Rules/1. Creating Your Character/Lifepath/Lifepath.md",
     "Rules/1. Creating Your Character/Races/Dwarves.md",
     "Rules/1. Creating Your Character/Skill Trees/Bard Skill Tree.md",
     "Rules/1. Creating Your Character/Skill Trees/Skill Trees.md",
-    "Rules/1. Creating Your Character/Statistics/Statistics.md",
-    "Rules/1. Creating Your Character/Races/Races.md",
-    "Rules/1. Creating Your Character/Races/Humans.md",
-    "z_Templates/2_Mechanics Gallery/Characters/Template - Race.md"
+    "Rules/1. Creating Your Character/Statistics/Statistics.md"
   ]
 }
