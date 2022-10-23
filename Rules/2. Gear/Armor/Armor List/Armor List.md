@@ -236,7 +236,7 @@ config:
   remove_field_when_delete_column: false
   cell_size: normal
   sticky_first_column: true
-  group_folder_column: Armor Location
+  group_folder_column: Armor Location,Category
   remove_empty_folders: false
   automatically_group_files: true
   hoist_files_with_empty_attributes: true
