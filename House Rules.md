@@ -1,0 +1,2 @@
+- 1 I.P. for a specific skill whenever a player rolls a fumble. They just learned a valuable lesson about how to not use that skill!
+- Can earn I.P. for a specific skill if they do something super cool using that skill.
