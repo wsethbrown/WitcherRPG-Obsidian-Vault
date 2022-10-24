@@ -9,4 +9,5 @@ Price: 400
 Category: Medium Armor
 Armor_Location: Legs
 Description: Heh, just like their torso armor the Redanian halberdier’s leg armor ain’t anything too special. Simple leather pants and greaves and a codpiece. Maneuverablilty over strength.
+Avail: P
 ---

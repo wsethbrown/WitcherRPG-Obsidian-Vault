@@ -9,4 +9,5 @@ Price: 850
 Category: Heavy Armor
 Armor_Location: Legs
 Description: Nilfgaardian greaves are built a bit lighter than the torso armor. Usu- ally include greaves and sabatons, and heavy leather and cloth trou- sers with a checkered pattern.
+Avail: R
 ---

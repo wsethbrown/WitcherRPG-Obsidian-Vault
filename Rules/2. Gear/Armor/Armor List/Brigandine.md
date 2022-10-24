@@ -1,5 +1,4 @@
 ---
-Armor_Location: Torso
 Category: Medium Armor
 Price: 300
 Weight: 7
@@ -8,5 +7,7 @@ AE: 0
 Avail.: C
 SP: 12
 Description: Mercenaries usually wear brigandine ‘til they can get a hold of some better armor. It’s a basic leather vest with plates of thicker hardened leather woven or pinned onto the inside. Wore a brigandine on the fields of Brenna and Sodden. They can be stiff and a bit hard to work with.
-name: Brigandine
+Name: Brigandine
+Armor_Location: Torso
+Avail: C
 ---

@@ -9,4 +9,5 @@ Price: 625
 Category: Heavy Armor
 Armor_Location: Legs
 Description: Greaves, sabatons, cuisse, tasses. It all protects your legs. Big plates of worked steel encasin’ your legs and turnin’ everything from swords to maces to long bows.
+Avail: R
 ---

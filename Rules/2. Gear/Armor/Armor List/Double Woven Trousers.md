@@ -9,4 +9,5 @@ Price: 225
 Category: Light Armor
 Armor_Location: Legs
 Description: Can’t go wrong with double woven. Heh, ain’t quite as puffed up as the run-of-the-mill padded stuff and it’ll keep ya safe.
+Avail: P
 ---

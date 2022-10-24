@@ -96,6 +96,378 @@
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
+                  "title": "Armor List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Weapons",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapons.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Armor List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Armored Hood",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armored Hood.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Aedirnian Gambeson",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Aedirnian Gambeson.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Armor List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Aedirnian Gambeson",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Aedirnian Gambeson.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Armor List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Armored Trousers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armored Trousers.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Armored Hood",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armored Hood.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Aedirnian Gambeson",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Aedirnian Gambeson.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Armor List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Armored Trousers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armored Trousers.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Armored Hood",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armored Hood.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Aedirnian Gambeson",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Aedirnian Gambeson.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Armored Hood",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armored Hood.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Aedirnian Gambeson",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Aedirnian Gambeson.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Armor List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Aedirnian Gambeson",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Aedirnian Gambeson.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Armored Hood",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armored Hood.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Aedirnian Gambeson",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Aedirnian Gambeson.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Armor List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Axes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Axes/Axes.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Axes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Other/Axes.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":3},\"to\":{\"line\":10,\"ch\":3}}}"
+                },
+                {
+                  "title": "Throwing Weapons",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Throwing Weapons/Throwing Weapons.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}}}"
+                },
+                {
+                  "title": "Throwing Weapons",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Other/Throwing Weapons.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":10,\"ch\":3}}}"
+                },
+                {
+                  "title": "Swords",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Swords/Swords.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
+                },
+                {
+                  "title": "Swords",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Other/Swords.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
+                },
+                {
+                  "title": "Staves",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Staves/Staves.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":3},\"to\":{\"line\":10,\"ch\":3}}}"
+                },
+                {
+                  "title": "Staves",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Other/Staves.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":10,\"ch\":3}}}"
+                },
+                {
+                  "title": "Small Blades",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Small Blades/Small Blades.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":3},\"to\":{\"line\":10,\"ch\":3}}}"
+                },
+                {
+                  "title": "Small Blades",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Other/Small Blades.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":10,\"ch\":3}}}"
+                },
+                {
+                  "title": "Pole Arms",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Pole Arms/Pole Arms.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":3},\"to\":{\"line\":10,\"ch\":3}}}"
+                },
+                {
+                  "title": "Pole Arms",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Other/Pole Arms.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":10,\"ch\":3}}}"
+                },
+                {
+                  "title": "Crossbows",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Other/Crossbows.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Crossbows",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Crossbows/Crossbows.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":3},\"to\":{\"line\":10,\"ch\":3}}}"
+                },
+                {
+                  "title": "Crossbows",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Other/Crossbows.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":10,\"ch\":3}}}"
+                },
+                {
+                  "title": "Bows",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bows/Bows.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":3},\"to\":{\"line\":10,\"ch\":3}}}"
+                },
+                {
+                  "title": "Bows",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Other/Bows.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":10,\"ch\":3}}}"
+                },
+                {
+                  "title": "Bludgeons",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bludgeons/Bludgeons.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":3},\"to\":{\"line\":10,\"ch\":3}}}"
+                },
+                {
+                  "title": "Bludgeons",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Other/Bludgeons.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":10,\"ch\":3}}}"
+                },
+                {
+                  "title": "Axes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Axes/Axes.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":3},\"to\":{\"line\":10,\"ch\":3}}}"
+                },
+                {
+                  "title": "Axes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Other/Axes.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":10,\"ch\":3}}}"
+                },
+                {
+                  "title": "Weapon List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Weapon List.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Battle Axe",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Axes/Battle Axe.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Weapon List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Weapon List.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Armor List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Weapon List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Weapon List.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Axes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Other/Axes.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":3},\"to\":{\"line\":10,\"ch\":3}}}"
+                },
+                {
+                  "title": "Weapon List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Weapon List.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Armor List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Brigandine",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Brigandine.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":14},\"to\":{\"line\":1,\"ch\":14}}}"
+                },
+                {
+                  "title": "Armored Trousers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armored Trousers.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":14},\"to\":{\"line\":9,\"ch\":14}}}"
+                },
+                {
+                  "title": "Armored Hood",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armored Hood.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":14},\"to\":{\"line\":8,\"ch\":14}}}"
+                },
+                {
+                  "title": "Aedirnian Gambeson",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Aedirnian Gambeson.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":14},\"to\":{\"line\":2,\"ch\":14}}}"
+                },
+                {
+                  "title": "Armor List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Armored Hood",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armored Hood.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Aedirnian Gambeson",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Aedirnian Gambeson.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Battle Axe",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Axes/Battle Axe.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Armor List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Temerian Armet",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Temerian Armet.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}}}"
+                },
+                {
+                  "title": "Verden Archer's Hood",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Verden Archer's Hood.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "Temerian Armet",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Temerian Armet.md\",\"mode\":\"source\",\"source\":false}}",
@@ -812,7 +1184,7 @@
                 {
                   "title": "Bludgeons",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bludgeons/Bludgeons.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Other/Bludgeons.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
@@ -854,11 +1226,9 @@
               ]
             },
             "state": {
-              "type": "markdown",
+              "type": "database-plugin",
               "state": {
-                "file": "Rules/2. Gear/Armor/Armor List/Temerian Armet.md",
-                "mode": "source",
-                "source": false
+                "file": "Rules/2. Gear/Armor/Armor List/Armor List.md"
               }
             }
           }
@@ -965,7 +1335,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rules/2. Gear/Armor/Armor List/Temerian Armet.md",
+                "file": "Rules/2. Gear/Armor/Armor List/Armor List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -991,7 +1361,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rules/2. Gear/Armor/Armor List/Temerian Armet.md",
+                "file": "Rules/2. Gear/Armor/Armor List/Armor List.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -1032,7 +1402,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rules/2. Gear/Armor/Armor List/Temerian Armet.md"
+                "file": "Rules/2. Gear/Armor/Armor List/Armor List.md"
               }
             }
           },
@@ -1151,14 +1521,14 @@
   "active": "0c19300d4ce41651",
   "lastOpenFiles": [
     "Rules/2. Gear/Armor/Armor List/Verden Archer's Hood.md",
-    "Rules/2. Gear/Armor/Armor List/Temerian Armet.md",
-    "Rules/2. Gear/Armor/Armor List/Spectacled Helm.md",
-    "Rules/2. Gear/Armor/Armor List/Skellige Helm.md",
-    "Rules/2. Gear/Armor/Armor List/Redanian Halberdier's Armor.md",
-    "Rules/2. Gear/Armor/Armor List/Redanian Greaves.md",
-    "Rules/2. Gear/Armor/Armor List/Plate Greaves.md",
-    "Rules/2. Gear/Armor/Armor List/Plate Armor.md",
-    "Rules/2. Gear/Armor/Armor List/Padded Trousers.md",
-    "Rules/2. Gear/Armor/Armor List/Nilfgaardian Plate Armor.md"
+    "Rules/2. Gear/Armor/Armor List/Armor List.md",
+    "Rules/2. Gear/Weapons/Weapons.md",
+    "Rules/2. Gear/Armor/Armor List/Armored Hood.md",
+    "Rules/2. Gear/Armor/Armor List/Aedirnian Gambeson.md",
+    "Rules/2. Gear/Armor/Armor List/Armored Trousers.md",
+    "Rules/1. Creating Your Character/Skills/Skills.md",
+    "Rules/2. Gear/Weapons/Weapon List/Axes/Axes.md",
+    "z_Templates/2_Mechanics Gallery/Other/Axes.md",
+    "Rules/2. Gear/Weapons/Weapon List/Throwing Weapons/Throwing Weapons.md"
   ]
 }

@@ -359,7 +359,7 @@ config:
   frontmatter_quote_wrap: false
   row_templates_folder: /
   current_row_template: 
-  pagination_size: 10
+  pagination_size: 50
   enable_js_formulas: false
   formula_folder_path: /
   inline_default: false
