@@ -12,7 +12,7 @@
 >|:---:|
 >|20 Crowns|
 >#####
->|Armor|
+>|[[Armor]]|
 >|:---:|
 >|5|
 >###### 
@@ -22,11 +22,11 @@
 >|INT|4|
 >|REF|6|
 >|DEX|7|
->|BODY|5|
+>|[[BODY]]|5|
 >|SPD|7|
 >|EMP|3|
 >|CRA|4|
->|WILL|6|
+>|[[WILL]]|6|
 >|LUCK|0|
 >######
 >|Derived Stats||
@@ -57,7 +57,7 @@
 >|Height|Usual human heights|
 >|Weight|Usual human weights|
 >|Environment|Wilderness or along main roads|
->|Intelligence|Human-level|
+>|[[Intelligence]]|Human-level|
 >|Organization|Commandos of 3 to 15|
 ## Common Opinion (Education DC:10)
 ```ad-quote
@@ -75,13 +75,13 @@ When they do attack, Scoia’tael will usually begin their ambush with a barrage
 Weapons|    |             |          |                  Loot|Skills|
 |---------------------|-------|----------|-------|
 |Name                      |DMG    |Effect|ROF|
-Hunter's Falchion|3d6|N/A    |1|Aedirnian gambeson|Archery +8|
-Dagger|1d6|N/A|1|Arrows (30)|Athletics +7|
+[[Hunter's Falchion]]|3d6|N/A    |1|[[Aedirnian gambeson]]|Archery +8|
+[[Dagger]]|1d6|N/A|1|Arrows (30)|Athletics +7|
 Throwing Knives|1d6|RNG: 20m |1|Crowns (1d10)|Awareness + 9|
-|Longbow|4d6|RNG: 200m|1|Double Woven Hood|Brawling +4|
+|Longbow|4d6|RNG: 200m|1|[[Double Woven Hood]]|Brawling +4|
 |--|--|--|--|Elven Burrowers (10)|Courage +5|
 |--|--|--|--|Mundane Items (1d6)|Dodge/Escape +6|
-|--|--|--|--|Padded Trousers|Endurance +7|
+|--|--|--|--|[[Padded Trousers]]|Endurance +7|
 |--|--|--|--|--|Resist Coercion +6|
 |--|--|--|--|--|Resist Magic +4|
 |--|--|--|--|--|Small Blades +6|

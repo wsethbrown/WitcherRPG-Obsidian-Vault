@@ -11,7 +11,7 @@
 >|Bounty|
 >|:---:|
 >|10 Crowns|
->##### Armor
+>##### [[Armor]]
 >||
 >|:---:|
 >|0|
@@ -21,11 +21,11 @@
 >|INT|1|
 >|REF|4|
 >|DEX|6|
->|BODY|5|
+>|[[BODY]]|5|
 >|SPD|7|
 >|EMP|1|
 >|CRA|1|
->|WILL|4|
+>|[[WILL]]|4|
 >|LUCK|0|
 >######
 >|Derived Stats||
@@ -56,7 +56,7 @@
 >|Height|Around .8 meters|
 >|Weight|Around 68kg|
 >|Environment|Forests or plains|
->|Intelligence|About as intelligent as a dog|
+>|[[Intelligence]]|About as intelligent as a [[dog]]|
 >|Organization|Packs of 3 to 16|
 
 
@@ -92,9 +92,9 @@ Wargs are larger than average wolves, with reddish-brown fur and bright red eyes
 INT|2|STUN|6|
 REF|5|RUN|24|
 DEX|7|LEAP|4|
-BODY|6|STA|8|
+[[BODY]]|6|STA|8|
 SPD|8|ENC|60|
 EMP|1|REC|6|
 CRA|1|HP|30|
-WILL|6|VIGOR|0|
+[[WILL]]|6|VIGOR|0|
 LUCK|0|--|--|

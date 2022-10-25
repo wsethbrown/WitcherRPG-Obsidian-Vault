@@ -11,7 +11,7 @@
 >|:---:|
 >|500 Crowns|
 >#####
->|Armor|
+>|[[Armor]]|
 >|:---:|
 >|0|
 >###### 
@@ -21,11 +21,11 @@
 >|INT|6|
 >|REF|10|
 >|DEX|10|
->|BODY|7|
+>|[[BODY]]|7|
 >|SPD|7|
 >|EMP|3|
 >|CRA|3|
->|WILL|6|
+>|[[WILL]]|6|
 >|LUCK|0|
 >######
 >|Derived Stats||
@@ -60,7 +60,7 @@
 >|Height|Around 1.75 meters|
 >|Weight|Around 80kg|
 >|Environment|Cemeteries or caves|
->|Intelligence|Human-level|
+>|[[Intelligence]]|Human-level|
 >|Organization|Solitary|
 
 ## Common Superstition (Education DC:18)

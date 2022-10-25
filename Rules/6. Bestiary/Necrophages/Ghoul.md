@@ -11,7 +11,7 @@
 >|:---:|
 >|30 Crowns|
 >#####
->|Armor|
+>|[[Armor]]|
 >|:---:|
 >|0|
 >###### 
@@ -21,11 +21,11 @@
 >|INT|1|
 >|REF|6|
 >|DEX|7|
->|BODY|6|
+>|[[BODY]]|6|
 >|SPD|6|
 >|EMP|1|
 >|CRA|1|
->|WILL|5|
+>|[[WILL]]|5|
 >|LUCK|0|
 >######
 >|Derived Stats||
@@ -56,7 +56,7 @@
 >|Height|Around 1.25 meters at the shoulder|
 >|Weight|Around 86kg|
 >|Environment|Battlefields and cemeteries|
->|Intelligence|About as intelligent as a dog|
+>|[[Intelligence]]|About as intelligent as a [[dog]]|
 >|Organization|Packs of 3 to 6|
 
 ## Common Superstition (Education DC:14)

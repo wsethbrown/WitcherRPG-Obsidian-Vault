@@ -12,7 +12,7 @@
 >|:---:|
 >|100 Crowns|
 >#####
->|Armor|
+>|[[Armor]]|
 >|:---:|
 >|0|
 >###### 
@@ -21,11 +21,11 @@
 >|INT|7|
 >|REF|7|
 >|DEX|6|
->|BODY|5|
+>|[[BODY]]|5|
 >|SPD|5|
 >|EMP|4|
 >|CRA|5|
->|WILL|8|
+>|[[WILL]]|8|
 >|LUCK|0|
 >######
 >|Derived Stats||
@@ -60,7 +60,7 @@
 >|Height|Usual human heights|
 >|Weight|Usual human weights|
 >|Environment|In cities or remote towers|
->|Intelligence|Human-level|
+>|[[Intelligence]]|Human-level|
 >|Organization|Usually solitary|
 
 ## Common Opinion (Education DC:12)
@@ -78,8 +78,8 @@ The first thing you should do when fighting a mage is disarm them or destroy the
 Weapons||||Loot|Skills|
 |---|---|---|---|
 |Name|DMG|Effect|ROF|
-Iron Staff|3d6|Focus (2)|2|Alchemy Set|Athletics +5|
-Dagger|1d6|N/A|1|Crowns (5d10)|Awareness  +7|
+[[Iron Staff]]|3d6|Focus (2)|2|Alchemy Set|Athletics +5|
+[[Dagger]]|1d6|N/A|1|Crowns (5d10)|Awareness  +7|
 |--|--|--|--|Fifth Essence (1d6/2)|Courage +6|
 |--|--|--|--|Mundane items (1d6)|Dodge/Escape +8|
 |--|--|--|--|Stange Items (1d6/2)|Endurance +5|

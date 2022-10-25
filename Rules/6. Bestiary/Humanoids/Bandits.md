@@ -13,7 +13,7 @@
 >|:---:|
 >|10 Crowns|
 >#####
->|Armor|
+>|[[Armor]]|
 >|:---:|
 >|5|
 >###### 
@@ -23,11 +23,11 @@
 >|INT|3|
 >|REF|6|
 >|DEX|5|
->|BODY|5|
+>|[[BODY]]|5|
 >|SPD|4|
 >|EMP|3|
 >|CRA|4|
->|WILL|4|
+>|[[WILL]]|4|
 >|LUCK|0|
 >######
 >|Derived Stats||
@@ -55,7 +55,7 @@
 >|Height|Usual human heights|
 >|Weight|Usual human weights|
 >|Environment|Often near cities or main roads|
->|Intelligence|Human-level|
+>|[[Intelligence]]|Human-level|
 >|Organization|Bands of 3 to 15|
 
 ## Common Opinion (Education DC:8)
@@ -75,12 +75,12 @@ However, some who travel in more tightly woven groups may fight all the harder i
 Weapons||||                  Loot|Skills|
 |---|---|---|---|
 |==Name==|==DMG==|==Effect==|==ROF==|
-Iron Long Sword|2d6+2|N/A|1|Aedirnian gambeson|Athletics +4|
-Dagger|1d6|N/A|1|Bolts (20)|Awareness  +4|
-Hand Crossbow|2d6+2|RNG: 50m Slow Loading WA +1|1|Crowns (3d10)|Brawling +6|
-|--|--|--|--|Double Woven Hood|Courage +7|
+[[Iron Long Sword]]|2d6+2|N/A|1|[[Aedirnian gambeson]]|Athletics +4|
+[[Dagger]]|1d6|N/A|1|Bolts (20)|Awareness  +4|
+[[Hand Crossbow]]|2d6+2|RNG: 50m Slow Loading WA +1|1|Crowns (3d10)|Brawling +6|
+|--|--|--|--|[[Double Woven Hood]]|Courage +7|
 |--|--|--|--|Mundane items (1d6)|Crossbow +4|
-|--|--|--|--|Padded Trousers|Dodge/Escape +4|
+|--|--|--|--|[[Padded Trousers]]|Dodge/Escape +4|
 |--|--|--|--|--|Endurance +5|
 |--|--|--|--|--|Resist Coercion +5|
 |--|--|--|--|--|Resist Magic +4|

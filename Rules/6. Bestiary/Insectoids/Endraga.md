@@ -11,7 +11,7 @@
 >|:---:|
 >|30 Crowns|
 >#####
->|Armor|
+>|[[Armor]]|
 >|:---:|
 >|8|
 >###### 
@@ -21,11 +21,11 @@
 >|INT|1|
 >|REF|6|
 >|DEX|7|
->|BODY|8|
+>|[[BODY]]|8|
 >|SPD|7|
 >|EMP|1|
 >|CRA|1|
->|WILL|6|
+>|[[WILL]]|6|
 >|LUCK|0|
 >######
 >|Derived Stats||
@@ -62,12 +62,12 @@
 >|Height|Around 2.5 meters long|
 >|Weight|Around 200kg|
 >|Environment|Swamplands & floodplains|
->|Intelligence|About as intelligent as a dog|
+>|[[Intelligence]]|About as intelligent as a [[dog]]|
 >|Organization|Groups of 3 to 9|
 >
 >|Endrega Queens|
 >|:---:|
->|Endrega queens are so similar to arachasae that they are almost interchangeable. When you get to the depth of an endrega nest you can use the stats for an arachas.|
+>|Endrega queens are so similar to [[arachasae]] that they are almost interchangeable. When you get to the depth of an endrega nest you can use the stats for an arachas.|
 
 ## Common Superstition (Education DC:12)
 ```ad-quote

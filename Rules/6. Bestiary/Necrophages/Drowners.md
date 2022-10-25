@@ -11,7 +11,7 @@
 >|:---:|
 >|10 Crowns|
 >#####
->|Armor|
+>|[[Armor]]|
 >|:---:|
 >|0|
 >###### 
@@ -21,11 +21,11 @@
 >|INT|1|
 >|REF|7|
 >|DEX|7|
->|BODY|6|
+>|[[BODY]]|6|
 >|SPD|6|
 >|EMP|1|
 >|CRA|1|
->|WILL|4|
+>|[[WILL]]|4|
 >|LUCK|0|
 >######
 >|Derived Stats||
@@ -61,7 +61,7 @@
 >|Height|Usual human heights|
 >|Weight|Usual human weights|
 >|Environment|By rivers, lakes, or coastlines|
->|Intelligence|About as intelligent as a fish|
+>|[[Intelligence]]|About as intelligent as a fish|
 >|Organization|Groups of 3 to 6|
 
 ## Common Opinion (Education DC:14)
@@ -83,9 +83,9 @@ Weapons||||                  Loot|Skills|
 Claws|3d6|N/A    |1|Drowner brains|Athletics +6|
 --|--|--|--|Drowner tongue|Skill 2|
 --|--|--|--|Essence of water (1d6/2)|Awareness + 8|
-|--|--|--|--|Double Woven Hood|Brawling +6|
+|--|--|--|--|[[Double Woven Hood]]|Brawling +6|
 |--|--|--|--|Mundane items (1d6)|Courage +8|
-|--|--|--|--|Padded Trousers|Dodge/Escape +5|
+|--|--|--|--|[[Padded Trousers]]|Dodge/Escape +5|
 |--|--|--|--|--|Endurance +6|
 |--|--|--|--|--|Melee +6|
 |--|--|--|--|--|Resist Magic +4|

@@ -13,7 +13,7 @@
 >|:---:|
 >|1000 Crowns|
 >#####
->|Armor|
+>|[[Armor]]|
 >|:---:|
 >|10|
 >###### 
@@ -23,11 +23,11 @@
 >|INT|1|
 >|REF|10|
 >|DEX|10|
->|BODY|10|
+>|[[BODY]]|10|
 >|SPD|7|
 >|EMP|1|
 >|CRA|1|
->|WILL|6|
+>|[[WILL]]|6|
 >|LUCK|0|
 >######
 >|Derived Stats||
@@ -50,7 +50,7 @@
 >
 >|Abilities|
 >|:---:|
->|**Flight** A siren can take flight as a movement. The siren can only be knocked out of the air by stunning it or doing more than 5 points of damage with an attack. If the siren is knocked out of the air it must make a DC:16 Athletics check or take falling damage based on how far it fell.|
+>|**Flight** A wyvern can take flight as a movement. The wyvern can only be knocked out of the air by stunning it or doing more than 10 points of damage with an attack. If the wyvern is knocked out of the air it must make a DC:16 Athletics check or take falling damage based on how far it fell.|
 >|**Spit Venom** Wyverns can spit venom at one target up to 8m away and do 3d6 damage with a 100% chance of poisoning.|
 >|**Resistances** Wyverns only take half damage from piercing and slashing.|
 >|**Feral** For the purposes of Awareness and Wilderness Survival, instinct gives them an INT of 7.|
@@ -64,7 +64,7 @@
 >|Height|Around 2 meters|
 >|Weight|Around 408kg|
 >|Environment|Mountains and valleys|
->|Intelligence|About as intelligent as a dog|
+>|[[Intelligence]]|About as intelligent as a [[dog]]|
 >|Organization|Solitary or pairs|
 
 ## Common Superstition (Education DC:16)

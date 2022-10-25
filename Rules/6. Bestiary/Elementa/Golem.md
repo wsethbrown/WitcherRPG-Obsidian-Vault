@@ -13,7 +13,7 @@
 >|:---:|
 >|1200 Crowns|
 >#####
->|Armor|
+>|[[Armor]]|
 >|:---:|
 >|20|
 >###### 
@@ -23,11 +23,11 @@
 >|INT|1|
 >|REF|10|
 >|DEX|6|
->|BODY|13|
+>|[[BODY]]|13|
 >|SPD|4|
 >|EMP|1|
 >|CRA|1|
->|WILL|4|
+>|[[WILL]]|4|
 >|LUCK|0|
 >######
 >|Derived Stats||
@@ -51,7 +51,7 @@
 >|Abilities|
 >|:---:|
 >|**Crushing Force** Due to the incredible force with which they punch, a golem cannot be parried and does double ablation damage to weapons, shields, or armor.|
->|**Charge** If a target moves more than 10m away from the golem, it can take a full round to charge and make a powerful attack at -4 which does 10d6 damage and knocks the target back 8m. If they strike anything while flying back, the target takes appropriate ramming damage as if from a horse.|
+>|**Charge** If a target moves more than 10m away from the golem, it can take a full round to charge and make a powerful attack at -4 which does 10d6 damage and knocks the target back 8m. If they strike anything while flying back, the target takes appropriate ramming damage as if from a [[horse]].|
 >|**Constructed** A golem is immune to bleeding, poison, fire, or spells that affect the mind or emotions. They also cannot be reasoned with and never run out of STA.|
 >|**Resistances** Golems only take half damage from piercing & slashing.|
 >
@@ -60,7 +60,7 @@
 >|Height|Around 2.5 meters|
 >|Weight|Around 900kg|
 >|Environment|Around ruins or mage towers|
->|Intelligence|Incapable of thought|
+>|[[Intelligence]]|Incapable of thought|
 >|Organization|Solitary|
 
 ## Common Superstition (Education DC:16)
