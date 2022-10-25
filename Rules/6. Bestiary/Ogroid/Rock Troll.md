@@ -40,31 +40,27 @@
 >|VIGOR|0|
 
 >[!infobox|table-wide]
->>[!infobox]
->>|Vulnerabilities|
->>|:---:|
->>Ogroid Oil|
->>**Soft Spot** A rock troll’s stomach has only 5 points of armor and does not have its damage resistances.|
+>|Vulnerabilities|
+>|:---:|
+>|Ogroid Oil|
+>|**Soft Spot** A rock troll’s stomach has only 5 points of armor and does not have its damage resistances.|
 >
->>[!Infobox|table-wide]
->>|Abilities|
->>|:---:|
->>**Crushing Force** Due to the incredible force with which they punch, a troll cannot be parried and does double ablation damage to weapons, shields, or armor.|
-**Thrown Boulders** When more than 6m from their target, rock trolls prefer to throw boulders or other bits or rubble that do 5d6 damage. These boulders have a range of 16m.|
-**Resistances** Rock trolls only take half damage from piercing, bludgeoning, and slashing.|
+>|Abilities|
+>|:---:|
+>|**Crushing Force** Due to the incredible force with which they punch, a troll cannot be parried and does double ablation damage to weapons, shields, or armor.|
+>|**Thrown Boulders** When more than 6m from their target, rock trolls prefer to throw boulders or other bits or rubble that do 5d6 damage. These boulders have a range of 16m.|
+>|**Resistances** Rock trolls only take half damage from piercing, bludgeoning, and slashing.|
 >
->>[!note]
->># Trolls Under Bridges
->>It’s not uncommon to find trolls under bridges or living near to them. This is more common among cave trolls but applies to rock trolls as well. Due to their strength and the formidable crafting skills of cave trolls, they are often hired by towns to maintain bridges and (in some cases) work as guards and toll collectors. Many towns find it easier to hire a troll, since most times they can be paid in vodka and very rarely complain.
+># Trolls Under Bridges
+>It’s not uncommon to find trolls under bridges or living near to them. This is more common among cave trolls but applies to rock trolls as well. Due to their strength and the formidable crafting skills of cave trolls, they are often hired by towns to maintain bridges and (in some cases) work as guards and toll collectors. Many towns find it easier to hire a troll, since most times they can be paid in vodka and very rarely complain.
 >
->>[!infobox]
->>||
->>|:---:|:---:|
->>|Height|Around 2 meters long|
->>|Weight|Around 150kg|
->>|Environment|Mountains and valleys|
->>|Intelligence|About as intelligent as dumb humans|
->>|Organization|Solitary or groups of 2 to 3|
+>||
+>|:---:|:---:|
+>|Height|Around 2 meters long|
+>|Weight|Around 150kg|
+>|Environment|Mountains and valleys|
+>|Intelligence|About as intelligent as dumb humans|
+>|Organization|Solitary or groups of 2 to 3|
 
 >![[Rock Troll - NPC.png|left|650]]
 ## Common Superstition (Education DC:14)

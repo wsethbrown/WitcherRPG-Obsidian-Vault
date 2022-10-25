@@ -42,27 +42,24 @@
 >
 
 >[!infobox|table-wide]
->>[!infobox]
->>|Vulnerabilities|
->>|:---:|
->>Cursed Oil|
->>**Moondust Bombs** A werewolf caught in the area of a moondust bomb cannot regenerate for the duration of the bomb’s effect.|
+>|Vulnerabilities|
+>|:---:|
+>|Cursed Oil|
+>|**Moondust Bombs** A werewolf caught in the area of a moondust bomb cannot regenerate for the duration of the bomb’s effect.|
 >
->>[!Infobox|table-wide]
->>|Abilities|
->>|:---:|
->>**Regeneration** A werewolf regenerates 5 points of damage per round.|
->>**Scent Tracking** A werewolf can track a creature without visual or audible clues with no penalty.|
->>**Night Vision** Ghouls operate in areas of dim light with no penalties.|
+>|Abilities|
+>|:---:|
+>|**Regeneration** A werewolf regenerates 5 points of damage per round.|
+>|**Scent Tracking** A werewolf can track a creature without visual or audible clues with no penalty.|
+>|**Night Vision** Ghouls operate in areas of dim light with no penalties.|
 >
->>[!infobox]
->>||
->>|:---:|:---:|
->>|Height|Around 2.5 meters|
->>|Weight|Around 136kg|
->>|Environment|Forests or near settlements|
->>|Intelligence|Human-level|
->>|Organization|Solitary|
+>||
+>|:---:|:---:|
+>|Height|Around 2.5 meters|
+>|Weight|Around 136kg|
+>|Environment|Forests or near settlements|
+>|Intelligence|Human-level|
+>|Organization|Solitary|
 
 ## Common Superstition (Education DC:14)
 ```ad-quote

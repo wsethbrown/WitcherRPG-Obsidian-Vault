@@ -1,5 +1,5 @@
 >[!infobox]+
-># Griffin
+># Arachasae
 >![[arachasae.png]]
 >###### 
 >|Threat|
@@ -41,30 +41,27 @@
 
 
 >[!infobox|table-wide]
->>[!infobox]
->>|Vulnerabilities|
->>|:---:|
->>Insectoid Oil|
->>**Soft Spot** An arachas’ back has only 10 points of armor and does not have its damage resistances.|
+>|Vulnerabilities|
+>|:---:|
+>Insectoid Oil|
+>**Soft Spot** An arachas’ back has only 10 points of armor and does not have its damage resistances.|
 >
->>[!Infobox|table-wide]
->>|Abilities|
->>|:---:|
->>**Pounce** An arachas doesn’t need to take a running start when leaping.|
->>**Resistances** Arachasae only take half damage from bleeding, slashing & piercing.|
->>**Poison Immunity** Arachasae take no damage from poison.|
->>**Camouflage** Arachasae have a +10 to Stealth in their home terrain when they aren’t moving.
->>**Webbing** If an enemy gets more than 8m from the arachas, it will shoot webbing at a range of 10m with Athletics. If it hits, the target is grappled until they can make a DC:16 Physique check or do 10 points of damage to the webbing.
->>**Feral** For the purposes of Awareness and Wilderness Survival, instinct gives them an INT of 6.|
+>|Abilities|
+>|:---:|
+>|**Pounce** An arachas doesn’t need to take a running start when leaping.|
+>|**Resistances** Arachasae only take half damage from bleeding, slashing & piercing.|
+>|**Poison Immunity** Arachasae take no damage from poison.|
+>|**Camouflage** Arachasae have a +10 to Stealth in their home terrain when they aren’t moving.|
+>|**Webbing** If an enemy gets more than 8m from the arachas, it will shoot webbing at a range of 10m with Athletics. If it hits, the target is grappled until they can make a DC:16 Physique check or do 10 points of damage to the webbing.|
+>|**Feral** For the purposes of Awareness and Wilderness Survival, instinct gives them an INT of 6.|
 >
->>[!infobox]
->>||
->>|:---:|:---:|
->>|Height|Around 3 meters|
->>|Weight|Around 800kg|
->>|Environment|Swamplands & floodplains|
->>|Intelligence|About as intelligent as a dog|
->>|Organization|Solitary|
+>||
+>|:---:|:---:|
+>|Height|Around 3 meters|
+>|Weight|Around 800kg|
+>|Environment|Swamplands & floodplains|
+>|Intelligence|About as intelligent as a dog|
+>|Organization|Solitary|
 
 ## Common Superstition (Education DC:15)
 ```ad-quote

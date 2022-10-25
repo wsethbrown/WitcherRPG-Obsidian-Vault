@@ -40,28 +40,25 @@
 >|VIGOR|0|
 
 >[!infobox|table-wide]
->>[!infobox]
->>|Vulnerabilities|
->>|:---:|
->>Hybrid Oil|
->>**Limited Movement** On land a siren has a REF, DEX & SPD of 2.|
+>|Vulnerabilities|
+>|:---:|
+>|Hybrid Oil|
+>|**Limited Movement** On land a siren has a REF, DEX & SPD of 2.|
 >
->>[!Infobox|table-wide]
->>|Abilities|
->>|:---:|
->>**Illusion** A siren is capable of instantly raising an illusion to make it look like a beautiful woman with features of its choosing. This illusion can be dispelled with a DC:15 Spell Casting roll.|
->>**Sonic Screech** A siren can take its turn to let out a screech which forces anyone within 10m to make a Stun save at -1.|
->>**Amphibious** Sirens can live underwater indefinitely and cannot be drowned. They also do not take penalties for acting underwater.|
->>**Flight** A siren can take flight as a movement. The siren can only be knocked out of the air by stunning it or doing more than 5 points of damage with an attack. If the siren is knocked out of the air it must make a DC:16 Athletics check or take falling damage based on how far it fell.|
+>|Abilities|
+>|:---:|
+>|**Illusion** A siren is capable of instantly raising an illusion to make it look like a beautiful woman with features of its choosing. This illusion can be dispelled with a DC:15 Spell Casting roll.|
+>|**Sonic Screech** A siren can take its turn to let out a screech which forces anyone within 10m to make a Stun save at -1.|
+>|**Amphibious** Sirens can live underwater indefinitely and cannot be drowned. They also do not take penalties for acting underwater.|
+>|**Flight** A siren can take flight as a movement. The siren can only be knocked out of the air by stunning it or doing more than 5 points of damage with an attack. If the siren is knocked out of the air it must make a DC:16 Athletics check or take falling damage based on how far it fell.|
 >
->>[!infobox]
->>||
->>|:---:|:---:|
->>|Height|Around 3 meters long|
->>|Weight|Around 120kg|
->>|Environment|At sea or on coastlines|
->>|Intelligence|Human-level|
->>|Organization|Groups of 3 to 6|
+>||
+>|:---:|:---:|
+>|Height|Around 3 meters long|
+>|Weight|Around 120kg|
+>|Environment|At sea or on coastlines|
+>|Intelligence|Human-level|
+>|Organization|Groups of 3 to 6|
 
 ## Common Superstition (Education DC:14)
 ```ad-quote

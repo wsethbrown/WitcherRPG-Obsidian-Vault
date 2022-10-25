@@ -1,4 +1,3 @@
-
 >[!infobox]+
 ># Drowners
 >![[drowner.png]]
@@ -41,33 +40,29 @@
 >|VIGOR|0|
 
 >[!infobox|table-wide]
->>[!infobox]
->>|Vulnerabilities|
->>|:---:|
->>Necrophage Oil|
->>**Fire Vulnerability** Drowners are vulnerable to fire damage, including damage from being on fire.
+>|Vulnerabilities|
+>|:---:|
+>|Necrophage Oil|
+>|**Fire Vulnerability** Drowners are vulnerable to fire damage, including damage from being on fire.|
 >
->>[!Infobox|table-wide]
->>|Abilities|
->>|:---:|
->>**Feral** For the purposes of Awareness and Wilderness Survival, instinct gives them an INT of 7.|
->>**Poison Immunity** Drowners are immune to the poison effect.|
->>**Amphibious** Drowners can live underwater indefinitely and cannot be drowned. They also do not take penalties for acting underwater.|
->>**Impenetrably Dim** Drowners are so unintelligent that they are immune to any magic that affects thoughts or emotions.|
+>|Abilities|
+>|:---:|
+>|**Feral** For the purposes of Awareness and Wilderness Survival, instinct gives them an INT of 7.|
+>|**Poison Immunity** Drowners are immune to the poison effect.|
+>|**Amphibious** Drowners can live underwater indefinitely and cannot be drowned. They also do not take penalties for acting underwater.|
+>|**Impenetrably Dim** Drowners are so unintelligent that they are immune to any magic that affects thoughts or emotions.|
 >
->>[!infobox]
->>Drowner Brain Stew|
->>|:---:|
->>Despite believing that drowners are resurrected criminals, many townsfolk living along the Pontar River have been known to pay a fair bit for their brains. Drowner brains are often boiled in a stew which is supposedly an extremely powerful aphrodisiac.|
+>|Drowner Brain Stew|
+>|:---:|
+>|Despite believing that drowners are resurrected criminals, many townsfolk living along the Pontar River have been known to pay a fair bit for their brains. Drowner brains are often boiled in a stew which is supposedly an extremely powerful aphrodisiac.|
 >
->>[!infobox]
->>||
->>|:---:|:---:|
->>|Height|Usual human heights|
->>|Weight|Usual human weights|
->>|Environment|By rivers, lakes, or coastlines|
->>|Intelligence|About as intelligent as a fish|
->>|Organization|Groups of 3 to 6|
+>||
+>|:---:|:---:|
+>|Height|Usual human heights|
+>|Weight|Usual human weights|
+>|Environment|By rivers, lakes, or coastlines|
+>|Intelligence|About as intelligent as a fish|
+>|Organization|Groups of 3 to 6|
 
 ## Common Opinion (Education DC:14)
 ```ad-quote

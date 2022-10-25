@@ -1,3 +1,4 @@
+
 >[!infobox]+
 ># Bandits
 >![[bandit.png]]
@@ -41,24 +42,21 @@
 >|VIGOR|0|
 
 >[!infobox|table-wide]
->>[!infobox|table-wide]
->>|Vulnerabilities|
->>|:---:|
->>|Hanged Man's Venom|
+>|Vulnerabilities|
+>|:---:|
+>|Hanged Man's Venom|
 >
->>[!Infobox|table-wide]
->>|Abilities|
->>|:---:|
->>None|
+>|Abilities|
+>|:---:|
+>|None|
 >
->>[!infobox]
->>||
->>|:---:|:---:|
->>|Height|Usual human heights|
->>|Weight|Usual human weights|
->>|Environment|Often near cities or main roads|
->>|Intelligence|Human-level|
->>|Organization|Bands of 3 to 15|
+>||
+>|:---:|:---:|
+>|Height|Usual human heights|
+>|Weight|Usual human weights|
+>|Environment|Often near cities or main roads|
+>|Intelligence|Human-level|
+>|Organization|Bands of 3 to 15|
 
 ## Common Opinion (Education DC:8)
 Heh—bandits, deserters, renegades, whoresons. Whatever ya wanna call ‘em. People turn to crime for money and power, but most of the time it’s out of hunger or fear. Everybody knows ya get a spike of crime when there’s a war on. Happened the last two wars and it’ll happen again. Don’t mean the common man sees it that way. Heh, never say it to a killer’s face, but the average son of a bitch thinks ‘bout as highly of a bandit as they would a damn ghoul. They hide in the filthy crevices of the world, waitin’ to spring out and ambush good, hard-workin’ folk an’ take their hard-won livelihood.
