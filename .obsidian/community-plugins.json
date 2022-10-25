@@ -30,5 +30,6 @@
   "templater-obsidian",
   "alx-folder-note",
   "folder-note-core",
-  "dbfolder"
+  "dbfolder",
+  "obsidian-text-expander-js"
 ]
