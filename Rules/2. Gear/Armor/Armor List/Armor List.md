@@ -175,23 +175,6 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
-  Price:
-    input: number
-    accessorKey: Price
-    label: Price
-    key: Price
-    id: price
-    position: 9
-    skipPersist: false
-    isHidden: false
-    sortIndex: -1
-    config:
-      enable_media_view: true
-      link_alias_enabled: true
-      media_width: 100
-      media_height: 100
-      isInline: false
-      task_hide_completed: true
   Category:
     input: select
     accessorKey: Category
@@ -215,11 +198,11 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
-  Armor_Location:
+  Location:
     input: select
-    accessorKey: Armor_Location
-    label: Armor Location
-    key: Armor_Location
+    accessorKey: Location
+    label: Location
+    key: Location
     id: armor_location
     position: 11
     skipPersist: false
@@ -238,11 +221,28 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+  Cost:
+    input: number
+    accessorKey: Cost
+    label: Cost
+    key: Cost
+    id: price
+    position: 9
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
 config:
   remove_field_when_delete_column: false
   cell_size: compact
   sticky_first_column: true
-  group_folder_column: Armor Location
+  group_folder_column: Location
   remove_empty_folders: false
   automatically_group_files: true
   hoist_files_with_empty_attributes: true
