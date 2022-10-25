@@ -1161,6 +1161,14 @@ body .wotc-beyond.theme-dark .HyperMD-hr-bg {
     linear-gradient(var(--td) .1em, transparent .1em);
 }*/
 /*Theme: Wizards Of The Coast*/
+p b, strong {
+  color: #F39B35;
+}
+
+p em {
+  color: #61AFEF;
+}
+
 .theme-dark.wotc,
 .theme-dark .wotc {
   --background-primary: var(--note);
