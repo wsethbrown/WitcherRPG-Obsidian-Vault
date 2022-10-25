@@ -39,34 +39,29 @@
 >|VIGOR|0|
 
 >[!infobox|table-wide]
->>[!infobox]
->>|Vulnerabilities|
->>|:---:|
->>Specter Oil|
->>**Moondust & Yrden** If caught in the area of either a moondust bomb or Yrden circle, a wraith cannot become incorporeal or teleport.|
+>|Vulnerabilities|
+>|:---:|
+>|Specter Oil|
+>|**Moondust & Yrden** If caught in the area of either a moondust bomb or Yrden circle, a wraith cannot become incorporeal or teleport.|
 >
->>[!Infobox|table-wide]
->>|Abilities|
->>|:---:|
->>**Fueled By Rage** Wraiths are technically as intelligent as they were in life, but they are blinded by overwhelming rage. They cannot be reasoned with or intimidated.|
->>**Shift** A wraith can use Spell Casting as a defensive action to become incorporeal. If they succeed, they negate the attack and nothing physical can damage or affect them until their next turn.|
->>**Teleportation** A wraith can use its move action to teleport 10m immediately. It will usually attack directly after this.|
->>**Night Vision** Ghouls operate in areas of dim light with no penalties.|
+>|Abilities|
+>|:---:|
+>|**Fueled By Rage** Wraiths are technically as intelligent as they were in life, but they are blinded by overwhelming rage. They cannot be reasoned with or intimidated.|
+>|**Shift** A wraith can use Spell Casting as a defensive action to become incorporeal. If they succeed, they negate the attack and nothing physical can damage or affect them until their next turn.|
+>|**Teleportation** A wraith can use its move action to teleport 10m immediately. It will usually attack directly after this.|
+>|**Night Vision** Ghouls operate in areas of dim light with no penalties.|
 >
->>[!infobox]
->>|Wraith Weapons|
->>|:---:|
->>A wraith’s weapons are manifestations of their power created when the wraith is created. When a wraith dies, the lantern and sword evaporate with the rest of the body and thus cannot be looted.|
+>|Wraith Weapons|
+>|:---:|
+>|A wraith’s weapons are manifestations of their power created when the wraith is created. When a wraith dies, the lantern and sword evaporate with the rest of the body and thus cannot be looted.|
 >
->
->>[!infobox]
->>||
->>|:---:|:---:|
->>|Height|Usual human height|
->>|Weight|Weightless|
->>|Environment|Near rural communities|
->>|Intelligence|Consumed by emotion|
->>|Organization|Groups of 3 to 21|
+>||
+>|:---:|:---:|
+>|Height|Usual human height|
+>|Weight|Weightless|
+>|Environment|Near rural communities|
+>|Intelligence|Consumed by emotion|
+>|Organization|Groups of 3 to 21|
 
 ## Common Superstition (Education DC:14)
 ```ad-quote

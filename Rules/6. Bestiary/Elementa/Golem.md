@@ -1,3 +1,4 @@
+
 >[!infobox]+
 ># Golem
 >![[golem.png]]
@@ -41,29 +42,26 @@
 >|VIGOR|0|
 
 >[!infobox|table-wide]
->>[!infobox]
->>|Vulnerabilities|
->>|:---:|
->>Elementa Oil|
->>**Electricity Vulnerability** Golems are vulnerable to electricity, which may dis- rupt them. If they take more than 10 points of damage, they must roll a Stun save under 7.|
->>**Dimeritium Bombs** When struck by a dimeritium bomb a golem becomes disrupted and sluggish. They are incapable of using their crushing force or charge and take a -2 to all stats for the duration of the bomb.|
+>|Vulnerabilities|
+>|:---:|
+>|Elementa Oil|
+>|**Electricity Vulnerability** Golems are vulnerable to electricity, which may dis- rupt them. If they take more than 10 points of damage, they must roll a Stun save under 7.|
+>|**Dimeritium Bombs** When struck by a dimeritium bomb a golem becomes disrupted and sluggish. They are incapable of using their crushing force or charge and take a -2 to all stats for the duration of the bomb.|
 >
->>[!Infobox|table-wide]
->>|Abilities|
->>|:---:|
->>**Crushing Force** Due to the incredible force with which they punch, a golem cannot be parried and does double ablation damage to weapons, shields, or armor.|
-**Charge** If a target moves more than 10m away from the golem, it can take a full round to charge and make a powerful attack at -4 which does 10d6 damage and knocks the target back 8m. If they strike anything while flying back, the target takes appropriate ramming damage as if from a horse.|
-**Constructed** A golem is immune to bleeding, poison, fire, or spells that affect the mind or emotions. They also cannot be reasoned with and never run out of STA.|
-**Resistances** Golems only take half damage from piercing & slashing.|
+>|Abilities|
+>|:---:|
+>|**Crushing Force** Due to the incredible force with which they punch, a golem cannot be parried and does double ablation damage to weapons, shields, or armor.|
+>|**Charge** If a target moves more than 10m away from the golem, it can take a full round to charge and make a powerful attack at -4 which does 10d6 damage and knocks the target back 8m. If they strike anything while flying back, the target takes appropriate ramming damage as if from a horse.|
+>|**Constructed** A golem is immune to bleeding, poison, fire, or spells that affect the mind or emotions. They also cannot be reasoned with and never run out of STA.|
+>|**Resistances** Golems only take half damage from piercing & slashing.|
 >
->>[!infobox]
->>||
->>|:---:|:---:|
->>|Height|Around 2.5 meters|
->>|Weight|Around 900kg|
->>|Environment|Around ruins or mage towers|
->>|Intelligence|Incapable of thought|
->>|Organization|Solitary|
+>||
+>|:---:|:---:|
+>|Height|Around 2.5 meters|
+>|Weight|Around 900kg|
+>|Environment|Around ruins or mage towers|
+>|Intelligence|Incapable of thought|
+>|Organization|Solitary|
 
 ## Common Superstition (Education DC:16)
 ```ad-quote

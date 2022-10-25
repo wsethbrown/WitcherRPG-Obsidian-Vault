@@ -40,25 +40,22 @@
 >|VIGOR|0|
 
 >[!infobox|table-wide]
->>[!infobox]
->>|Vulnerabilities|
->>|:---:|
->>Ogroid Oil|
+>|Vulnerabilities|
+>|:---:|
+>|Ogroid Oil|
 >
->>[!Infobox|table-wide]
->>|Abilities|
->>|:---:|
->>**Leader** Often, a group of nekkers will be lead by a nekker chieftain. As long as a chieftain is alive all nekkers in its warband gain a +4 to courage. The chieftain is also capable of giving orders to the rest of the pack. These orders can be quite complex.|
->>**Night Vision** Nekkers operate in areas of dim light with no penalties.
+>|Abilities|
+>|:---:|
+>|**Leader** Often, a group of nekkers will be lead by a nekker chieftain. As long as a chieftain is alive all nekkers in its warband gain a +4 to courage. The chieftain is also capable of giving orders to the rest of the pack. These orders can be quite complex.|
+>|**Night Vision** Nekkers operate in areas of dim light with no penalties.
 >
->>[!infobox]
->>||
->>|:---:|:---:|
->>|Height|Around 1 meter long|
->>|Weight|Around 13kg|
->>|Environment|Plains and forests|
->>|Intelligence|About as intelligent as dumb humans|
->>|Organization|Bands of 3 to 12|
+>||
+>|:---:|:---:|
+>|Height|Around 1 meter long|
+>|Weight|Around 13kg|
+>|Environment|Plains and forests|
+>|Intelligence|About as intelligent as dumb humans|
+>|Organization|Bands of 3 to 12|
 
 ## Common Superstition (Education DC:12)
 ```ad-quote

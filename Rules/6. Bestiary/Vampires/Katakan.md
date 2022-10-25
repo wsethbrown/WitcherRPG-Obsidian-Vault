@@ -39,32 +39,29 @@
 >|VIGOR|0|
 
 >[!infobox|table-wide]
->>[!infobox]
->>|Vulnerabilities|
->>|:---:|
->>Vampire Oil|
->>Black Blood Potion|
-**Celestial Weakness** In sunlight, a katakan’s re- generation is lowered to 3.|
-**Fire Vulnerability** Katakans take double dam- age from fire attacks or being on fire.|
-**Blood Transference** Katakan are affected by any substances in the blood they drink.|
+>|Vulnerabilities|
+>|:---:|
+>|Vampire Oil|
+>|Black Blood Potion|
+>|**Celestial Weakness** In sunlight, a katakan’s re- generation is lowered to 3.|
+>|**Fire Vulnerability** Katakans take double dam- age from fire attacks or being on fire.|
+>|**Blood Transference** Katakan are affected by any substances in the blood they drink.|
 >
->>[!Infobox|table-wide]
->>|Abilities|
->>|:---:|
->>Regeneration A katakan regenerates 5 point of damage per round.|
-**Invisibility** A katakan can become invisible, granting it +10 to stealth and +5 to attack. It becomes visible when it attacks. Even if you make your awareness check to spot the katakan, you take a -3 to attack and defense against it. Yrden can make a katakan visible.|
-**Invisible to Magical Scanning** Katakans cannot be detected by witcher medallions. Mages must succeed at a Magic Training roll against the katakan’s Resist Magic roll to sense them.|
-**Telepathy** Katakans can telepathically communicate with any one creature within 20m of them without taking an action.|
-**Night Vision** Katakan operate in areas of dim light with no penalties.|
+>|Abilities|
+>|:---:|
+>|Regeneration A katakan regenerates 5 point of damage per round.|
+>|**Invisibility** A katakan can become invisible, granting it +10 to stealth and +5 to attack. It becomes visible when it attacks. Even if you make your awareness check to spot the katakan, you take a -3 to attack and defense against it. Yrden can make a katakan visible.|
+>|**Invisible to Magical Scanning** Katakans cannot be detected by witcher medallions. Mages must succeed at a Magic Training roll against the katakan’s Resist Magic roll to sense them.|
+>|**Telepathy** Katakans can telepathically communicate with any one creature within 20m of them without taking an action.|
+>|**Night Vision** Katakan operate in areas of dim light with no penalties.|
 >
->>[!infobox]
->>||
->>|:---:|:---:|
->>|Height|Around 2 meters|
->>|Weight|Around 115kg|
->>|Environment|Ruins, caves and near cities|
->>|Intelligence|Human-level|
->>|Organization|Solitary|
+>||
+>|:---:|:---:|
+>|Height|Around 2 meters|
+>|Weight|Around 115kg|
+>|Environment|Ruins, caves and near cities|
+>|Intelligence|Human-level|
+>|Organization|Solitary|
 
 ## Common Superstition (Education DC:16)
 ```ad-quote

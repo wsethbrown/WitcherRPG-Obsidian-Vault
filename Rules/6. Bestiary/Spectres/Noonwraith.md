@@ -39,29 +39,26 @@
 >|VIGOR|0|
 
 >[!infobox|table-wide]
->>[!infobox]
->>|Vulnerabilities|
->>|:---:|
->>Specter Oil|
->>**Moondust & Yrden** If caught in the area of either a moondust bomb or Yrden circle, a wraith cannot become incorporeal or teleport.|
->>**Celestial Weakness** In moonlight, noonwraiths take a -2 to all actions.|
+>|Vulnerabilities|
+>|:---:|
+>|Specter Oil|
+>|**Moondust & Yrden** If caught in the area of either a moondust bomb or Yrden circle, a wraith cannot become incorporeal or teleport.|
+>|**Celestial Weakness** In moonlight, noonwraiths take a -2 to all actions.|
 >
->>[!Infobox|table-wide]
->>|Abilities|
->>|:---:|
->>**Fueled By Rage** Wraiths are technically as intelligent as they were in life, but they are blinded by overwhelming rage. They cannot be reasoned with or intimidated.|
->>**Incorporeal** A noonwraith is always incorporeal, rendering it immune to physical attacks, bleeding, and poison.|
->>**High Noon Dance** A noonwraith can create 3 copies that dance around, at least 5m away from their target. These clones will not attack but they use the same stats as the Noonwraith in defense. Each copy remain- ing drains 3 points of Health per round from the nearest target to heal the Noon- wraith. Striking a copy will kill it.|
->>**Dust Devil** A noonwraith can use magic to swirl dust and dirt up into a target’s face. This attack uses Spell Casting, and on a hit it blinds the target for 1d6 rounds. The target must be within 5m.|
+>|Abilities|
+>|:---:|
+>|**Fueled By Rage** Wraiths are technically as intelligent as they were in life, but they are blinded by overwhelming rage. They cannot be reasoned with or intimidated.|
+>|**Incorporeal** A noonwraith is always incorporeal, rendering it immune to physical attacks, bleeding, and poison.|
+>|**High Noon Dance** A noonwraith can create 3 copies that dance around, at least 5m away from their target. These clones will not attack but they use the same stats as the Noonwraith in defense. Each copy remain- ing drains 3 points of Health per round from the nearest target to heal the Noon- wraith. Striking a copy will kill it.|
+>|**Dust Devil** A noonwraith can use magic to swirl dust and dirt up into a target’s face. This attack uses Spell Casting, and on a hit it blinds the target for 1d6 rounds. The target must be within 5m.|
 >
->>[!infobox]
->>||
->>|:---:|:---:|
->>|Height|Usual human height|
->>|Weight|Weightless|
->>|Environment|Near rural communities|
->>|Intelligence|Consumed by rage|
->>|Organization|Solitary|
+>||
+>|:---:|:---:|
+>|Height|Usual human height|
+>|Weight|Weightless|
+>|Environment|Near rural communities|
+>|Intelligence|Consumed by rage|
+>|Organization|Solitary|
 
 ## Common Superstition (Education DC:16)
 ```ad-quote
