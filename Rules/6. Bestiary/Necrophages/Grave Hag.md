@@ -40,32 +40,28 @@
 >|VIGOR|0|
 
 >[!infobox|table-wide]
->>[!infobox]
->>|Vulnerabilities|
->>|:---:|
->>Necrophage Oil|
->>**Whip Tongue** If you successfully parry a grave hag’s tongue attack with a bladed weapon, it is severed. The grave hag takes 5 points of damage and can- not use its tongue again.|
+>|Vulnerabilities|
+>|:---:|
+>|Necrophage Oil|
+>|**Whip Tongue** If you successfully parry a grave hag’s tongue attack with a bladed weapon, it is severed. The grave hag takes 5 points of damage and can- not use its tongue again.|
 >
->>[!Infobox|table-wide]
->>|Abilities|
->>|:---:|
->>**Skull Circle** A grave hag can take 1 hour to make a skull circle. If they are within 100m of their skull circle they get +3 to all actions.|
->>**Command the Undead** Instead of attacking, a grave hag can give a command to each necrophage within 20m. The necrophages will carry out this order instead of acting normally. The order cannot be more complex than ‘grab that thing and bring it here’ or ‘go there and wait’.|
->>**Night Vision** Ghouls operate in areas of dim light with no penalties.|
+>|Abilities|
+>|:---:|
+>|**Skull Circle** A grave hag can take 1 hour to make a skull circle. If they are within 100m of their skull circle they get +3 to all actions.|
+>|**Command the Undead** Instead of attacking, a grave hag can give a command to each necrophage within 20m. The necrophages will carry out this order instead of acting normally. The order cannot be more complex than ‘grab that thing and bring it here’ or ‘go there and wait’.|
+>|**Night Vision** Ghouls operate in areas of dim light with no penalties.|
 >
->>[!infobox]
->>|The Magic of Skull Circles|
->>|:---:|
-Even studied mages are dubious as to where the power in a grave hag’s skull circle comes from. Most people assume that the magic draws on pow- er from the devils that live in the void between planes.|
+>|The Magic of Skull Circles|
+>|:---:|
+>|Even studied mages are dubious as to where the power in a grave hag’s skull circle comes from. Most people assume that the magic draws on pow- er from the devils that live in the void between planes.|
 >
->>[!infobox]
->>||
->>|:---:|:---:|
->>|Height|Around 1.75 meters|
->>|Weight|Around 80kg|
->>|Environment|Cemeteries or caves|
->>|Intelligence|Human-level|
->>|Organization|Solitary|
+>||
+>|:---:|:---:|
+>|Height|Around 1.75 meters|
+>|Weight|Around 80kg|
+>|Environment|Cemeteries or caves|
+>|Intelligence|Human-level|
+>|Organization|Solitary|
 
 ## Common Superstition (Education DC:18)
 ```ad-quote

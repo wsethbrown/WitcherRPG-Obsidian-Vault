@@ -40,39 +40,34 @@
 >|VIGOR|0|
 
 >[!infobox|table-wide]
->>[!infobox]
->>|Vulnerabilities|
->>|:---:|
->>Insectoid Oil|
+>|Vulnerabilities|
+>|:---:|
+>|Insectoid Oil|
 >
->>[!Infobox|table-wide]
->>|Abilities|
->>|:---:|
->>**Pounce** An endrega doesn’t need to take a running start when leaping.|
->>**Resistances** Endrega only take half damage from bleeding & slashing.|
->>**Poison Immunity** Endrega take no damage from poison.|
->>**Feral** For the purposes of Awareness and Wilderness Survival, instinct gives them an INT of 6.|
+>|Abilities|
+>|:---:|
+>|**Pounce** An endrega doesn’t need to take a running start when leaping.|
+>|**Resistances** Endrega only take half damage from bleeding & slashing.|
+>|**Poison Immunity** Endrega take no damage from poison.|
+>|**Feral** For the purposes of Awareness and Wilderness Survival, instinct gives them an INT of 6.|
 >
->>[!infobox]
->>|Sub-Species|
->>|:---:|
->>**Drone’s Quills** An endrega drone can shoot quills out in circle with a 5m radius. These quills can be dodged or blocked (DC:15). For every point below the DC the target rolls they take 1d6 damage and are poisoned.|
->>**Warrior’s Tail** An endrega warrior has a large tail that does 4d6+2 damage and has a 50% chance of poisoning.|
->>**Worker’s Claws** An endrega worker’s claws have a 25% chance of poisoning.|
+>|Sub-Species|
+>|:---:|
+>|**Drone’s Quills** An endrega drone can shoot quills out in circle with a 5m radius. These quills can be dodged or blocked (DC:15). For every point below the DC the target rolls they take 1d6 damage and are poisoned.|
+>|**Warrior’s Tail** An endrega warrior has a large tail that does 4d6+2 damage and has a 50% chance of poisoning.|
+>|**Worker’s Claws** An endrega worker’s claws have a 25% chance of poisoning.|
 >
->>[!infobox]
->>||
->>|:---:|:---:|
->>|Height|Around 2.5 meters long|
->>|Weight|Around 200kg|
->>|Environment|Swamplands & floodplains|
->>|Intelligence|About as intelligent as a dog|
->>|Organization|Groups of 3 to 9|
+>||
+>|:---:|:---:|
+>|Height|Around 2.5 meters long|
+>|Weight|Around 200kg|
+>|Environment|Swamplands & floodplains|
+>|Intelligence|About as intelligent as a dog|
+>|Organization|Groups of 3 to 9|
 >
->>[!infobox]
->>|Endrega Queens|
->>|:---:|
->>|Endrega queens are so similar to arachasae that they are almost interchangeable. When you get to the depth of an endrega nest you can use the stats for an arachas.|
+>|Endrega Queens|
+>|:---:|
+>|Endrega queens are so similar to arachasae that they are almost interchangeable. When you get to the depth of an endrega nest you can use the stats for an arachas.|
 
 ## Common Superstition (Education DC:12)
 ```ad-quote

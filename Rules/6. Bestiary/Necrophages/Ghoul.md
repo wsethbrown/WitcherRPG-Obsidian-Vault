@@ -40,27 +40,24 @@
 >|VIGOR|0|
 
 >[!infobox|table-wide]
->>[!infobox]
->>|Vulnerabilities|
->>|:---:|
->>Necrophage Oil|
+>|Vulnerabilities|
+>|:---:|
+>|Necrophage Oil|
 >
->>[!Infobox|table-wide]
->>|Abilities|
->>|:---:|
->>**Pounce** A ghoul doesn’t need to take a running start when leaping.|
->>**Fury** When ghouls are brought below 10 HP they enter a fury in which they move every round, attack every round, and regenerate 3 points of damage per turn.|
->>**Night Vision** Ghouls operate in areas of dim light with no penalties.|
->>**Feral** For the purposes of Awareness and Wilderness Survival, instinct gives them an INT of 6.|
+>|Abilities|
+>|:---:|
+>|**Pounce** A ghoul doesn’t need to take a running start when leaping.|
+>|**Fury** When ghouls are brought below 10 HP they enter a fury in which they move every round, attack every round, and regenerate 3 points of damage per turn.|
+>|**Night Vision** Ghouls operate in areas of dim light with no penalties.|
+>|**Feral** For the purposes of Awareness and Wilderness Survival, instinct gives them an INT of 6.|
 >
->>[!infobox]
->>||
->>|:---:|:---:|
->>|Height|Around 1.25 meters at the shoulder|
->>|Weight|Around 86kg|
->>|Environment|Battlefields and cemeteries|
->>|Intelligence|About as intelligent as a dog|
->>|Organization|Packs of 3 to 6|
+>||
+>|:---:|:---:|
+>|Height|Around 1.25 meters at the shoulder|
+>|Weight|Around 86kg|
+>|Environment|Battlefields and cemeteries|
+>|Intelligence|About as intelligent as a dog|
+>|Organization|Packs of 3 to 6|
 
 ## Common Superstition (Education DC:14)
 ```ad-quote

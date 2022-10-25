@@ -40,30 +40,27 @@
 >|VIGOR|0|
 
 >[!infobox|table-wide]
->>[!infobox]
->>|Vulnerabilities|
->>|:---:|
->>Relict Oil|
->>**Moondust Bombs** A fiend caught in the area of a moondust bomb cannot regenerate for the duration of the bomb’s effect.|
->>**Sensitive Hearing** When struck with a bomb or caught in a loud, sharp noise, a fiend is staggered.|
+>|Vulnerabilities|
+>|:---:|
+>|Relict Oil|
+>|**Moondust Bombs** A fiend caught in the area of a moondust bomb cannot regenerate for the duration of the bomb’s effect.|
+>|**Sensitive Hearing** When struck with a bomb or caught in a loud, sharp noise, a fiend is staggered.|
 >
->>[!Infobox|table-wide]
->>|Abilities|
->>|:---:|
->>**Regeneration** A fiend regenerates 5 point of damage per round.|
->>**Charge** If a target moves more than 10m away from the fiend, it can charge and make a powerful horn attack at -4 which does 10d6 damage and knocks the target back 8m. If they strike anything while flying back, the target takes appropriate ramming damage as if on a horse.|
->>**Massive Bulk** Fiends are immune to Aard, or any effects that would knock them off their feet.|
->>**Hypnosis** A fiend can take a turn to hypnotize its foes. Anyone looking at the fiend must make a Resist Magic check against the fiend’s Spell Cast- ing or take a -4 to defense or attacks against the fiend and be blinded to the terrain around them for 5 rounds.|
->>**Feral** For the purposes of Awareness and Wilderness Survival, instinct gives them an INT of 8.|
+>|Abilities|
+>|:---:|
+>|**Regeneration** A fiend regenerates 5 point of damage per round.|
+>|**Charge** If a target moves more than 10m away from the fiend, it can charge and make a powerful horn attack at -4 which does 10d6 damage and knocks the target back 8m. If they strike anything while flying back, the target takes appropriate ramming damage as if on a horse.|
+>|**Massive Bulk** Fiends are immune to Aard, or any effects that would knock them off their feet.|
+>|**Hypnosis** A fiend can take a turn to hypnotize its foes. Anyone looking at the fiend must make a Resist Magic check against the fiend’s Spell Cast- ing or take a -4 to defense or attacks against the fiend and be blinded to the terrain around them for 5 rounds.|
+>|**Feral** For the purposes of Awareness and Wilderness Survival, instinct gives them an INT of 8.|
 >
->>[!infobox]
->>||
->>|:---:|:---:|
->>|Height|Around 4m at the shoulders|
->>|Weight|Around 150kg|
->>|Environment|Remote areas of wilderness|
->>|Intelligence|About as intelligent as a dog|
->>|Organization|Solitary|
+>||
+>|:---:|:---:|
+>|Height|Around 4m at the shoulders|
+>|Weight|Around 150kg|
+>|Environment|Remote areas of wilderness|
+>|Intelligence|About as intelligent as a dog|
+>|Organization|Solitary|
 
 ## Common Superstition (Education DC:18)
 ```ad-quote

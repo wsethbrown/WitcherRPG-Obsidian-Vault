@@ -41,29 +41,24 @@
 >|VIGOR|0|
 
 >[!infobox|table-wide]
->>[!infobox|table-wide]
->>|Vulnerabilities|
->>|---|
->>Hanged Man's Venom|
+>|Vulnerabilities|
+>|:---:|
+>|Hanged Man's Venom|
+>|**Abilities**|
+>|:---:|
+>|**Ambush Specialist**  When making a stealth roll to hide from targets, Scoia’tael archers use the highest Stealth roll amongst all of them. This roll counts for the whole group.
 >
->>[!Infobox|table-wide]
->>|**Abilities**|
->>|---|
->>**Ambush Specialist**  When making a stealth roll to hide from targets, Scoia’tael archers use the highest Stealth roll amongst all of them. This roll counts for the whole group.
+>|**Spiteful Ammunition**|
+>|:---:|
+>|Scoia’tael archers will fire their regular arrows first and try to kill all targets quickly. Their elven burrower arrows are reserved for targets they particularly despise, and fleeing targets who will need to be tracked down.
 >
->>[!infobox]
->>**Spiteful Ammunition**|
->>|---|
->>Scoia’tael archers will fire their regular arrows first and try to kill all targets quickly. Their elven burrower arrows are reserved for targets they particularly despise, and fleeing targets who will need to be tracked down.
->
->>[!infobox]
->>||
->>|:---:|:---:|
->>|Height|Usual human heights|
->>|Weight|Usual human weights|
->>|Environment|Wilderness or along main roads|
->>|Intelligence|Human-level|
->>|Organization|Commandos of 3 to 15|
+>||
+>|:---:|:---:|
+>|Height|Usual human heights|
+>|Weight|Usual human weights|
+>|Environment|Wilderness or along main roads|
+>|Intelligence|Human-level|
+>|Organization|Commandos of 3 to 15|
 ## Common Opinion (Education DC:10)
 ```ad-quote
 Bein’ a ‘loyal dwarf’ I got some feelin’s about the Scoia’tael. They’d probably call me a dog of the humans. But I’d rather be a loyal dog than a rabid bitch runnin’ to its own damn death. Scoia’tael used to have a point. Heh, used to be they were fightin’ for freedom for the Northern elder races. Now they’re just revenge-driven madmen who’re lookin’ to go out in a blaze of glory and kill as many humans as they can before they die. You’ll find the last Scoia’tael— mostly elves—in the woods, hidin’ in caves, and settin’ ambushes for traveling merchants and military caravans. If you’re human, get ready for a fight.

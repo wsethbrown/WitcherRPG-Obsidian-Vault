@@ -1,3 +1,4 @@
+
 >[!infobox]+
 ># Mages
 >![[Mage.png|center|250]]
@@ -39,32 +40,28 @@
 >|VIGOR|10|
 
 >[!infobox|table-wide]
->>[!infobox]
->>|Vulnerabilities|
->>|---|
->>Hanged Man's Venom|
->>**Dimeritium** While touching dimeritium, a mage has a Vigor of 0 and is subjected to the Dimeritium Effects table on pg.167.|
+>|Vulnerabilities|
+>|:---:|
+>|Hanged Man's Venom|
+>|**Dimeritium** While touching dimeritium, a mage has a Vigor of 0 and is subjected to the Dimeritium Effects table on pg.167.|
 >
->>[!Infobox|table-wide]
->>|Abilities|
->>|---|
->>**Spells** A mage is capable of using the spells:Aenye, Glamour, Blinding Dust, Rhewi, Teleportation|
->>**Rituals** A mage is capable of casting these rituals: Spell jar, Ritual of magic|
->>**Hexes** A mage is capable of casting these hexes: The Eternal Itch, The Hex of Shadows|
+>|Abilities|
+>|:---:|
+>|**Spells** A mage is capable of using the spells:Aenye, Glamour, Blinding Dust, Rhewi, Teleportation|
+>|**Rituals** A mage is capable of casting these rituals: Spell jar, Ritual of magic|
+>|**Hexes** A mage is capable of casting these hexes: The Eternal Itch, The Hex of Shadows|
 >
->>[!infobox]
->>Alternate Magic|
->>|---|
->>The magic listed above is an example of what a mage might be able to bring to bear against players. If you want you can customize your mage, pick new sets of spells, rituals, and hexes from the Magic section on pg.99.|
+>|Alternate Magic|
+>|:---:|
+>|The magic listed above is an example of what a mage might be able to bring to bear against players. If you want you can customize your mage, pick new sets of spells, rituals, and hexes from the Magic section on pg.99.|
 >
->>[!infobox]
->>||
->>|:---:|:---:|
->>|Height|Usual human heights|
->>|Weight|Usual human weights|
->>|Environment|In cities or remote towers|
->>|Intelligence|Human-level|
->>|Organization|Usually solitary|
+>||
+>|:---:|:---:|
+>|Height|Usual human heights|
+>|Weight|Usual human weights|
+>|Environment|In cities or remote towers|
+>|Intelligence|Human-level|
+>|Organization|Usually solitary|
 
 ## Common Opinion (Education DC:12)
 ```ad-quote

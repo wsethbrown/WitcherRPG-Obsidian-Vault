@@ -41,26 +41,23 @@
 >
 
 >[!infobox|table-wide]
->>[!infobox|table-wide]
->>|Vulnerabilities|
->>|:---:|
->>Beast Oil|
+>|Vulnerabilities|
+>|:---:|
+>Beast Oil|
 >
->>[!infobox|table-wide]
->>|Abilities|
->>|:---:|
->>**Scent Tracking** A wolf can track a creature without visual or audible clues with no penalty.|
->>**Night Vision** Ghouls operate in areas of dim light with no penalties.|
->>**Leader** Often, a group of wolves will be lead by a warg. As long as a warg is alive all wolves in its pack gain a +4 to courage. The warg is also capable of giving orders to the rest of the pack. These orders are never more complicated than, ‘go here’, ‘attack from behind’, or ‘wait’.|
+>|Abilities|
+>|:---:|
+>|**Scent Tracking** A wolf can track a creature without visual or audible clues with no penalty.|
+>|**Night Vision** Ghouls operate in areas of dim light with no penalties.|
+>|**Leader** Often, a group of wolves will be lead by a warg. As long as a warg is alive all wolves in its pack gain a +4 to courage. The warg is also capable of giving orders to the rest of the pack. These orders are never more complicated than, ‘go here’, ‘attack from behind’, or ‘wait’.|
 >
->>[!infobox]
->>||
->>|:---:|:---:|
->>|Height|Around .8 meters|
->>|Weight|Around 68kg|
->>|Environment|Forests or plains|
->>|Intelligence|About as intelligent as a dog|
->>|Organization|Packs of 3 to 16|
+>||
+>|:---:|:---:|
+>|Height|Around .8 meters|
+>|Weight|Around 68kg|
+>|Environment|Forests or plains|
+>|Intelligence|About as intelligent as a dog|
+>|Organization|Packs of 3 to 16|
 
 
 ## Common Superstition (Education DC:8)

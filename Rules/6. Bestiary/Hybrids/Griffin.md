@@ -41,30 +41,25 @@
 >|VIGOR|0|
 
 >[!infobox|table-wide]
->>[!infobox]
->>|Vulnerabilities|
->>|:---:|
->>Hybrid Oil|
+>|Vulnerabilities|
+>|:---:|
+>|Hybrid Oil|
 >
->>[!Infobox|table-wide]
->>|Abilities|
->>|:---:|
->>**Sonic Screech** A siren can take its turn to let out a screech which forces anyone within 10m to make a Stun save at -1.|
->>**Charge** If a target moves more than 10m away from the griffin, it can take a full round to charge and make a powerful claw attack at -4 which does 10d6 damage and knocks the target back 8m. If they strike anything while flying back, the target takes appropriate ramming damage as if from a horse.|
->>**Feral** For the purposes of Awareness and Wilderness Survival, instinct gives them an INT of 8.|
->>**Flight** A siren can take flight as a movement. The siren can only be knocked out of the air by stunning it or doing more than 5 points of damage with an attack. If the siren is knocked out of the air it must make a DC:16 Athletics check or take falling damage based on how far it fell.|
->>**Night Vision** Griffins operate in areas of dim light with no penalties.|
+>|Abilities|
+>|:---:|
+>|**Sonic Screech** A siren can take its turn to let out a screech which forces anyone within 10m to make a Stun save at -1.|
+>|**Charge** If a target moves more than 10m away from the griffin, it can take a full round to charge and make a powerful claw attack at -4 which does 10d6 damage and knocks the target back 8m. If they strike anything while flying back, the target takes appropriate ramming damage as if from a horse.|
+>|**Feral** For the purposes of Awareness and Wilderness Survival, instinct gives them an INT of 8.|
+>|**Flight** A siren can take flight as a movement. The siren can only be knocked out of the air by stunning it or doing more than 5 points of damage with an attack. If the siren is knocked out of the air it must make a DC:16 Athletics check or take falling damage based on how far it fell.|
+>|**Night Vision** Griffins operate in areas of dim light with no penalties.|
 >
->>[!infobox]
->>||
->>|:---:|:---:|
->>|Height|Around 2 meters at the shoulder|
->>|Weight|Around 907kg|
->>|Environment|Around high mountains|
->>|Intelligence|About as intelligent as a dog|
->>|Organization|Solitary or in pairs|
-
-
+>||
+>|:---:|:---:|
+>|Height|Around 2 meters at the shoulder|
+>|Weight|Around 907kg|
+>|Environment|Around high mountains|
+>|Intelligence|About as intelligent as a dog|
+>|Organization|Solitary or in pairs|
 
 ## Common Superstition (Education DC:14)
 ```ad-quote
