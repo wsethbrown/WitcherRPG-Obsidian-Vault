@@ -62,6 +62,9 @@ columns:
       - { label: "P/B", backgroundColor: "hsl(155, 95%, 90%)"}
       - { label: "S/P/B", backgroundColor: "hsl(92, 95%, 90%)"}
       - { label: "P", backgroundColor: "hsl(112, 95%, 90%)"}
+      - { label: "S/B", backgroundColor: "hsl(81, 95%, 90%)"}
+      - { label: "B/P", backgroundColor: "hsl(134, 95%, 90%)"}
+      - { label: "P/S", backgroundColor: "hsl(326, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
