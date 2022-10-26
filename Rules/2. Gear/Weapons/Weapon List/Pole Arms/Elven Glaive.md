@@ -15,4 +15,5 @@ EN: 2
 Weight: 3
 Cost: 925
 Category: Pole Arms
+Description: Hear elven glaives were most popular during the elven golden age before the humans arrived. Guess they were guard weapons at the palaces. Tall poles with swooping razor-sharp blades at the top. My guess is, now that most elves in the North are hidin’ out, they can’t afford to carry big weapons like that.
 ---

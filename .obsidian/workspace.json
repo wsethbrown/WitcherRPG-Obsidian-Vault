@@ -4,53 +4,784 @@
     "type": "split",
     "children": [
       {
-        "id": "77c64dbeaa46a718",
+        "id": "9972bfb293175752",
+        "type": "split",
+        "children": [
+          {
+            "id": "77c64dbeaa46a718",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "7c31854941fdd44c",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Rules/1. Creating Your Character/Skills/Skills.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "f6c5b5bfc450d9bf",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Rules/1. Creating Your Character/Races/Races.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "0c19300d4ce41651",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Armor List",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Armor",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "Weapons",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapons.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.9482758620689655}"
+                    },
+                    {
+                      "title": "Armor",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "Weapons",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapons.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":1.1875}"
+                    },
+                    {
+                      "title": "Armor List",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "2. Gear",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/2. Gear.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "Armor List",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Rules/2. Gear/Armor/Armor.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "d0898db5f04a6a82",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Weapon List",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Weapon List.md\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Axes",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Axes.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "Weapon List",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Weapon List.md\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "README",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":11},\"to\":{\"line\":35,\"ch\":11}}}"
+                    },
+                    {
+                      "title": "Weapon List",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Weapon List.md\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Werewolf",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Cursed Ones/Werewolf.md\",\"mode\":\"preview\",\"source\":false}}",
+                      "eState": "{\"scroll\":0}"
+                    },
+                    {
+                      "title": "Golem",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Elementa/Golem.md\",\"mode\":\"preview\",\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Werewolf",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Cursed Ones/Werewolf.md\",\"mode\":\"preview\",\"source\":false}}",
+                      "eState": "{\"scroll\":63.71287128712871}"
+                    },
+                    {
+                      "title": "Armor",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor.md\",\"mode\":\"preview\",\"source\":false}}",
+                      "eState": "{\"scroll\":0.48466257668711654}"
+                    },
+                    {
+                      "title": "Armor List",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "House Rules",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"House Rules.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":86},\"to\":{\"line\":1,\"ch\":86}}}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Rules/2. Gear/Weapons/Ammunition/Blunt (x1).md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "9b57aa9581a4bea4",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Rules/2. Gear/Weapons/Ammunition/Elven Burrower (x1).md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "0a2425ac373b87ea",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Drowners",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Necrophages/Drowners.md\",\"mode\":\"preview\",\"source\":false}}",
+                      "eState": "{\"scroll\":75.8125}"
+                    },
+                    {
+                      "title": "Template - Hazard",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Dangers/Template - Hazard.md\",\"mode\":\"preview\",\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Template - General Dangers Article",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Dangers/Template - General Dangers Article.md\",\"mode\":\"preview\",\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Template - Hazard",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Dangers/Template - Hazard.md\",\"mode\":\"preview\",\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Template - Poison",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Dangers/Template - Poison.md\",\"mode\":\"preview\",\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Template - Trap",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Dangers/Template - Trap.md\",\"mode\":\"preview\",\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Template - General Game Mastering Article",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Game Mastering/Template - General Game Mastering Article.md\",\"mode\":\"preview\",\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Template - Spell",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Abilities/Template - Spell.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":9},\"to\":{\"line\":22,\"ch\":9}}}"
+                    },
+                    {
+                      "title": "Template - Skill",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Abilities/Template - Skill.md\",\"mode\":\"preview\",\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Template - General Abilities Article",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Abilities/Template - General Abilities Article.md\",\"mode\":\"preview\",\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Template - Feat",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Abilities/Template - Feat.md\",\"mode\":\"preview\",\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "2_Mechanics Gallery",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/2_Mechanics Gallery.md\",\"mode\":\"preview\",\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Drowners",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Necrophages/Drowners.md\",\"mode\":\"preview\",\"source\":false}}",
+                      "eState": "{\"scroll\":0}"
+                    },
+                    {
+                      "title": "Mahakaman Martell",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bludgeons/Mahakaman Martell.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":18},\"to\":{\"line\":16,\"ch\":18}}}"
+                    },
+                    {
+                      "title": "Meteorite Chain Mace",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bludgeons/Meteorite Chain Mace.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":7}}}"
+                    },
+                    {
+                      "title": "Weapon List",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Weapon List.md\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Bludgeons",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bludgeons.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "Weapon List",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Weapon List.md\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Dwarven Impact (x1)",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Ammunition/Dwarven Impact (x1).md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":158},\"to\":{\"line\":10,\"ch\":158}}}"
+                    },
+                    {
+                      "title": "Elven Burrower (x1)",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Ammunition/Elven Burrower (x1).md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":171},\"to\":{\"line\":11,\"ch\":171}}}"
+                    },
+                    {
+                      "title": "Dwarven Heavy Crossbow",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Crossbows/Dwarven Heavy Crossbow.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":44},\"to\":{\"line\":16,\"ch\":44}}}"
+                    },
+                    {
+                      "title": "Gnomish Hand Crossbow",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Crossbows/Gnomish Hand Crossbow.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":193},\"to\":{\"line\":16,\"ch\":193}}}"
+                    },
+                    {
+                      "title": "Elven Zefhar",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bows/Elven Zefhar.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":188},\"to\":{\"line\":16,\"ch\":188}}}"
+                    },
+                    {
+                      "title": "Elven Travel Bow",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bows/Elven Travel Bow.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":197},\"to\":{\"line\":14,\"ch\":197}}}"
+                    },
+                    {
+                      "title": "Elven Walking Staff",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Staves/Elven Walking Staff.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":187},\"to\":{\"line\":18,\"ch\":187}}}"
+                    },
+                    {
+                      "title": "Gnomish Staff",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Staves/Gnomish Staff.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":76},\"to\":{\"line\":17,\"ch\":76}}}"
+                    },
+                    {
+                      "title": "Elven Glaive",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Pole Arms/Elven Glaive.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":282},\"to\":{\"line\":17,\"ch\":282}}}"
+                    },
+                    {
+                      "title": "Dwarven Pole Hammer",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Pole Arms/Dwarven Pole Hammer.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":282},\"to\":{\"line\":17,\"ch\":282}}}"
+                    },
+                    {
+                      "title": "Meteorite Chain Mace",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bludgeons/Meteorite Chain Mace.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":111},\"to\":{\"line\":17,\"ch\":111}}}"
+                    },
+                    {
+                      "title": "Mahakaman Martell",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bludgeons/Mahakaman Martell.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":174},\"to\":{\"line\":16,\"ch\":174}}}"
+                    },
+                    {
+                      "title": "Gnomish Black Axe",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Axes/Gnomish Black Axe.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":43},\"to\":{\"line\":14,\"ch\":43}}}"
+                    },
+                    {
+                      "title": "Dwarven Axe",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Axes/Dwarven Axe.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":287},\"to\":{\"line\":14,\"ch\":287}}}"
+                    },
+                    {
+                      "title": "Dwarven Cleaver",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Small Blades/Dwarven Cleaver.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":123},\"to\":{\"line\":14,\"ch\":123}}}"
+                    },
+                    {
+                      "title": "Halfling Rondel",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Small Blades/Halfling Rondel.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":47},\"to\":{\"line\":16,\"ch\":47}}}"
+                    },
+                    {
+                      "title": "Weapon List",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Weapon List.md\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Gnomish Gwyhyr",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Swords/Gnomish Gwyhyr.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":256},\"to\":{\"line\":16,\"ch\":256}}}"
+                    },
+                    {
+                      "title": "Weapon List",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Weapon List.md\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Elven Messer",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Swords/Elven Messer.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":279},\"to\":{\"line\":14,\"ch\":279}}}"
+                    },
+                    {
+                      "title": "Esboda",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Swords/Esboda.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "Elven Messer",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Swords/Elven Messer.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "Dwarven Impact (x1)",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Ammunition/Dwarven Impact (x1).md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":8},\"to\":{\"line\":9,\"ch\":8}}}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Rules/1. Creating Your Character/Skills/Will.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 4
+          },
+          {
+            "id": "3c2f753e3da92bd4",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "88ef98bacc0ad959",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Drowners",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Necrophages/Drowners.md\",\"mode\":\"preview\",\"source\":false}}",
+                      "eState": "{\"scroll\":75.8125}"
+                    },
+                    {
+                      "title": "Template - Hazard",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Dangers/Template - Hazard.md\",\"mode\":\"preview\",\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Template - General Dangers Article",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Dangers/Template - General Dangers Article.md\",\"mode\":\"preview\",\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Template - Hazard",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Dangers/Template - Hazard.md\",\"mode\":\"preview\",\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Template - Poison",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Dangers/Template - Poison.md\",\"mode\":\"preview\",\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Template - Trap",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Dangers/Template - Trap.md\",\"mode\":\"preview\",\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Template - General Game Mastering Article",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Game Mastering/Template - General Game Mastering Article.md\",\"mode\":\"preview\",\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Template - Spell",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Abilities/Template - Spell.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":9},\"to\":{\"line\":22,\"ch\":9}}}"
+                    },
+                    {
+                      "title": "Template - Skill",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Abilities/Template - Skill.md\",\"mode\":\"preview\",\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Template - General Abilities Article",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Abilities/Template - General Abilities Article.md\",\"mode\":\"preview\",\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Template - Feat",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Abilities/Template - Feat.md\",\"mode\":\"preview\",\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "2_Mechanics Gallery",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/2_Mechanics Gallery.md\",\"mode\":\"preview\",\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Drowners",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Necrophages/Drowners.md\",\"mode\":\"preview\",\"source\":false}}",
+                      "eState": "{\"scroll\":0}"
+                    },
+                    {
+                      "title": "Mahakaman Martell",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bludgeons/Mahakaman Martell.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":18},\"to\":{\"line\":16,\"ch\":18}}}"
+                    },
+                    {
+                      "title": "Meteorite Chain Mace",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bludgeons/Meteorite Chain Mace.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":7}}}"
+                    },
+                    {
+                      "title": "Weapon List",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Weapon List.md\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Bludgeons",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bludgeons.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "Weapon List",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Weapon List.md\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Dwarven Impact (x1)",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Ammunition/Dwarven Impact (x1).md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":158},\"to\":{\"line\":10,\"ch\":158}}}"
+                    },
+                    {
+                      "title": "Elven Burrower (x1)",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Ammunition/Elven Burrower (x1).md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":171},\"to\":{\"line\":11,\"ch\":171}}}"
+                    },
+                    {
+                      "title": "Dwarven Heavy Crossbow",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Crossbows/Dwarven Heavy Crossbow.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":44},\"to\":{\"line\":16,\"ch\":44}}}"
+                    },
+                    {
+                      "title": "Gnomish Hand Crossbow",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Crossbows/Gnomish Hand Crossbow.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":193},\"to\":{\"line\":16,\"ch\":193}}}"
+                    },
+                    {
+                      "title": "Elven Zefhar",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bows/Elven Zefhar.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":188},\"to\":{\"line\":16,\"ch\":188}}}"
+                    },
+                    {
+                      "title": "Elven Travel Bow",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bows/Elven Travel Bow.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":197},\"to\":{\"line\":14,\"ch\":197}}}"
+                    },
+                    {
+                      "title": "Elven Walking Staff",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Staves/Elven Walking Staff.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":187},\"to\":{\"line\":18,\"ch\":187}}}"
+                    },
+                    {
+                      "title": "Gnomish Staff",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Staves/Gnomish Staff.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":76},\"to\":{\"line\":17,\"ch\":76}}}"
+                    },
+                    {
+                      "title": "Elven Glaive",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Pole Arms/Elven Glaive.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":282},\"to\":{\"line\":17,\"ch\":282}}}"
+                    },
+                    {
+                      "title": "Dwarven Pole Hammer",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Pole Arms/Dwarven Pole Hammer.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":282},\"to\":{\"line\":17,\"ch\":282}}}"
+                    },
+                    {
+                      "title": "Meteorite Chain Mace",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bludgeons/Meteorite Chain Mace.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":111},\"to\":{\"line\":17,\"ch\":111}}}"
+                    },
+                    {
+                      "title": "Mahakaman Martell",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bludgeons/Mahakaman Martell.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":174},\"to\":{\"line\":16,\"ch\":174}}}"
+                    },
+                    {
+                      "title": "Gnomish Black Axe",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Axes/Gnomish Black Axe.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":43},\"to\":{\"line\":14,\"ch\":43}}}"
+                    },
+                    {
+                      "title": "Dwarven Axe",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Axes/Dwarven Axe.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":287},\"to\":{\"line\":14,\"ch\":287}}}"
+                    },
+                    {
+                      "title": "Dwarven Cleaver",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Small Blades/Dwarven Cleaver.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":123},\"to\":{\"line\":14,\"ch\":123}}}"
+                    },
+                    {
+                      "title": "Halfling Rondel",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Small Blades/Halfling Rondel.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":47},\"to\":{\"line\":16,\"ch\":47}}}"
+                    },
+                    {
+                      "title": "Weapon List",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Weapon List.md\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Gnomish Gwyhyr",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Swords/Gnomish Gwyhyr.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":256},\"to\":{\"line\":16,\"ch\":256}}}"
+                    },
+                    {
+                      "title": "Weapon List",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Weapon List.md\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Elven Messer",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Swords/Elven Messer.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":279},\"to\":{\"line\":14,\"ch\":279}}}"
+                    },
+                    {
+                      "title": "Esboda",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Swords/Esboda.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "Elven Messer",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Swords/Elven Messer.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "Dwarven Impact (x1)",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Ammunition/Dwarven Impact (x1).md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":8},\"to\":{\"line\":9,\"ch\":8}}}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Rules/1. Creating Your Character/Skills/Will.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
+      },
+      {
+        "id": "db1eae109ab7cd89",
         "type": "tabs",
         "children": [
           {
-            "id": "7c31854941fdd44c",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rules/1. Creating Your Character/Skills/Skills.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f6c5b5bfc450d9bf",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rules/1. Creating Your Character/Races/Races.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0c19300d4ce41651",
+            "id": "429e0a9807644832",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -60,73 +791,94 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "Armor List",
+                  "title": "Drowners",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Necrophages/Drowners.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{\"scroll\":75.8125}"
+                },
+                {
+                  "title": "Template - Hazard",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Dangers/Template - Hazard.md\",\"mode\":\"preview\",\"source\":false}}",
                   "eState": "{}"
                 },
                 {
-                  "title": "Armor",
+                  "title": "Template - General Dangers Article",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
-                },
-                {
-                  "title": "Weapons",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapons.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.9482758620689655}"
-                },
-                {
-                  "title": "Armor",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Weapons",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapons.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":1.1875}"
-                },
-                {
-                  "title": "Armor List",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Dangers/Template - General Dangers Article.md\",\"mode\":\"preview\",\"source\":false}}",
                   "eState": "{}"
                 },
                 {
-                  "title": "2. Gear",
+                  "title": "Template - Hazard",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/2. Gear.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Dangers/Template - Hazard.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{}"
                 },
                 {
-                  "title": "Armor List",
+                  "title": "Template - Poison",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Dangers/Template - Poison.md\",\"mode\":\"preview\",\"source\":false}}",
                   "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rules/2. Gear/Armor/Armor.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d0898db5f04a6a82",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
+                },
                 {
-                  "state": "{}",
+                  "title": "Template - Trap",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Dangers/Template - Trap.md\",\"mode\":\"preview\",\"source\":false}}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Template - General Game Mastering Article",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Game Mastering/Template - General Game Mastering Article.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Template - Spell",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Abilities/Template - Spell.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":9},\"to\":{\"line\":22,\"ch\":9}}}"
+                },
+                {
+                  "title": "Template - Skill",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Abilities/Template - Skill.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Template - General Abilities Article",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Abilities/Template - General Abilities Article.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Template - Feat",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Abilities/Template - Feat.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "2_Mechanics Gallery",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/2_Mechanics Gallery.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Drowners",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Necrophages/Drowners.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "Mahakaman Martell",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bludgeons/Mahakaman Martell.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":18},\"to\":{\"line\":16,\"ch\":18}}}"
+                },
+                {
+                  "title": "Meteorite Chain Mace",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bludgeons/Meteorite Chain Mace.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":7}}}"
                 },
                 {
                   "title": "Weapon List",
@@ -135,54 +887,167 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "Werewolf",
+                  "title": "Bludgeons",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Cursed Ones/Werewolf.md\",\"mode\":\"preview\",\"source\":false}}",
-                  "eState": "{\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bludgeons.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
                 },
                 {
-                  "title": "Golem",
+                  "title": "Weapon List",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Elementa/Golem.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Weapon List.md\"}}",
                   "eState": "{}"
                 },
                 {
-                  "title": "Werewolf",
+                  "title": "Dwarven Impact (x1)",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Cursed Ones/Werewolf.md\",\"mode\":\"preview\",\"source\":false}}",
-                  "eState": "{\"scroll\":63.71287128712871}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Ammunition/Dwarven Impact (x1).md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":158},\"to\":{\"line\":10,\"ch\":158}}}"
                 },
                 {
-                  "title": "Armor",
+                  "title": "Elven Burrower (x1)",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor.md\",\"mode\":\"preview\",\"source\":false}}",
-                  "eState": "{\"scroll\":0.48466257668711654}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Ammunition/Elven Burrower (x1).md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":171},\"to\":{\"line\":11,\"ch\":171}}}"
                 },
                 {
-                  "title": "Armor List",
+                  "title": "Dwarven Heavy Crossbow",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Crossbows/Dwarven Heavy Crossbow.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":44},\"to\":{\"line\":16,\"ch\":44}}}"
+                },
+                {
+                  "title": "Gnomish Hand Crossbow",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Crossbows/Gnomish Hand Crossbow.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":193},\"to\":{\"line\":16,\"ch\":193}}}"
+                },
+                {
+                  "title": "Elven Zefhar",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bows/Elven Zefhar.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":188},\"to\":{\"line\":16,\"ch\":188}}}"
+                },
+                {
+                  "title": "Elven Travel Bow",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bows/Elven Travel Bow.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":197},\"to\":{\"line\":14,\"ch\":197}}}"
+                },
+                {
+                  "title": "Elven Walking Staff",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Staves/Elven Walking Staff.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":187},\"to\":{\"line\":18,\"ch\":187}}}"
+                },
+                {
+                  "title": "Gnomish Staff",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Staves/Gnomish Staff.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":76},\"to\":{\"line\":17,\"ch\":76}}}"
+                },
+                {
+                  "title": "Elven Glaive",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Pole Arms/Elven Glaive.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":282},\"to\":{\"line\":17,\"ch\":282}}}"
+                },
+                {
+                  "title": "Dwarven Pole Hammer",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Pole Arms/Dwarven Pole Hammer.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":282},\"to\":{\"line\":17,\"ch\":282}}}"
+                },
+                {
+                  "title": "Meteorite Chain Mace",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bludgeons/Meteorite Chain Mace.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":111},\"to\":{\"line\":17,\"ch\":111}}}"
+                },
+                {
+                  "title": "Mahakaman Martell",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bludgeons/Mahakaman Martell.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":174},\"to\":{\"line\":16,\"ch\":174}}}"
+                },
+                {
+                  "title": "Gnomish Black Axe",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Axes/Gnomish Black Axe.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":43},\"to\":{\"line\":14,\"ch\":43}}}"
+                },
+                {
+                  "title": "Dwarven Axe",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Axes/Dwarven Axe.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":287},\"to\":{\"line\":14,\"ch\":287}}}"
+                },
+                {
+                  "title": "Dwarven Cleaver",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Small Blades/Dwarven Cleaver.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":123},\"to\":{\"line\":14,\"ch\":123}}}"
+                },
+                {
+                  "title": "Halfling Rondel",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Small Blades/Halfling Rondel.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":47},\"to\":{\"line\":16,\"ch\":47}}}"
+                },
+                {
+                  "title": "Weapon List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Weapon List.md\"}}",
                   "eState": "{}"
                 },
                 {
-                  "title": "House Rules",
+                  "title": "Gnomish Gwyhyr",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"House Rules.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":86},\"to\":{\"line\":1,\"ch\":86}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Swords/Gnomish Gwyhyr.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":256},\"to\":{\"line\":16,\"ch\":256}}}"
+                },
+                {
+                  "title": "Weapon List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Weapon List.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Elven Messer",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Swords/Elven Messer.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":279},\"to\":{\"line\":14,\"ch\":279}}}"
+                },
+                {
+                  "title": "Esboda",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Swords/Esboda.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Elven Messer",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Swords/Elven Messer.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Dwarven Impact (x1)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Ammunition/Dwarven Impact (x1).md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":8},\"to\":{\"line\":9,\"ch\":8}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "Rules/1. Creating Your Character/Skills/Will.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -301,7 +1166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Rules/1. Creating Your Character/Skills/Will.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -327,7 +1192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Rules/1. Creating Your Character/Skills/Will.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -368,7 +1233,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Rules/1. Creating Your Character/Skills/Will.md"
               }
             }
           },
@@ -468,17 +1333,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "d0898db5f04a6a82",
+  "active": "429e0a9807644832",
   "lastOpenFiles": [
-    "Rules/2. Gear/Weapons/Weapon List/Weapon List.md",
-    "Rules/6. Bestiary/Cursed Ones/Werewolf.md",
-    "Rules/6. Bestiary/Elementa/Golem.md",
-    "Rules/2. Gear/Armor/Armor.md",
-    "Rules/2. Gear/Armor/Armor List/Armor List.md",
-    "House Rules.md",
-    "Rules/2. Gear/Weapons/Weapons.md",
-    "Rules/2. Gear/2. Gear.md",
-    "Rules/2. Gear/Armor/Armor List/Verden Archer's Hood.md",
-    "Rules/2. Gear/Armor/Armor List/Armored Hood.md"
+    "Rules/2. Gear/Weapons/Ammunition/Elven Burrower (x1).md",
+    "Rules/1. Creating Your Character/Skills/Will.md",
+    "Rules/2. Gear/Weapons/Ammunition/Blunt (x1).md",
+    "Rules/6. Bestiary/Necrophages/Drowners.md",
+    "Hazard.md",
+    "z_Templates/2_Mechanics Gallery/Dangers/Template - Hazard.md",
+    "z_Templates/2_Mechanics Gallery/Dangers/Template - General Dangers Article.md",
+    "z_Templates/2_Mechanics Gallery/Dangers/Template - Poison.md",
+    "z_Templates/2_Mechanics Gallery/Dangers/Template - Trap.md",
+    "z_Templates/2_Mechanics Gallery/Game Mastering/Template - General Game Mastering Article.md"
   ]
 }

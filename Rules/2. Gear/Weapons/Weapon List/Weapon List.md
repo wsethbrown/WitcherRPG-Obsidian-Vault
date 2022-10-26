@@ -19,6 +19,7 @@ columns:
     sortIndex: 1
     isSorted: true
     isSortedDesc: false
+    width: 221
     config:
       enable_media_view: true
       media_width: 100
@@ -213,6 +214,7 @@ columns:
       - { label: "Focus (3)", backgroundColor: "hsl(239, 95%, 90%)"}
       - { label: "Greater Focus", backgroundColor: "hsl(252, 95%, 90%)"}
       - { label: "Slow Reload", backgroundColor: "hsl(73, 95%, 90%)"}
+      - { label: "Improved Armor Piercing", backgroundColor: "hsl(31, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
