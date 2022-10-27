@@ -1,3 +1,5 @@
+For affairs of the heart and emotions. Seducing and persuading come under this category.
+
 # Charisma
 Getting along with people. At a base 10 you can make friends pretty easily at your local tavern. At a base 13 you are a likeable person and it’s pretty rare for you to make enemies. At a base 16 you are the life of the party and it’s hard for anyone to stay mad at you for long. At a base 20 you could convince a raging troll to sit down for a pint over a game of gwent.
 

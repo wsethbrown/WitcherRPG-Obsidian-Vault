@@ -1,3 +1,5 @@
+For solving puzzles, performing science, deduction, and the like.
+
   # Awareness
  Noticing things or spotting abnormalities in your environment. At a base 10 you are a relatively aware person, noticing people walking by you and large changes in the environment. At a base 13 you are very aware, noticing small changes in the environment and hearing an average per- son trying to be stealthy. At a base 16 you are acutely aware, able to pinpoint minute changes in your environment and rarely taken by surprise. At a base 20 you are hyper-aware and nearly nothing happens in your environment without you noticing. Even invisible creatures have a hard time sneaking by you.
 

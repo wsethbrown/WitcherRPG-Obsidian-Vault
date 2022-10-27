@@ -1,3 +1,5 @@
+For using machinery and creating things with precision. Also for using artillery and setting traps.
+
 # Alchemy (2)
 The skill of creating potions, oils, decoctions, and more. At a base 10 you dabble with the science of alchemy and can create basic things like chloroform with ease. At a base 13 you are a full-blown al- chemist and can even create witcher’s oils and potions. At a base 16 you are a seasoned alchemist and can craft alchemical remedies even without a standardized alchemy set. At a base 20 you a master chemist. You can create any chemical in the book as well as witcher decoctions.
 

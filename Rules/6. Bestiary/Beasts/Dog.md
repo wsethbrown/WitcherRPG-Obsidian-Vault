@@ -4,11 +4,11 @@
 |INT|1|--|STUN|4|
 |REF|3|--|RUN|15|
 |DEX|5|--|LEAP|3|
-|[[BODY]]|3|--|STA|20|
+|[[Body (BODY)]]|3|--|STA|20|
 |SPD|5|--|ENC|30|
 |EMP|4|--|REC|4|
 |CRA|1|--|HP|20|
-|[[WILL]]|5|--|VIGOR|0|
+|[[Will (WILL)]]|5|--|VIGOR|0|
 |LUCK|0|--|--|--|
 
 -tx-

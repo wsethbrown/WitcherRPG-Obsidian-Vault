@@ -12,21 +12,21 @@ number of columns: 2
 
 [[Reflexes]] (REF): For fighting, dodging, and tasks that require fast reactions and ac- curate movements.
 
-[[Dexterity]] (DEX): For ranged attacks and anything that requires hand-eye coordination or balance.
+[[Dexterity (DEX)]] (DEX): For ranged attacks and anything that requires hand-eye coordination or balance.
 
-[[Body]] (BODY): For things that require great strength, like wrestling and strength feats, or physical endurance, such as resist- ing disease or fatigue.
+[[Body (BODY)]] (BODY): For things that require great strength, like wrestling and strength feats, or physical endurance, such as resist- ing disease or fatigue.
 
-[[Speed]] (SPD): This represents how fast your character moves. You can use this Stat when trying to outrun other people or determining how far you can move in a given time.
+**[[Speed]] (SPD)**: This represents how fast your character moves. You can use this Stat when trying to outrun other people or determining how far you can move in a given time.
 
 --- end-column ---
 
-[[Empathy]] (EMP): For affairs of the heart and emotions. Seducing and persuading come under this category.
+[[Empathy (EMP)]] (EMP): For affairs of the heart and emotions. Seducing and persuading come under this category.
 
-[[Craft]] (CRA): For using machinery and creating things with precision. Also for us- ing artillery and setting traps.
+[[Crafting (CRA)]] (CRA): For using machinery and creating things with precision. Also for us- ing artillery and setting traps.
 
-[[Will]] (WILL): For intimidation, magi- cal checks, and mental endurance checks. Shows your sheer power to keep moving forward and your ability to control magic.
+[[Will (WILL)]] (WILL): For intimidation, magi- cal checks, and mental endurance checks. Shows your sheer power to keep moving forward and your ability to control magic.
 
-[[Luck]](LUCK): Luck is a pool of points used to change things in your favor. Before you make any skill roll (on your turn or in defense against someone else) or a Death save you can add Luck. For every point you use you gain +1, but you must choose how many points you use before you roll. Your Luck pool refills at the beginning of each session.
+**[[Luck]] (LUCK):** Luck is a pool of points used to change things in your favor. Before you make any skill roll (on your turn or in defense against someone else) or a Death save you can add Luck. For every point you use you gain +1, but you must choose how many points you use before you roll. Your Luck pool refills at the beginning of each session.
 
 === end-multi-column
 # Derived Statistics
@@ -48,7 +48,7 @@ Leap (Run/5): Your Leap score is how many meters you can jump from a running sta
 === end-multi-column
 
 ### Getting Statistics
-There are two ways for you to set Statistics. You can either roll randomly or assign points. To roll your Stats randomly you roll 1d10 nine times, (re-roll- ing any 1s or 2s), and allocate those numbers to all nine of your Stats. If you opt to use point assignment, your Game Master will give you a number of points to split among your Stats, based on the table below. Keep in mind that the Statistic Cap is 10. Mutations and Racial traits can raise Statistics above this cap.
+There are two ways for you to set Statistics. You can either roll randomly or assign points. To roll your Stats randomly you roll 1d10 nine times, (re-rolling any 1s or 2s), and allocate those numbers to all nine of your Stats. If you opt to use point assignment, your Game Master will give you a number of points to split among your Stats, based on the table below. Keep in mind that the Statistic Cap is 10. Mutations and Racial traits can raise Statistics above this cap.
 
 >[!cards| 2]
 >| Game Type | Points |
@@ -71,11 +71,11 @@ There are two ways for you to set Statistics. You can either roll randomly or as
 If you choose to use [[LUCK]] on a [[Death save]] you raise the target threshold by an amount equal to the number of [[LUCK]] spent.
 
 ### Health Points
-- Health Points (HP): Your health is the number of points of damage you can take before you go into Death State and start bleeding out. (See the Physical Table)
+- **Health Points (HP)**: Your health is the number of points of damage you can take before you go into Death State and start bleeding out. (See the Physical Table)
 
-- Stamina (STA): Your Stamina represents how much energy you can expend before you become exhausted (whether it is physical effort or the use of magic) and how hard it is to knock you out. When it runs out, you are stunned and cannot do anything but recover. Nonlethal damage, casting spells, using certain abilities, and taking extra actions all low- er your Stamina. Stamina returns whenever you take a Recover action, which restores as much Stamina as your REC. (See the Physical Table)
+- **Stamina (STA)**: Your Stamina represents how much energy you can expend before you become exhausted (whether it is physical effort or the use of magic) and how hard it is to knock you out. When it runs out, you are stunned and cannot do anything but recover. Nonlethal damage, casting spells, using certain abilities, and taking extra actions all low- er your Stamina. Stamina returns whenever you take a Recover action, which restores as much Stamina as your REC. (See the Physical Table)
 
-- Recovery (REC): Your Recovery indicates how much Health you get back with each day of bed rest. To get these points back, someone must perform a First Aid check or a Healing Hands check on you. (See the Physical Table)
+- **Recovery (REC)**: Your Recovery indicates how much Health you get back with each day of bed rest. To get these points back, someone must perform a First Aid check or a Healing Hands check on you. (See the Physical Table)
 
 | (Body + Will/2) | HP  | STA | REC | STUN |
 | --------------- | --- | --- | --- | ---- |
@@ -92,9 +92,9 @@ If you choose to use [[LUCK]] on a [[Death save]] you raise the target threshold
 | 12              | 60  | 60  | 12  | 10   |
 | 13              | 65  | 65  | 13  | 10   |
 
-Encumbrance (ENC)(Body x10): This is how much weight you can carry without be- ing slowed down. When you are encumbered, subtract 1 from your REF, DEX, and SPD for every 5 points you exceed your encumbrance, minimum 1. You can dead-lift 50 times your Body in Kilograms.
+**Encumbrance (ENC)(Body x10)**: This is how much weight you can carry without be- ing slowed down. When you are encumbered, subtract 1 from your REF, DEX, and SPD for every 5 points you exceed your encumbrance, minimum 1. You can dead-lift 50 times your Body in Kilograms.
 
-Punch & Kick (See Hand to Hand Table):
+**Punch & Kick** (See Hand to Hand Table):
 Your Punch and Kick represent how much damage you are able to do with a punch or kick. These strikes do non-lethal damage.
 
 | Body  | Punch | Kick   |
@@ -108,10 +108,10 @@ Your Punch and Kick represent how much damage you are able to do with a punch or
 | 13    | 1d6+8 | 1d6+12 |
 
 ### Bonus
-Melee Damage
+**Melee Damage**
 The stronger a fighter is, the harder they can hit. When making melee attacks or throwing weapons you add bonus damage based on your Body. This damage is already factored into your Punch and Kick.
 
-Rounding
+**Rounding**
 When calculating your Der- rived Statistics you always rounddown. Soa 4.5 is a 4, an 8.25 is an 8, and so on.
 
 | Body  | Melee Bonus |

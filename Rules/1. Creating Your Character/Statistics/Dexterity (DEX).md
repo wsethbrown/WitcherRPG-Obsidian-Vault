@@ -1,3 +1,4 @@
+For ranged attacks and anything that requires hand-eye coordination or balance.
 # Archery
 Firing a bow and arrow. At a base 10 you can string and fire a bow with some accuracy. At a base 13 you are as skilled as any battlefield archer and you can fire in combat with good accuracy. At a base 16 you can hit most targets and quickly make shots that most average archers would con- sider difficult. At a base 20 you are a master archer and you can hit almost any target, no matter the range or size.
 

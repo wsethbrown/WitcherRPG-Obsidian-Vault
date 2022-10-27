@@ -39,7 +39,7 @@ You are considered fluent in the language of your home- land. This means that yo
 >Teaching|
 >Wilderness Survival|
 >
->| [[REFLEX]]|
+>| [[Reflex (REF)]]|
 >|:---:|
 >Brawling|
 > Dodge/Escape|
@@ -58,12 +58,12 @@ Crossbow|
 Sleight of Hand|
 Stealth|
 >
->| [[BODY]]      |
+>| [[Body (BODY)]]      |
 |:---:|
 | Physique  |
 | Endurance |
 >
->| [[EMPATHY]]|
+>| [[Empathy (EMP)]]|
 |:---:|
 | Charisma           |
 | Deceit             |
@@ -76,8 +76,8 @@ Stealth|
 | Performance        |
 | Seduction          |
 >
-| [[CRAFT]]             |
-| ----------------- |
+| [[Crafting (CRA)]]             |
+|:-----------------:|
 | Alchemy (2)       |
 | Crafting (2)      |
 | Disguise          |
@@ -86,8 +86,8 @@ Stealth|
 | Pick Lock         |
 | Trap Crafting (2) |
 >
-| [[WILL]]                |
-| ------------------- |
+| [[Will (WILL)]]                |
+|:-------------------:|
 | Courage             |
 | Hex Weaving (2)     |
 | Intimidation        |

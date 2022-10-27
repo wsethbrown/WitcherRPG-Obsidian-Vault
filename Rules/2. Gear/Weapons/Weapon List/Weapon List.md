@@ -8,23 +8,6 @@ database-plugin: basic
 name: new database
 description: new description
 columns:
-  column1:
-    input: text
-    key: column1
-    accessorKey: column1
-    label: Name
-    position: 3
-    skipPersist: false
-    isHidden: false
-    sortIndex: 1
-    isSorted: true
-    isSortedDesc: false
-    width: 221
-    config:
-      enable_media_view: true
-      media_width: 100
-      media_height: 100
-      isInline: false
   __file__:
     key: __file__
     id: __file__
@@ -91,29 +74,6 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
-  Avail.:
-    input: select
-    accessorKey: Avail.
-    key: Avail.
-    id: Avail.
-    label: Avail.
-    position: 6
-    skipPersist: false
-    isHidden: false
-    sortIndex: -1
-    width: 122
-    options:
-      - { label: "E", backgroundColor: "hsl(64, 95%, 90%)"}
-      - { label: "C", backgroundColor: "hsl(213, 95%, 90%)"}
-      - { label: "P", backgroundColor: "hsl(321, 95%, 90%)"}
-      - { label: "R", backgroundColor: "hsl(286, 95%, 90%)"}
-    config:
-      enable_media_view: true
-      link_alias_enabled: true
-      media_width: 100
-      media_height: 100
-      isInline: false
-      task_hide_completed: true
   DMG:
     input: text
     accessorKey: DMG
@@ -125,24 +85,6 @@ columns:
     isHidden: false
     sortIndex: -1
     width: 103
-    config:
-      enable_media_view: true
-      link_alias_enabled: true
-      media_width: 100
-      media_height: 100
-      isInline: false
-      task_hide_completed: true
-  Rel.:
-    input: text
-    accessorKey: Rel.
-    key: Rel.
-    id: Rel.
-    label: Rel.
-    position: 8
-    skipPersist: false
-    isHidden: false
-    sortIndex: -1
-    width: 76
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -215,29 +157,6 @@ columns:
       - { label: "Greater Focus", backgroundColor: "hsl(252, 95%, 90%)"}
       - { label: "Slow Reload", backgroundColor: "hsl(73, 95%, 90%)"}
       - { label: "Improved Armor Piercing", backgroundColor: "hsl(31, 95%, 90%)"}
-    config:
-      enable_media_view: true
-      link_alias_enabled: true
-      media_width: 100
-      media_height: 100
-      isInline: false
-      task_hide_completed: true
-  Conc.:
-    input: select
-    accessorKey: Conc.
-    key: Conc.
-    id: Conc.
-    label: Conc.
-    position: 12
-    skipPersist: false
-    isHidden: false
-    sortIndex: -1
-    width: 94
-    options:
-      - { label: "L", backgroundColor: "hsl(161, 95%, 90%)"}
-      - { label: "N/A", backgroundColor: "hsl(305, 95%, 90%)"}
-      - { label: "S", backgroundColor: "hsl(274, 95%, 90%)"}
-      - { label: "T", backgroundColor: "hsl(170, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -338,6 +257,87 @@ columns:
     skipPersist: false
     isHidden: false
     sortIndex: -1
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+  Avail:
+    input: select
+    accessorKey: Avail
+    key: Avail
+    id: Avail.
+    label: Avail.
+    position: 6
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    width: 122
+    options:
+      - { label: "E", backgroundColor: "hsl(64, 95%, 90%)"}
+      - { label: "C", backgroundColor: "hsl(213, 95%, 90%)"}
+      - { label: "P", backgroundColor: "hsl(321, 95%, 90%)"}
+      - { label: "R", backgroundColor: "hsl(286, 95%, 90%)"}
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+  Name:
+    input: text
+    key: Name
+    accessorKey: Name
+    label: Name
+    position: 3
+    skipPersist: false
+    isHidden: false
+    sortIndex: 1
+    isSorted: true
+    isSortedDesc: false
+    width: 221
+    config:
+      enable_media_view: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+  Rel:
+    input: text
+    accessorKey: Rel
+    key: Rel
+    id: Rel.
+    label: Rel.
+    position: 8
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    width: 76
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+  Conc:
+    input: select
+    accessorKey: Conc
+    key: Conc
+    id: Conc.
+    label: Conc.
+    position: 12
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    width: 94
+    options:
+      - { label: "L", backgroundColor: "hsl(161, 95%, 90%)"}
+      - { label: "N/A", backgroundColor: "hsl(305, 95%, 90%)"}
+      - { label: "S", backgroundColor: "hsl(274, 95%, 90%)"}
+      - { label: "T", backgroundColor: "hsl(170, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true

@@ -6,7 +6,7 @@ It is important to remember that Reputation can be bad as well as good. You coul
 ## Using Reputation
 Reputation is a powerful thing. In the world of The Witcher it can often get you into trouble, but it can also help you get out of it. When trying to influence someone (or entering Verbal Combat), you can choose to try to face them down. If they know about your Reputation, make a Face-Down roll opposing them. Both parties roll:
 
-1d10+[[Will]] + [[Reputation Level]]
+1d10+[[Will (WILL)]] + [[Reputation Level]]
 
 If you succeed in this roll, the person you are facing is aware of whatever Reputation you have and can’t help but think of it in the back of their mind. If your Reputation is positive, then you gain a +3 to influencing skills that relate to your Reputation.
 

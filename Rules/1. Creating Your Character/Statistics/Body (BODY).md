@@ -1,3 +1,5 @@
+For things that require great strength, like wrestling and strength feats, or physical endurance, such as resist ing disease or fatigue.
+
 # Physique
 Lifting, tearing, and bending heavy and tough objects. At a base 10 you can lift large people up over your head and break wooden bars. At a base 13 you can rip thin books in half, crush wooden boxes, and bend thin bars. At a base 16 you can snap manacles and break rusted metal. At a base 20 you can bend prison bars and dent metal.
 

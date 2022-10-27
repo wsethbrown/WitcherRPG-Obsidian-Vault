@@ -21,11 +21,11 @@
 >|INT|1|
 >|REF|4|
 >|DEX|6|
->|[[BODY]]|5|
+>|[[Body (BODY)]]|5|
 >|SPD|7|
 >|EMP|1|
 >|CRA|1|
->|[[WILL]]|4|
+>|[[Will (WILL)]]|4|
 >|LUCK|0|
 >######
 >|Derived Stats||
@@ -92,9 +92,9 @@ Wargs are larger than average wolves, with reddish-brown fur and bright red eyes
 INT|2|STUN|6|
 REF|5|RUN|24|
 DEX|7|LEAP|4|
-[[BODY]]|6|STA|8|
+[[Body (BODY)]]|6|STA|8|
 SPD|8|ENC|60|
 EMP|1|REC|6|
 CRA|1|HP|30|
-[[WILL]]|6|VIGOR|0|
+[[Will (WILL)]]|6|VIGOR|0|
 LUCK|0|--|--|

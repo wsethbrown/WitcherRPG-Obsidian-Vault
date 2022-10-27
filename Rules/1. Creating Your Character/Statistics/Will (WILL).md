@@ -1,3 +1,5 @@
+For intimidation, magi- cal checks, and mental endurance checks. Shows your sheer power to keep moving forward and your ability to control magic.
+
 # Courage
 The skill of resisting fear. At a base 10 you are a calm person and can stand up to a tough customer in a bar. At a base 13 you can stare down a vicious mass murderer and not flee when you see monsters. At a base 16 you are usually the bravest person in the room and can face down enemies you know you can’t beat. At a base 20 nothing scares you and you remain glacially cool even in the face of enormous monsters.
 

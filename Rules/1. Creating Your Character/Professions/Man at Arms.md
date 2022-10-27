@@ -48,7 +48,7 @@ banner_y: 0.15715
 ![[Man at Arms Image.png|right|350]]
 
 >[!infobox] 
-> |[[Tough as Nails]] ([[Body]])| 
+> |[[Tough as Nails]] ([[Body (BODY)]])| 
 > |---|
 > True Men At Arms like the Blue Stripes of Temeria and the Impera Brigade of Nilfgaard are hardened soldiers who never give in or surrender. When a Man At Arms falls to or be- low 0 Health, they can roll Tough As Nails at a DC equal to the number of negative Health times 2 to keep fighting. If they fail, they fall into death state as per usual. If they succeed they can keep fighting as if they were only at their Wound Threshold. Any damage forces them to make another roll against a DC based on their Health.
 

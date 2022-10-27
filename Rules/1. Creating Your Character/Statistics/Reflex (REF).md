@@ -1,3 +1,5 @@
+For fighting, dodging, and tasks that require fast reactions and accurate movements.
+
 # Brawling
 The skill of fighting hand to hand with fists, feet, and the like. At a base 10 you are a competent fist fighter and probably could win an average fight. At a base 13 you are a skilled fist fighter and will generally beat any common bar room brawler. At a base 16 you are very skilled at hand-to-hand combat. You know many techniques for physical combat and can beat even military combatants. At a base 20 you are a master of hand-to-hand combat and can beat almost anyone barehanded. You can even stand up against armed warriors.
 >[!aside|right]

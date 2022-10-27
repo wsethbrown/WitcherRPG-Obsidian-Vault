@@ -21,11 +21,11 @@
 >|INT|6|
 >|REF|10|
 >|DEX|10|
->|[[BODY]]|7|
+>|[[Body (BODY)]]|7|
 >|SPD|7|
 >|EMP|3|
 >|CRA|3|
->|[[WILL]]|6|
+>|[[Will (WILL)]]|6|
 >|LUCK|0|
 >######
 >|Derived Stats||
