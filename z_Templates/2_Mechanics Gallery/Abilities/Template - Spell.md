@@ -1,6 +1,10 @@
-### NAME
-**STA Cost:**
-**Effect:**
-**Range:**
-**Duration:**
-**Defense**:
+---
+Name: 
+Stamina: 
+Effect: 
+Range: 
+Duration: 
+Defense: 
+Type: 
+Level: 
+---

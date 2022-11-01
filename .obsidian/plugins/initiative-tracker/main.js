@@ -2316,8 +2316,8 @@ var Suggester = class {
   }
 };
 var SuggestionModal = class extends import_obsidian3.FuzzySuggestModal {
-  constructor(app, inputEl) {
-    super(app);
+  constructor(app2, inputEl) {
+    super(app2);
     this.items = [];
     this.scope = new import_obsidian3.Scope();
     this.emptyStateText = "No match found";
@@ -2396,8 +2396,8 @@ var SuggestionModal = class extends import_obsidian3.FuzzySuggestModal {
   }
 };
 var FileSuggestionModal = class extends SuggestionModal {
-  constructor(app, input) {
-    super(app, input.inputEl);
+  constructor(app2, input) {
+    super(app2, input.inputEl);
     this.files = this.app.vault.getMarkdownFiles();
     this.text = input;
     this.createPrompts();
@@ -2644,8 +2644,8 @@ var PlayerSuggestionModal = class extends SuggestionModal {
   }
 };
 var FolderSuggestionModal = class extends SuggestionModal {
-  constructor(app, input, items) {
-    super(app, input.inputEl);
+  constructor(app2, input, items) {
+    super(app2, input.inputEl);
     this.folders = [...items];
     this.text = input;
     this.inputEl.addEventListener("input", () => this.getFolder());
@@ -3524,12 +3524,12 @@ var NewPlayerModal = class extends import_obsidian5.Modal {
     this.display(true);
   }
 };
-async function confirmWithModal(app, text2, buttons = {
+async function confirmWithModal(app2, text2, buttons = {
   cta: "Yes",
   secondary: "No"
 }) {
   return new Promise((resolve, reject) => {
-    const modal = new ConfirmModal(app, text2, buttons);
+    const modal = new ConfirmModal(app2, text2, buttons);
     modal.onClose = () => {
       resolve(modal.confirmed);
     };
@@ -3537,8 +3537,8 @@ async function confirmWithModal(app, text2, buttons = {
   });
 }
 var ConfirmModal = class extends import_obsidian5.Modal {
-  constructor(app, text2, buttons) {
-    super(app);
+  constructor(app2, text2, buttons) {
+    super(app2);
     this.text = text2;
     this.buttons = buttons;
     this.confirmed = false;
@@ -3735,6 +3735,9 @@ var Creature = class {
       this.xp = XP_PER_CR[`${creature.cr}`];
     }
     this.id = creature.id ?? getId();
+    if ("statblock-link" in creature) {
+      this["statblock-link"] = creature["statblock-link"];
+    }
   }
   get hpDisplay() {
     if (this.max) {
@@ -3809,7 +3812,8 @@ var Creature = class {
       player: this.player,
       xp: this.xp,
       active: this.active,
-      hidden: this.hidden
+      hidden: this.hidden,
+      "statblock-link": this["statblock-link"]
     };
   }
   static fromJSON(state) {
@@ -6794,7 +6798,7 @@ var EncounterParser = class {
       return {};
     let existing = this.plugin.bestiary.find((c) => c.name == name);
     let creature = existing ? Creature.from(existing) : new Creature({ name });
-    creature.display = display ?? creature.name;
+    creature.display = display;
     creature.hp = hp ?? creature.hp;
     creature.ac = ac ?? creature.ac;
     creature.modifier = mod ?? creature.modifier;
@@ -28814,7 +28818,7 @@ function add_css8(target) {
 }
 function get_each_context5(ctx, list, i) {
   const child_ctx = ctx.slice();
-  child_ctx[11] = list[i];
+  child_ctx[12] = list[i];
   return child_ctx;
 }
 function create_if_block_24(ctx) {
@@ -28958,9 +28962,9 @@ function create_each_block5(ctx) {
   let status;
   let current;
   function remove_handler() {
-    return ctx[7](ctx[11]);
+    return ctx[8](ctx[12]);
   }
-  status = new Status_default({ props: { status: ctx[11] } });
+  status = new Status_default({ props: { status: ctx[12] } });
   status.$on("remove", remove_handler);
   return {
     c() {
@@ -28974,7 +28978,7 @@ function create_each_block5(ctx) {
       ctx = new_ctx;
       const status_changes = {};
       if (dirty & 2)
-        status_changes.status = ctx[11];
+        status_changes.status = ctx[12];
       status.$set(status_changes);
     },
     i(local) {
@@ -29022,7 +29026,7 @@ function create_fragment9(ctx) {
     }
   });
   initiative.$on("click", click_handler2);
-  initiative.$on("initiative", ctx[5]);
+  initiative.$on("initiative", ctx[6]);
   let if_block0 = ctx[0].hidden && create_if_block_24(ctx);
   function select_block_type(ctx2, dirty) {
     if (ctx2[0].player)
@@ -29039,8 +29043,8 @@ function create_fragment9(ctx) {
     }
   });
   creaturecontrols.$on("click", click_handler_4);
-  creaturecontrols.$on("tag", ctx[8]);
-  creaturecontrols.$on("edit", ctx[9]);
+  creaturecontrols.$on("tag", ctx[9]);
+  creaturecontrols.$on("edit", ctx[10]);
   return {
     c() {
       td0 = element("td");
@@ -29101,7 +29105,8 @@ function create_fragment9(ctx) {
       if (!mounted) {
         dispose = [
           listen(td0, "click", click_handler_1),
-          listen(div0, "click", ctx[6]),
+          listen(div0, "click", ctx[7]),
+          listen(div0, "mouseenter", ctx[5]),
           listen(div1, "click", click_handler_3)
         ];
         mounted = true;
@@ -29230,6 +29235,17 @@ function instance9($$self, $$props, $$invalidate) {
   const hiddenIcon = (div) => {
     (0, import_obsidian15.setIcon)(div, "eye-off");
   };
+  const tryHover = (evt) => {
+    if (creature["statblock-link"]) {
+      let link = creature["statblock-link"];
+      if (/\[.+\]\(.+\)/.test(link)) {
+        [, link] = link.match(/\[.+?\]\((.+?)\)/);
+      } else if (/\[\[.+\]\]/.test(link)) {
+        [, link] = link.match(/\[\[(.+?)(?:\|.+?)?\]\]/);
+      }
+      app.workspace.trigger("link-hover", {}, evt.target, link, "initiative-tracker ");
+    }
+  };
   const initiative_handler = (e) => {
     view.updateCreature(creature, { initiative: Number(e.detail) });
   };
@@ -29259,6 +29275,7 @@ function instance9($$self, $$props, $$invalidate) {
     view,
     name,
     hiddenIcon,
+    tryHover,
     initiative_handler,
     click_handler_2,
     remove_handler,
@@ -29776,15 +29793,15 @@ function create_if_block8(ctx) {
       append(div, label);
       append(div, t1);
       append(div, input);
-      set_input_value(input, ctx[7]);
+      set_input_value(input, ctx[3]);
       if (!mounted) {
-        dispose = listen(input, "input", ctx[21]);
+        dispose = listen(input, "input", ctx[16]);
         mounted = true;
       }
     },
     p(ctx2, dirty) {
-      if (dirty & 128 && to_number(input.value) !== ctx2[7]) {
-        set_input_value(input, ctx2[7]);
+      if (dirty & 8 && to_number(input.value) !== ctx2[3]) {
+        set_input_value(input, ctx2[3]);
       }
     },
     d(detaching) {
@@ -29845,7 +29862,7 @@ function create_fragment11(ctx) {
   let cancelButton_action;
   let mounted;
   let dispose;
-  let if_block = !ctx[6] && create_if_block8(ctx);
+  let if_block = !ctx[1] && create_if_block8(ctx);
   return {
     c() {
       div9 = element("div");
@@ -29950,37 +29967,37 @@ function create_fragment11(ctx) {
       append(div0, label0);
       append(div0, t1);
       append(div0, input0);
-      set_input_value(input0, ctx[0]);
+      set_input_value(input0, ctx[0].name);
       append(div9, t2);
       append(div9, div1);
       append(div1, label1);
       append(div1, t4);
       append(div1, input1);
-      set_input_value(input1, ctx[1]);
+      set_input_value(input1, ctx[0].display);
       append(div9, t5);
       append(div9, div2);
       append(div2, label2);
       append(div2, t7);
       append(div2, input2);
-      set_input_value(input2, ctx[2]);
+      set_input_value(input2, ctx[0].hp);
       append(div9, t8);
       append(div9, div3);
       append(div3, label3);
       append(div3, t10);
       append(div3, input3);
-      set_input_value(input3, ctx[4]);
+      set_input_value(input3, ctx[0].ac);
       append(div9, t11);
       append(div9, div4);
       append(div4, label4);
       append(div4, t13);
       append(div4, input4);
-      set_input_value(input4, ctx[5]);
+      set_input_value(input4, ctx[0].modifier);
       append(div9, t14);
       append(div9, div6);
       append(div6, label5);
       append(div6, t16);
       append(div6, input5);
-      set_input_value(input5, ctx[3]);
+      set_input_value(input5, ctx[2]);
       append(div6, t17);
       append(div6, div5);
       append(div9, t18);
@@ -29998,41 +30015,41 @@ function create_fragment11(ctx) {
       append(div12, div11);
       if (!mounted) {
         dispose = [
-          listen(input0, "input", ctx[14]),
-          listen(input0, "focus", ctx[15]),
-          listen(input1, "input", ctx[16]),
-          listen(input2, "input", ctx[17]),
-          listen(input3, "input", ctx[18]),
-          listen(input4, "input", ctx[19]),
-          listen(input5, "input", ctx[20]),
-          action_destroyer(diceButton_action = ctx[10].call(null, div5)),
-          action_destroyer(hideToggle_action = ctx[12].call(null, div7)),
-          action_destroyer(saveButton_action = ctx[8].call(null, div10)),
-          action_destroyer(cancelButton_action = ctx[9].call(null, div11))
+          listen(input0, "input", ctx[9]),
+          listen(input0, "focus", ctx[10]),
+          listen(input1, "input", ctx[11]),
+          listen(input2, "input", ctx[12]),
+          listen(input3, "input", ctx[13]),
+          listen(input4, "input", ctx[14]),
+          listen(input5, "input", ctx[15]),
+          action_destroyer(diceButton_action = ctx[6].call(null, div5)),
+          action_destroyer(hideToggle_action = ctx[8].call(null, div7)),
+          action_destroyer(saveButton_action = ctx[4].call(null, div10)),
+          action_destroyer(cancelButton_action = ctx[5].call(null, div11))
         ];
         mounted = true;
       }
     },
     p(ctx2, [dirty]) {
-      if (dirty & 1 && input0.value !== ctx2[0]) {
-        set_input_value(input0, ctx2[0]);
+      if (dirty & 1 && input0.value !== ctx2[0].name) {
+        set_input_value(input0, ctx2[0].name);
       }
-      if (dirty & 2 && input1.value !== ctx2[1]) {
-        set_input_value(input1, ctx2[1]);
+      if (dirty & 1 && input1.value !== ctx2[0].display) {
+        set_input_value(input1, ctx2[0].display);
       }
-      if (dirty & 4 && to_number(input2.value) !== ctx2[2]) {
-        set_input_value(input2, ctx2[2]);
+      if (dirty & 1 && to_number(input2.value) !== ctx2[0].hp) {
+        set_input_value(input2, ctx2[0].hp);
       }
-      if (dirty & 16 && to_number(input3.value) !== ctx2[4]) {
-        set_input_value(input3, ctx2[4]);
+      if (dirty & 1 && to_number(input3.value) !== ctx2[0].ac) {
+        set_input_value(input3, ctx2[0].ac);
       }
-      if (dirty & 32 && to_number(input4.value) !== ctx2[5]) {
-        set_input_value(input4, ctx2[5]);
+      if (dirty & 1 && to_number(input4.value) !== ctx2[0].modifier) {
+        set_input_value(input4, ctx2[0].modifier);
       }
-      if (dirty & 8 && to_number(input5.value) !== ctx2[3]) {
-        set_input_value(input5, ctx2[3]);
+      if (dirty & 4 && to_number(input5.value) !== ctx2[2]) {
+        set_input_value(input5, ctx2[2]);
       }
-      if (!ctx2[6]) {
+      if (!ctx2[1]) {
         if (if_block) {
           if_block.p(ctx2, dirty);
         } else {
@@ -30065,39 +30082,29 @@ function instance11($$self, $$props, $$invalidate) {
   const dispatch2 = createEventDispatcher();
   let view = getContext("view");
   let { editing = false } = $$props;
-  let { name = null } = $$props;
-  let { display = null } = $$props;
-  let { hp = null } = $$props;
-  let { initiative = null } = $$props;
-  let { ac = null } = $$props;
-  let { modifier = null } = $$props;
-  let { hidden = false } = $$props;
+  let { creature = new Creature({}) } = $$props;
+  if (!creature) {
+    creature = new Creature({});
+  }
+  let initiative = creature.initiative;
   let xp;
   let player;
   let level;
   let number = 1;
   const saveButton = (node) => {
     new import_obsidian17.ExtraButtonComponent(node).setTooltip("Add Creature").setIcon(SAVE).onClick(() => {
-      if (!name || !(name === null || name === void 0 ? void 0 : name.length)) {
+      var _a;
+      if (!creature || !creature.name || !((_a = creature.name) === null || _a === void 0 ? void 0 : _a.length)) {
         new import_obsidian17.Notice("Enter a name!");
         return;
       }
-      if (!modifier) {
-        $$invalidate(5, modifier = 0);
+      if (!(creature === null || creature === void 0 ? void 0 : creature.modifier)) {
+        $$invalidate(0, creature.modifier = 0, creature);
       }
-      dispatch2("save", {
-        name,
-        hp,
-        display,
-        initiative: (initiative !== null && initiative !== void 0 ? initiative : Math.floor(Math.random() * 19 + 1)) - modifier,
-        ac,
-        modifier,
-        xp,
-        player,
-        level,
-        number: Number(number),
-        hidden
-      });
+      if (!(creature === null || creature === void 0 ? void 0 : creature.initiative)) {
+        $$invalidate(0, creature.initiative = (initiative !== null && initiative !== void 0 ? initiative : Math.floor(Math.random() * 19 + 1)) - creature.modifier, creature);
+      }
+      dispatch2("save", Creature.new(creature));
     });
   };
   const cancelButton = (node) => {
@@ -30107,96 +30114,71 @@ function instance11($$self, $$props, $$invalidate) {
   };
   const diceButton = (node) => {
     new import_obsidian17.ExtraButtonComponent(node).setIcon(DICE).setTooltip("Roll Initiative").onClick(() => {
-      $$invalidate(3, initiative = Math.floor(Math.random() * 19 + 1) + (modifier !== null && modifier !== void 0 ? modifier : 0));
+      var _a;
+      $$invalidate(2, initiative = Math.floor(Math.random() * 19 + 1) + ((_a = creature.modifier) !== null && _a !== void 0 ? _a : 0));
     });
   };
   const openModal = (nameInput) => {
     const modal = new SRDMonsterSuggestionModal(view.plugin, nameInput);
     modal.onClose = () => __awaiter(void 0, void 0, void 0, function* () {
-      var _a;
       if (modal.creature) {
-        let newCreature = Creature.from(modal.creature);
-        $$invalidate(0, name = newCreature.name);
-        if (newCreature.hp)
-          $$invalidate(2, hp = `${newCreature.hp}`);
-        if (newCreature.ac)
-          $$invalidate(4, ac = `${newCreature.ac}`);
-        $$invalidate(5, modifier = (_a = newCreature.modifier) !== null && _a !== void 0 ? _a : 0);
-        xp = newCreature.xp;
-        player = newCreature.player;
-        level = newCreature.level;
-        $$invalidate(3, initiative = yield view.getInitiativeValue(modifier));
+        $$invalidate(0, creature = Creature.from(modal.creature));
+        console.log("\u{1F680} ~ file: Create.svelte ~ line 70 ~ creature", creature);
+        $$invalidate(2, initiative = yield view.getInitiativeValue(creature.modifier));
       }
     });
     modal.open();
   };
   const hideToggle = (div) => {
-    new import_obsidian17.ToggleComponent(div).setValue(hidden).onChange((v) => $$invalidate(13, hidden = v));
+    new import_obsidian17.ToggleComponent(div).setValue(creature.hidden).onChange((v) => $$invalidate(0, creature.hidden = v, creature));
   };
   function input0_input_handler() {
-    name = this.value;
-    $$invalidate(0, name);
+    creature.name = this.value;
+    $$invalidate(0, creature);
   }
   const focus_handler = function() {
     openModal(this);
   };
   function input1_input_handler() {
-    display = this.value;
-    $$invalidate(1, display);
+    creature.display = this.value;
+    $$invalidate(0, creature);
   }
   function input2_input_handler() {
-    hp = to_number(this.value);
-    $$invalidate(2, hp);
+    creature.hp = to_number(this.value);
+    $$invalidate(0, creature);
   }
   function input3_input_handler() {
-    ac = to_number(this.value);
-    $$invalidate(4, ac);
+    creature.ac = to_number(this.value);
+    $$invalidate(0, creature);
   }
   function input4_input_handler() {
-    modifier = to_number(this.value);
-    $$invalidate(5, modifier);
+    creature.modifier = to_number(this.value);
+    $$invalidate(0, creature);
   }
   function input5_input_handler() {
     initiative = to_number(this.value);
-    $$invalidate(3, initiative);
+    $$invalidate(2, initiative);
   }
   function input_input_handler() {
     number = to_number(this.value);
-    $$invalidate(7, number);
+    $$invalidate(3, number);
   }
   $$self.$$set = ($$props2) => {
     if ("editing" in $$props2)
-      $$invalidate(6, editing = $$props2.editing);
-    if ("name" in $$props2)
-      $$invalidate(0, name = $$props2.name);
-    if ("display" in $$props2)
-      $$invalidate(1, display = $$props2.display);
-    if ("hp" in $$props2)
-      $$invalidate(2, hp = $$props2.hp);
-    if ("initiative" in $$props2)
-      $$invalidate(3, initiative = $$props2.initiative);
-    if ("ac" in $$props2)
-      $$invalidate(4, ac = $$props2.ac);
-    if ("modifier" in $$props2)
-      $$invalidate(5, modifier = $$props2.modifier);
-    if ("hidden" in $$props2)
-      $$invalidate(13, hidden = $$props2.hidden);
+      $$invalidate(1, editing = $$props2.editing);
+    if ("creature" in $$props2)
+      $$invalidate(0, creature = $$props2.creature);
   };
   return [
-    name,
-    display,
-    hp,
-    initiative,
-    ac,
-    modifier,
+    creature,
     editing,
+    initiative,
     number,
     saveButton,
     cancelButton,
     diceButton,
     openModal,
     hideToggle,
-    hidden,
     input0_input_handler,
     focus_handler,
     input1_input_handler,
@@ -30210,16 +30192,7 @@ function instance11($$self, $$props, $$invalidate) {
 var Create = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance11, create_fragment11, safe_not_equal, {
-      editing: 6,
-      name: 0,
-      display: 1,
-      hp: 2,
-      initiative: 3,
-      ac: 4,
-      modifier: 5,
-      hidden: 13
-    }, add_css10);
+    init(this, options, instance11, create_fragment11, safe_not_equal, { editing: 1, creature: 0 }, add_css10);
   }
 };
 var Create_default = Create;
@@ -31560,12 +31533,7 @@ function create_if_block_62(ctx) {
   create = new Create_default({
     props: {
       editing: ctx[14] != null,
-      name: ctx[14]?.name,
-      display: ctx[14]?.display,
-      hp: `${ctx[14]?.hp}`,
-      initiative: ctx[14]?.initiative,
-      modifier: ctx[14]?.modifier,
-      ac: `${ctx[14]?.ac}`
+      creature: ctx[14]
     }
   });
   create.$on("cancel", ctx[45]);
@@ -31583,17 +31551,7 @@ function create_if_block_62(ctx) {
       if (dirty[0] & 16384)
         create_changes.editing = ctx2[14] != null;
       if (dirty[0] & 16384)
-        create_changes.name = ctx2[14]?.name;
-      if (dirty[0] & 16384)
-        create_changes.display = ctx2[14]?.display;
-      if (dirty[0] & 16384)
-        create_changes.hp = `${ctx2[14]?.hp}`;
-      if (dirty[0] & 16384)
-        create_changes.initiative = ctx2[14]?.initiative;
-      if (dirty[0] & 16384)
-        create_changes.modifier = ctx2[14]?.modifier;
-      if (dirty[0] & 16384)
-        create_changes.ac = `${ctx2[14]?.ac}`;
+        create_changes.creature = ctx2[14];
       create.$set(create_changes);
     },
     i(local) {
@@ -32193,18 +32151,7 @@ function instance15($$self, $$props, $$invalidate) {
   };
   const save_handler_1 = (evt) => {
     const creature = evt.detail;
-    const newCreature = new Creature({
-      name: creature.name,
-      display: creature.display,
-      hp: creature.hp,
-      ac: creature.ac,
-      modifier: creature.modifier,
-      marker: view.plugin.data.monsterMarker,
-      xp: creature.xp,
-      player: creature.player,
-      level: creature.level,
-      hidden: creature.hidden
-    }, creature.initiative);
+    const newCreature = Creature.new(creature);
     if (addNewAsync) {
       dispatch2("add-new-async", newCreature);
     } else if (editCreature) {
@@ -32655,7 +32602,7 @@ var TrackerView = class extends import_obsidian22.ItemView {
       }
       if (creature.number > 0)
         continue;
-      const prior = this.creatures.slice(0, i).filter((c) => c.name == creature.name).map((c) => c.number);
+      const prior = this.creatures.slice(0, i).filter((c) => c.display ? c.display == creature.display : c.name == creature.name).map((c) => c.number);
       creature.number = prior?.length ? Math.max(...prior) + 1 : 1;
     }
     this.setAppState({});

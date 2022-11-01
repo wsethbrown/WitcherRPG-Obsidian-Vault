@@ -4802,7 +4802,7 @@ __export(Plugin_exports, {
   default: () => InlineScriptsPlugin
 });
 module.exports = __toCommonJS(Plugin_exports);
-var import_obsidian13 = require("obsidian");
+var import_obsidian14 = require("obsidian");
 
 // ui_userNotifier.ts
 var import_obsidian = require("obsidian");
@@ -4858,7 +4858,7 @@ var UserNotifier;
 })(UserNotifier || (UserNotifier = {}));
 
 // ui_settings.ts
-var import_obsidian11 = require("obsidian");
+var import_obsidian12 = require("obsidian");
 
 // ui_setting_shortcutFiles.ts
 var import_obsidian4 = require("obsidian");
@@ -4897,6 +4897,7 @@ var Popups = class extends import_obsidian2.Modal {
               }
             });
             textUi = text.inputEl;
+            return text;
           });
           if (data.suggestions?.length) {
             let suggestionsUi = document.createElement("datalist");
@@ -4934,12 +4935,25 @@ var Popups = class extends import_obsidian2.Modal {
             defaultValue = Math.clamp(defaultValue, 0, options.length - 1);
             dropdown.addOptions(options);
             dropdown.setValue(defaultValue || 0);
+            if (isNaN(data.showCount)) {
+              if (data.showCount.toLowerCase().startsWith("adaptive")) {
+                const max = data.showCount.toLowerCase().match(/adaptive:([0-9]+)/)?.[1] || 20;
+                data.showCount = Math.min(data.options.length, max);
+              } else {
+                data.showCount = 1;
+              }
+            }
+            if (data.showCount > 1) {
+              dropdown.selectEl.setAttr("size", data.showCount);
+              dropdown.selectEl.classList.add("iscript_listSelect");
+            }
             dropdown.selectEl.parentElement.previousSibling.remove();
             dropdown.selectEl.addEventListener("keypress", (e) => {
               if (e.key === "Enter") {
                 firstButton.click();
               }
             });
+            return dropdown;
           });
           return result;
         },
@@ -4962,8 +4976,8 @@ var Popups = class extends import_obsidian2.Modal {
   async input(message, defaultValue, suggestions, buttonLabels) {
     return await this.input_internal(message, defaultValue, suggestions, buttonLabels);
   }
-  async pick(message, options, defaultValue, buttonLabels) {
-    return await this.pick_internal(message, options, defaultValue, buttonLabels);
+  async pick(message, options, defaultValue, showCount, buttonLabels) {
+    return await this.pick_internal(message, options, defaultValue, showCount, buttonLabels);
   }
   async custom(message, definition, data, buttonLabels) {
     return await this.custom_internal(message, definition, data, buttonLabels);
@@ -4999,11 +5013,12 @@ var Popups = class extends import_obsidian2.Modal {
       buttonLabels
     );
   }
-  async pick_internal(message, options, defaultValue, buttonLabels) {
+  async pick_internal(message, options, defaultValue, showCount, buttonLabels) {
+    showCount ||= 1;
     return await this.custom(
       message,
       this.PICK_DEFINITION,
-      { options, defaultValue },
+      { options, defaultValue, showCount },
       buttonLabels
     );
   }
@@ -5047,7 +5062,13 @@ var Popups = class extends import_obsidian2.Modal {
       });
     }
     if (this._definition.onOpen) {
-      if (await this._definition.onOpen(this._data, typeSpecificUi, firstButton, import_obsidian2.Setting)) {
+      if (await this._definition.onOpen(
+        this._data,
+        typeSpecificUi,
+        firstButton,
+        import_obsidian2.Setting,
+        this._resolve
+      )) {
         this._definition = {};
         this.close();
       }
@@ -5074,15 +5095,15 @@ var Popups = class extends import_obsidian2.Modal {
   }
 };
 
-// ui_setting_common.ts
-var SettingUi_Common;
-((SettingUi_Common2) => {
+// ui_setting_helper.ts
+var SettingUi_Helper;
+((SettingUi_Helper2) => {
   async function deleteButtonClicked() {
     if (await Popups.getInstance().confirm("Confirm removing a " + this.typeTitle + ".")) {
       this.group.remove();
     }
   }
-  SettingUi_Common2.deleteButtonClicked = deleteButtonClicked;
+  SettingUi_Helper2.deleteButtonClicked = deleteButtonClicked;
   function upButtonClicked() {
     let p = this.group.parentElement;
     let index = Array.from(p.childNodes).indexOf(this.group);
@@ -5091,7 +5112,7 @@ var SettingUi_Common;
     }
     p.insertBefore(p.childNodes[index], p.childNodes[index - 1]);
   }
-  SettingUi_Common2.upButtonClicked = upButtonClicked;
+  SettingUi_Helper2.upButtonClicked = upButtonClicked;
   function downButtonClicked() {
     let p = this.group.parentElement;
     let index = Array.from(p.childNodes).indexOf(this.group);
@@ -5101,8 +5122,8 @@ var SettingUi_Common;
     index++;
     p.insertBefore(p.childNodes[index], p.childNodes[index - 1]);
   }
-  SettingUi_Common2.downButtonClicked = downButtonClicked;
-})(SettingUi_Common || (SettingUi_Common = {}));
+  SettingUi_Helper2.downButtonClicked = downButtonClicked;
+})(SettingUi_Helper || (SettingUi_Helper = {}));
 
 // LibraryImporter.ts
 var import_obsidian3 = require("obsidian");
@@ -5315,10 +5336,10 @@ var SettingUi_ShortcutFiles = class {
   static addShortcutFileUi(app2, shortcutFile) {
     let fileListUiId = "fileList" + this._shortcutFileUis.childNodes.length;
     let g = this._shortcutFileUis.createEl("div", { cls: "iscript_shortcutFile" });
-    let e = g.createEl("div", { cls: "checkbox-container iscript_checkbox" });
+    let e = g.createEl("div", { cls: "checkbox-container iscript_toggle" });
     e.toggleClass("is-enabled", shortcutFile ? shortcutFile.enabled : true);
     e.addEventListener("click", function() {
-      this.toggleClass("is-enabled", !this.classList.contains("is-enabled"));
+      this.classList.toggle("is-enabled");
     });
     e = g.createEl("input", { cls: "iscript_shortcutFileAddress" });
     e.setAttr("type", "text");
@@ -5340,14 +5361,14 @@ var SettingUi_ShortcutFiles = class {
     }
     e = g.createEl("button", { cls: "iscript_upButton iscript_spacedUi" });
     e.group = g;
-    e.onclick = SettingUi_Common.upButtonClicked;
+    e.onclick = SettingUi_Helper.upButtonClicked;
     e.listOffset = 1;
     e = g.createEl("button", { cls: "iscript_downButton iscript_spacedUi" });
     e.group = g;
-    e.onclick = SettingUi_Common.downButtonClicked;
+    e.onclick = SettingUi_Helper.downButtonClicked;
     e = g.createEl("button", { cls: "iscript_deleteButton iscript_spacedUi" });
     e.group = g;
-    e.onclick = SettingUi_Common.deleteButtonClicked;
+    e.onclick = SettingUi_Helper.deleteButtonClicked;
     e.app = app2;
     e.typeTitle = "shortcut-file";
   }
@@ -5611,20 +5632,23 @@ var DragReorder = class {
 var HelperFncs;
 ((HelperFncs2) => {
   function staticConstructor() {
-    confirmObjectPath("_inlineScripts.inlineScripts.helperFncs");
+    confirmObjectPath("_inlineScripts.inlineScripts.HelperFncs");
     Object.assign(
-      window._inlineScripts.inlineScripts.helperFncs,
+      window._inlineScripts.inlineScripts.HelperFncs,
       {
         confirmObjectPath,
-        getLeafForFile,
-        appendToEndOfNote,
+        getLeavesForFile,
+        addToNote,
         parseMarkdown,
         callEventListenerCollection,
         addCss,
         removeCss,
         ItemView: import_obsidian6.ItemView,
         addIcon: import_obsidian6.addIcon,
-        DragReorder
+        DragReorder,
+        unblock,
+        expFormat,
+        expUnformat
       }
     );
   }
@@ -5633,14 +5657,14 @@ var HelperFncs;
     confirmObjectPath_internal(path, leaf);
   }
   HelperFncs2.confirmObjectPath = confirmObjectPath;
-  function getLeafForFile(file) {
-    return getLeafForFile_internal(file);
+  function getLeavesForFile(file) {
+    return getLeavesForFile_internal(file);
   }
-  HelperFncs2.getLeafForFile = getLeafForFile;
-  function appendToEndOfNote(toAppend) {
-    appendToEndOfNote_internal(toAppend);
+  HelperFncs2.getLeavesForFile = getLeavesForFile;
+  async function addToNote(toAdd, targetPosition, path) {
+    await addToNote_internal(toAdd, targetPosition, path);
   }
-  HelperFncs2.appendToEndOfNote = appendToEndOfNote;
+  HelperFncs2.addToNote = addToNote;
   function parseMarkdown(md) {
     return parseMarkdown_internal(md);
   }
@@ -5657,6 +5681,18 @@ var HelperFncs;
     removeCss_internal(id);
   }
   HelperFncs2.removeCss = removeCss;
+  function unblock() {
+    InputBlocker.setEnabled(false);
+  }
+  HelperFncs2.unblock = unblock;
+  function expFormat(expansion, skipPrefix, skipLinePrefix, skipSuffix) {
+    return expFormat_internal(expansion, skipPrefix, skipLinePrefix, skipSuffix);
+  }
+  HelperFncs2.expFormat = expFormat;
+  function expUnformat(expansion, skipPrefix, skipLinePrefix, skipSuffix) {
+    return expUnformat_internal(expansion, skipPrefix, skipLinePrefix, skipSuffix);
+  }
+  HelperFncs2.expUnformat = expUnformat;
   function confirmObjectPath_internal(path, leaf) {
     const pathChain = path.split(".");
     let parent = window;
@@ -5665,58 +5701,75 @@ var HelperFncs;
     }
     parent[pathChain[pathChain.length - 1]] ||= leaf === void 0 ? {} : leaf;
   }
-  function getLeafForFile_internal(file) {
+  function getLeavesForFile_internal(file) {
+    let result = [];
     for (const leaf of InlineScriptsPlugin.getInstance().app.workspace.getLeavesOfType("markdown")) {
       if (leaf.view?.file === file) {
-        return leaf;
+        result.push(leaf);
       }
     }
-    return null;
+    return result;
   }
-  function appendToEndOfNote_internal(toAppend) {
+  async function addToNote_internal(toAdd, targetPosition, path) {
+    targetPosition ||= { start: Number.MAX_SAFE_INTEGER, end: Number.MAX_SAFE_INTEGER };
     const plugin = InlineScriptsPlugin.getInstance();
-    const file = plugin.app.workspace.getActiveFile();
-    if (!file) {
+    const file = !path ? plugin.app.workspace.getActiveFile() : plugin.app.vault.fileMap[path];
+    if (!file || file.children) {
       return;
     }
-    const leaf = HelperFncs2.getLeafForFile(file);
-    if (!leaf) {
+    let isNoteActive = !path || file === plugin.app.workspace.getActiveFile();
+    const leaves = HelperFncs2.getLeavesForFile(file);
+    const currentMode = leaves[0]?.view?.currentMode;
+    if (isNoteActive && currentMode?.type === "source") {
+      plugin.app.workspace.setActiveLeaf(leaves[0], false, true);
+    }
+    if (!toAdd) {
       return;
     }
-    const currentMode = leaf.view.currentMode;
-    if (currentMode.type === "source") {
-      plugin.app.workspace.setActiveLeaf(leaf, false, true);
-      if (!toAppend) {
-        return;
-      }
-      if (Array.isArray(toAppend)) {
-        toAppend = toAppend.join("");
-      }
-      leaf.view.editor.setValue(leaf.view.editor.getValue() + toAppend);
-      const scroller = currentMode.contentContainerEl.parentElement;
-      const oldScrollTop = scroller.scrollTop;
-      leaf.view.editor.setSelection({ line: Number.MAX_SAFE_INTEGER, ch: 0 });
-      setTimeout(() => {
-        if (scroller.scrollTop != oldScrollTop) {
-          scroller.scrollTop += window.getEmPixels(scroller) * 2;
+    if (Array.isArray(toAdd)) {
+      toAdd = toAdd.join("");
+    }
+    if (!leaves.length) {
+      let content = await plugin.app.vault.cachedRead(file);
+      content = content.slice(0, targetPosition.start) + toAdd + content.slice(targetPosition.end);
+      await plugin.app.vault.modify(file, content);
+    } else if (currentMode.type === "source") {
+      const inputDisabled = plugin.inputDisabled;
+      plugin.inputDisabled = false;
+      let content = leaves[0].view.editor.getValue();
+      const oldContentSize = content.length;
+      content = content.slice(0, targetPosition.start) + toAdd + content.slice(targetPosition.end);
+      leaves[0].view.editor.setValue(content);
+      plugin.inputDisabled = inputDisabled;
+      if (isNoteActive && targetPosition.start >= oldContentSize) {
+        const scroller = currentMode?.contentContainerEl?.parentElement;
+        if (scroller) {
+          const oldScrollTop = scroller.scrollTop;
+          leaves[0].view.editor.setSelection({ line: Number.MAX_SAFE_INTEGER, ch: 0 });
+          setTimeout(() => {
+            if (scroller.scrollTop != oldScrollTop) {
+              scroller.scrollTop += window.getEmPixels(scroller) * 2;
+            }
+          }, 100);
+        } else {
+          leaves[0].view.editor.setSelection({ line: Number.MAX_SAFE_INTEGER, ch: 0 });
         }
-      }, 100);
+      }
     } else {
-      if (!toAppend) {
-        return;
+      let content = leaves[0].view.data;
+      const oldContentSize = content.length;
+      content = content.slice(0, targetPosition.start) + toAdd + content.slice(targetPosition.end);
+      await plugin.app.vault.modify(file, content);
+      if (isNoteActive && targetPosition.start >= oldContentSize) {
+        const scroller = currentMode.containerEl.childNodes[0];
+        const scrollerChild = scroller.childNodes[0];
+        const paddingBottom = scrollerChild.style["padding-bottom"];
+        scrollerChild.style["padding-bottom"] = 0;
+        setTimeout(() => {
+          scroller.scrollTop = scroller.scrollHeight;
+          scrollerChild.style["padding-bottom"] = paddingBottom;
+        }, 100);
       }
-      if (Array.isArray(toAppend)) {
-        toAppend = toAppend.join("");
-      }
-      plugin.app.vault.modify(file, leaf.view.data + toAppend);
-      const scroller = currentMode.containerEl.childNodes[0];
-      const content = scroller.childNodes[0];
-      const paddingBottom = content.style["padding-bottom"];
-      content.style["padding-bottom"] = 0;
-      setTimeout(() => {
-        scroller.scrollTop = scroller.scrollHeight;
-        content.style["padding-bottom"] = paddingBottom;
-      }, 100);
     }
   }
   function parseMarkdown_internal(md) {
@@ -5765,13 +5818,63 @@ var HelperFncs;
     }
     e.innerText = css;
   }
-  HelperFncs2.addCss_internal = addCss_internal;
   function removeCss_internal(id) {
     id = id + "_css";
     const e = document.getElementById(id);
     e?.remove();
   }
-  HelperFncs2.removeCss_internal = removeCss_internal;
+  function expFormat_internal(expansion, skipPrefix, skipLinePrefix, skipSuffix) {
+    function unescapeText(src) {
+      return src.replaceAll("\\n", "\n").replaceAll("\\t", "	").replaceAll('\\"', '"');
+    }
+    let result = Array.isArray(expansion) ? expansion : [expansion];
+    const settings = InlineScriptsPlugin.getInstance().settings;
+    if (!skipLinePrefix) {
+      const linePrefix = unescapeText(settings.expansionLinePrefix);
+      result[0] = linePrefix + result[0];
+      for (let i = 0; i < result.length; i++) {
+        if (!result[i].replaceAll) {
+          continue;
+        }
+        result[i] = result[i].replaceAll("\n", "\n" + linePrefix);
+      }
+    }
+    if (!skipPrefix) {
+      const prefix = unescapeText(settings.expansionPrefix);
+      result[0] = prefix + result[0];
+    }
+    if (!skipSuffix) {
+      const suffix = unescapeText(settings.expansionSuffix);
+      result[result.length - 1] = result[result.length - 1] + suffix;
+    }
+    return Array.isArray(expansion) ? result : result[0];
+  }
+  function expUnformat_internal(expansion, skipPrefix, skipLinePrefix, skipSuffix) {
+    function unescapeText(src) {
+      return src.replaceAll("\\n", "\n").replaceAll("\\t", "	").replaceAll('\\"', '"');
+    }
+    let result = Array.isArray(expansion) ? expansion : [expansion];
+    const settings = InlineScriptsPlugin.getInstance().settings;
+    if (!skipPrefix) {
+      const prefix = unescapeText(settings.expansionPrefix);
+      result[0] = result[0].replace(new RegExp("^" + prefix), "");
+    }
+    if (!skipSuffix) {
+      const suffix = unescapeText(settings.expansionSuffix);
+      result[result.length - 1] = result[result.length - 1].replace(new RegExp(suffix + "$"), "");
+    }
+    if (!skipLinePrefix) {
+      const linePrefix = unescapeText(settings.expansionLinePrefix);
+      result[0] = result[0].replace(new RegExp("^" + linePrefix), "");
+      for (let i = 0; i < result.length; i++) {
+        if (!result[i].replaceAll) {
+          continue;
+        }
+        result[i] = result[i].replaceAll("\n" + linePrefix, "\n");
+      }
+    }
+    return Array.isArray(expansion) ? result : result[0];
+  }
 })(HelperFncs || (HelperFncs = {}));
 
 // ShortcutExpander.ts
@@ -5797,8 +5900,8 @@ var ShortcutExpander = class {
       "popupss*.s*custom"
     ]);
     this._boundExpand = this.expand.bind(this);
-    HelperFncs.confirmObjectPath("_inlineScripts.inlineScripts.helperFncs");
-    window._inlineScripts.inlineScripts.helperFncs.expand = this._boundExpand;
+    HelperFncs.confirmObjectPath("_inlineScripts.inlineScripts.HelperFncs");
+    window._inlineScripts.inlineScripts.HelperFncs.expand = this._boundExpand;
   }
   static async expand_internal(shortcutText, failSilently, expansionInfo, parameterData) {
     if (!shortcutText) {
@@ -5871,7 +5974,7 @@ var ShortcutExpander = class {
       if (!failSilently) {
         UserNotifier.run(
           {
-            message: "Shortcut unidentified:\n" + shortcutText,
+            message: 'Shortcut unidentified:\n"' + shortcutText + '"',
             messageLevel: "warn"
           }
         );
@@ -5923,13 +6026,17 @@ var ShortcutExpander = class {
         "print",
         "expansionInfo",
         "popups",
+        "expFormat",
+        "expUnformat",
         expansionScript
       )(
         this._boundExpand,
         ExternalRunner.run,
         UserNotifier.getFunction_print(),
         expansionInfo,
-        Popups.getInstance()
+        Popups.getInstance(),
+        HelperFncs.expFormat,
+        HelperFncs.expUnformat
       ) ?? "";
     } catch (e) {
       if (failSilently) {
@@ -5986,7 +6093,7 @@ var BUTTON_VIEW_STATES = {
         { isUserTriggered: true },
         buttonDefinition.parameterData
       );
-      HelperFncs.appendToEndOfNote(expansion);
+      HelperFncs.addToNote(expansion);
     }
   },
   help: {
@@ -6455,16 +6562,18 @@ var ButtonView = class extends import_obsidian7.ItemView {
       }
     );
     this._settingsUi.buttonSettingsBlock = allButtonSettings.createDiv(
-      { text: "\xA0\xA0\xA0Group locked", cls: "iscript_buttonSettingsBlock iscript_hidden" }
+      { text: "\xA0\xA0\xA0Group locked", cls: "iscript_buttonView_uiBlock iscript_hidden" }
     );
-    this.helpUi = root.createDiv({ cls: "iscript_buttonSettingsHelp" });
+    this.helpUi = root.createDiv({ cls: "iscript_buttonView_help" });
     this._buttonUiParent = root.createDiv();
     const container = this.containerEl.children[1];
     container.empty();
     container.appendChild(root);
   }
   addSettingsButton(parent, icon, title, fnc) {
-    let newButton = parent.createDiv({ cls: "nav-action-button", title });
+    let newButton = parent.createDiv(
+      { cls: "nav-action-button iscript_buttonView_uiButton", title }
+    );
     newButton.onclick = fnc;
     newButton.appendChild(
       new DOMParser().parseFromString(ICONS[icon], "text/xml").documentElement
@@ -6546,22 +6655,22 @@ var ButtonView = class extends import_obsidian7.ItemView {
       this._settingsUi.buttonSettings.classList.add("iscript_hidden");
       this._settingsUi.buttonSettingsBlock.classList.remove("iscript_hidden");
       this._settingsUi.groupRename.classList.remove("nav-action-button");
-      this._settingsUi.groupRename.classList.add("iscript_buttonViewDisabled");
+      this._settingsUi.groupRename.classList.add("iscript_buttonView_uiButton_disabled");
       this._settingsUi.groupRemove.classList.remove("nav-action-button");
-      this._settingsUi.groupRemove.classList.add("iscript_buttonViewDisabled");
+      this._settingsUi.groupRemove.classList.add("iscript_buttonView_uiButton_disabled");
     } else {
       this._settingsUi.buttonSettings.classList.remove("iscript_hidden");
       this._settingsUi.buttonSettingsBlock.classList.add("iscript_hidden");
       this._settingsUi.groupRename.classList.add("nav-action-button");
-      this._settingsUi.groupRename.classList.remove("iscript_buttonViewDisabled");
+      this._settingsUi.groupRename.classList.remove("iscript_buttonView_uiButton_disabled");
       this._settingsUi.groupRemove.classList.add("nav-action-button");
-      this._settingsUi.groupRemove.classList.remove("iscript_buttonViewDisabled");
+      this._settingsUi.groupRemove.classList.remove("iscript_buttonView_uiButton_disabled");
     }
     this._buttonUiParent.innerText = "";
     const buttonDefinitions = this.getButtonGroup().buttons;
     for (let i = 0; i < buttonDefinitions.length; i++) {
       let newButton = document.createElement("button");
-      newButton.classList.add("iscript_shortcutButton");
+      newButton.classList.add("iscript_buttonView_shortcutButton");
       newButton.innerText = this._state.prefix + buttonDefinitions[i].display;
       newButton.dataset.index = i + "";
       this._buttonUiParent.appendChild(newButton);
@@ -6577,9 +6686,9 @@ var ButtonView = class extends import_obsidian7.ItemView {
         continue;
       }
       if (this._state === BUTTON_VIEW_STATES[key]) {
-        BUTTON_VIEW_STATES[key].button.classList.add("iscript_selectedButton");
+        BUTTON_VIEW_STATES[key].button.classList.add("iscript_buttonView_uiButton_selected");
       } else {
-        BUTTON_VIEW_STATES[key].button.classList.remove("iscript_selectedButton");
+        BUTTON_VIEW_STATES[key].button.classList.remove("iscript_buttonView_uiButton_selected");
       }
     }
     this.helpUi.innerText = "";
@@ -6750,6 +6859,7 @@ var ShortcutLoader = class {
     plugin.shortcuts = [{ test: /^help ?$/, expansion: "" }];
     let shortcutFiles = [];
     this.updateGeneralHelpShortcut(shortcutFiles);
+    console.log("Restart syntaxes");
     plugin.syntaxes = [];
     let parseResult = this.parseShortcutFile("settings", plugin.settings.shortcuts);
     plugin.shortcuts = plugin.shortcuts.concat(parseResult.shortcuts);
@@ -6820,6 +6930,8 @@ var ShortcutLoader = class {
           shortcutAbouts: parseResult.shortcutAbouts
         }
       );
+      if (baseName === "rpgtools")
+        console.error("Syntax added for rpgtools");
       this.addShortcutFileSyntaxes(
         baseName,
         parseResult.shortcutAbouts,
@@ -6985,6 +7097,11 @@ var DEFAULT_SETTINGS = Object.freeze(
   {
     prefix: ";;",
     suffix: "::",
+    expansionPrefix: "",
+    expansionLinePrefix: "> ",
+    expansionSuffix: "\\n\\n",
+    autocomplete: true,
+    autocompleteHelp: true,
     devMode: false,
     allowExternal: false,
     version: app.plugins.manifests["obsidian-text-expander-js"].version,
@@ -7114,14 +7231,14 @@ var SettingUi_Shortcuts = class {
     }
     e = g.createEl("button", { cls: "iscript_upButton iscript_spacedUi" });
     e.group = g;
-    e.onclick = SettingUi_Common.upButtonClicked;
+    e.onclick = SettingUi_Helper.upButtonClicked;
     e.listOffset = 0;
     e = g.createEl("button", { cls: "iscript_downButton iscript_spacedUi" });
     e.group = g;
-    e.onclick = SettingUi_Common.downButtonClicked;
+    e.onclick = SettingUi_Helper.downButtonClicked;
     e = g.createEl("button", { cls: "iscript_deleteButton iscript_spacedUi" });
     e.group = g;
-    e.onclick = SettingUi_Common.deleteButtonClicked;
+    e.onclick = SettingUi_Helper.deleteButtonClicked;
     e.app = app2;
     e.typeTitle = "shortcut";
     e = g.createEl("textarea", { cls: "iscript_shortcutExpansion" });
@@ -7157,7 +7274,7 @@ var SettingUi_Shortcuts = class {
   }
 };
 
-// ui_setting_format.ts
+// ui_setting_shortcutFormat.ts
 var import_obsidian9 = require("obsidian");
 var SettingUi_ShortcutFormat = class {
   static create(parent, settings) {
@@ -7176,14 +7293,14 @@ var SettingUi_ShortcutFormat = class {
     this._formatErrMsgContainerUi = parent.createEl("div", { cls: "iscript_errMsgContainer" });
     this._formatErrMsgContainerUi.createEl("span", { text: "ERROR", cls: "iscript_errMsgTitle" });
     this._formatErrMsgContentUi = this._formatErrMsgContainerUi.createEl("span");
-    new import_obsidian9.Setting(parent).setName("Prefix").setDesc("What to type BEFORE a shortcut.").addText((text) => {
+    new import_obsidian9.Setting(parent).setName("Shortcut prefix").setDesc("What to type BEFORE a shortcut.").addText((text) => {
       return text.setPlaceholder("Prefix").setValue(settings.prefix).onChange((value) => {
         this._settings.prefix = value;
         this.refreshShortcutExample();
         this.isFormatValid();
       });
     }).settingEl.toggleClass("iscript_settingBundledTop", !import_obsidian9.Platform.isMobile);
-    new import_obsidian9.Setting(parent).setName("Suffix").setDesc("What to type AFTER a shortcut.").addText((text) => {
+    new import_obsidian9.Setting(parent).setName("Shortcut suffix").setDesc("What to type AFTER a shortcut.").addText((text) => {
       return text.setPlaceholder("Suffix").setValue(settings.suffix).onChange((value) => {
         this._settings.suffix = value;
         this.refreshShortcutExample();
@@ -7242,8 +7359,42 @@ var SettingUi_ShortcutFormat = class {
   }
 };
 
-// ui_setting_other.ts
+// ui_setting_expansionFormat.ts
 var import_obsidian10 = require("obsidian");
+var SettingUi_ExpansionFormat = class {
+  static create(parent, settings) {
+    return this.create_internal(parent, settings);
+  }
+  static getContents() {
+    return this._settings;
+  }
+  static create_internal(parent, settings) {
+    this._settings = {
+      expansionPrefix: settings.expansionPrefix,
+      expansionLinePrefix: settings.expansionLinePrefix,
+      expansionSuffix: settings.expansionSuffix
+    };
+    parent.createEl("h2", { text: "Expansion format" });
+    new import_obsidian10.Setting(parent).setName("Expansion prefix").setDesc("Text added to the start of a formatted expansion.").addText((text) => {
+      return text.setPlaceholder("").setValue(settings.expansionPrefix).onChange((value) => {
+        this._settings.expansionPrefix = value;
+      });
+    });
+    new import_obsidian10.Setting(parent).setName("Expansion line prefix").setDesc("Text added to the start of each line of a formatted expansion.").addText((text) => {
+      return text.setPlaceholder("").setValue(settings.expansionLinePrefix).onChange((value) => {
+        this._settings.expansionLinePrefix = value;
+      });
+    });
+    new import_obsidian10.Setting(parent).setName("Expansion suffix").setDesc("Text added to the end of a formatted expansion.").addText((text) => {
+      return text.setPlaceholder("").setValue(settings.expansionSuffix).onChange((value) => {
+        this._settings.expansionSuffix = value;
+      });
+    });
+  }
+};
+
+// ui_setting_other.ts
+var import_obsidian11 = require("obsidian");
 var SettingUi_Other = class {
   static create(parent, settings) {
     return this.create_internal(parent, settings);
@@ -7252,20 +7403,31 @@ var SettingUi_Other = class {
     return this._settings;
   }
   static create_internal(parent, settings) {
-    this._settings = { devMode: settings.devMode, allowExternal: settings.allowExternal };
+    this._settings = {
+      autocomplete: settings.autocomplete,
+      autocompleteHelp: settings.autocompleteHelp,
+      devMode: settings.devMode,
+      allowExternal: settings.allowExternal
+    };
     parent.createEl("h2", { text: "Other Settings" });
-    new import_obsidian10.Setting(parent).setName("Developer mode").setDesc("Shortcut-files are monitored for updates if this is on.").addToggle((toggle) => {
+    new import_obsidian11.Setting(parent).setName("Autocomplete").setDesc("Enable / disable autocomplete for shortcut entry.").addToggle((toggle) => {
+      return toggle.setValue(settings.autocomplete === void 0 ? true : settings.autocomplete).onChange((value) => this._settings.autocomplete = value);
+    });
+    new import_obsidian11.Setting(parent).setName("Autocomplete help popup").setDesc("Enable / disable the shortcut descriptor popup during autocomplete.").addToggle((toggle) => {
+      return toggle.setValue(settings.autocompleteHelp === void 0 ? true : settings.autocompleteHelp).onChange((value) => this._settings.autocompleteHelp = value);
+    });
+    new import_obsidian11.Setting(parent).setName("Developer mode").setDesc("Shortcut-files are monitored for updates if this is on.").addToggle((toggle) => {
       return toggle.setValue(settings.devMode).onChange((value) => this._settings.devMode = value);
     });
-    if (!import_obsidian10.Platform.isMobile) {
-      new import_obsidian10.Setting(parent).setName("Allow external").setDesc("Shortcuts can run external commands if this is on.").addToggle((toggle) => {
+    if (!import_obsidian11.Platform.isMobile) {
+      new import_obsidian11.Setting(parent).setName("Allow external").setDesc("Shortcuts can run external commands if this is on.").addToggle((toggle) => {
         return toggle.setValue(settings.allowExternal).onChange((value) => this._settings.allowExternal = value);
       }).descEl.createEl("div", {
         cls: "iscript_warning",
         text: "WARNING: enabling this increases the danger from malicious shortcuts"
       });
     }
-    new import_obsidian10.Setting(parent).setName("Reset to defaults").setDesc("Reset all settings to their default values.").addButton((button) => {
+    new import_obsidian11.Setting(parent).setName("Reset to defaults").setDesc("Reset all settings to their default values.").addButton((button) => {
       return button.setButtonText("Reset to defaults").onClick(async () => {
         const plugin = InlineScriptsPlugin.getInstance();
         if (await Popups.getInstance().confirm(
@@ -7443,7 +7605,7 @@ var Dfc = class {
 };
 
 // ui_settings.ts
-var InlineScriptsPluginSettings = class extends import_obsidian11.PluginSettingTab {
+var InlineScriptsPluginSettings = class extends import_obsidian12.PluginSettingTab {
   constructor(plugin) {
     super(plugin.app, plugin);
   }
@@ -7467,6 +7629,7 @@ var InlineScriptsPluginSettings = class extends import_obsidian11.PluginSettingT
     SettingUi_ShortcutFiles.create(c, this.plugin.settings, this.plugin.app);
     SettingUi_Shortcuts.create(c, this.plugin.settings, this.plugin.app);
     SettingUi_ShortcutFormat.create(c, this.plugin.settings);
+    SettingUi_ExpansionFormat.create(c, this.plugin.settings);
     SettingUi_Other.create(c, this.plugin.settings);
     c.createEl("div", { text: this.plugin.manifest.version, cls: "iscript_version" });
   }
@@ -7475,6 +7638,7 @@ var InlineScriptsPluginSettings = class extends import_obsidian11.PluginSettingT
     newSettings.version = this.plugin.manifest.version;
     SettingUi_ShortcutFormat.finalize();
     Object.assign(newSettings, SettingUi_ShortcutFormat.getContents());
+    Object.assign(newSettings, SettingUi_ExpansionFormat.getContents());
     Object.assign(newSettings, SettingUi_Other.getContents());
     Object.assign(newSettings, SettingUi_ShortcutFiles.getContents());
     Object.assign(newSettings, SettingUi_Shortcuts.getContents());
@@ -7529,66 +7693,108 @@ var ShortcutLinks = class {
     for (let index = 0; index < nodeList.length; index++) {
       const node = nodeList.item(index);
       const nodeInnerText = node.innerText;
-      let headerLength = 0;
-      let resolutionFnc = null;
-      if (nodeInnerText.startsWith("iscript:")) {
-        headerLength = nodeInnerText[8] == " " ? 9 : 8;
-        resolutionFnc = ShortcutLinks.linkResolution_standard;
-      } else if (nodeInnerText.startsWith("iscript-once:")) {
-        headerLength = nodeInnerText[13] == " " ? 14 : 13;
-        resolutionFnc = ShortcutLinks.linkResolution_once;
-      } else if (nodeInnerText.startsWith("iscript-append:")) {
-        headerLength = nodeInnerText[15] == " " ? 16 : 15;
-        resolutionFnc = ShortcutLinks.linkResolution_append;
-      } else {
+      const notePath = ctx.sourcePath;
+      const target = nodeInnerText.indexOf("^") == -1 ? null : nodeInnerText.slice(nodeInnerText.indexOf("^") + 1, nodeInnerText.indexOf(":")).trim();
+      const resolutionFnc = nodeInnerText.startsWith("iscript-once") ? ShortcutLinks.linkResolution_once : nodeInnerText.startsWith("iscript-append") ? ShortcutLinks.linkResolution_append : nodeInnerText.startsWith("iscript-prepend") ? ShortcutLinks.linkResolution_prepend : nodeInnerText.startsWith("iscript") ? ShortcutLinks.linkResolution_standard : null;
+      if (!resolutionFnc) {
         continue;
       }
-      const parts = nodeInnerText.slice(headerLength).split(/ ?\| ?/g);
+      const parts = nodeInnerText.slice(nodeInnerText.indexOf(":") + 1).split(/ ?\| ?/g);
       if (parts[0] === "") {
         continue;
       }
-      const parameterData = parts.slice(2).map((v) => {
-        return { caption: v.trim() };
-      });
+      if (parts[0].startsWith(" ")) {
+        parts[0] = parts[0].slice(1);
+      }
+      if (parts[0].endsWith(" ")) {
+        parts[0] = parts[0].slice(0, -1);
+      }
       let a = document.createElement("a");
       a.classList.add("internal-link");
+      a.classList.add("iscript-link");
+      a.dataset["source"] = nodeInnerText;
       a.innerText = (parts[1]?.trim() || parts[0]).trim();
       a.setAttr("href", "#");
       a.onclick = async function() {
-        const result = await ShortcutExpander.expand(
+        let targetPos = null;
+        if (target) {
+          const noteFile = app.vault.fileMap[notePath];
+          if (!noteFile) {
+            return;
+          }
+          const fileCache = app.metadataCache.getFileCache(noteFile);
+          if (!fileCache) {
+            return;
+          }
+          const blockData = fileCache.blocks[target];
+          if (!blockData) {
+            return;
+          }
+          targetPos = {
+            start: blockData.position.start.offset,
+            end: blockData.position.end.offset
+          };
+          const noteContent = await app.vault.cachedRead(app.vault.fileMap[notePath]);
+          const blockContent = noteContent.slice(targetPos.start, targetPos.end);
+          const idMatch = blockContent.match(/\s\^[^\n]+$/);
+          if (idMatch) {
+            targetPos.end -= idMatch[0].length;
+          }
+        }
+        let result = await ShortcutExpander.expand(
           parts[0],
           false,
           { isUserTriggered: true },
-          parameterData
+          parts.slice(3).map((v) => {
+            return { caption: v.trim() };
+          })
         );
         if (result) {
-          resolutionFnc(this, result);
+          result = HelperFncs.parseMarkdown(result);
+          if (parts.length > 2) {
+            result = new Function("$$", "return " + parts[2])(result);
+          }
+          resolutionFnc(this, result, targetPos);
         }
       };
       node.parentNode.insertBefore(a, node);
       node.remove();
     }
   }
-  static linkResolution_standard(ui, expansion) {
-    ui.innerHTML = HelperFncs.parseMarkdown(expansion);
+  static linkResolution_standard(ui, expansion, targetPos) {
+    if (targetPos) {
+      HelperFncs.addToNote(expansion, targetPos);
+    } else {
+      ui.innerHTML = expansion;
+    }
   }
-  static linkResolution_once(ui, expansion) {
+  static linkResolution_once(ui, expansion, targetPos) {
     let newUi = document.createElement("span");
-    newUi.innerHTML = HelperFncs.parseMarkdown(expansion);
+    if (targetPos) {
+      newUi.innerHTML = ui.innerHTML;
+      HelperFncs.addToNote(expansion, targetPos);
+    } else {
+      newUi.innerHTML = expansion;
+    }
     ui.parentNode.insertBefore(newUi, ui);
     ui.remove();
   }
-  static linkResolution_append(ui, expansion) {
-    HelperFncs.appendToEndOfNote(expansion);
+  static linkResolution_append(ui, expansion, targetPos) {
+    targetPos.start = targetPos.end;
+    HelperFncs.addToNote(expansion, targetPos);
+  }
+  static linkResolution_prepend(ui, expansion, targetPos) {
+    targetPos.end = targetPos.start;
+    HelperFncs.addToNote(expansion, targetPos);
   }
 };
 
 // AutoComplete.ts
-var import_obsidian12 = require("obsidian");
+var import_obsidian13 = require("obsidian");
 var SUGGESTION_LIMIT = 1e3;
 var REGEX_SYNTAX_SPLITTER = /~~}|(?=\{)/;
 var REGEX_FIRST_PARAMETER_START = / ?\{/;
-var AutoComplete = class extends import_obsidian12.EditorSuggest {
+var AutoComplete = class extends import_obsidian13.EditorSuggest {
   constructor(plugin) {
     super(plugin.app);
     this.constructor_internal(plugin);
@@ -7630,6 +7836,9 @@ var AutoComplete = class extends import_obsidian12.EditorSuggest {
     }
   }
   onTrigger_internal(cursor, editor) {
+    if (InlineScriptsPlugin.getInstance().settings.autocomplete === false) {
+      return;
+    }
     const prefix = this._plugin.settings.prefix;
     const suffix = this._plugin.settings.suffix;
     const lineUpToCursor = editor.getLine(cursor.line).slice(0, cursor.ch);
@@ -7755,6 +7964,9 @@ var AutoComplete = class extends import_obsidian12.EditorSuggest {
   }
   open_modified() {
     this._open();
+    if (InlineScriptsPlugin.getInstance().settings.autocompleteHelp === false) {
+      return;
+    }
     this._suggestionDescriptionUi.style.display = "unset";
     setTimeout(() => {
       const suggestListRect = this.suggestEl.getBoundingClientRect();
@@ -7789,6 +8001,10 @@ var ANNOUNCEMENTS = [
   {
     version: "0.23.2",
     message: `<div style="text-align:left">The save-on-quit feature that was added in 0.23.0 works... most of the time.<br><br>It turns out that "quit" scripts aren't guaranteed!  This update adds auto-save to mitigate data loss if save-on-quit fails.<br><br>NOTE - This release updates the library.  Make sure you import the latest library!</div>`
+  },
+  {
+    version: "0.24.0",
+    message: `<div style="text-align:left"><b>Major plugin updates</b><ul>  <li>a standard format for expansion strings.  This includes:  <ul>    <li>settings (prefix, line-prefix, suffix) for format customization</li>    <li>expFormat() - converts a string into the standard format</li>    <li>expUnformat() - removes the standard format from a string</li>  </ul>  <li>Shortcut links can include a block-id for the shortcut expansion destination</li>  <li>Autocomplete and/or its tooltip can be disabled in the settings</li></ul><b>Major library updates</b><ul>  <li><b>Cards</b> - This system has been revamped.  The shortcut "help cards" provides a link to a tutorial video.</li>  <li><b>Tablefiles</b> - A new system to roll on tables in text files.  The shortcut "help tablefiles" provides a link to a tutorial video.</li>  <li><b>State</b> - The state is auto-saved to a file beside the state shortcut-file.  Auto-save is now more reliable.</li>  <li><b>Notevars</b> - Incompatibily with the latest Obsidian is resolved.  A bug where multiple "set" shortcuts only save one of the variables is resolved.</li></ul>Check the <a href='https://github.com/jon-heard/obsidian-inline-scripts/releases/tag/0.24.0'>release notes</a> for details.</div>`
   }
 ];
 var versionCompare = function(version1, version2) {
@@ -7797,7 +8013,7 @@ var versionCompare = function(version1, version2) {
   version2 = convert(version2);
   return version1 < version2 ? -1 : version1 > version2 ? 1 : 0;
 };
-var InlineScriptsPlugin = class extends import_obsidian13.Plugin {
+var InlineScriptsPlugin = class extends import_obsidian14.Plugin {
   constructor() {
     super(...arguments);
     this.shutdownScripts = {};
@@ -7934,7 +8150,7 @@ var InlineScriptsPlugin = class extends import_obsidian13.Plugin {
   }
   tryShortcutExpansion_internal() {
     setTimeout(async () => {
-      const editor = this.app.workspace.getActiveViewOfType(import_obsidian13.MarkdownView)?.editor;
+      const editor = this.app.workspace.getActiveViewOfType(import_obsidian14.MarkdownView)?.editor;
       if (!editor) {
         return;
       }

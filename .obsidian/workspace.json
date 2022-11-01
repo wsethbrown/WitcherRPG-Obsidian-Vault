@@ -4,32 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f0d113e463e8f4fd",
+        "id": "c3f27efe2d36bff3",
         "type": "tabs",
         "children": [
           {
-            "id": "5578fff0f427f447",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rules/Magic/Magic.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1b1dba69484b4daf",
+            "id": "99bb31c07aab49ac",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -39,300 +18,1961 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "Mage Spells",
+                  "title": "Spell Database",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/Magic/Mage Spells.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Untitled database",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/Magic/Untitled database.md\"}}",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Spell Database.md\"}}",
                   "eState": "{}"
-                },
-                {
-                  "title": "Mage Spells",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/Magic/Mage Spells.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":306},\"to\":{\"line\":11,\"ch\":306}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rules/Magic/Mage Spells.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4cbc67fe94935643",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Mage Spells",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/Magic/Mage Spells.md\",\"mode\":\"preview\",\"source\":false}}",
-                  "eState": "{\"scroll\":0.30648769574944074}"
                 },
                 {
                   "title": "Novice Spells",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/Magic/Novice Spells.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":60,\"ch\":13},\"to\":{\"line\":60,\"ch\":13}},\"scroll\":5.208549386619451}"
-                },
-                {
-                  "title": "Mage Spells",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/Magic/Mage Spells.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.42058165548098436}"
-                },
-                {
-                  "title": "Novice Spells",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/Magic/Novice Spells.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":47,\"ch\":13},\"to\":{\"line\":47,\"ch\":13}},\"scroll\":0}"
-                },
-                {
-                  "title": "Template - Spell",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Abilities/Template - Spell.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":12},\"to\":{\"line\":5,\"ch\":12}},\"scroll\":0}"
-                },
-                {
-                  "title": "Mechanics Gallery",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Mechanics Gallery.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Novice Spells",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/Magic/Novice Spells.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":27},\"to\":{\"line\":23,\"ch\":27}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rules/Magic/Novice Spells.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9d0f45731d6c7176",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rules/Magic/Novice Spells/Mixed Element.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ca1c5dce7590826f",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rules/Magic/Novice Spells/Air.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ea23d75054e5489f",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rules/Magic/Novice Spells/Earth.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "493f915251dc459b",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rules/Magic/Novice Spells/Fire.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f5e14393797d0e33",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Earth",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/Magic/Novice Spells/Earth.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Fire",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/Magic/Novice Spells/Fire.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":12},\"to\":{\"line\":2,\"ch\":198}},\"scroll\":0}"
-                },
-                {
-                  "title": "Mixed Element",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/Magic/Novice Spells/Mixed Element.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Novice Spells.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "title": "Water",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/Magic/Novice Spells/Water.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":53,\"ch\":26},\"to\":{\"line\":53,\"ch\":26}},\"scroll\":15.723958333333334}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Water.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Mixed Element",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Mixed Element.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
                 },
                 {
                   "title": "Fire",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/Magic/Novice Spells/Fire.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":82,\"ch\":0},\"to\":{\"line\":82,\"ch\":0}},\"scroll\":40.546875}"
-                },
-                {
-                  "title": "Air",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/Magic/Novice Spells/Air.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":100,\"ch\":13},\"to\":{\"line\":100,\"ch\":13}},\"scroll\":49.630208333333336}"
-                },
-                {
-                  "title": "Mage Spells",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/Magic/Mage Spells.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":75},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":0.5626326963906582}"
-                },
-                {
-                  "title": "Magic",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/Magic/Magic.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":37.750795717592595}"
-                },
-                {
-                  "title": "Mixed Element",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/Magic/Novice Spells/Mixed Element.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Air",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/Magic/Novice Spells/Air.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":83,\"ch\":13},\"to\":{\"line\":83,\"ch\":13}},\"scroll\":29.130208333333332}"
-                },
-                {
-                  "title": "Novice Spells",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/Magic/Novice Spells.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":71,\"ch\":0},\"to\":{\"line\":154,\"ch\":13}},\"scroll\":127.318359375}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Fire.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
                 },
                 {
                   "title": "Earth",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/Magic/Novice Spells/Earth.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":54,\"ch\":18},\"to\":{\"line\":54,\"ch\":18}},\"scroll\":5.130208333333333}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Earth.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":20},\"to\":{\"line\":3,\"ch\":20}}}"
+                },
+                {
+                  "title": "Air",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Air.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":3},\"to\":{\"line\":1,\"ch\":0}}}"
+                },
+                {
+                  "title": "Adenydd",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Adenydd.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":9},\"to\":{\"line\":9,\"ch\":9}}}"
+                },
+                {
+                  "title": "Air",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Air.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":25},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Head",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Head.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":5,\"ch\":3}}}"
+                },
+                {
+                  "title": "Armor List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Air",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Air.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                },
+                {
+                  "title": "Spell Database",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Spell Database.md\"}}",
+                  "eState": "{}"
                 },
                 {
                   "title": "Novice Spells",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/Magic/Novice Spells.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":68,\"ch\":18}},\"scroll\":52.532552083333336}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Novice Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Spell Database",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Spell Database.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Novice Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Novice Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Spell Database",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Spell Database.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Mage Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mage Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":0},\"to\":{\"line\":32,\"ch\":0}},\"scroll\":7.306671581275341}"
+                },
+                {
+                  "title": "Raise Flames",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Raise Flames.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":17},\"to\":{\"line\":16,\"ch\":17}},\"scroll\":0}"
+                },
+                {
+                  "title": "Mage Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mage Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":60},\"to\":{\"line\":22,\"ch\":72}},\"scroll\":5.958333333333333}"
+                },
+                {
+                  "title": "Cadfan’s Grasp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Cadfan’s Grasp.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Mage Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mage Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":49},\"to\":{\"line\":20,\"ch\":63}},\"scroll\":5.125}"
+                },
+                {
+                  "title": "Urien’s Shelter",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Urien’s Shelter.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Mage Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mage Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":41},\"to\":{\"line\":21,\"ch\":56}},\"scroll\":11.858723958333334}"
+                },
+                {
+                  "title": "Korath’s Breath",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Korath’s Breath.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Mage Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mage Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":21},\"to\":{\"line\":21,\"ch\":36}},\"scroll\":6.708333333333333}"
+                },
+                {
+                  "title": "Luthien’s Quill",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Luthien’s Quill.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Mage Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mage Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":25},\"to\":{\"line\":22,\"ch\":40}},\"scroll\":7.117950608182824}"
+                },
+                {
+                  "title": "Luthien’s Quill",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Luthien’s Quill.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Talfryn’s Prison",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Talfryn’s Prison.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Mage Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mage Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":17},\"to\":{\"line\":24,\"ch\":33}},\"scroll\":8.7626953125}"
+                },
+                {
+                  "title": "Novice Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Novice Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Zephyr",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Zephyr.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Urien’s Shelter",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Urien’s Shelter.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Telekinesis",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Telekinesis.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Static Storm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Static Storm.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Freshen Air",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Freshen Air.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Bronwyn's Gust",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Bronwyn's Gust.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Air Pocket",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Air Pocket.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Adenydd",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Adenydd.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Mage Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mage Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/3. Magic.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Mage Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mage Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.9082774049217002}"
+                },
+                {
+                  "title": "Novice Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Novice Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Mage Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mage Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":17.498109430604984}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/3. Magic.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":67.45833333333333}"
+                },
+                {
+                  "title": "Mage Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mage Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":3.5}"
+                },
+                {
+                  "title": "Novice Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Novice Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/3. Magic.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Mage Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mage Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Cenlly Graig",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Cenlly Graig.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":27},\"to\":{\"line\":16,\"ch\":27}},\"scroll\":0}"
+                },
+                {
+                  "title": "Mage Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mage Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":0},\"to\":{\"line\":32,\"ch\":0}},\"scroll\":3.3541666666666665}"
                 },
                 {
                   "title": "Mixed Element",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/Magic/Novice Spells/Mixed Element.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":54,\"ch\":17},\"to\":{\"line\":54,\"ch\":17}},\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Mixed Element.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Mage Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mage Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":0},\"to\":{\"line\":32,\"ch\":0}},\"scroll\":4.166666666666667}"
                 },
                 {
                   "title": "Novice Spells",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/Magic/Novice Spells.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}},\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Novice Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":0},\"to\":{\"line\":25,\"ch\":0}},\"scroll\":0}"
                 },
                 {
-                  "title": "Water",
+                  "title": "Mixed Element",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/Magic/Novice Spells/Water.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Mixed Element.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":8,\"ch\":162}}}"
+                },
+                {
+                  "title": "Novice Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Novice Spells.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Mixed Element",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Mixed Element.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Novice Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Novice Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":1},\"to\":{\"line\":14,\"ch\":1}}}"
+                },
+                {
+                  "title": "Fire",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Fire.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":2,\"ch\":228}}}"
+                },
+                {
+                  "title": "Novice Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Novice Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Earth",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Earth.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Air",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Air.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Novice Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Novice Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":1},\"to\":{\"line\":11,\"ch\":1}}}"
+                },
+                {
+                  "title": "Air",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Air.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":612},\"to\":{\"line\":1,\"ch\":0}}}"
+                },
+                {
+                  "title": "Novice Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Novice Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Earth",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Earth.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Novice Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Novice Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":352},\"to\":{\"line\":9,\"ch\":352}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/3. Magic.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Mage Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mage Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Magic.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":47,\"ch\":20}},\"scroll\":40.23514837857182}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/3. Magic.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":12.533528645833334}"
+                },
+                {
+                  "title": "Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Magic.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Mixed Element",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Mixed Element.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":103},\"to\":{\"line\":8,\"ch\":103}},\"scroll\":0}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/3. Magic.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":14},\"to\":{\"line\":31,\"ch\":14}},\"scroll\":7.550936056406516}"
+                },
+                {
+                  "title": "Mixed Element",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Mixed Element.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":240},\"to\":{\"line\":2,\"ch\":240}},\"scroll\":0}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/3. Magic.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{\"scroll\":10.5}"
+                },
+                {
+                  "title": "Fire",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Fire.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":210},\"to\":{\"line\":2,\"ch\":210}}}"
+                },
+                {
+                  "title": "Air",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Air.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":19},\"to\":{\"line\":1,\"ch\":19}}}"
+                },
+                {
+                  "title": "Earth",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Earth.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Air",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Air.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/3. Magic.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":144},\"to\":{\"line\":20,\"ch\":144}},\"scroll\":7.716796875}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Earth",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Earth.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":120},\"to\":{\"line\":1,\"ch\":120}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Novice Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Novice Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Telepathy",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Telepathy.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Adenydd",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Adenydd.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Aenye",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Aenye.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Afan's Mirror",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Afan's Mirror.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Adenydd",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Adenydd.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":6},\"to\":{\"line\":7,\"ch\":6}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Mage Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mage Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Mage Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mage Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Static Storm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Static Storm.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Aine Verseos",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Aine Verseos.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Adenydd",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Adenydd.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Mage Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mage Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Novice Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Novice Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Armor List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Head",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Head.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Novice Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Novice Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Magic Flare",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Magic Flare.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Novice Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Novice Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Magic.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Mage Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mage Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Static Storm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Static Storm.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Aenye",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Aenye.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Luthien’s Quill",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Luthien’s Quill.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Puro Dwr",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Puro Dwr.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":31},\"to\":{\"line\":5,\"ch\":31}}}"
+                },
+                {
+                  "title": "Rhewi",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Rhewi.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":31},\"to\":{\"line\":5,\"ch\":31}}}"
+                },
+                {
+                  "title": "Raise Flames",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Raise Flames.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Blinding Dust",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Blinding Dust.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":30},\"to\":{\"line\":5,\"ch\":30}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Puro Dwr",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Puro Dwr.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Mind Manipulation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Mind Manipulation.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Mind Manipulation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Mind Manipulation.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Mind Manipulation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Mind Manipulation.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Mind Manipulation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Mind Manipulation.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Mind Manipulation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Mind Manipulation.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Magic Healing",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Magic Healing.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Mind Manipulation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Mind Manipulation.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Magic Healing",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Magic Healing.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Mind Manipulation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Mind Manipulation.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Magic Healing",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Magic Healing.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Mind Manipulation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Mind Manipulation.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Magic Healing",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Magic Healing.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Mind Manipulation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Mind Manipulation.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Magic Healing",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Magic Healing.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Mind Manipulation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Mind Manipulation.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Magic Healing",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Magic Healing.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Mind Manipulation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Mind Manipulation.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Mind Manipulation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Mind Manipulation.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":10},\"to\":{\"line\":5,\"ch\":10}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Mind Manipulation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Mind Manipulation.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Mind Manipulation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Mind Manipulation.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":31},\"to\":{\"line\":5,\"ch\":31}}}"
+                },
+                {
+                  "title": "Magic Compass",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Magic Compass.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":29},\"to\":{\"line\":5,\"ch\":29}}}"
+                },
+                {
+                  "title": "Glamour",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Glamour.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":23},\"to\":{\"line\":5,\"ch\":23}}}"
+                },
+                {
+                  "title": "Ice Slick",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Ice Slick.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Cadfan’s Grasp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Cadfan’s Grasp.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":296},\"to\":{\"line\":3,\"ch\":296}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Magic Healing",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Magic Healing.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":31},\"to\":{\"line\":5,\"ch\":31}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Static Storm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Static Storm.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":22},\"to\":{\"line\":5,\"ch\":22}}}"
+                },
+                {
+                  "title": "Urien’s Shelter",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Urien’s Shelter.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Static Storm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Static Storm.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":14},\"to\":{\"line\":5,\"ch\":14}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Urien’s Shelter",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Urien’s Shelter.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":10},\"to\":{\"line\":5,\"ch\":10}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Static Storm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Static Storm.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":17},\"to\":{\"line\":16,\"ch\":17}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Zephyr",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Zephyr.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":17},\"to\":{\"line\":16,\"ch\":17}}}"
+                },
+                {
+                  "title": "Wave of Fire",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Wave of Fire.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":18},\"to\":{\"line\":1,\"ch\":18}}}"
+                },
+                {
+                  "title": "Urien’s Shelter",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Urien’s Shelter.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":21},\"to\":{\"line\":1,\"ch\":21}}}"
+                },
+                {
+                  "title": "Telepathy",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Telepathy.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":15},\"to\":{\"line\":1,\"ch\":15}}}"
+                },
+                {
+                  "title": "Telekinesis",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Telekinesis.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":17},\"to\":{\"line\":1,\"ch\":17}}}"
+                },
+                {
+                  "title": "Tanio Ilchar",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Tanio Ilchar.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":18},\"to\":{\"line\":1,\"ch\":18}}}"
+                },
+                {
+                  "title": "Talfryn’s Prison",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Talfryn’s Prison.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":22},\"to\":{\"line\":1,\"ch\":22}}}"
+                },
+                {
+                  "title": "Summon Staff",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Summon Staff.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":18},\"to\":{\"line\":1,\"ch\":18}}}"
+                },
+                {
+                  "title": "Static Storm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Static Storm.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":18},\"to\":{\"line\":1,\"ch\":18}}}"
+                },
+                {
+                  "title": "Rhewi",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Rhewi.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":11},\"to\":{\"line\":1,\"ch\":11}}}"
+                },
+                {
+                  "title": "Raise Flames",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Raise Flames.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":17},\"to\":{\"line\":1,\"ch\":17}}}"
+                },
+                {
+                  "title": "Puro Dwr",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Puro Dwr.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":14},\"to\":{\"line\":1,\"ch\":14}}}"
+                },
+                {
+                  "title": "Mind Manipulation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Mind Manipulation.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":23},\"to\":{\"line\":1,\"ch\":23}}}"
+                },
+                {
+                  "title": "Magic Healing",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Magic Healing.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":19},\"to\":{\"line\":1,\"ch\":19}}}"
+                },
+                {
+                  "title": "Magic Flare",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Magic Flare.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":17},\"to\":{\"line\":1,\"ch\":17}}}"
+                },
+                {
+                  "title": "Magic Compass",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Magic Compass.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":19},\"to\":{\"line\":1,\"ch\":19}}}"
+                },
+                {
+                  "title": "Luthien’s Quill",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Luthien’s Quill.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":21},\"to\":{\"line\":1,\"ch\":21}}}"
+                },
+                {
+                  "title": "Korath’s Breath",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Korath’s Breath.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":13},\"to\":{\"line\":8,\"ch\":13}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Ice Slick",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Ice Slick.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Glamour",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Glamour.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":23},\"to\":{\"line\":5,\"ch\":23}}}"
+                },
+                {
+                  "title": "Freshen Air",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Freshen Air.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Earthen Spike",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Earthen Spike.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":200},\"to\":{\"line\":3,\"ch\":200}}}"
+                },
+                {
+                  "title": "Downpour",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Downpour.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Dormyn's Fog",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Dormyn's Fog.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Dispel",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Dispel.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Diagnostic Spell",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Diagnostic Spell.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Curse of Sedna",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Curse of Sedna.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Control Water",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Control Water.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Codi Bywyd",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Codi Bywyd.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Control Water",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Control Water.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Codi Bywyd",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Codi Bywyd.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Cenlly Graig",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Cenlly Graig.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":156},\"to\":{\"line\":3,\"ch\":156}}}"
+                },
+                {
+                  "title": "Cary's Hail",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Cary's Hail.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":259},\"to\":{\"line\":3,\"ch\":259}}}"
+                },
+                {
+                  "title": "Cadfan’s Grasp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Cadfan’s Grasp.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":23},\"to\":{\"line\":5,\"ch\":23}}}"
+                },
+                {
+                  "title": "Bronwyn's Gust",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Bronwyn's Gust.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":326},\"to\":{\"line\":3,\"ch\":326}}}"
+                },
+                {
+                  "title": "Brand of Fire",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Brand of Fire.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":192},\"to\":{\"line\":3,\"ch\":192}}}"
+                },
+                {
+                  "title": "Blinding Dust",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Blinding Dust.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Air Pocket",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Air Pocket.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Aine Verseos",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Aine Verseos.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Afan's Mirror",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Afan's Mirror.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Aenye",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Aenye.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Aenye",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Aenye.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":123},\"to\":{\"line\":3,\"ch\":123}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Mind Manipulation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Mind Manipulation.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Aenye",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Aenye.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":125},\"to\":{\"line\":3,\"ch\":125}}}"
+                },
+                {
+                  "title": "Adenydd",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Adenydd.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Blinding Dust",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Blinding Dust.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":14},\"to\":{\"line\":15,\"ch\":14}}}"
+                },
+                {
+                  "title": "Air Pocket",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Air Pocket.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Aine Verseos",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Aine Verseos.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Afan's Mirror",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Afan's Mirror.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Aenye",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Aenye.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Adenydd",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Adenydd.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Ice Slick",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Ice Slick.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Korath’s Breath",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Korath’s Breath.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Luthien’s Quill",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Luthien’s Quill.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Korath’s Breath",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Korath’s Breath.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Ice Slick",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Ice Slick.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":23},\"to\":{\"line\":5,\"ch\":23}}}"
+                },
+                {
+                  "title": "Glamour",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Glamour.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":10},\"to\":{\"line\":5,\"ch\":10}}}"
+                },
+                {
+                  "title": "Freshen Air",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Freshen Air.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Earthen Spike",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Earthen Spike.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Downpour",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Downpour.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Dormyn's Fog",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Dormyn's Fog.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Dispel",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Dispel.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Diagnostic Spell",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Diagnostic Spell.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Curse of Sedna",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Curse of Sedna.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Control Water",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Control Water.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Codi Bywyd",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Codi Bywyd.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Cenlly Graig",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Cenlly Graig.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Cary's Hail",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Cary's Hail.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Cadfan’s Grasp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Cadfan’s Grasp.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Bronwyn's Gust",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Bronwyn's Gust.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Brand of Fire",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Brand of Fire.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Blinding Dust",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Blinding Dust.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":10},\"to\":{\"line\":5,\"ch\":10}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Air Pocket",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Air Pocket.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":11},\"to\":{\"line\":5,\"ch\":11}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Air Pocket",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Air Pocket.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Aine Verseos",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Aine Verseos.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Afan's Mirror",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Afan's Mirror.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Aenye",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Aenye.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Adenydd",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Adenydd.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Korath’s Breath",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Korath’s Breath.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Ice Slick",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Ice Slick.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":10},\"to\":{\"line\":5,\"ch\":10}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Mage Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mage Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Ice Slick",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Ice Slick.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":15},\"to\":{\"line\":1,\"ch\":15}}}"
+                },
+                {
+                  "title": "Glamour",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Glamour.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":13},\"to\":{\"line\":1,\"ch\":13}}}"
+                },
+                {
+                  "title": "Freshen Air",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Freshen Air.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":17},\"to\":{\"line\":1,\"ch\":17}}}"
+                },
+                {
+                  "title": "Earthen Spike",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Earthen Spike.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":19},\"to\":{\"line\":1,\"ch\":19}}}"
+                },
+                {
+                  "title": "Downpour",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Downpour.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":13},\"to\":{\"line\":8,\"ch\":13}}}"
+                },
+                {
+                  "title": "Template - Spell",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Abilities/Template - Spell.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":7},\"to\":{\"line\":8,\"ch\":7}}}"
+                },
+                {
+                  "title": "Dormyn's Fog",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Dormyn's Fog.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":3},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Dispel",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Dispel.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":3},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Diagnostic Spell",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Diagnostic Spell.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":3},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Curse of Sedna",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Curse of Sedna.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":3},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Control Water",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Control Water.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":3},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Curse of Sedna",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Curse of Sedna.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Control Water",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Control Water.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":11},\"to\":{\"line\":7,\"ch\":11}}}"
+                },
+                {
+                  "title": "Codi Bywyd",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Codi Bywyd.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":3},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Cenlly Graig",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Cenlly Graig.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Cary's Hail",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Cary's Hail.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Cenlly Graig",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Cenlly Graig.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":8},\"to\":{\"line\":6,\"ch\":8}}}"
+                },
+                {
+                  "title": "Codi Bywyd",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Codi Bywyd.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":13},\"to\":{\"line\":6,\"ch\":13}}}"
+                },
+                {
+                  "title": "Cenlly Graig",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Cenlly Graig.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":8},\"to\":{\"line\":2,\"ch\":8}}}"
+                },
+                {
+                  "title": "Codi Bywyd",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Codi Bywyd.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":10},\"to\":{\"line\":2,\"ch\":10}}}"
+                },
+                {
+                  "title": "Cenlly Graig",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Cenlly Graig.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":3},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Cary's Hail",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Cary's Hail.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":7},\"to\":{\"line\":6,\"ch\":7}}}"
+                },
+                {
+                  "title": "Cadfan’s Grasp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Cadfan’s Grasp.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":6},\"to\":{\"line\":1,\"ch\":6}}}"
+                },
+                {
+                  "title": "Adenydd",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Adenydd.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Aenye",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Aenye.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Afan's Mirror",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Afan's Mirror.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":8},\"to\":{\"line\":13,\"ch\":8}}}"
+                },
+                {
+                  "title": "Aine Verseos",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Aine Verseos.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":84},\"to\":{\"line\":3,\"ch\":84}}}"
+                },
+                {
+                  "title": "Air Pocket",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Air Pocket.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":12},\"to\":{\"line\":12,\"ch\":12}}}"
+                },
+                {
+                  "title": "Blinding Dust",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Blinding Dust.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":130},\"to\":{\"line\":3,\"ch\":130}}}"
+                },
+                {
+                  "title": "Brand of Fire",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Brand of Fire.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":8},\"to\":{\"line\":3,\"ch\":8}}}"
+                },
+                {
+                  "title": "Bronwyn's Gust",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Bronwyn's Gust.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":324},\"to\":{\"line\":3,\"ch\":324}}}"
+                },
+                {
+                  "title": "Brand of Fire",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Brand of Fire.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":13},\"to\":{\"line\":8,\"ch\":13}}}"
+                },
+                {
+                  "title": "Blinding Dust",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Blinding Dust.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":13},\"to\":{\"line\":8,\"ch\":13}}}"
+                },
+                {
+                  "title": "Air Pocket",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Air Pocket.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":13},\"to\":{\"line\":8,\"ch\":13}}}"
+                },
+                {
+                  "title": "Aine Verseos",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Aine Verseos.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":10},\"to\":{\"line\":7,\"ch\":10}}}"
+                },
+                {
+                  "title": "Air Pocket",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Air Pocket.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Afan's Mirror",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Afan's Mirror.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":13},\"to\":{\"line\":8,\"ch\":13}}}"
+                },
+                {
+                  "title": "Aenye",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Aenye.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Adenydd",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Adenydd.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":13},\"to\":{\"line\":8,\"ch\":13}}}"
+                },
+                {
+                  "title": "Aenye",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Aenye.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":13},\"to\":{\"line\":8,\"ch\":13}}}"
+                },
+                {
+                  "title": "Adenydd",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Adenydd.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Afan's Mirror",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Afan's Mirror.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":13},\"to\":{\"line\":6,\"ch\":13}}}"
+                },
+                {
+                  "title": "Adenydd",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Adenydd.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
+                },
+                {
+                  "title": "Cadfan’s Grasp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Cadfan’s Grasp.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":17},\"to\":{\"line\":5,\"ch\":17}}}"
+                },
+                {
+                  "title": "Cary's Hail",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Water/Cary's Hail.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":27},\"to\":{\"line\":5,\"ch\":27}}}"
+                },
+                {
+                  "title": "Afan's Mirror",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Afan's Mirror.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Aenye",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Aenye.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Cenlly Graig",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Cenlly Graig.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Adenydd",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Adenydd.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Adenydd",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Adenydd.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":9},\"to\":{\"line\":7,\"ch\":9}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Air Pocket",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Air Pocket.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Adenydd",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Adenydd.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Air Pocket",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Air Pocket.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Adenydd",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Adenydd.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Air Pocket",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Air Pocket.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Air Pocket",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Air Pocket.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Air Pocket",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Air Pocket.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":17},\"to\":{\"line\":13,\"ch\":17}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Adenydd",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Adenydd.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3. Magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/3. Magic.md\"}}",
+                  "eState": "{}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rules/Magic/Novice Spells/Air.md",
+                "file": "Rules/3. Magic/Mage Spells/Air/Air.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -420,23 +2060,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9384197556b52520",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "BC-matrix",
-              "state": {}
-            }
-          },
-          {
             "id": "07147bb90d20abea",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -451,7 +2074,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rules/Magic/Novice Spells/Air.md",
+                "file": "Rules/3. Magic/Mage Spells/Air/Air.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -477,7 +2100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rules/Magic/Novice Spells/Air.md",
+                "file": "Rules/3. Magic/Mage Spells/Air/Air.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -518,42 +2141,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rules/Magic/Novice Spells/Air.md"
+                "file": "Rules/3. Magic/Mage Spells/Air/Air.md"
               }
-            }
-          },
-          {
-            "id": "f4f5e6747190085c",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "BC-tree",
-              "state": {}
-            }
-          },
-          {
-            "id": "1362acd5347e06cc",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "DICE_ROLLER_VIEW",
-              "state": {}
             }
           },
           {
@@ -570,23 +2159,6 @@
             },
             "state": {
               "type": "FANTASY_CALENDAR",
-              "state": {}
-            }
-          },
-          {
-            "id": "132a89af3fc6a948",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "initiative-tracker-view",
               "state": {}
             }
           },
@@ -608,7 +2180,75 @@
             }
           },
           {
-            "id": "d06576477fdb006c",
+            "id": "15ebd8bf1aa2ca00",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {}
+            }
+          },
+          {
+            "id": "37b979e602eab47a",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "c85fd402aed2173f",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "98b507ad044fdd49",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "BC-tree",
+              "state": {}
+            }
+          },
+          {
+            "id": "53069531de2400b3",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -631,17 +2271,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "f5e14393797d0e33",
+  "active": "99bb31c07aab49ac",
   "lastOpenFiles": [
-    "Rules/Magic/Novice Spells/Earth.md",
-    "Rules/Magic/Novice Spells/Fire.md",
-    "Rules/Magic/Novice Spells/Mixed Element.md",
-    "Rules/Magic/Novice Spells/Water.md",
-    "Rules/Magic/Novice Spells/Air.md",
-    "Rules/Magic/Mage Spells.md",
-    "Rules/Magic/Magic.md",
-    "Rules/Magic/Novice Spells.md",
-    "z_Templates/2_Mechanics Gallery/Abilities/Template - Spell.md",
-    "z_Templates/2_Mechanics Gallery/Mechanics Gallery.md"
+    "Rules/3. Magic/Mage Spells/Spell Database.md",
+    "Rules/3. Magic/Mage Spells/Novice Spells.md",
+    "Rules/3. Magic/Mage Spells/Water/Water.md",
+    "Rules/3. Magic/Mage Spells/Mixed Element/Mixed Element.md",
+    "Rules/3. Magic/Mage Spells/Fire/Fire.md",
+    "Rules/3. Magic/Mage Spells/Earth/Earth.md",
+    "Rules/3. Magic/Mage Spells/Air/Air.md",
+    "Rules/3. Magic/Mage Spells/Air/Adenydd.md",
+    "Rules/2. Gear/Armor/Armor List/Head.md",
+    "Rules/2. Gear/Armor/Armor List/Armor List.md"
   ]
 }

@@ -253,8 +253,8 @@
   "showAdvanced": true,
   "version": {
     "major": 2,
-    "minor": 21,
-    "patch": 8
+    "minor": 22,
+    "patch": 1
   },
   "paths": [],
   "autoParse": false,
