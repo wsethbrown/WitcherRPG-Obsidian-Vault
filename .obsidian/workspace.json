@@ -18,6 +18,54 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Mixed Element",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Mixed Element/Mixed Element.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":71},\"to\":{\"line\":2,\"ch\":71}}}"
+                },
+                {
+                  "title": "Fire",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Fire/Fire.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":71},\"to\":{\"line\":2,\"ch\":71}}}"
+                },
+                {
+                  "title": "Earth",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Earth/Earth.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":71},\"to\":{\"line\":2,\"ch\":71}},\"scroll\":0}"
+                },
+                {
+                  "title": "Air",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Air.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":612},\"to\":{\"line\":7,\"ch\":612}},\"scroll\":0.27586206896551724}"
+                },
+                {
+                  "title": "Spell Database",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Spell Database.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Novice Spells",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Novice Spells.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Spell Database",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Spell Database.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Air",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Air/Air.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "Spell Database",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/3. Magic/Mage Spells/Spell Database.md\"}}",
@@ -1966,7 +2014,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rules/3. Magic/Mage Spells/Air/Air.md",
+                "file": "Rules/3. Magic/Mage Spells/Water/Water.md",
                 "mode": "source",
                 "source": false
               }
@@ -2074,7 +2122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rules/3. Magic/Mage Spells/Air/Air.md",
+                "file": "Rules/3. Magic/Mage Spells/Water/Water.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -2100,7 +2148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rules/3. Magic/Mage Spells/Air/Air.md",
+                "file": "Rules/3. Magic/Mage Spells/Water/Water.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -2141,7 +2189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rules/3. Magic/Mage Spells/Air/Air.md"
+                "file": "Rules/3. Magic/Mage Spells/Water/Water.md"
               }
             }
           },
@@ -2273,15 +2321,15 @@
   },
   "active": "99bb31c07aab49ac",
   "lastOpenFiles": [
-    "Rules/3. Magic/Mage Spells/Spell Database.md",
-    "Rules/3. Magic/Mage Spells/Novice Spells.md",
-    "Rules/3. Magic/Mage Spells/Water/Water.md",
     "Rules/3. Magic/Mage Spells/Mixed Element/Mixed Element.md",
     "Rules/3. Magic/Mage Spells/Fire/Fire.md",
     "Rules/3. Magic/Mage Spells/Earth/Earth.md",
     "Rules/3. Magic/Mage Spells/Air/Air.md",
-    "Rules/3. Magic/Mage Spells/Air/Adenydd.md",
-    "Rules/2. Gear/Armor/Armor List/Head.md",
-    "Rules/2. Gear/Armor/Armor List/Armor List.md"
+    "Rules/3. Magic/Mage Spells/Spell Database.md",
+    "Rules/3. Magic/Mage Spells/Novice Spells.md",
+    "Rules/3. Magic/Mage Spells/Mixed Element/Eilhart's Technique.md",
+    "Rules/3. Magic/Mage Spells/Mixed Element/Teleportation.md",
+    "Rules/3. Magic/Mage Spells/Earth/Elgan's Theory.md",
+    "Rules/3. Magic/Mage Spells/Earth/Rhwystr Graig.md"
   ]
 }
