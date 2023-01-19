@@ -4,126 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4d38569b3cd646c1",
+        "id": "8c55c643fba648c4",
         "type": "tabs",
         "children": [
           {
-            "id": "b12026893d5672c8",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Deserter's Camp",
-                  "icon": "lucide-layout-dashboard",
-                  "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"Adventures/A Lost Love/Maps/Deserter's Camp.canvas\",\"viewState\":{\"x\":-144.00999999999988,\"y\":-9.28,\"zoom\":0,\"snapToGrid\":false}}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "The Lord's Manor",
-                  "icon": "lucide-layout-dashboard",
-                  "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"Adventures/A Lost Love/Maps/The Lord's Manor.canvas\",\"viewState\":{\"x\":-43.239999999999974,\"y\":-9.300000000000008,\"zoom\":0,\"snapToGrid\":false}}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Lord Kozonn's Room",
-                  "icon": "lucide-layout-dashboard",
-                  "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"Adventures/A Lost Love/Maps/Lord Kozonn's Room.canvas\",\"viewState\":{\"x\":0,\"y\":0,\"zoom\":0,\"snapToGrid\":false}}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "The Lord's Manor",
-                  "icon": "lucide-layout-dashboard",
-                  "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"Adventures/A Lost Love/Maps/The Lord's Manor.canvas\",\"viewState\":{\"x\":0,\"y\":0,\"zoom\":0,\"snapToGrid\":false}}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Lord Kozonn's Room",
-                  "icon": "lucide-layout-dashboard",
-                  "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"Adventures/A Lost Love/Maps/Lord Kozonn's Room.canvas\",\"viewState\":{\"x\":0,\"y\":0,\"zoom\":0,\"snapToGrid\":false}}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Wolveswater",
-                  "icon": "lucide-layout-dashboard",
-                  "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"Adventures/A Lost Love/Maps/Wolveswater.canvas\",\"viewState\":{\"x\":-164.5,\"y\":-124.5,\"zoom\":-0.3916746537590441,\"snapToGrid\":false}}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "The Lord's Manor",
-                  "icon": "lucide-layout-dashboard",
-                  "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"Adventures/A Lost Love/Maps/The Lord's Manor.canvas\",\"viewState\":{\"x\":0,\"y\":0,\"zoom\":0,\"snapToGrid\":false}}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Wolveswater",
-                  "icon": "lucide-layout-dashboard",
-                  "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"Adventures/A Lost Love/Maps/Wolveswater.canvas\",\"viewState\":{\"x\":-130.04133172089848,\"y\":-169.2199828513653,\"zoom\":-0.5058220250935603,\"snapToGrid\":false}}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Wraiths",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Spectres/Wraiths.md\",\"mode\":\"preview\",\"source\":false}}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "Iva - Noonwraith",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Adventures/A Lost Love/Bestiary/Iva - Noonwraith.md\",\"mode\":\"preview\",\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Noonwraith",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Spectres/Noonwraith.md\",\"mode\":\"preview\",\"source\":false}}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "6. Bestiary",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/6. Bestiary.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":13},\"to\":{\"line\":0,\"ch\":13}},\"scroll\":0.6079136690647482}"
-                },
-                {
-                  "title": "Witcher_Symbols",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/zz_assets/Witcher_Symbols.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":4},\"to\":{\"line\":10,\"ch\":20}}}"
-                },
-                {
-                  "title": "6. Bestiary",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/6. Bestiary.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":5},\"to\":{\"line\":4,\"ch\":5}}}"
-                },
-                {
-                  "title": "5. Combat",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/5. Combat/5. Combat.md\",\"mode\":\"preview\",\"source\":false}}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Adventures/A Lost Love/Maps/The Haunted Willow.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0,
-                  "snapToGrid": false
-                }
-              }
-            }
-          },
-          {
-            "id": "731c3147a6675025",
+            "id": "534bb9b4cfc13ecd",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -241,7 +126,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Adventures/A Lost Love/Maps/The Haunted Willow.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -267,7 +151,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Adventures/A Lost Love/Maps/The Haunted Willow.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -307,9 +190,7 @@
             },
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Adventures/A Lost Love/Maps/The Haunted Willow.canvas"
-              }
+              "state": {}
             }
           },
           {
@@ -452,11 +333,14 @@
       "import-foundry:Import Foundry": false,
       "obsidian-import-json:JSON/CSV Importer": false,
       "templater-obsidian:Templater": false,
-      "dbfolder:Create a new database table": false
+      "dbfolder:Create a new database table": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "4a42ab84383571ae",
+  "active": "534bb9b4cfc13ecd",
   "lastOpenFiles": [
+    "Rules/3. Magic/Mage Spells/3. Magic.md",
+    "Adventures/A Lost Love/Maps/The Haunted Willow.canvas",
     "Adventures/A Lost Love/Maps/Deserter's Camp.canvas",
     "Adventures/A Lost Love/Maps/The Lord's Manor.canvas",
     "Adventures/A Lost Love/Maps/Lord Kozonn's Room.canvas",
@@ -464,8 +348,6 @@
     "Rules/6. Bestiary/Spectres/Wraiths.md",
     "Adventures/A Lost Love/Bestiary/Iva - Noonwraith.md",
     "Rules/6. Bestiary/Spectres/Noonwraith.md",
-    "Rules/6. Bestiary/6. Bestiary.md",
-    "z_Templates/zz_assets/Witcher_Symbols.md",
-    "Rules/5. Combat/5. Combat.md"
+    "Rules/6. Bestiary/6. Bestiary.md"
   ]
 }
