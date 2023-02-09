@@ -4861,7 +4861,7 @@ var UserNotifier;
 var import_obsidian12 = require("obsidian");
 
 // ui_setting_shortcutFiles.ts
-var import_obsidian4 = require("obsidian");
+var import_obsidian6 = require("obsidian");
 
 // ui_Popups.ts
 var import_obsidian2 = require("obsidian");
@@ -5126,7 +5126,7 @@ var SettingUi_Helper;
 })(SettingUi_Helper || (SettingUi_Helper = {}));
 
 // LibraryImporter.ts
-var import_obsidian3 = require("obsidian");
+var import_obsidian5 = require("obsidian");
 
 // ui_InputBlocker.ts
 var InputBlocker;
@@ -5154,378 +5154,8 @@ var InputBlocker;
   InputBlocker2.setEnabled = setEnabled;
 })(InputBlocker || (InputBlocker = {}));
 
-// LibraryImporter.ts
-var REGEX_LIBRARY_README_SHORTCUT_FILE = /### ([_a-zA-Z0-9]+.sfile)\n(_\(disabled by default)?/g;
-var DEFAULT_REMOTE_ADDRESS = "https://raw.githubusercontent.com/jon-heard/obsidian-inline-scripts-library/main";
-var DEFAULT_LOCAL_ADDRESS = "support/inlineScripts";
-var FILE_README = "README.md";
-var PRE_REFACTOR_SFILES = ["tejs_state", "tejs_lists", "tejs_mythicv2", "tejs_mythicgme", "tejs_une", "tejs_adventurecrafter", "tejs_rpgtools", "tejs_clips", "tejs_arrows", "tejs_lipsum", "tejs_support"];
-var LibraryImporter;
-((LibraryImporter2) => {
-  function run() {
-    run_internal();
-  }
-  LibraryImporter2.run = run;
-  async function run_internal(useCustomSource) {
-    const plugin = InlineScriptsPlugin.getInstance();
-    InputBlocker.setEnabled(true);
-    let addressRemote = DEFAULT_REMOTE_ADDRESS;
-    if (useCustomSource) {
-      addressRemote = await Popups.getInstance().input(
-        "What is the library source?",
-        DEFAULT_REMOTE_ADDRESS
-      );
-      if (addressRemote === null) {
-        InputBlocker.setEnabled(false);
-        return;
-      }
-    }
-    let readmeContent;
-    try {
-      readmeContent = await window.request({
-        url: addressRemote + "/" + FILE_README,
-        method: "GET",
-        headers: { "Cache-Control": "no-cache" }
-      });
-    } catch (e) {
-      UserNotifier.run({
-        popupMessage: "Library importing failed.\nUnable to connect.",
-        consoleMessage: "Library importing failed.",
-        messageType: e.message
-      });
-      InputBlocker.setEnabled(false);
-      return;
-    }
-    readmeContent = readmeContent.replaceAll("\r", "");
-    let libShortcutFiles = [];
-    let disabledShortcutFiles = [];
-    for (const match of readmeContent.matchAll(REGEX_LIBRARY_README_SHORTCUT_FILE)) {
-      libShortcutFiles.push(match[1]);
-      if (match[2]) {
-        disabledShortcutFiles.push(match[1]);
-      }
-    }
-    const libSFiles_currentAndPrerefactor = libShortcutFiles.concat(PRE_REFACTOR_SFILES);
-    const sfNoteAddresses = SettingUi_ShortcutFiles.getContents().shortcutFiles.map((f) => f.address);
-    const sfNoteNames = sfNoteAddresses.map((s) => s.slice(s.lastIndexOf("/") + 1, -3));
-    const sfNotePaths = sfNoteAddresses.map((s, i) => {
-      return s.slice(0, s.length - sfNoteNames[i].length - 4);
-    });
-    let commonPath = null;
-    for (let i = 0; i < sfNoteAddresses.length; i++) {
-      if (libSFiles_currentAndPrerefactor.includes(sfNoteNames[i])) {
-        if (commonPath === null) {
-          commonPath = sfNotePaths[i];
-        } else {
-          if (sfNotePaths[i] !== commonPath) {
-            commonPath = null;
-            break;
-          }
-        }
-      }
-    }
-    const libDstSuggestions = Object.keys(plugin.app.vault.fileMap).filter((v) => plugin.app.vault.fileMap[v].children).filter((v) => v !== "/");
-    let libraryDestinationPath = await Popups.getInstance().input(
-      "What path should the library be placed in?",
-      commonPath || DEFAULT_LOCAL_ADDRESS,
-      libDstSuggestions
-    );
-    if (libraryDestinationPath === null) {
-      InputBlocker.setEnabled(false);
-      return;
-    }
-    if (libraryDestinationPath.trim().toLowerCase() === "customlibsrc") {
-      run_internal(true);
-      return;
-    }
-    libraryDestinationPath = (0, import_obsidian3.normalizePath)(libraryDestinationPath);
-    disabledShortcutFiles = disabledShortcutFiles.map((v) => libraryDestinationPath + "/" + v + ".md");
-    if (!plugin.app.vault.fileMap.hasOwnProperty(libraryDestinationPath)) {
-      plugin.app.vault.createFolder(libraryDestinationPath);
-    }
-    for (const libShortcutFile of libShortcutFiles) {
-      let content = await window.request({
-        url: addressRemote + "/" + libShortcutFile + ".md",
-        method: "GET",
-        headers: { "Cache-Control": "no-cache" }
-      });
-      let filename = libraryDestinationPath + "/" + libShortcutFile + ".md";
-      let file = plugin.app.vault.fileMap[filename];
-      if (file) {
-        await plugin.app.vault.modify(file, content);
-      } else {
-        await plugin.app.vault.create(filename, content);
-      }
-    }
-    for (let i = 0; i < sfNoteAddresses.length; i++) {
-      if (PRE_REFACTOR_SFILES.includes(sfNoteNames[i])) {
-        plugin.app.vault.delete(plugin.app.vault.fileMap[sfNoteAddresses[i]]);
-      }
-    }
-    plugin.settings.shortcutFiles = SettingUi_ShortcutFiles.getContents().shortcutFiles;
-    for (const libShortcutFile of libSFiles_currentAndPrerefactor) {
-      const shortcutFileAddresses = plugin.settings.shortcutFiles.map((f) => f.address);
-      const libAddress = libraryDestinationPath + "/" + libShortcutFile + ".md";
-      const index = shortcutFileAddresses.indexOf(libAddress);
-      if (index >= 0) {
-        if (!plugin.settings.shortcutFiles[index].enabled) {
-          disabledShortcutFiles.push(libAddress);
-        }
-        plugin.settings.shortcutFiles.splice(index, 1);
-      }
-    }
-    for (const libShortcutFile of libShortcutFiles) {
-      const address = libraryDestinationPath + "/" + libShortcutFile + ".md";
-      plugin.settings.shortcutFiles.push(
-        {
-          enabled: !disabledShortcutFiles.includes(address),
-          address
-        }
-      );
-    }
-    InputBlocker.setEnabled(false);
-    InlineScriptsPlugin.getInstance().settingsUi.display();
-  }
-})(LibraryImporter || (LibraryImporter = {}));
-
-// ui_setting_shortcutFiles.ts
-var SettingUi_ShortcutFiles = class {
-  static create(parent, settings, app2) {
-    return this.create_internal(parent, settings, app2);
-  }
-  static getContents() {
-    return this.getContents_internal();
-  }
-  static create_internal(parent, settings, app2) {
-    this._vaultFiles = [];
-    for (const key in app2.vault.fileMap) {
-      if (key.endsWith(".md")) {
-        this._vaultFiles.push(key.slice(0, -3));
-      }
-    }
-    new import_obsidian4.Setting(parent).setName("Shortcut-files").setDesc("Addresses of notes containing shortcut-file content.").addButton((button) => {
-      return button.setButtonText("Add shortcut-file").setClass("iscript_spacedUi").onClick(() => this.addShortcutFileUi(app2));
-    }).addButton((button) => {
-      return button.setButtonText("Import full library").setClass("iscript_spacedUi").onClick(() => {
-        LibraryImporter.run();
-      });
-    });
-    this._shortcutFileUis = parent.createEl("div", { cls: "iscript_shortcutFiles" });
-    this._shortcutFileUis.createEl("div", {
-      text: "Red means the file does not exist.",
-      cls: "setting-item-description iscript_extraMessage iscript_onSiblings"
-    });
-    for (const shortcutFile of settings.shortcutFiles) {
-      this.addShortcutFileUi(app2, shortcutFile);
-    }
-  }
-  static getContents_internal() {
-    let result = [];
-    for (const shortcutFileUi of this._shortcutFileUis.childNodes) {
-      if (shortcutFileUi.classList.contains("iscript_shortcutFile") && shortcutFileUi.childNodes[1].value) {
-        result.push(
-          {
-            enabled: shortcutFileUi.childNodes[0].classList.contains("is-enabled"),
-            address: (0, import_obsidian4.normalizePath)(shortcutFileUi.childNodes[1].value + ".md")
-          }
-        );
-      }
-    }
-    return { shortcutFiles: result };
-  }
-  static addShortcutFileUi(app2, shortcutFile) {
-    let fileListUiId = "fileList" + this._shortcutFileUis.childNodes.length;
-    let g = this._shortcutFileUis.createEl("div", { cls: "iscript_shortcutFile" });
-    let e = g.createEl("div", { cls: "checkbox-container iscript_toggle" });
-    e.toggleClass("is-enabled", shortcutFile ? shortcutFile.enabled : true);
-    e.addEventListener("click", function() {
-      this.classList.toggle("is-enabled");
-    });
-    e = g.createEl("input", { cls: "iscript_shortcutFileAddress" });
-    e.setAttr("type", "text");
-    e.setAttr("placeholder", "Filename");
-    e.setAttr("list", fileListUiId);
-    e.settings = this;
-    e.addEventListener("input", function() {
-      const isBadInput = this.value && !this.settings._vaultFiles.contains(this.value);
-      this.toggleClass("iscript_badInput", isBadInput);
-    });
-    if (shortcutFile) {
-      e.setAttr("value", shortcutFile.address.slice(0, -3));
-    }
-    e.dispatchEvent(new Event("input"));
-    e = g.createEl("datalist");
-    e.id = fileListUiId;
-    for (const file of this._vaultFiles) {
-      e.createEl("option").value = file;
-    }
-    e = g.createEl("button", { cls: "iscript_upButton iscript_spacedUi" });
-    e.group = g;
-    e.onclick = SettingUi_Helper.upButtonClicked;
-    e.listOffset = 1;
-    e = g.createEl("button", { cls: "iscript_downButton iscript_spacedUi" });
-    e.group = g;
-    e.onclick = SettingUi_Helper.downButtonClicked;
-    e = g.createEl("button", { cls: "iscript_deleteButton iscript_spacedUi" });
-    e.group = g;
-    e.onclick = SettingUi_Helper.deleteButtonClicked;
-    e.app = app2;
-    e.typeTitle = "shortcut-file";
-  }
-};
-
-// ui_setting_shortcuts.ts
-var import_obsidian8 = require("obsidian");
-
-// ExternalRunner.ts
-var import_obsidian5 = require("obsidian");
-var exec = null;
-var ExternalRunner;
-((ExternalRunner2) => {
-  async function run(command, failSilently, dontFixSlashes) {
-    if (import_obsidian5.Platform.isMobile) {
-      UserNotifier.run(
-        {
-          popupMessage: 'Unauthorized "runExternal" call',
-          consoleMessage: 'Unauthorized "runExternal" call (not available on mobile):\nrunExternal("' + command + '")',
-          messageType: "RUNEXTERNAL-ERROR",
-          consoleHasDetails: true
-        }
-      );
-      return null;
-    } else if (!exec) {
-      try {
-        exec = require("util").promisify(require("child_process").exec);
-      } catch (e) {
-        console.error('External runner failed to load "child_process": ' + e);
-      }
-    }
-    const plugin = InlineScriptsPlugin.getInstance();
-    if (!plugin.settings.allowExternal) {
-      UserNotifier.run(
-        {
-          popupMessage: 'Unauthorized "runExternal" call',
-          consoleMessage: 'Unauthorized "runExternal" call (disallowed by user):\nrunExternal("' + command + '")\nNOTE: User can allow runExternal by turning on "Allow external" in the settings.',
-          messageType: "RUNEXTERNAL-ERROR",
-          consoleHasDetails: true
-        }
-      );
-      return null;
-    }
-    if (!command) {
-      return null;
-    }
-    if (navigator.appVersion.includes("Windows") && !dontFixSlashes) {
-      command = command.replaceAll("/", "\\");
-    }
-    const vaultDir = plugin.app.fileManager.vault.adapter.basePath;
-    try {
-      const result = (await exec(command, { cwd: vaultDir })).stdout;
-      return (result + "").replaceAll("\r", "");
-    } catch (e) {
-      if (!failSilently) {
-        UserNotifier.run(
-          {
-            popupMessage: 'Failed "runExternal" call',
-            consoleMessage: 'Failed "runExternal" call:\ncurDir: ' + vaultDir + "\n" + e.message,
-            messageType: "RUNEXTERNAL-ERROR",
-            consoleHasDetails: true
-          }
-        );
-      }
-      return null;
-    }
-  }
-  ExternalRunner2.run = run;
-})(ExternalRunner || (ExternalRunner = {}));
-
-// AutoAsyncWrapper.ts
-var REGEX_AWAIT_TEMPLATE = "(?:~1~)[s]*\\(";
-var REGEX_ASYNC = /function[\s]*\(/g;
-var UNNESTABLE_BLOCK_PAIRS = Object.freeze(
-  {
-    '"': '"',
-    "'": "'",
-    "`": "`"
-  }
-);
-var NESTABLE_BLOCK_PAIRS = Object.freeze(
-  {
-    "(": ")",
-    "[": "]",
-    "{": "}"
-  }
-);
-var AutoAsyncWrapper;
-((AutoAsyncWrapper2) => {
-  function initialize(toAwaitWrap) {
-    _regex_await = new RegExp(REGEX_AWAIT_TEMPLATE.replace("~1~", toAwaitWrap.join("|")), "g");
-  }
-  AutoAsyncWrapper2.initialize = initialize;
-  function run(source) {
-    return run_internal(source);
-  }
-  AutoAsyncWrapper2.run = run;
-  let _regex_await;
-  function run_internal(source) {
-    source = addPrefixToAllInstances(source, "async ", REGEX_ASYNC);
-    source = wrapPrefixToAllInstances(source, "await ", _regex_await);
-    return source;
-  }
-  function addPrefixToAllInstances(source, prefix, regex_searchToWrap) {
-    let matchPositions = [];
-    for (const match of source.matchAll(regex_searchToWrap)) {
-      matchPositions.push({ start: match.index, end: match.index + match[0].length });
-    }
-    matchPositions.reverse();
-    for (const matchPosition of matchPositions) {
-      source = source.slice(0, matchPosition.start) + prefix + source.slice(matchPosition.start);
-    }
-    return source;
-  }
-  function wrapPrefixToAllInstances(source, prefix, regex_searchToWrap) {
-    let matchPositions = [];
-    for (const match of source.matchAll(regex_searchToWrap)) {
-      matchPositions.push({ start: match.index, end: match.index + match[0].length });
-    }
-    matchPositions.reverse();
-    for (const matchPosition of matchPositions) {
-      const stack = [")"];
-      let index = matchPosition.end;
-      const sLength = source.length;
-      let isNestable = true;
-      while (index < sLength) {
-        if (source[index] === stack[stack.length - 1] && source[index - 1] != "\\") {
-          stack.pop();
-          isNestable = true;
-          if (!stack.length) {
-            break;
-          }
-        } else if (isNestable) {
-          let pairing = UNNESTABLE_BLOCK_PAIRS[source[index]];
-          if (pairing) {
-            stack.push(pairing);
-            isNestable = false;
-          } else {
-            pairing = NESTABLE_BLOCK_PAIRS[source[index]];
-            if (pairing) {
-              stack.push(pairing);
-            }
-          }
-        }
-        index++;
-      }
-      source = source.slice(0, matchPosition.start) + "(" + prefix + source.slice(matchPosition.start, index) + ")" + source.slice(index);
-    }
-    return source;
-  }
-})(AutoAsyncWrapper || (AutoAsyncWrapper = {}));
-
-// ShortcutExpander.ts
-var import_acorn = __toESM(require_acorn());
-
 // HelperFncs.ts
-var import_obsidian6 = require("obsidian");
+var import_obsidian4 = require("obsidian");
 
 // ui_dragReorder.ts
 var DragReorder = class {
@@ -5620,6 +5250,68 @@ var DragReorder = class {
   }
 };
 
+// ExternalRunner.ts
+var import_obsidian3 = require("obsidian");
+var exec = null;
+var ExternalRunner;
+((ExternalRunner2) => {
+  async function run(command, failSilently, dontFixSlashes) {
+    if (import_obsidian3.Platform.isMobile) {
+      UserNotifier.run(
+        {
+          popupMessage: 'Unauthorized "runExternal" call',
+          consoleMessage: 'Unauthorized "runExternal" call (not available on mobile):\nrunExternal("' + command + '")',
+          messageType: "RUNEXTERNAL-ERROR",
+          consoleHasDetails: true
+        }
+      );
+      return null;
+    } else if (!exec) {
+      try {
+        exec = require("util").promisify(require("child_process").exec);
+      } catch (e) {
+        console.error('External runner failed to load "child_process": ' + e);
+      }
+    }
+    const plugin = InlineScriptsPlugin.getInstance();
+    if (!plugin.settings.allowExternal) {
+      UserNotifier.run(
+        {
+          popupMessage: 'Unauthorized "runExternal" call',
+          consoleMessage: 'Unauthorized "runExternal" call (disallowed by user):\nrunExternal("' + command + '")\nNOTE: User can allow runExternal by turning on "Allow external" in the settings.',
+          messageType: "RUNEXTERNAL-ERROR",
+          consoleHasDetails: true
+        }
+      );
+      return null;
+    }
+    if (!command) {
+      return null;
+    }
+    if (navigator.appVersion.includes("Windows") && !dontFixSlashes) {
+      command = command.replaceAll("/", "\\");
+    }
+    const vaultDir = plugin.app.fileManager.vault.adapter.basePath;
+    try {
+      const result = (await exec(command, { cwd: vaultDir })).stdout;
+      return (result + "").replaceAll("\r", "");
+    } catch (e) {
+      if (!failSilently) {
+        UserNotifier.run(
+          {
+            popupMessage: 'Failed "runExternal" call',
+            consoleMessage: 'Failed "runExternal" call:\ncurDir: ' + vaultDir + "\n" + e.message,
+            messageType: "RUNEXTERNAL-ERROR",
+            consoleHasDetails: true
+          }
+        );
+      }
+      return null;
+    }
+  }
+  ExternalRunner2.run = run;
+})(ExternalRunner || (ExternalRunner = {}));
+
 // HelperFncs.ts
 (function(n, t) {
   "use strict";
@@ -5636,6 +5328,9 @@ var HelperFncs;
     Object.assign(
       window._inlineScripts.inlineScripts.HelperFncs,
       {
+        runExternal: ExternalRunner.run,
+        print: UserNotifier.getFunction_print(),
+        popups: Popups.getInstance(),
         confirmObjectPath,
         getLeavesForFile,
         addToNote,
@@ -5643,16 +5338,30 @@ var HelperFncs;
         callEventListenerCollection,
         addCss,
         removeCss,
-        ItemView: import_obsidian6.ItemView,
-        addIcon: import_obsidian6.addIcon,
+        ItemView: import_obsidian4.ItemView,
+        addIcon: import_obsidian4.addIcon,
         DragReorder,
         unblock,
         expFormat,
-        expUnformat
+        expUnformat,
+        getSettings,
+        registerView,
+        fileWrite,
+        asyncFilter,
+        asyncMap,
+        asyncForEach
       }
     );
   }
   HelperFncs2.staticConstructor = staticConstructor;
+  function versionCompare(version1, version2) {
+    return versionCompare_internal(version1, version2);
+  }
+  HelperFncs2.versionCompare = versionCompare;
+  async function fileWrite(filepath, content) {
+    await fileWrite_internal(filepath, content);
+  }
+  HelperFncs2.fileWrite = fileWrite;
   function confirmObjectPath(path, leaf) {
     confirmObjectPath_internal(path, leaf);
   }
@@ -5693,6 +5402,42 @@ var HelperFncs;
     return expUnformat_internal(expansion, skipPrefix, skipLinePrefix, skipSuffix);
   }
   HelperFncs2.expUnformat = expUnformat;
+  function getSettings() {
+    return Object.assign({}, InlineScriptsPlugin.getInstance().settings);
+  }
+  HelperFncs2.getSettings = getSettings;
+  function registerView(id, viewCreator) {
+    return InlineScriptsPlugin.getInstance().registerView(id, viewCreator);
+  }
+  HelperFncs2.registerView = registerView;
+  async function asyncFilter(arr, fnc) {
+    return await asyncFilter_internal(arr, fnc);
+  }
+  HelperFncs2.asyncFilter = asyncFilter;
+  async function asyncMap(arr, fnc) {
+    return await asyncMap_internal(arr, fnc);
+  }
+  HelperFncs2.asyncMap = asyncMap;
+  async function asyncForEach(arr, fnc) {
+    return await asyncForEach_internal(arr, fnc);
+  }
+  HelperFncs2.asyncForEach = asyncForEach;
+  function versionCompare_internal(version1, version2) {
+    const convert = (v) => v.split(".").map((x) => x.padStart(5, "0")).join(".");
+    version1 = convert(version1);
+    version2 = convert(version2);
+    return version1.localeCompare(version2);
+  }
+  ;
+  async function fileWrite_internal(filepath, content) {
+    const plugin = InlineScriptsPlugin.getInstance();
+    const file = plugin.app.vault.fileMap[filepath];
+    if (file) {
+      await plugin.app.vault.modify(file, content);
+    } else {
+      await plugin.app.vault.create(filepath, content);
+    }
+  }
   function confirmObjectPath_internal(path, leaf) {
     const pathChain = path.split(".");
     let parent = window;
@@ -5739,7 +5484,7 @@ var HelperFncs;
       let content = leaves[0].view.editor.getValue();
       const oldContentSize = content.length;
       content = content.slice(0, targetPosition.start) + toAdd + content.slice(targetPosition.end);
-      leaves[0].view.editor.setValue(content);
+      await leaves[0].view.editor.setValue(content);
       plugin.inputDisabled = inputDisabled;
       if (isNoteActive && targetPosition.start >= oldContentSize) {
         const scroller = currentMode?.contentContainerEl?.parentElement;
@@ -5774,7 +5519,7 @@ var HelperFncs;
   }
   function parseMarkdown_internal(md) {
     const ui = document.createElement("div");
-    import_obsidian6.MarkdownRenderer.renderMarkdown(md, ui, "", null);
+    import_obsidian4.MarkdownRenderer.renderMarkdown(md, ui, "", null);
     let result = ui.innerHTML;
     if (result.startsWith("<p>") && result.endsWith("</p>")) {
       result = result.slice(3, -4);
@@ -5875,9 +5620,329 @@ var HelperFncs;
     }
     return Array.isArray(expansion) ? result : result[0];
   }
+  async function asyncFilter_internal(arr, fnc) {
+    const predicateResults = await Promise.all(arr.map(fnc));
+    return arr.filter((v, i) => predicateResults[i]);
+  }
+  async function asyncMap_internal(arr, fnc) {
+    return await Promise.all(arr.map(fnc));
+  }
+  async function asyncForEach_internal(arr, fnc) {
+    for (let i = 0; i < arr.length; i++) {
+      await fnc(arr[i], i, arr);
+    }
+  }
 })(HelperFncs || (HelperFncs = {}));
 
+// LibraryImporter.ts
+var REGEX_LIBRARY_README_SHORTCUT_FILE = /### ([_a-zA-Z0-9]+.sfile)\n(_\(disabled by default)?/g;
+var DEFAULT_REMOTE_ADDRESS = "https://raw.githubusercontent.com/jon-heard/obsidian-inline-scripts-library/main";
+var DEFAULT_LOCAL_ADDRESS = "support/inlineScripts";
+var FILE_README = "README.md";
+var PRE_REFACTOR_SFILES = ["tejs_state", "tejs_lists", "tejs_mythicv2", "tejs_mythicgme", "tejs_une", "tejs_adventurecrafter", "tejs_rpgtools", "tejs_clips", "tejs_arrows", "tejs_lipsum", "tejs_support"];
+var LibraryImporter;
+((LibraryImporter2) => {
+  async function run() {
+    return await run_internal();
+  }
+  LibraryImporter2.run = run;
+  async function run_internal(useCustomSource) {
+    const plugin = InlineScriptsPlugin.getInstance();
+    InputBlocker.setEnabled(true);
+    let addressRemote = DEFAULT_REMOTE_ADDRESS;
+    if (useCustomSource) {
+      addressRemote = await Popups.getInstance().input(
+        "What is the library source?",
+        DEFAULT_REMOTE_ADDRESS
+      );
+      if (addressRemote === null) {
+        InputBlocker.setEnabled(false);
+        return false;
+      }
+    }
+    let readmeContent;
+    try {
+      readmeContent = await window.request({
+        url: addressRemote + "/" + FILE_README,
+        method: "GET",
+        headers: { "Cache-Control": "no-cache" }
+      });
+    } catch (e) {
+      UserNotifier.run({
+        popupMessage: "Library importing failed.\nUnable to connect.",
+        consoleMessage: "Library importing failed.",
+        messageType: e.message
+      });
+      InputBlocker.setEnabled(false);
+      return false;
+    }
+    readmeContent = readmeContent.replaceAll("\r", "");
+    let libShortcutFiles = [];
+    let disabledShortcutFiles = [];
+    for (const match of readmeContent.matchAll(REGEX_LIBRARY_README_SHORTCUT_FILE)) {
+      libShortcutFiles.push(match[1]);
+      if (match[2]) {
+        disabledShortcutFiles.push(match[1]);
+      }
+    }
+    const libSFiles_currentAndPrerefactor = libShortcutFiles.concat(PRE_REFACTOR_SFILES);
+    const sfNoteAddresses = SettingUi_ShortcutFiles.getContents().shortcutFiles.map((f) => f.address);
+    const sfNoteNames = sfNoteAddresses.map((s) => s.slice(s.lastIndexOf("/") + 1, -3));
+    const sfNotePaths = sfNoteAddresses.map((s, i) => {
+      return s.slice(0, s.length - sfNoteNames[i].length - 4);
+    });
+    let commonPath = null;
+    for (let i = 0; i < sfNoteAddresses.length; i++) {
+      if (libSFiles_currentAndPrerefactor.includes(sfNoteNames[i])) {
+        if (commonPath === null) {
+          commonPath = sfNotePaths[i];
+        } else {
+          if (sfNotePaths[i] !== commonPath) {
+            commonPath = null;
+            break;
+          }
+        }
+      }
+    }
+    const libDstSuggestions = Object.keys(plugin.app.vault.fileMap).filter((v) => plugin.app.vault.fileMap[v].children).filter((v) => v !== "/");
+    let libraryDestinationPath = await Popups.getInstance().input(
+      "What path should the library be placed in?",
+      commonPath || DEFAULT_LOCAL_ADDRESS,
+      libDstSuggestions
+    );
+    if (libraryDestinationPath === null) {
+      InputBlocker.setEnabled(false);
+      return false;
+    }
+    if (libraryDestinationPath.trim().toLowerCase() === "customlibsrc") {
+      return run_internal(true);
+    }
+    libraryDestinationPath = (0, import_obsidian5.normalizePath)(libraryDestinationPath);
+    disabledShortcutFiles = disabledShortcutFiles.map((v) => libraryDestinationPath + "/" + v + ".md");
+    if (!plugin.app.vault.fileMap.hasOwnProperty(libraryDestinationPath)) {
+      await plugin.app.vault.createFolder(libraryDestinationPath);
+    }
+    for (const libShortcutFile of libShortcutFiles) {
+      const content = await window.request({
+        url: addressRemote + "/" + libShortcutFile + ".md",
+        method: "GET",
+        headers: { "Cache-Control": "no-cache" }
+      });
+      const filename = libraryDestinationPath + "/" + libShortcutFile + ".md";
+      await HelperFncs.fileWrite(filename, content);
+    }
+    for (let i = 0; i < sfNoteAddresses.length; i++) {
+      if (PRE_REFACTOR_SFILES.includes(sfNoteNames[i])) {
+        await plugin.app.vault.delete(plugin.app.vault.fileMap[sfNoteAddresses[i]]);
+      }
+    }
+    {
+      const libVersion = readmeContent.match(/# Version (.*)/)[1] || "";
+      const filename = libraryDestinationPath + "/\u039E_libraryVersion.md";
+      await HelperFncs.fileWrite(filename, libVersion);
+    }
+    plugin.settings.shortcutFiles = SettingUi_ShortcutFiles.getContents().shortcutFiles;
+    for (const libShortcutFile of libSFiles_currentAndPrerefactor) {
+      const shortcutFileAddresses = plugin.settings.shortcutFiles.map((f) => f.address);
+      const libAddress = libraryDestinationPath + "/" + libShortcutFile + ".md";
+      const index = shortcutFileAddresses.indexOf(libAddress);
+      if (index >= 0) {
+        if (!plugin.settings.shortcutFiles[index].enabled) {
+          disabledShortcutFiles.push(libAddress);
+        }
+        plugin.settings.shortcutFiles.splice(index, 1);
+      }
+    }
+    for (const libShortcutFile of libShortcutFiles) {
+      const address = libraryDestinationPath + "/" + libShortcutFile + ".md";
+      plugin.settings.shortcutFiles.push(
+        {
+          enabled: !disabledShortcutFiles.includes(address),
+          address
+        }
+      );
+    }
+    InlineScriptsPlugin.getInstance().settingsUi.display();
+    InputBlocker.setEnabled(false);
+    return true;
+  }
+})(LibraryImporter || (LibraryImporter = {}));
+
+// ui_setting_shortcutFiles.ts
+var SettingUi_ShortcutFiles = class {
+  static create(parent, settings, app2) {
+    return this.create_internal(parent, settings, app2);
+  }
+  static getContents() {
+    return this.getContents_internal();
+  }
+  static create_internal(parent, settings, app2) {
+    this._vaultFiles = [];
+    for (const key in app2.vault.fileMap) {
+      if (key.endsWith(".md")) {
+        this._vaultFiles.push(key.slice(0, -3));
+      }
+    }
+    new import_obsidian6.Setting(parent).setName("Shortcut-files").setDesc("Addresses of notes containing shortcut-file content.").addButton((button) => {
+      return button.setButtonText("Add shortcut-file").setClass("iscript_spacedUi").onClick(() => this.addShortcutFileUi(app2));
+    }).addButton((button) => {
+      return button.setButtonText("Import full library").setClass("iscript_spacedUi").onClick(async () => {
+        if (await LibraryImporter.run()) {
+          document.getElementById("alert_libraryUpdates").toggleClass("iscript_hidden", true);
+        }
+      });
+    });
+    this._shortcutFileUis = parent.createEl("div", { cls: "iscript_shortcutFiles" });
+    this._shortcutFileUis.createEl("div", {
+      text: "Red means the file does not exist.",
+      cls: "setting-item-description iscript_extraMessage iscript_onSiblings"
+    });
+    for (const shortcutFile of settings.shortcutFiles) {
+      this.addShortcutFileUi(app2, shortcutFile);
+    }
+  }
+  static getContents_internal() {
+    let result = [];
+    for (const shortcutFileUi of this._shortcutFileUis.childNodes) {
+      if (shortcutFileUi.classList.contains("iscript_shortcutFile") && shortcutFileUi.childNodes[1].value) {
+        result.push(
+          {
+            enabled: shortcutFileUi.childNodes[0].classList.contains("is-enabled"),
+            address: (0, import_obsidian6.normalizePath)(shortcutFileUi.childNodes[1].value + ".md")
+          }
+        );
+      }
+    }
+    return { shortcutFiles: result };
+  }
+  static addShortcutFileUi(app2, shortcutFile) {
+    let fileListUiId = "fileList" + this._shortcutFileUis.childNodes.length;
+    let g = this._shortcutFileUis.createEl("div", { cls: "iscript_shortcutFile" });
+    let e = g.createEl("div", { cls: "checkbox-container iscript_toggle" });
+    e.toggleClass("is-enabled", shortcutFile ? shortcutFile.enabled : true);
+    e.addEventListener("click", function() {
+      this.classList.toggle("is-enabled");
+    });
+    e = g.createEl("input", { cls: "iscript_shortcutFileAddress" });
+    e.setAttr("type", "text");
+    e.setAttr("placeholder", "Filename");
+    e.setAttr("list", fileListUiId);
+    e.settings = this;
+    e.addEventListener("input", function() {
+      const isBadInput = this.value && !this.settings._vaultFiles.contains(this.value);
+      this.toggleClass("iscript_badInput", isBadInput);
+    });
+    if (shortcutFile) {
+      e.setAttr("value", shortcutFile.address.slice(0, -3));
+    }
+    e.dispatchEvent(new Event("input"));
+    e = g.createEl("datalist");
+    e.id = fileListUiId;
+    for (const file of this._vaultFiles) {
+      e.createEl("option").value = file;
+    }
+    e = g.createEl("button", { cls: "iscript_upButton iscript_spacedUi" });
+    e.group = g;
+    e.onclick = SettingUi_Helper.upButtonClicked;
+    e.listOffset = 1;
+    e = g.createEl("button", { cls: "iscript_downButton iscript_spacedUi" });
+    e.group = g;
+    e.onclick = SettingUi_Helper.downButtonClicked;
+    e = g.createEl("button", { cls: "iscript_deleteButton iscript_spacedUi" });
+    e.group = g;
+    e.onclick = SettingUi_Helper.deleteButtonClicked;
+    e.app = app2;
+    e.typeTitle = "shortcut-file";
+  }
+};
+
+// ui_setting_shortcuts.ts
+var import_obsidian8 = require("obsidian");
+
+// AutoAsyncWrapper.ts
+var REGEX_AWAIT_TEMPLATE = "(?:~1~)[s]*\\(";
+var REGEX_ASYNC = /function[\s]*\(/g;
+var UNNESTABLE_BLOCK_PAIRS = Object.freeze(
+  {
+    '"': '"',
+    "'": "'",
+    "`": "`"
+  }
+);
+var NESTABLE_BLOCK_PAIRS = Object.freeze(
+  {
+    "(": ")",
+    "[": "]",
+    "{": "}"
+  }
+);
+var AutoAsyncWrapper;
+((AutoAsyncWrapper2) => {
+  function initialize(toAwaitWrap) {
+    _regex_await = new RegExp(REGEX_AWAIT_TEMPLATE.replace("~1~", toAwaitWrap.join("|")), "g");
+  }
+  AutoAsyncWrapper2.initialize = initialize;
+  function run(source) {
+    return run_internal(source);
+  }
+  AutoAsyncWrapper2.run = run;
+  let _regex_await;
+  function run_internal(source) {
+    source = addPrefixToAllInstances(source, "async ", REGEX_ASYNC);
+    source = wrapPrefixToAllInstances(source, "await ", _regex_await);
+    return source;
+  }
+  function addPrefixToAllInstances(source, prefix, regex_searchToWrap) {
+    let matchPositions = [];
+    for (const match of source.matchAll(regex_searchToWrap)) {
+      matchPositions.push({ start: match.index, end: match.index + match[0].length });
+    }
+    matchPositions.reverse();
+    for (const matchPosition of matchPositions) {
+      source = source.slice(0, matchPosition.start) + prefix + source.slice(matchPosition.start);
+    }
+    return source;
+  }
+  function wrapPrefixToAllInstances(source, prefix, regex_searchToWrap) {
+    let matchPositions = [];
+    for (const match of source.matchAll(regex_searchToWrap)) {
+      matchPositions.push({ start: match.index, end: match.index + match[0].length });
+    }
+    matchPositions.reverse();
+    for (const matchPosition of matchPositions) {
+      const stack = [")"];
+      let index = matchPosition.end;
+      const sLength = source.length;
+      let isNestable = true;
+      while (index < sLength) {
+        if (source[index] === stack[stack.length - 1] && source[index - 1] != "\\") {
+          stack.pop();
+          isNestable = true;
+          if (!stack.length) {
+            break;
+          }
+        } else if (isNestable) {
+          let pairing = UNNESTABLE_BLOCK_PAIRS[source[index]];
+          if (pairing) {
+            stack.push(pairing);
+            isNestable = false;
+          } else {
+            pairing = NESTABLE_BLOCK_PAIRS[source[index]];
+            if (pairing) {
+              stack.push(pairing);
+            }
+          }
+        }
+        index++;
+      }
+      source = source.slice(0, matchPosition.start) + "(" + prefix + source.slice(matchPosition.start, index) + ")" + source.slice(index);
+    }
+    return source;
+  }
+})(AutoAsyncWrapper || (AutoAsyncWrapper = {}));
+
 // ShortcutExpander.ts
+var import_acorn = __toESM(require_acorn());
 var AsyncFunction = Object.getPrototypeOf(async function() {
 }).constructor;
 var ShortcutExpander = class {
@@ -6042,16 +6107,15 @@ var ShortcutExpander = class {
       if (failSilently) {
         throw null;
       }
-      if (!errorPosition) {
+      if (!errorPosition && e?.stack) {
         let match = e.stack.split("\n")[1].match(/([0-9]+):([0-9]+)/);
-        errorPosition = {
-          line: Number(match[1]) - 2,
-          column: Number(match[2])
-        };
+        if (match) {
+          errorPosition = { line: Number(match[1]) - 2, column: Number(match[2]) };
+        }
       }
       this.handleExpansionError(
         expansionScript,
-        e.message,
+        e?.message || "Un-listed error",
         errorPosition,
         expansionInfo?.shortcutText
       );
@@ -6060,21 +6124,34 @@ var ShortcutExpander = class {
   }
   static handleExpansionError(expansionScript, message, position, shortcutText) {
     expansionScript = expansionScript.replaceAll("	", "    ");
-    let expansionLines = expansionScript.split("\n");
-    for (let i = 0; i < expansionLines.length; i++) {
-      expansionLines[i] = String(i + 1).padStart(4, "0") + " " + expansionLines[i];
+    let positionText = "\nline,column: ?,?";
+    let expansionText = "";
+    if (position) {
+      let expansionLines = expansionScript.split("\n");
+      for (let i = 0; i < expansionLines.length; i++) {
+        expansionLines[i] = String(i + 1).padStart(4, "0") + " " + expansionLines[i];
+      }
+      expansionLines.splice(position.line, 0, "-".repeat(position.column + 4) + "^");
+      expansionLines.splice(position.line - 1, 0, "-".repeat(position.column + 4) + "v");
+      positionText = "\nline,column: " + position.line + "," + position.column;
+      expansionText = "\n" + "\u2500".repeat(20) + "\n" + expansionLines.join("\n");
     }
-    expansionLines.splice(position.line, 0, "-".repeat(position.column + 4) + "^");
-    expansionLines.splice(position.line - 1, 0, "-".repeat(position.column + 4) + "v");
-    const expansionText = expansionLines.join("\n");
+    const errorMessage = message + positionText + '\nshortcut-text: "' + (shortcutText ?? "") + '"' + expansionText;
     UserNotifier.run(
       {
         popupMessage: "Shortcut expansion issues.",
-        consoleMessage: message + "\nline: " + position.line + ", column: " + position.column + '\nshortcut-text: "' + (shortcutText ?? "") + '"\n' + "\u2500".repeat(20) + "\n" + expansionText,
+        consoleMessage: errorMessage,
         messageType: "SHORTCUT-EXPANSION-ERROR",
         consoleHasDetails: true
       }
     );
+    if (window._inlineScripts?.inlineScripts?.listeners?.onError) {
+      HelperFncs.callEventListenerCollection(
+        "inlineScripts.onError",
+        window._inlineScripts.inlineScripts.listeners.onError,
+        errorMessage
+      );
+    }
   }
 };
 
@@ -6336,8 +6413,11 @@ var ButtonView = class extends import_obsidian7.ItemView {
   static getInstance() {
     return ButtonView._instance;
   }
+  static isOpen() {
+    return this.isOpen_internal();
+  }
   static async activateView(doUiRefresh) {
-    await this.activateView_internal(doUiRefresh);
+    return await this.activateView_internal(doUiRefresh);
   }
   getButtonGroup() {
     return this.getButtonGroup_internal();
@@ -6381,7 +6461,7 @@ var ButtonView = class extends import_obsidian7.ItemView {
         id: "show-inline-scripts-buttons-view",
         name: "Open buttons view",
         checkCallback: (checking) => {
-          let isViewOpened = plugin.app.workspace.getLeavesOfType(BUTTON_VIEW_TYPE).length !== 0;
+          const isViewOpened = this.isOpen();
           if (!checking && !isViewOpened) {
             this.activateView(true);
           }
@@ -6406,15 +6486,20 @@ var ButtonView = class extends import_obsidian7.ItemView {
       plugin.saveSettings();
     }
   }
+  static isOpen_internal() {
+    const plugin = InlineScriptsPlugin.getInstance();
+    return !!plugin.app.workspace.getLeavesOfType(BUTTON_VIEW_TYPE).length;
+  }
   static async activateView_internal(doUiRefresh) {
     const plugin = InlineScriptsPlugin.getInstance();
-    if (plugin.app.workspace.getLeavesOfType(BUTTON_VIEW_TYPE).length) {
-      return;
+    if (this.isOpen()) {
+      return false;
     }
     await plugin.app.workspace.getRightLeaf(false).setViewState({ type: BUTTON_VIEW_TYPE });
     if (doUiRefresh) {
       ButtonView.getInstance().refreshGroupUi();
     }
+    return true;
   }
   load_internal() {
     ButtonView._instance = this;
@@ -6519,6 +6604,7 @@ var ButtonView = class extends import_obsidian7.ItemView {
     hr.classList.add("iscript_buttonView_hr");
     root.appendChild(hr);
     const allButtonSettings = root.createDiv({ cls: "nav-buttons-container" });
+    allButtonSettings.style["margin-bottom"] = ".37em";
     BUTTON_VIEW_STATES["help"].button = this.addSettingsButton(
       allButtonSettings,
       "question",
@@ -6562,7 +6648,7 @@ var ButtonView = class extends import_obsidian7.ItemView {
       }
     );
     this._settingsUi.buttonSettingsBlock = allButtonSettings.createDiv(
-      { text: "\xA0\xA0\xA0Group locked", cls: "iscript_buttonView_uiBlock iscript_hidden" }
+      { text: "Group locked", cls: "iscript_buttonView_uiBlock iscript_hidden" }
     );
     this.helpUi = root.createDiv({ cls: "iscript_buttonView_help" });
     this._buttonUiParent = root.createDiv();
@@ -6655,16 +6741,16 @@ var ButtonView = class extends import_obsidian7.ItemView {
       this._settingsUi.buttonSettings.classList.add("iscript_hidden");
       this._settingsUi.buttonSettingsBlock.classList.remove("iscript_hidden");
       this._settingsUi.groupRename.classList.remove("nav-action-button");
-      this._settingsUi.groupRename.classList.add("iscript_buttonView_uiButton_disabled");
+      this._settingsUi.groupRename.classList.add("iscript_button_disabled");
       this._settingsUi.groupRemove.classList.remove("nav-action-button");
-      this._settingsUi.groupRemove.classList.add("iscript_buttonView_uiButton_disabled");
+      this._settingsUi.groupRemove.classList.add("iscript_button_disabled");
     } else {
       this._settingsUi.buttonSettings.classList.remove("iscript_hidden");
       this._settingsUi.buttonSettingsBlock.classList.add("iscript_hidden");
       this._settingsUi.groupRename.classList.add("nav-action-button");
-      this._settingsUi.groupRename.classList.remove("iscript_buttonView_uiButton_disabled");
+      this._settingsUi.groupRename.classList.remove("iscript_button_disabled");
       this._settingsUi.groupRemove.classList.add("nav-action-button");
-      this._settingsUi.groupRemove.classList.remove("iscript_buttonView_uiButton_disabled");
+      this._settingsUi.groupRemove.classList.remove("iscript_button_disabled");
     }
     this._buttonUiParent.innerText = "";
     const buttonDefinitions = this.getButtonGroup().buttons;
@@ -6854,12 +6940,15 @@ var ShortcutLoader = class {
     return { shortcuts, fileAbout, shortcutAbouts };
   }
   static async setupShortcuts_internal() {
+    if (this.isSettingUpShortcuts) {
+      return;
+    }
+    this.isSettingUpShortcuts = true;
     const plugin = InlineScriptsPlugin.getInstance();
     let abouts = [];
     plugin.shortcuts = [{ test: /^help ?$/, expansion: "" }];
     let shortcutFiles = [];
     this.updateGeneralHelpShortcut(shortcutFiles);
-    console.log("Restart syntaxes");
     plugin.syntaxes = [];
     let parseResult = this.parseShortcutFile("settings", plugin.settings.shortcuts);
     plugin.shortcuts = plugin.shortcuts.concat(parseResult.shortcuts);
@@ -6930,8 +7019,6 @@ var ShortcutLoader = class {
           shortcutAbouts: parseResult.shortcutAbouts
         }
       );
-      if (baseName === "rpgtools")
-        console.error("Syntax added for rpgtools");
       this.addShortcutFileSyntaxes(
         baseName,
         parseResult.shortcutAbouts,
@@ -6958,6 +7045,7 @@ var ShortcutLoader = class {
         window._inlineScripts.inlineScripts.listeners.onShortcutsLoaded
       );
     }
+    this.isSettingUpShortcuts = false;
   }
   static getExpansionScript(scriptId, shortcuts) {
     let result = "";
@@ -6997,13 +7085,16 @@ var ShortcutLoader = class {
       const test = new RegExp("^help " + name + "$");
       result.push({ test, expansion });
     }
-    function makeRefShortcut(groupName, abouts2, displayName) {
+    function makeRefShortcut(groupName, abouts2, displayName, removeHr) {
       displayName = displayName || capitalize(groupName);
       let expansion = SFILE_REF_PREAMBLE.replaceAll("\n", "\\n").replaceAll("$1", displayName).replaceAll("$2", groupName) + "\n";
       for (const about of abouts2) {
         let description = "";
         if (about.description) {
           description = " - " + stringifyString(about.description);
+          if (removeHr) {
+            description = description.replaceAll("\\n***", "");
+          }
         }
         expansion += 'result += "- __' + stringifyString(about.syntax) + "__" + description + '\\n";\n';
       }
@@ -7028,7 +7119,12 @@ var ShortcutLoader = class {
         settingsAbouts = about.shortcutAbouts;
       }
     }
-    makeRefShortcut("?(?:all)?", settingsAbouts.concat(shortcutFileAbouts), "All shortcuts");
+    makeRefShortcut(
+      "?(?:all)?",
+      settingsAbouts.concat(shortcutFileAbouts),
+      "All shortcuts",
+      true
+    );
     makeRefShortcut("settings", settingsAbouts);
     result.reverse();
     return result;
@@ -7074,11 +7170,10 @@ var ShortcutLoader = class {
     for (let i = 0; i < syntax.length; i++) {
       if (syntax[i] === "{") {
         const parameterEnd = syntax.indexOf("}", i);
-        if (syntax.slice(i, parameterEnd).indexOf("default") != -1) {
-          result += "(?:([^ ]*)|$)";
-        } else {
-          result += "(?:([^ ]+)|$)";
-        }
+        const parameterSyntax = syntax.slice(i, parameterEnd + 1);
+        const expectRegex = parameterSyntax.match(/: >0(?:}|,)/) ? "[0-9|\u241F]%1" : parameterSyntax.match(/: >=0(?:}|,)/) ? "[0-9|\u241F]%1" : parameterSyntax.match(/: path text(?:}|,)/) ? '"[^"]%1|[^ ]%1' : parameterSyntax.match(/: text(?:}|,| \()/) ? ".%1" : "[^ ]%1";
+        const defaultRegex = parameterSyntax.includes(", default:") ? "*" : "+";
+        result += "(?:(" + expectRegex.replaceAll("%1", defaultRegex) + ")|$)";
         i = parameterEnd;
       } else {
         result += "(?:" + this.escapeCharacterForRegex(syntax[i]) + "|$)";
@@ -7091,6 +7186,7 @@ var ShortcutLoader = class {
     return !ESCAPED_CHARACTERS.has(src) ? src : "\\" + src;
   }
 };
+ShortcutLoader.isSettingUpShortcuts = false;
 
 // defaultSettings.ts
 var DEFAULT_SETTINGS = Object.freeze(
@@ -7290,7 +7386,7 @@ var SettingUi_ShortcutFormat = class {
     this._settings = { prefix: settings.prefix, suffix: settings.suffix };
     this._originalSettings = { prefix: settings.prefix, suffix: settings.suffix };
     parent.createEl("h2", { text: "Shortcut format" });
-    this._formatErrMsgContainerUi = parent.createEl("div", { cls: "iscript_errMsgContainer" });
+    this._formatErrMsgContainerUi = parent.createEl("div", { cls: "iscript_alert iscript_hidden" });
     this._formatErrMsgContainerUi.createEl("span", { text: "ERROR", cls: "iscript_errMsgTitle" });
     this._formatErrMsgContentUi = this._formatErrMsgContainerUi.createEl("span");
     new import_obsidian9.Setting(parent).setName("Shortcut prefix").setDesc("What to type BEFORE a shortcut.").addText((text) => {
@@ -7341,14 +7437,14 @@ var SettingUi_ShortcutFormat = class {
     }
     if (!err) {
       this._formatErrMsgContainerUi.toggleClass(
-        "iscript_errMsgContainerShown",
-        false
+        "iscript_hidden",
+        true
       );
       return true;
     } else {
       this._formatErrMsgContainerUi.toggleClass(
-        "iscript_errMsgContainerShown",
-        true
+        "iscript_hidden",
+        false
       );
       this._formatErrMsgContentUi.innerText = err;
       return false;
@@ -7374,22 +7470,22 @@ var SettingUi_ExpansionFormat = class {
       expansionLinePrefix: settings.expansionLinePrefix,
       expansionSuffix: settings.expansionSuffix
     };
-    parent.createEl("h2", { text: "Expansion format" });
-    new import_obsidian10.Setting(parent).setName("Expansion prefix").setDesc("Text added to the start of a formatted expansion.").addText((text) => {
+    parent.createEl("h2", { text: "Common expansion format" });
+    new import_obsidian10.Setting(parent).setName("Prefix").setDesc("Text added to the start of a formatted expansion.").addText((text) => {
       return text.setPlaceholder("").setValue(settings.expansionPrefix).onChange((value) => {
         this._settings.expansionPrefix = value;
       });
-    });
-    new import_obsidian10.Setting(parent).setName("Expansion line prefix").setDesc("Text added to the start of each line of a formatted expansion.").addText((text) => {
+    }).settingEl.toggleClass("iscript_settingBundledTop", true);
+    new import_obsidian10.Setting(parent).setName("Line-prefix").setDesc("Text added to the start of each line of a formatted expansion.").addText((text) => {
       return text.setPlaceholder("").setValue(settings.expansionLinePrefix).onChange((value) => {
         this._settings.expansionLinePrefix = value;
       });
-    });
-    new import_obsidian10.Setting(parent).setName("Expansion suffix").setDesc("Text added to the end of a formatted expansion.").addText((text) => {
+    }).settingEl.toggleClass("iscript_settingBundled", true);
+    new import_obsidian10.Setting(parent).setName("Suffix").setDesc("Text added to the end of a formatted expansion.").addText((text) => {
       return text.setPlaceholder("").setValue(settings.expansionSuffix).onChange((value) => {
         this._settings.expansionSuffix = value;
       });
-    });
+    }).settingEl.toggleClass("iscript_settingBundled", true);
   }
 };
 
@@ -7423,22 +7519,10 @@ var SettingUi_Other = class {
       new import_obsidian11.Setting(parent).setName("Allow external").setDesc("Shortcuts can run external commands if this is on.").addToggle((toggle) => {
         return toggle.setValue(settings.allowExternal).onChange((value) => this._settings.allowExternal = value);
       }).descEl.createEl("div", {
-        cls: "iscript_warning",
+        cls: "iscript_alert",
         text: "WARNING: enabling this increases the danger from malicious shortcuts"
       });
     }
-    new import_obsidian11.Setting(parent).setName("Reset to defaults").setDesc("Reset all settings to their default values.").addButton((button) => {
-      return button.setButtonText("Reset to defaults").onClick(async () => {
-        const plugin = InlineScriptsPlugin.getInstance();
-        if (await Popups.getInstance().confirm(
-          "Confirm resetting ALL settings to their default values."
-        )) {
-          plugin.settings = InlineScriptsPlugin.getDefaultSettings();
-          plugin.settingsUi.display();
-          plugin.settings.shortcuts = "";
-        }
-      });
-    });
     parent.createEl("hr");
     let donationCaption = parent.createEl("div", { cls: "iscript_donationsCaption" });
     donationCaption.innerHTML = "If you find this plugin useful, then a donation lets me know<br/>that I should keep working to make it better.";
@@ -7450,6 +7534,99 @@ var SettingUi_Other = class {
 <path fill="#222D65" d="M21.754 7.151a9.757 9.757 0 0 0-1.203-.267 15.284 15.284 0 0 0-2.426-.177h-7.352a1.172 1.172 0 0 0-1.159.992L8.05 17.605l-.045.289a1.336 1.336 0 0 1 1.321-1.132h2.752c5.405 0 9.637-2.195 10.874-8.545.037-.188.068-.371.096-.55a6.594 6.594 0 0 0-1.017-.429 9.045 9.045 0 0 0-.277-.087z"></path>
 <path fill="#253B80" d="M9.614 7.699a1.169 1.169 0 0 1 1.159-.991h7.352c.871 0 1.684.057 2.426.177a9.757 9.757 0 0 1 1.481.353c.365.121.704.264 1.017.429.368-2.347-.003-3.945-1.272-5.392C20.378.682 17.853 0 14.622 0h-9.38c-.66 0-1.223.48-1.325 1.133L.01 25.898a.806.806 0 0 0 .795.932h5.791l1.454-9.225 1.564-9.906z"></path></svg>
 </a><a href="https://www.buymeacoffee.com/jonheard" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 45px !important;width: 163px !important;"></a>`;
+  }
+};
+
+// ui_setting_actions.ts
+var SettingUi_Actions = class {
+  static create(parent) {
+    return this.create_internal(parent);
+  }
+  static create_internal(parent) {
+    parent.createEl("div").innerHTML = "&nbsp;";
+    parent.createEl("h2", { text: "Actions" });
+    const actionsDiv = parent.createEl("div", { cls: "iscript_actionsSection" });
+    const openButtonsView = actionsDiv.createEl("button", { text: "Open buttons view" });
+    openButtonsView.toggleClass("iscript_button_disabled", ButtonView.isOpen());
+    openButtonsView.onclick = async () => {
+      if (openButtonsView.classList.contains("iscript_button_disbled")) {
+        return;
+      }
+      ButtonView.activateView(true);
+      openButtonsView.toggleClass("iscript_button_disabled", true);
+    };
+    actionsDiv.createEl("div").innerHTML = "&nbsp;";
+    const resetSettings = actionsDiv.createEl("button", { text: "Reset settings to defaults" });
+    resetSettings.onclick = async () => {
+      const plugin = InlineScriptsPlugin.getInstance();
+      if (await Popups.getInstance().confirm(
+        "Confirm resetting ALL settings to their default values."
+      )) {
+        plugin.settings = InlineScriptsPlugin.getDefaultSettings();
+        plugin.settingsUi.display();
+        plugin.settings.shortcuts = "";
+      }
+    };
+  }
+};
+
+// ui_setting_alerts.ts
+var SettingUi_Alerts = class {
+  static create(parent) {
+    return this.create_internal(parent);
+  }
+  static create_internal(parent) {
+    let alert_pluginUpdate = parent.createEl("div", { cls: "iscript_alert iscript_hidden" });
+    alert_pluginUpdate.innerText = "Plugin update available";
+    alert_pluginUpdate.style["margin-top"] = "1em";
+    (async () => {
+      try {
+        const latestVersion = (await window.request(
+          {
+            url: "https://api.github.com/repos/jon-heard/obsidian-inline-scripts/releases/latest",
+            method: "GET",
+            headers: { "Cache-Control": "no-cache" }
+          }
+        )).match(/\"name\": \"(.*)\"/)[1];
+        const currentVersion = InlineScriptsPlugin.getInstance().manifest.version;
+        if (HelperFncs.versionCompare(currentVersion, latestVersion) < 0) {
+          alert_pluginUpdate.toggleClass("iscript_hidden", false);
+          alert_pluginUpdate.innerHTML += ": &nbsp; <b>" + latestVersion + "</b>";
+        }
+      } catch {
+      }
+    })();
+    let alert_libraryUpdate = parent.createEl("div", { cls: "iscript_alert iscript_hidden" });
+    alert_libraryUpdate.innerHTML = "Library update available <i>(re-import)</i>";
+    alert_libraryUpdate.style["margin-top"] = "1em";
+    alert_libraryUpdate.id = "alert_libraryUpdates";
+    (async () => {
+      try {
+        const plugin = InlineScriptsPlugin.getInstance();
+        const latestVersion = (await window.request(
+          {
+            url: "https://raw.githubusercontent.com/jon-heard/obsidian-inline-scripts-library/main/README.md",
+            method: "GET",
+            headers: { "Cache-Control": "no-cache" }
+          }
+        )).match(/# Version (.*)/)[1] || "";
+        let versionFilePath = "";
+        const shortcutFiles = plugin.settings.shortcutFiles;
+        for (const shortcutFile of shortcutFiles) {
+          if (shortcutFile.address.endsWith("state.sfile.md")) {
+            versionFilePath = shortcutFile.address.slice(0, -14) + "\u039E_libraryVersion.md";
+            break;
+          }
+        }
+        const versionFile = plugin.app.vault.fileMap[versionFilePath];
+        const currentVersion = !versionFile ? "" : await plugin.app.vault.cachedRead(versionFile) || "";
+        if (HelperFncs.versionCompare(currentVersion, latestVersion) < 0) {
+          alert_libraryUpdate.toggleClass("iscript_hidden", false);
+          alert_libraryUpdate.innerHTML += ": &nbsp; <b>" + latestVersion + "</b>";
+        }
+      } catch {
+      }
+    })();
   }
 };
 
@@ -7619,12 +7796,8 @@ var InlineScriptsPluginSettings = class extends import_obsidian12.PluginSettingT
     const c = this.containerEl;
     c.empty();
     c.createEl("div", { text: this.plugin.manifest.version, cls: "iscript_version" });
-    c.createEl("h2", { text: "Actions" });
-    const actionsDiv = c.createEl("div", { cls: "iscript_actionsSection" });
-    const openButtonsView = actionsDiv.createEl("button", { text: "Open buttons view" });
-    openButtonsView.onclick = () => {
-      ButtonView.activateView(true);
-    };
+    SettingUi_Alerts.create(c);
+    SettingUi_Actions.create(c);
     c.createEl("h2", { text: "Shortcut Sources" });
     SettingUi_ShortcutFiles.create(c, this.plugin.settings, this.plugin.app);
     SettingUi_Shortcuts.create(c, this.plugin.settings, this.plugin.app);
@@ -7695,25 +7868,27 @@ var ShortcutLinks = class {
       const nodeInnerText = node.innerText;
       const notePath = ctx.sourcePath;
       const target = nodeInnerText.indexOf("^") == -1 ? null : nodeInnerText.slice(nodeInnerText.indexOf("^") + 1, nodeInnerText.indexOf(":")).trim();
-      const resolutionFnc = nodeInnerText.startsWith("iscript-once") ? ShortcutLinks.linkResolution_once : nodeInnerText.startsWith("iscript-append") ? ShortcutLinks.linkResolution_append : nodeInnerText.startsWith("iscript-prepend") ? ShortcutLinks.linkResolution_prepend : nodeInnerText.startsWith("iscript") ? ShortcutLinks.linkResolution_standard : null;
+      const resolutionFnc = nodeInnerText.match("^iscript-once(?: |:)") ? ShortcutLinks.linkResolution_once : nodeInnerText.match("^iscript-append(?: |:)") ? ShortcutLinks.linkResolution_append : nodeInnerText.match("^iscript-prepend(?: |:)") ? ShortcutLinks.linkResolution_prepend : nodeInnerText.match("^iscript(?: |:)") ? ShortcutLinks.linkResolution_standard : null;
       if (!resolutionFnc) {
         continue;
       }
-      const parts = nodeInnerText.slice(nodeInnerText.indexOf(":") + 1).split(/ ?\| ?/g);
+      let parts = nodeInnerText.slice(nodeInnerText.indexOf(":") + 1).split(/ ?\| ?/g);
       if (parts[0] === "") {
         continue;
       }
-      if (parts[0].startsWith(" ")) {
-        parts[0] = parts[0].slice(1);
+      let shortcutText = parts[0];
+      parts = parts.map((v) => v.trim());
+      if (shortcutText.startsWith(" ")) {
+        shortcutText = shortcutText.slice(1);
       }
-      if (parts[0].endsWith(" ")) {
-        parts[0] = parts[0].slice(0, -1);
+      if (shortcutText.endsWith(" ")) {
+        shortcutText = shortcutText.slice(0, -1);
       }
       let a = document.createElement("a");
       a.classList.add("internal-link");
       a.classList.add("iscript-link");
       a.dataset["source"] = nodeInnerText;
-      a.innerText = (parts[1]?.trim() || parts[0]).trim();
+      a.innerText = parts[1] || parts[0];
       a.setAttr("href", "#");
       a.onclick = async function() {
         let targetPos = null;
@@ -7742,16 +7917,15 @@ var ShortcutLinks = class {
           }
         }
         let result = await ShortcutExpander.expand(
-          parts[0],
+          shortcutText,
           false,
           { isUserTriggered: true },
           parts.slice(3).map((v) => {
-            return { caption: v.trim() };
+            return { caption: v };
           })
         );
         if (result) {
-          result = HelperFncs.parseMarkdown(result);
-          if (parts.length > 2) {
+          if (parts.length > 2 && parts[2]) {
             result = new Function("$$", "return " + parts[2])(result);
           }
           resolutionFnc(this, result, targetPos);
@@ -7780,11 +7954,17 @@ var ShortcutLinks = class {
     ui.remove();
   }
   static linkResolution_append(ui, expansion, targetPos) {
-    targetPos.start = targetPos.end;
+    if (targetPos) {
+      targetPos.start = targetPos.end;
+    }
     HelperFncs.addToNote(expansion, targetPos);
   }
   static linkResolution_prepend(ui, expansion, targetPos) {
-    targetPos.end = targetPos.start;
+    if (targetPos) {
+      targetPos.end = targetPos.start;
+    } else {
+      targetPos = { start: 0, end: 0 };
+    }
     HelperFncs.addToNote(expansion, targetPos);
   }
 };
@@ -7842,22 +8022,30 @@ var AutoComplete = class extends import_obsidian13.EditorSuggest {
     const prefix = this._plugin.settings.prefix;
     const suffix = this._plugin.settings.suffix;
     const lineUpToCursor = editor.getLine(cursor.line).slice(0, cursor.ch);
-    let match = lineUpToCursor.match(prefix + "[^" + suffix[0] + "]*$");
-    match = match?.first();
-    if (match) {
+    let shortcutUnderCaret = null;
+    let shortcutStart = lineUpToCursor.lastIndexOf(prefix);
+    if (shortcutStart !== -1) {
+      if (lineUpToCursor.indexOf(suffix, shortcutStart + prefix.length) === -1) {
+        shortcutUnderCaret = lineUpToCursor.slice(shortcutStart + prefix.length);
+      }
+    }
+    if (shortcutUnderCaret !== null) {
       return {
         end: cursor,
         start: {
-          ch: lineUpToCursor.lastIndexOf(match) + prefix.length,
+          ch: lineUpToCursor.length - shortcutUnderCaret.length,
           line: cursor.line
         },
-        query: match.slice(prefix.length)
+        query: shortcutUnderCaret
       };
     } else {
       return null;
     }
   }
   getSuggestions_internal(context) {
+    if (!this._plugin?.syntaxesSorted) {
+      return null;
+    }
     const result = this._plugin.syntaxesSorted.map((p) => {
       p.match = context.query.match(p.regex);
       return p;
@@ -8005,14 +8193,12 @@ var ANNOUNCEMENTS = [
   {
     version: "0.24.0",
     message: `<div style="text-align:left"><b>Major plugin updates</b><ul>  <li>a standard format for expansion strings.  This includes:  <ul>    <li>settings (prefix, line-prefix, suffix) for format customization</li>    <li>expFormat() - converts a string into the standard format</li>    <li>expUnformat() - removes the standard format from a string</li>  </ul>  <li>Shortcut links can include a block-id for the shortcut expansion destination</li>  <li>Autocomplete and/or its tooltip can be disabled in the settings</li></ul><b>Major library updates</b><ul>  <li><b>Cards</b> - This system has been revamped.  The shortcut "help cards" provides a link to a tutorial video.</li>  <li><b>Tablefiles</b> - A new system to roll on tables in text files.  The shortcut "help tablefiles" provides a link to a tutorial video.</li>  <li><b>State</b> - The state is auto-saved to a file beside the state shortcut-file.  Auto-save is now more reliable.</li>  <li><b>Notevars</b> - Incompatibily with the latest Obsidian is resolved.  A bug where multiple "set" shortcuts only save one of the variables is resolved.</li></ul>Check the <a href='https://github.com/jon-heard/obsidian-inline-scripts/releases/tag/0.24.0'>release notes</a> for details.</div>`
+  },
+  {
+    version: "0.24.11",
+    message: '<div style="text-align:left">  <b>Summary of notable changes since 0.24.0</b>  <ul>    <li>tablefiles<ul>      <li>Popup - can change multiple table configurations simultaneously by selecting multiple tables with shift or ctrl/cmd keys</li>      <li>Table files can now include a YAML frontmatter which can define their configuration.  This can be edited from the popup, just like other configurations.</li>      <li>A <b>tbl reroll</b> shortcut has been added to allow re-rolling the prior table roll.</li>      <li>Folder paths are now added recursively (table-files in the folder AND subfolder are added)</li>    </ul></li>    <li>cards<ul>      <li><b>draw</b> and <b>pick</b> shortcuts now have a variation that allows entering the <b>from</b>, <b>to</b> and <b>count</b> parameters in <i>any</i> order.</li>    </ul></li>    <li>plugin<ul>      <li>Settings shows alerts when there are updates available for the plugin and/or library</li>      <li>README - Added documentation for the useful <b>unblock()</b> function and a reference for all helper functions</li>    </ul></li>  </ul></div>'
   }
 ];
-var versionCompare = function(version1, version2) {
-  const convert = (v) => v.split(".").map((x) => x.padStart(4, "0")).join(".");
-  version1 = convert(version1);
-  version2 = convert(version2);
-  return version1 < version2 ? -1 : version1 > version2 ? 1 : 0;
-};
 var InlineScriptsPlugin = class extends import_obsidian14.Plugin {
   constructor() {
     super(...arguments);
@@ -8201,9 +8387,9 @@ var InlineScriptsPlugin = class extends import_obsidian14.Plugin {
     }
     const toDisplay = [];
     for (const announcement of ANNOUNCEMENTS) {
-      if (versionCompare(announcement.version, this.manifest.version) <= 0 && versionCompare(announcement.version, this.settings.version) > 0) {
+      if (HelperFncs.versionCompare(announcement.version, this.manifest.version) <= 0 && HelperFncs.versionCompare(announcement.version, this.settings.version) > 0) {
         let title = "Inline Scripts\n";
-        if (versionCompare(announcement.version, "0.21.0") === 0) {
+        if (HelperFncs.versionCompare(announcement.version, "0.21.0") === 0) {
           title += "(formerly Text Expander JS)\n";
         }
         toDisplay.push(

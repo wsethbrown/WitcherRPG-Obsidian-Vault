@@ -1,0 +1,3 @@
+Egrin will thank the players for finding Iva and pay them the agreed amount of coin. After which Egrin will immediately go to find Iva. When Egrin finds her corpse, he is immediately killed by Iva, and his body is not found until the next day.
+
+Once the Nilfgaardian woman arrives, Lord Kozonn will host a public funeral for his son that the players may attend before he is laid to rest in the family tomb.

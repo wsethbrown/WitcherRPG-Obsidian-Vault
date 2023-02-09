@@ -17,7 +17,6 @@ Plugins Used:
 - Admonition
 - Banners
 - Dice Roller
-- Excalidraw
 - Excel to Markdown Table
 - Icon Folder
 - Icons Plugin

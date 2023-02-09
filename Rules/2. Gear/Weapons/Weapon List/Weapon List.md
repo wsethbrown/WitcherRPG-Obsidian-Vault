@@ -28,6 +28,8 @@ columns:
       media_height: 100
       isInline: true
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   Type:
     input: select
     accessorKey: Type
@@ -56,6 +58,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   WA:
     input: text
     accessorKey: WA
@@ -74,6 +78,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   DMG:
     input: text
     accessorKey: DMG
@@ -92,6 +98,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   Hands:
     input: text
     accessorKey: Hands
@@ -110,6 +118,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   RNG:
     input: text
     accessorKey: RNG
@@ -128,6 +138,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   Effect:
     input: tags
     accessorKey: Effect
@@ -164,6 +176,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   EN:
     input: text
     accessorKey: EN
@@ -182,6 +196,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   Weight:
     input: text
     accessorKey: Weight
@@ -200,6 +216,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   Cost:
     input: text
     accessorKey: Cost
@@ -218,6 +236,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   Category:
     input: select
     accessorKey: Category
@@ -240,6 +260,7 @@ columns:
       - { label: "Throwing Weapons", backgroundColor: "hsl(15, 95%, 90%)"}
       - { label: "Bows", backgroundColor: "hsl(0, 95%, 90%)"}
       - { label: "Crossbows", backgroundColor: "hsl(44, 95%, 90%)"}
+      - { label: "[,Swords]", backgroundColor: "hsl(319, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -247,6 +268,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   Description:
     input: text
     accessorKey: Description
@@ -264,6 +287,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   Avail:
     input: select
     accessorKey: Avail
@@ -287,6 +312,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   Name:
     input: text
     key: Name
@@ -301,9 +328,13 @@ columns:
     width: 221
     config:
       enable_media_view: true
+      link_alias_enabled: true
       media_width: 100
       media_height: 100
       isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   Rel:
     input: text
     accessorKey: Rel
@@ -322,6 +353,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   Conc:
     input: select
     accessorKey: Conc
@@ -345,6 +378,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
 config:
   remove_field_when_delete_column: false
   cell_size: compact
@@ -364,13 +399,17 @@ config:
   frontmatter_quote_wrap: false
   row_templates_folder: /
   current_row_template: 
-  pagination_size: 50
+  pagination_size: 100
   enable_js_formulas: false
   formula_folder_path: /
   inline_default: false
   inline_new_position: top
   date_format: yyyy-MM-dd
   datetime_format: "yyyy-MM-dd HH:mm:ss"
+  font_size: 16
+  metadata_date_format: "yyyy-MM-dd HH:mm:ss"
+  enable_footer: false
+  implementation: default
 filters:
   enabled: false
   conditions:

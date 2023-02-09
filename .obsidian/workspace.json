@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8c55c643fba648c4",
+        "id": "6f85217415c633eb",
         "type": "tabs",
         "children": [
           {
-            "id": "534bb9b4cfc13ecd",
+            "id": "d2eef209cc3007f2",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -16,12 +16,58 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "House Rules",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"House Rules.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":22},\"to\":{\"line\":2,\"ch\":22}}}"
+                },
+                {
+                  "title": "README",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Armor List",
+                  "icon": "database-folder-icon",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Untitled database",
+                  "icon": "database-folder-icon",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Ammunition/Untitled database.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Weapon List",
+                  "icon": "database-folder-icon",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Weapon List.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Brass Knuckles",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bludgeons/Brass Knuckles.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Weapon List",
+                  "icon": "database-folder-icon",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Weapon List.md\"}}",
+                  "eState": "{}"
                 }
               ]
             },
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -71,7 +117,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "noon",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,7 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5
+    "width": 244.5
   },
   "right": {
     "id": "09f55d26adede069",
@@ -126,6 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,6 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -190,7 +238,9 @@
             },
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           },
           {
@@ -224,40 +274,6 @@
             },
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "15ebd8bf1aa2ca00",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "DICE_ROLLER_VIEW",
-              "state": {}
-            }
-          },
-          {
-            "id": "37b979e602eab47a",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "initiative-tracker-view",
               "state": {}
             }
           },
@@ -296,7 +312,41 @@
             }
           },
           {
-            "id": "53069531de2400b3",
+            "id": "235ea65a54e238b1",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {}
+            }
+          },
+          {
+            "id": "af38857042738e37",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "aebaaf54e612af40",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -327,27 +377,26 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
       "fantasy-calendar:Open Large Fantasy Calendar": false,
       "import-foundry:Import Foundry": false,
-      "obsidian-import-json:JSON/CSV Importer": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
-      "dbfolder:Create a new database table": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "obsidian-import-json:JSON/CSV Importer": false,
+      "dbfolder:Create a new database table": false
     }
   },
-  "active": "534bb9b4cfc13ecd",
+  "active": "d2eef209cc3007f2",
   "lastOpenFiles": [
-    "Rules/3. Magic/Mage Spells/3. Magic.md",
-    "Adventures/A Lost Love/Maps/The Haunted Willow.canvas",
-    "Adventures/A Lost Love/Maps/Deserter's Camp.canvas",
-    "Adventures/A Lost Love/Maps/The Lord's Manor.canvas",
-    "Adventures/A Lost Love/Maps/Lord Kozonn's Room.canvas",
-    "Adventures/A Lost Love/Maps/Wolveswater.canvas",
-    "Rules/6. Bestiary/Spectres/Wraiths.md",
-    "Adventures/A Lost Love/Bestiary/Iva - Noonwraith.md",
-    "Rules/6. Bestiary/Spectres/Noonwraith.md",
-    "Rules/6. Bestiary/6. Bestiary.md"
+    "Bandit-NPC.png.md",
+    "House Rules.md",
+    "README.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "Rules/2. Gear/Armor/Armor List/Armor List.md",
+    "Rules/2. Gear/Weapons/Ammunition/Untitled database.md",
+    "Rules/2. Gear/Weapons/Weapon List/Weapon List.md",
+    "Rules/2. Gear/Weapons/Weapon List/Bludgeons/Brass Knuckles.md",
+    "Rules/2. Gear/Weapons/Weapon List/Small Blades/Stiletto.md"
   ]
 }

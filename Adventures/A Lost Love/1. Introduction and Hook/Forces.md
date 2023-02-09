@@ -1,0 +1,1 @@
+This adventure can be run with up to six players. Non-combat-orientated characters in particular should have plenty of opportunities to shine.

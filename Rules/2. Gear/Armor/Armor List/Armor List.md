@@ -28,6 +28,8 @@ columns:
       media_height: 100
       isInline: true
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   Description:
     input: text
     accessorKey: Description
@@ -45,6 +47,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   Effects:
     input: tags
     accessorKey: Effects
@@ -65,6 +69,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   Avail-:
     input: select
     accessorKey: Avail
@@ -87,6 +93,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   Name:
     input: text
     accessorKey: Name
@@ -105,6 +113,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   SP:
     input: number
     accessorKey: SP
@@ -124,6 +134,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   AE:
     input: number
     accessorKey: AE
@@ -141,6 +153,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   EV:
     input: number
     accessorKey: EV
@@ -158,6 +172,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   Weight:
     input: number
     accessorKey: Weight
@@ -175,6 +191,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   Category:
     input: select
     accessorKey: Category
@@ -198,6 +216,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   Location:
     input: select
     accessorKey: Location
@@ -221,6 +241,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   Cost:
     input: number
     accessorKey: Cost
@@ -238,6 +260,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
 config:
   remove_field_when_delete_column: false
   cell_size: compact
@@ -264,6 +288,10 @@ config:
   inline_new_position: top
   date_format: yyyy-MM-dd
   datetime_format: "yyyy-MM-dd HH:mm:ss"
+  font_size: 16
+  metadata_date_format: "yyyy-MM-dd HH:mm:ss"
+  enable_footer: false
+  implementation: default
 filters:
   enabled: false
   conditions:
