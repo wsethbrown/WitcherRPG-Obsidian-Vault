@@ -1,3 +1,9 @@
+# Mac System Files
+.DS_Store
 
-/.obsidian
-README.md
+# Obsidian Stuff
+.obsidian/plugins
+.obsidian/themes
+.obsidian/*.json
+.obsidian/snippets/ITS Alternative Themes.css
+.trash #Assuming you ever use the obsidian trash folder
