@@ -1,6 +1,6 @@
 ```statblock
 name: Wyverns
-
+image: [[wyvern.png]]
 threat: Hard Simple
 bounty: 100 Crowns
 Armor: 10

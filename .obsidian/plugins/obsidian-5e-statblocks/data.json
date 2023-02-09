@@ -1326,7 +1326,7 @@
                 "WILL",
                 "LUCK"
               ],
-              "calculate": true,
+              "calculate": false,
               "fallback": "-"
             }
           ]
@@ -1352,7 +1352,7 @@
                 "HP",
                 "VIGOR"
               ],
-              "calculate": true,
+              "calculate": false,
               "fallback": "-"
             }
           ]
@@ -1479,7 +1479,7 @@
                 "Effect",
                 "ROF"
               ],
-              "calculate": true,
+              "calculate": false,
               "fallback": "-"
             }
           ]
