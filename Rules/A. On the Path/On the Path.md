@@ -1,6 +1,9 @@
 ---
 banner: "![[Screenshot 2023-02-08 at 7.51.23 PM.png]]"
 
+movement:
+	walking: {name: "Walking", slow: 3, fast: 5}
+	horse: {name: "Horse", slow: 5, fast: 10}
 ---
 ## The Map
 What map is up to you. I make my own maps (one of which I will provide) that are divided into hexagons to measure distance. My first time going at this I got into the nitty-gritty but now waved it away for a slightly more streamlined method. One hexagon is 10 kilometers across.

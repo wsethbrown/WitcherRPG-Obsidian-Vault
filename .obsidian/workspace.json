@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d2eef209cc3007f2",
+            "id": "7c654e08a9675107",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -18,45 +18,33 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "House Rules",
+                  "title": "GM Notes",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"House Rules.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":22},\"to\":{\"line\":2,\"ch\":22}}}"
-                },
-                {
-                  "title": "README",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Adventures/A Lost Love/GM Notes.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
-                  "title": "Armor List",
-                  "icon": "database-folder-icon",
-                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Armor/Armor List/Armor List.md\"}}",
+                  "title": "The Continent Map",
+                  "icon": "lucide-layout-dashboard",
+                  "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"The Continent Map.canvas\",\"viewState\":{\"x\":-24.926723777783856,\"y\":90.57760180238427,\"zoom\":1,\"snapToGrid\":false}}}",
                   "eState": "{}"
                 },
                 {
-                  "title": "Untitled database",
-                  "icon": "database-folder-icon",
-                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Ammunition/Untitled database.md\"}}",
+                  "title": "Canvas Test",
+                  "icon": "lucide-layout-dashboard",
+                  "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"Canvas Test.canvas\",\"viewState\":{\"x\":33.33018947368419,\"y\":334.02896842105275,\"zoom\":-0.04338134638538508,\"snapToGrid\":true}}}",
                   "eState": "{}"
                 },
                 {
-                  "title": "Weapon List",
-                  "icon": "database-folder-icon",
-                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Weapon List.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Brass Knuckles",
+                  "title": "Location - Iva's House",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Bludgeons/Brass Knuckles.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Adventures/A Lost Love/2. The Investigation/Location - Iva's House.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
-                  "title": "Weapon List",
-                  "icon": "database-folder-icon",
-                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"Rules/2. Gear/Weapons/Weapon List/Weapon List.md\"}}",
+                  "title": "Canvas Test",
+                  "icon": "lucide-layout-dashboard",
+                  "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"Canvas Test.canvas\",\"viewState\":{\"x\":76.25999999999999,\"y\":98.57999999999998,\"zoom\":-0.1439366904894511,\"snapToGrid\":false}}}",
                   "eState": "{}"
                 }
               ]
@@ -64,13 +52,35 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Rules/A. On the Path/On the Path.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "830ebd0213873997",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Test.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Test.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -239,7 +249,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Test.md"
               }
             }
           },
@@ -363,7 +373,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -383,20 +393,21 @@
       "templater-obsidian:Templater": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "obsidian-import-json:JSON/CSV Importer": false,
-      "dbfolder:Create a new database table": false
+      "dbfolder:Create a new database table": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "d2eef209cc3007f2",
+  "active": "830ebd0213873997",
   "lastOpenFiles": [
-    "Bandit-NPC.png.md",
-    "House Rules.md",
+    "Rules/A. On the Path/On the Path.md",
+    "Adventures/A Lost Love/GM Notes.md",
+    "The Continent Map.canvas",
+    "The Continent Map.md",
+    "The Continent - Map.md",
+    "Canvas Test.canvas",
+    "Adventures/A Lost Love/2. The Investigation/Location - Iva's House.md",
     "README.md",
-    "Untitled.md",
-    "Untitled 1.md",
-    "Rules/2. Gear/Armor/Armor List/Armor List.md",
-    "Rules/2. Gear/Weapons/Ammunition/Untitled database.md",
-    "Rules/2. Gear/Weapons/Weapon List/Weapon List.md",
-    "Rules/2. Gear/Weapons/Weapon List/Bludgeons/Brass Knuckles.md",
-    "Rules/2. Gear/Weapons/Weapon List/Small Blades/Stiletto.md"
+    "Bandit-NPC.png.md",
+    "House Rules.md"
   ]
 }
