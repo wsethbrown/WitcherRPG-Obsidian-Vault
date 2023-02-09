@@ -33,4 +33,4 @@ Plugins Used:
 - Table Editor
 - Table Extended
 - Templater
-- (ITS Alternative Theme](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/Guide/Alternate-Themes.md)
+- [ITS Alternative Theme](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/Guide/Alternate-Themes.md)
