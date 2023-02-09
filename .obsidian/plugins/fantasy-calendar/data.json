@@ -1,0 +1,752 @@
+{
+  "addToDefaultIfMissing": true,
+  "calendars": [
+    {
+      "name": "Warhammer Calendar",
+      "description": null,
+      "id": null,
+      "static": {
+        "incrementDay": false,
+        "firstWeekDay": 0,
+        "overflow": true,
+        "weekdays": [
+          {
+            "type": "day",
+            "name": "Wellentag",
+            "id": "ID_191a9b69493b"
+          },
+          {
+            "type": "day",
+            "name": "Aubentag",
+            "id": "ID_cae9fb2918b9"
+          },
+          {
+            "type": "day",
+            "name": "Marktag",
+            "id": "ID_b9daa899f9fa"
+          },
+          {
+            "type": "day",
+            "name": "Backertag",
+            "id": "ID_28c87a79ea2a"
+          },
+          {
+            "type": "day",
+            "name": "Bezahltag",
+            "id": "ID_2b3baa2b9989"
+          },
+          {
+            "type": "day",
+            "name": "Konistag",
+            "id": "ID_3bb9082b8b69"
+          },
+          {
+            "type": "day",
+            "name": "Festag",
+            "id": "ID_dab82b7b087a"
+          }
+        ],
+        "months": [
+          {
+            "type": "month",
+            "name": "Nachexen",
+            "length": 32,
+            "id": "ID_88a939bafb09"
+          },
+          {
+            "type": "month",
+            "name": "Jahrdrung",
+            "length": 33,
+            "id": "ID_6ac95929d998"
+          },
+          {
+            "type": "month",
+            "name": "Pflugzeit",
+            "length": 33,
+            "id": "ID_2adb4859cb89"
+          },
+          {
+            "type": "month",
+            "name": "Sigmarzeit",
+            "length": 33,
+            "id": "ID_bbe908989b3a"
+          },
+          {
+            "type": "month",
+            "name": "Sommerzeit",
+            "length": 33,
+            "id": "ID_3a58ebcbdb08"
+          },
+          {
+            "type": "month",
+            "name": "Vorgeheim",
+            "length": 33,
+            "id": "ID_b8983be9ebb9"
+          },
+          {
+            "type": "month",
+            "name": "Nachgeheim",
+            "length": 32,
+            "id": "ID_0b1bcb5aa879"
+          },
+          {
+            "type": "month",
+            "name": "Erntezeit",
+            "length": 33,
+            "id": "ID_d86adb8a587b"
+          },
+          {
+            "type": "month",
+            "name": "Brauzeit",
+            "length": 33,
+            "id": "ID_0afbb819da38"
+          },
+          {
+            "type": "month",
+            "name": "Kaldezeit",
+            "length": 33,
+            "id": "ID_485b5a1aa8b9"
+          },
+          {
+            "type": "month",
+            "name": "Ulriczeit",
+            "length": 33,
+            "id": "ID_3bc998b97bbb"
+          },
+          {
+            "type": "month",
+            "name": "Vorhexen",
+            "length": 33,
+            "id": "ID_982b2b9b9a7b"
+          },
+          {
+            "type": "month",
+            "name": "Hextenstag",
+            "length": 1,
+            "id": "ID_5b29f99bd969"
+          },
+          {
+            "type": "month",
+            "name": "Mitterfruhl",
+            "length": 1,
+            "id": "ID_2a0aa80b6b1b"
+          },
+          {
+            "type": "month",
+            "name": "Sonnstill",
+            "length": 1,
+            "id": "ID_baf82a193b3a"
+          },
+          {
+            "type": "month",
+            "name": "Geheimnistag",
+            "length": 1,
+            "id": "ID_39aa79aa8bba"
+          },
+          {
+            "type": "month",
+            "name": "Mittherbst",
+            "length": 1,
+            "id": "ID_fb8848fbbbbb"
+          },
+          {
+            "type": "month",
+            "name": "Mondstille",
+            "length": 1,
+            "id": "ID_1838090b095b"
+          }
+        ],
+        "moons": [
+          {
+            "name": "Mannslieb",
+            "cycle": 25,
+            "offset": null,
+            "faceColor": "#e1dbdb",
+            "shadowColor": "#000",
+            "id": "ID_abf82a38795a"
+          },
+          {
+            "name": "Morrslieb",
+            "cycle": 17,
+            "offset": 3,
+            "faceColor": "#61b371",
+            "shadowColor": "#034918",
+            "id": "ID_0bb8588bc8eb"
+          }
+        ],
+        "displayMoons": true,
+        "displayDayNumber": true,
+        "leapDays": [],
+        "eras": [],
+        "useCustomYears": false,
+        "years": []
+      },
+      "current": {
+        "year": 1247,
+        "month": 2,
+        "day": 20
+      },
+      "events": [
+        {
+          "name": "Anniversary of Victory over the Vampire Counts",
+          "description": null,
+          "date": {
+            "month": 0,
+            "day": 17,
+            "year": null
+          },
+          "id": "ID_6a0bd81beb8a",
+          "note": "FoundryImport/Calendar/Anniversary of Victory over the Vampire Counts",
+          "category": null
+        },
+        {
+          "name": "Day of the Spear",
+          "description": null,
+          "date": {
+            "month": 1,
+            "day": 8,
+            "year": null
+          },
+          "id": "ID_ebab9a0bca98",
+          "note": "FoundryImport/Calendar/Day of the Spear",
+          "category": null
+        },
+        {
+          "name": "Water's Turn (Dunkelbild, Middenland)",
+          "description": null,
+          "date": {
+            "month": 2,
+            "day": 1,
+            "year": null
+          },
+          "id": "ID_a86a18a8890a",
+          "note": "FoundryImport/Calendar/Water's Turn (Dunkelbild, Middenland)",
+          "category": null,
+          "end": {
+            "year": null,
+            "month": 2,
+            "day": 7
+          }
+        },
+        {
+          "name": "First Quaff",
+          "description": null,
+          "date": {
+            "month": 2,
+            "day": 33,
+            "year": null
+          },
+          "id": "ID_e9c8dbdaf9f8",
+          "note": "FoundryImport/Calendar/First Quaff",
+          "category": null
+        },
+        {
+          "name": "Sigmar's Walk (Altdorf)",
+          "description": null,
+          "date": {
+            "month": 3,
+            "day": 15,
+            "year": null
+          },
+          "id": "ID_8a7ac97a496a",
+          "note": "FoundryImport/Calendar/Sigmar's Walk (Altdorf)",
+          "category": null
+        },
+        {
+          "name": "Sigmartag (First Day of Summer)",
+          "description": null,
+          "date": {
+            "month": 3,
+            "day": 18,
+            "year": null
+          },
+          "id": "ID_5aca1868c878",
+          "note": "FoundryImport/Calendar/Sigmartag (First Day of Summer)",
+          "category": null
+        },
+        {
+          "name": "Night of the Fire Arrows (Stirland)",
+          "description": null,
+          "date": {
+            "month": 3,
+            "day": 25,
+            "year": null
+          },
+          "id": "ID_ebba7b587839",
+          "note": "FoundryImport/Calendar/Night of the Fire Arrows (Stirland)",
+          "category": null
+        },
+        {
+          "name": "Accession of the First Grand Theogonist (Altdorf)",
+          "description": null,
+          "date": {
+            "month": 3,
+            "day": 33,
+            "year": null
+          },
+          "id": "ID_a819890858ab",
+          "note": "FoundryImport/Calendar/Accession of the First Grand Theogonist (Altdorf)",
+          "category": null
+        },
+        {
+          "name": "Run of the Antlers (Talabecland)",
+          "description": null,
+          "date": {
+            "month": 4,
+            "day": 1,
+            "year": null
+          },
+          "id": "ID_591909da088b",
+          "note": "FoundryImport/Calendar/Run of the Antlers (Talabecland)",
+          "category": null,
+          "end": {
+            "year": null,
+            "month": 4,
+            "day": 7
+          }
+        },
+        {
+          "name": "Day of Sanctuary",
+          "description": null,
+          "date": {
+            "month": 4,
+            "day": 7,
+            "year": null
+          },
+          "id": "ID_496b9a2a2be8",
+          "note": "FoundryImport/Calendar/Day of Sanctuary",
+          "category": null
+        },
+        {
+          "name": "Day of Folly",
+          "description": null,
+          "date": {
+            "month": 4,
+            "day": 10,
+            "year": null
+          },
+          "id": "ID_e9abfb5b3b19",
+          "note": "FoundryImport/Calendar/Day of Folly",
+          "category": null
+        },
+        {
+          "name": "Memorial of Emperor Sigismund",
+          "description": null,
+          "date": {
+            "month": 5,
+            "day": 9,
+            "year": null
+          },
+          "id": "ID_ebba898bfa48",
+          "note": "FoundryImport/Calendar/Memorial of Emperor Sigismund",
+          "category": null
+        },
+        {
+          "name": "Goldgather's End",
+          "description": null,
+          "date": {
+            "month": 5,
+            "day": 23,
+            "year": null
+          },
+          "id": "ID_f99a5b999a5b",
+          "note": "FoundryImport/Calendar/Goldgather's End",
+          "category": null
+        },
+        {
+          "name": "Saga",
+          "description": null,
+          "date": {
+            "month": 5,
+            "day": 33,
+            "year": null
+          },
+          "id": "ID_9b4a492abb28",
+          "note": "FoundryImport/Calendar/Saga",
+          "category": null
+        },
+        {
+          "name": "Remembrance Day",
+          "description": null,
+          "date": {
+            "month": 6,
+            "day": 13,
+            "year": null
+          },
+          "id": "ID_d82959180828",
+          "note": "FoundryImport/Calendar/Remembrance Day",
+          "category": null
+        },
+        {
+          "name": "Pie Week",
+          "description": null,
+          "date": {
+            "month": 7,
+            "day": 1,
+            "year": null
+          },
+          "id": "ID_eb7a392a09db",
+          "note": "FoundryImport/Calendar/Pie Week",
+          "category": null,
+          "end": {
+            "year": null,
+            "month": 7,
+            "day": 8
+          }
+        },
+        {
+          "name": "Wine Tasting Festival of Averheim (Averland)",
+          "description": null,
+          "date": {
+            "month": 7,
+            "day": 2,
+            "year": null
+          },
+          "id": "ID_aaa909ea793b",
+          "note": "FoundryImport/Calendar/Wine Tasting Festival of Averheim (Averland)",
+          "category": null,
+          "end": {
+            "year": null,
+            "month": 7,
+            "day": 5
+          }
+        },
+        {
+          "name": "Commemoration of Magnus the Pious’s Victory over Chaos",
+          "description": null,
+          "date": {
+            "month": 7,
+            "day": 8,
+            "year": null
+          },
+          "id": "ID_f9cb4aa9c929",
+          "note": "FoundryImport/Calendar/Commemoration of Magnus the Pious’s Victory over Chaos",
+          "category": null
+        },
+        {
+          "name": "Net Casting Day",
+          "description": null,
+          "date": {
+            "month": 7,
+            "day": 20,
+            "year": null
+          },
+          "id": "ID_0859fbc98bbb",
+          "note": "FoundryImport/Calendar/Net Casting Day",
+          "category": null
+        },
+        {
+          "name": "Cave Day (Averland)",
+          "description": null,
+          "date": {
+            "month": 8,
+            "day": 1,
+            "year": null
+          },
+          "id": "ID_baea188aa839",
+          "note": "FoundryImport/Calendar/Cave Day (Averland)",
+          "category": null
+        },
+        {
+          "name": "March of the Greenskins (Wissenland)",
+          "description": null,
+          "date": {
+            "month": 8,
+            "day": 19,
+            "year": null
+          },
+          "id": "ID_a95a69094bcb",
+          "note": "FoundryImport/Calendar/March of the Greenskins (Wissenland)",
+          "category": null
+        },
+        {
+          "name": "Second Breech (Brodag)",
+          "description": null,
+          "date": {
+            "month": 8,
+            "day": 33,
+            "year": null
+          },
+          "id": "ID_ba1848c9bbdb",
+          "note": "FoundryImport/Calendar/Second Breech (Brodag)",
+          "category": null
+        },
+        {
+          "name": "Remembrance of Emperor Mandred Ratslayer",
+          "description": null,
+          "date": {
+            "month": 9,
+            "day": 4,
+            "year": null
+          },
+          "id": "ID_aa0ab97a6b8a",
+          "note": "FoundryImport/Calendar/Remembrance of Emperor Mandred Ratslayer",
+          "category": null
+        },
+        {
+          "name": "The Old Comet",
+          "description": null,
+          "date": {
+            "month": 9,
+            "day": 5,
+            "year": null
+          },
+          "id": "ID_ea1b198af84b",
+          "note": "FoundryImport/Calendar/The Old Comet",
+          "category": null,
+          "end": {
+            "year": null,
+            "month": 9,
+            "day": 18
+          }
+        },
+        {
+          "name": "Two-Gifts Day (Ostermark)",
+          "description": null,
+          "date": {
+            "month": 9,
+            "day": 18,
+            "year": null
+          },
+          "id": "ID_28881b382baa",
+          "note": "FoundryImport/Calendar/Two-Gifts Day (Ostermark)",
+          "category": null
+        },
+        {
+          "name": "Von Alxber's Night (Sylvania)",
+          "description": null,
+          "date": {
+            "month": 10,
+            "day": 18,
+            "year": null
+          },
+          "id": "ID_58cb6a5bcadb",
+          "note": "FoundryImport/Calendar/Von Alxber's Night (Sylvania)",
+          "category": null
+        },
+        {
+          "name": "Mornlimb",
+          "description": null,
+          "date": {
+            "month": 11,
+            "day": 32,
+            "year": null
+          },
+          "id": "ID_99daa9787b68",
+          "note": "FoundryImport/Calendar/Mornlimb",
+          "category": null
+        },
+        {
+          "name": "Fire Snake (Altdorf)",
+          "description": null,
+          "date": {
+            "month": 11,
+            "day": 33,
+            "year": null
+          },
+          "id": "ID_88186848f958",
+          "note": "FoundryImport/Calendar/Fire Snake (Altdorf)",
+          "category": null
+        },
+        {
+          "name": "Keg End",
+          "description": null,
+          "date": {
+            "month": 11,
+            "day": 33,
+            "year": null
+          },
+          "id": "ID_6b98cae89b7a",
+          "note": "FoundryImport/Calendar/Keg End",
+          "category": null
+        },
+        {
+          "name": "Witching Night (New Year)",
+          "description": null,
+          "date": {
+            "month": 12,
+            "day": 1,
+            "year": null
+          },
+          "id": "ID_880b58e8298b",
+          "note": "FoundryImport/Calendar/Witching Night (New Year)",
+          "category": null
+        },
+        {
+          "name": "Lily Day",
+          "description": null,
+          "date": {
+            "month": 13,
+            "day": 1,
+            "year": null
+          },
+          "id": "ID_b958582949d9",
+          "note": "FoundryImport/Calendar/Lily Day",
+          "category": null
+        },
+        {
+          "name": "Mitterfruhl (Spring Equinox)",
+          "description": null,
+          "date": {
+            "month": 13,
+            "day": 1,
+            "year": null
+          },
+          "id": "ID_c958ca191bba",
+          "note": "FoundryImport/Calendar/Mitterfruhl (Spring Equinox)",
+          "category": null
+        },
+        {
+          "name": "Waking Day",
+          "description": null,
+          "date": {
+            "month": 13,
+            "day": 1,
+            "year": null
+          },
+          "id": "ID_e8da9a19cae9",
+          "note": "FoundryImport/Calendar/Waking Day",
+          "category": null
+        },
+        {
+          "name": "Peace Tide",
+          "description": null,
+          "date": {
+            "month": 14,
+            "day": 1,
+            "year": null
+          },
+          "id": "ID_3baa8b987ae9",
+          "note": "FoundryImport/Calendar/Peace Tide",
+          "category": null
+        },
+        {
+          "name": "Sonnstill (Summer Solstice)",
+          "description": null,
+          "date": {
+            "month": 14,
+            "day": 1,
+            "year": null
+          },
+          "id": "ID_48fb1919b878",
+          "note": "FoundryImport/Calendar/Sonnstill (Summer Solstice)",
+          "category": null
+        },
+        {
+          "name": "Geheimnistag",
+          "description": null,
+          "date": {
+            "month": 15,
+            "day": 1,
+            "year": null
+          },
+          "id": "ID_bbca18c8c9ea",
+          "note": "FoundryImport/Calendar/Geheimnistag",
+          "category": null
+        },
+        {
+          "name": "Final Feast",
+          "description": null,
+          "date": {
+            "month": 16,
+            "day": 1,
+            "year": null
+          },
+          "id": "ID_49c97a1afb1a",
+          "note": "FoundryImport/Calendar/Final Feast",
+          "category": null
+        },
+        {
+          "name": "Grail Day",
+          "description": null,
+          "date": {
+            "month": 16,
+            "day": 1,
+            "year": null
+          },
+          "id": "ID_99798a28bbfb",
+          "note": "FoundryImport/Calendar/Grail Day",
+          "category": null
+        },
+        {
+          "name": "Mittherbst (Autumn Equinox)",
+          "description": null,
+          "date": {
+            "month": 16,
+            "day": 1,
+            "year": null
+          },
+          "id": "ID_897a7b6a4a5b",
+          "note": "FoundryImport/Calendar/Mittherbst (Autumn Equinox)",
+          "category": null
+        },
+        {
+          "name": "King's Sleep",
+          "description": null,
+          "date": {
+            "month": 17,
+            "day": 1,
+            "year": null
+          },
+          "id": "ID_194b986a7b8a",
+          "note": "FoundryImport/Calendar/King's Sleep",
+          "category": null
+        },
+        {
+          "name": "Mondstille (Winter Solstice)",
+          "description": null,
+          "date": {
+            "month": 17,
+            "day": 1,
+            "year": null
+          },
+          "id": "ID_d9ebbae90829",
+          "note": "FoundryImport/Calendar/Mondstille (Winter Solstice)",
+          "category": null
+        }
+      ],
+      "categories": [
+        {
+          "id": "ID_4a7bca18dbb8",
+          "color": "#249e19",
+          "name": "Holiday"
+        },
+        {
+          "id": "ID_5a496a4b291a",
+          "color": "#b7bff7",
+          "name": "Solstice"
+        }
+      ],
+      "autoParse": true,
+      "path": "FoundryImport/Calendar",
+      "supportTimelines": false,
+      "syncTimelines": true,
+      "timelineTag": "#timeline"
+    }
+  ],
+  "configDirectory": null,
+  "currentCalendar": null,
+  "dailyNotes": false,
+  "dateFormat": "YYYY-MM-DD",
+  "defaultCalendar": null,
+  "eventPreview": false,
+  "exit": {
+    "saving": false,
+    "event": false,
+    "calendar": false
+  },
+  "eventFrontmatter": false,
+  "parseDates": false,
+  "settingsToggleState": {
+    "calendars": true,
+    "events": false,
+    "advanced": true
+  },
+  "showIntercalary": false,
+  "version": {
+    "major": null,
+    "minor": null,
+    "patch": null
+  },
+  "debug": false
+}
