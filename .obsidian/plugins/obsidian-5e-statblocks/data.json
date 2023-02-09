@@ -1254,19 +1254,29 @@
       "name": "Witcher Layout",
       "blocks": [
         {
-          "type": "heading",
-          "id": "6ad9c8b98a59",
-          "properties": [
-            "name"
-          ],
-          "size": 1,
-          "fallback": "-",
-          "hasRule": true
-        },
-        {
-          "type": "image",
-          "id": "4adaeb796aa8",
-          "properties": []
+          "type": "inline",
+          "id": "c9c9a8a8c84a",
+          "properties": [],
+          "nested": [
+            {
+              "type": "image",
+              "id": "4adaeb796aa8",
+              "properties": [
+                "image"
+              ],
+              "fallback": "-"
+            },
+            {
+              "type": "heading",
+              "id": "6ad9c8b98a59",
+              "properties": [
+                "name"
+              ],
+              "size": 1,
+              "fallback": "-",
+              "hasRule": false
+            }
+          ]
         },
         {
           "type": "inline",
@@ -1306,54 +1316,176 @@
         },
         {
           "type": "inline",
-          "id": "4b1be8f89a19",
+          "id": "ab9b0858e8db",
           "properties": [],
           "nested": [
             {
-              "type": "table",
-              "id": "282b8b5ac9e9",
-              "properties": [
-                "stats"
-              ],
-              "headers": [
-                "INT",
-                "REF",
-                "DEX",
-                "BODY",
-                "SPD",
-                "EMP",
-                "CRA",
-                "WILL",
-                "LUCK"
-              ],
-              "calculate": false,
-              "fallback": "-"
-            }
-          ]
-        },
-        {
-          "type": "inline",
-          "id": "9829285b0819",
-          "properties": [],
-          "nested": [
+              "type": "group",
+              "id": "1a9ad9d8f9cb",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "6ba93879da58",
+                  "properties": [
+                    "int"
+                  ],
+                  "fallback": "-",
+                  "display": "INT",
+                  "dice": false
+                },
+                {
+                  "type": "property",
+                  "id": "9a294bebda78",
+                  "properties": [
+                    "ref"
+                  ],
+                  "fallback": "-",
+                  "display": "REF"
+                },
+                {
+                  "type": "property",
+                  "id": "fb1909abf9f8",
+                  "properties": [
+                    "dex"
+                  ],
+                  "fallback": "-",
+                  "display": "DEX"
+                },
+                {
+                  "type": "property",
+                  "id": "fac868ba4a28",
+                  "properties": [
+                    "body"
+                  ],
+                  "fallback": "-",
+                  "display": "BODY"
+                },
+                {
+                  "type": "property",
+                  "id": "789b18e86af8",
+                  "properties": [
+                    "spd"
+                  ],
+                  "fallback": "-",
+                  "display": "SPD"
+                },
+                {
+                  "type": "property",
+                  "id": "6be8285b791a",
+                  "properties": [
+                    "emp"
+                  ],
+                  "fallback": "-",
+                  "display": "EMP"
+                },
+                {
+                  "type": "property",
+                  "id": "a8daaa2ac8f8",
+                  "properties": [
+                    "cra"
+                  ],
+                  "fallback": "-",
+                  "display": "CRA"
+                },
+                {
+                  "type": "property",
+                  "id": "d80b39e9197b",
+                  "properties": [
+                    "will"
+                  ],
+                  "fallback": "-",
+                  "display": "WILL"
+                },
+                {
+                  "type": "property",
+                  "id": "c8da58bb0a5a",
+                  "properties": [
+                    "luck"
+                  ],
+                  "fallback": "-",
+                  "display": "LUCK"
+                }
+              ]
+            },
             {
-              "type": "table",
-              "id": "c91bd99809aa",
-              "properties": [
-                "derived_stats"
-              ],
-              "headers": [
-                "STUN",
-                "RUN",
-                "LEAP",
-                "STA",
-                "ENC",
-                "REC",
-                "HP",
-                "VIGOR"
-              ],
-              "calculate": false,
-              "fallback": "-"
+              "type": "group",
+              "id": "ea68eb3a18ba",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "cb09aaf84989",
+                  "properties": [
+                    "stun"
+                  ],
+                  "fallback": "-",
+                  "display": "STUN"
+                },
+                {
+                  "type": "property",
+                  "id": "9939baa90888",
+                  "properties": [
+                    "run"
+                  ],
+                  "fallback": "-",
+                  "display": "RUN"
+                },
+                {
+                  "type": "property",
+                  "id": "ab1acbb9580a",
+                  "properties": [
+                    "leap"
+                  ],
+                  "fallback": "-",
+                  "display": "LEAP"
+                },
+                {
+                  "type": "property",
+                  "id": "2a094a292989",
+                  "properties": [
+                    "sta"
+                  ],
+                  "fallback": "-",
+                  "display": "STA"
+                },
+                {
+                  "type": "property",
+                  "id": "cb8a9b794bb9",
+                  "properties": [
+                    "enc"
+                  ],
+                  "fallback": "-",
+                  "display": "ENC"
+                },
+                {
+                  "type": "property",
+                  "id": "f8fb1b59ca3b",
+                  "properties": [
+                    "rec"
+                  ],
+                  "fallback": "-",
+                  "display": "REC"
+                },
+                {
+                  "type": "property",
+                  "id": "684b4be84a19",
+                  "properties": [
+                    "hp"
+                  ],
+                  "fallback": "-",
+                  "display": "HP"
+                },
+                {
+                  "type": "property",
+                  "id": "6878187a2b78",
+                  "properties": [
+                    "vigor"
+                  ],
+                  "fallback": "-",
+                  "display": "VIGOR"
+                }
+              ]
             }
           ]
         },
@@ -1404,7 +1536,7 @@
               ],
               "text": null,
               "fallback": "-",
-              "markdown": true,
+              "markdown": false,
               "heading": "Witcher Knowledge",
               "conditioned": true
             },
@@ -1427,38 +1559,15 @@
           "properties": [],
           "nested": [
             {
-              "type": "property",
-              "id": "4a5babbb9ab8",
+              "type": "traits",
+              "id": "f81b6ac8aa5b",
               "properties": [
-                "athletics"
+                "skills"
               ],
               "fallback": "-",
-              "markdown": true,
-              "display": "Athletics",
-              "conditioned": true,
-              "dice": false
-            },
-            {
-              "type": "property",
-              "id": "3a899b2ac8da",
-              "properties": [
-                "awareness"
-              ],
-              "fallback": "-",
-              "markdown": true,
-              "display": "Awareness",
-              "conditioned": true
-            },
-            {
-              "type": "property",
-              "id": "fb0929d8eb6b",
-              "properties": [
-                "brawling"
-              ],
-              "fallback": "-",
-              "markdown": true,
-              "display": "Brawling",
-              "conditioned": true
+              "headingProp": true,
+              "heading": "Skills",
+              "hasRule": false
             }
           ]
         },
@@ -1468,19 +1577,16 @@
           "properties": [],
           "nested": [
             {
-              "type": "table",
-              "id": "589ab918fbc9",
+              "type": "traits",
+              "id": "faf9e8d809aa",
               "properties": [
                 "weapons"
               ],
-              "headers": [
-                "Name",
-                "DMG",
-                "Effect",
-                "ROF"
-              ],
-              "calculate": false,
-              "fallback": "-"
+              "fallback": "-",
+              "markdown": false,
+              "heading": "Weapons",
+              "headingProp": false,
+              "hasRule": false
             }
           ]
         }
