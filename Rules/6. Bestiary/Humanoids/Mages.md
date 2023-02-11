@@ -74,20 +74,18 @@ It’s not very likely that you’ll ever fight a mage. Most of them are reasona
 
 The first thing you should do when fighting a mage is disarm them or destroy their staff. Without a staff a mage expends more energy per spell and wears out much faster. A mage drained of magic must damage their body to cast more spells or else take a turn to rest. That’s your best opportunity. Mages rarely wear armor, so killing an exhausted mage doesn’t take much. Since mages are usually very intelligent, they typically realize when they are beat and give up. However, if you shame a mage enough the mage will fight until the end. Mages prefer life in large cities, but with the Witch Hunts you may also run into one who’s hiding out.
 
--tx-
-Weapons||||Loot|Skills|
-|---|---|---|---|
-|Name|DMG|Effect|ROF|
-[[Iron Staff]]|3d6|Focus (2)|2|Alchemy Set|Athletics +5|
-[[Dagger]]|1d6|N/A|1|Crowns (5d10)|Awareness  +7|
-|--|--|--|--|Fifth Essence (1d6/2)|Courage +6|
-|--|--|--|--|Mundane items (1d6)|Dodge/Escape +8|
-|--|--|--|--|Stange Items (1d6/2)|Endurance +5|
-|--|--|--|--|Succubus' Breath|Hex Weaving +6|
-|--|--|--|--|--|Resist Coercion +7|
-|--|--|--|--|--|Resist Magic +7|
-|--|--|--|--|--|Ritual Crafting +5|
-|--|--|--|--|--|Spell Crafting +7|
-|--|--|--|--|--|Staff/Spear +6|
-|--|--|--|--|--|Stealth +5|
-|--|--|--|--|--|Wilderness Survival +5|
+| Weapons        |             |            |         | Loot                         | Skills                 |
+|----------------|-------------|------------|---------|------------------------------|------------------------|
+| **Name**       | **DMG**     | **Effect** | **ROF** | Alchemy Set                  | Athletics +5           |
+| [[Iron Staff]] | `dice: 3d6` | Focus (2)  | 2       | Crowns (`dice: 5d10`)        | Awareness +7           |
+| [[Dagger]]     | `dice: 1d6` | N/A        | 1       | Fifth Essence (`dice: 1d6/2) | Courage +6             |
+|                |             |            |         | Mudane Items (`dice: 1d6`)   | Dodge/Escape +4        |
+|                |             |            |         | Strange Items (`dice: 1d6/2) | Endurance +5           |
+|                |             |            |         | Succubus’ Breath             | Hex Weaving +6         |
+|                |             |            |         |                              | Resist Coercion +7     |
+|                |             |            |         |                              | Resist Magic +7        |
+|                |             |            |         |                              | Ritual Crafting +5     |
+|                |             |            |         |                              | Spell Crafting +7      |
+|                |             |            |         |                              | Staff/Spear +6         |
+|                |             |            |         |                              | Stealth +5             |
+|                |             |            |         |                              | Wilderness Survival +5 |

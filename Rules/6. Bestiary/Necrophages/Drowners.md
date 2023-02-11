@@ -76,19 +76,15 @@ Drowners are actually not resurrected evildoers. Most people think so, thanks to
 
 A large group of drowners can be hellish to deal with. They overwhelm a single person by attacking in force and from all directions. They are immune to poison due to the horrible, murky, and toxic waters that they are used to, and it takes quite a bit to discourage them. However, they are also tremendously, staggeringly dumb. The few studies of drowners agree that they are about as intelligent as a predatory fish. They act completely on instinct, cannot in any way be reasoned with, and are even immune to spells that would mentally or emotionally affect them. This does mean that they never formulate plans more complex than ‘attack’ and they can be distracted by sufficiently shiny things as long as they haven’t tasted blood. Drowners are also highly susceptible to fire—it’s your best weapon. Being tremendously dumb, a drowner will continue to fight while on fire and will not try to put itself out until almost dead (below 10 HP).
 
--tx-
-Weapons||||                  Loot|Skills|
-|---------------------|-------|----------|-------|
-|==Name==                      |==DMG==    |==Effect==|==ROF==|
-Claws|3d6|N/A    |1|Drowner brains|Athletics +6|
---|--|--|--|Drowner tongue|Skill 2|
---|--|--|--|Essence of water (1d6/2)|Awareness + 8|
-|--|--|--|--|[[Double Woven Hood]]|Brawling +6|
-|--|--|--|--|Mundane items (1d6)|Courage +8|
-|--|--|--|--|[[Padded Trousers]]|Dodge/Escape +5|
-|--|--|--|--|--|Endurance +6|
-|--|--|--|--|--|Melee +6|
-|--|--|--|--|--|Resist Magic +4|
-|--|--|--|--|--|Small Blades +5|
-|--|--|--|--|--|Stealth +5|
-|--|--|--|--|--|Wilderness Survival +6|
+| Weapons  |         |            |         | Loot                            | Skills                 |
+|----------|---------|------------|---------|---------------------------------|------------------------|
+| **Name** | **DMG** | **Effect** | **ROF** | Drowner Brains                  | Athletics +6           |
+| Claws    | 3d6     | N/A        | 1       | Drowner Tongue                  | Awareness +8           |
+|          |         |            |         | Essence of Water (`dice: 1d6/2`) | Brawling +6            |
+|          |         |            |         |                                 | Courage +8             |
+|          |         |            |         |                                 | Dodge/Escape +5        |
+|          |         |            |         |                                 | Endurance +6           |
+|          |         |            |         |                                 | Melee +6               |
+|          |         |            |         |                                 | Resist Magic +4        |
+|          |         |            |         |                                 | Stealth +5             |
+|          |         |            |         |                                 | Wilderness Survival +6 |

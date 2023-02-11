@@ -71,16 +71,14 @@ Young, engaged women who suffered violent deaths before their weddings sometimes
 
 Noonwraiths usually attack with their deadly claws. From time to time they use magic to sweep up a dust devil and blind a challenging target. If damaged too much, they begin a high noon dance, creating copies of themselves that drain your HP and heal the noonwraith. Destroy these copies immediately, before they can siphon too much health from you. Your best chance to fight a noonwraith is to coat your blade in specter oil and attempt to summon it at night. Find something of great value to the wraith in its previous life and burn it near the grave site. 90% of the time this will summon the wraith, and with the moon high in the sky you will have a much easier time killing it. Once killed, the specter’s soul is released from the shackles of pain that kept it in this world. It is put to rest and can move on to whatever lies beyond the veil of death. This is a romantic goal, but not an easy task.
 
--tx-
-Weapons||||                  Loot|Skills|
-|---------------------|-------|----------|-------|
-|==Name==                      |==DMG==    |==Effect==|==ROF==|Infused dust (1d6)|Athletics +4|
-Claws|5d6|N/A    |2|Light Essence (1d6/2)|Awareness +10|
---|--|--|--|Specter dust (1d6)|Brawling +7|
---|--|--|--|Wraith essence (1d6)|Dodge/Escape +9|
-|--|--|--|--|--|Endurance +7|
-|--|--|--|--|--|Melee +8|
-|--|--|--|--|--|Resist Magic +7|
-|--|--|--|--|--|Spell Casting +8|
-|--|--|--|--|--|Stealth +10|
-|--|--|--|--|--|Wilderness Survival +5|
+| Weapons  |             |            |         | Loot                          | Skills                 |
+|----------|-------------|------------|---------|-------------------------------|------------------------|
+| **Name** | **DMG**     | **Effect** | **ROF** | Infused Dust (`dice: 1d6)     | Athletics +4           |
+| Claws    | `dice: 5d6` | N/A        | 2       | Light Essence (`dice: 1d6/2`) | Awareness +10          |
+|          |             |            |         | Specter Dust (`dust: 1d6)     | Brawling +7            |
+|          |             |            |         | Wraith Essence (`dice: 1d6)   | Endurance +7           |
+|          |             |            |         |                               | Melee +8               |
+|          |             |            |         |                               | Resist Magic +7        |
+|          |             |            |         |                               | Spell Casting +8       |
+|          |             |            |         |                               | Stealth +10            |
+|          |             |            |         |                               | Wilderness Survival +5 |

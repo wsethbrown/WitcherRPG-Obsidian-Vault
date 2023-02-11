@@ -1572,23 +1572,479 @@
           ]
         },
         {
-          "type": "group",
-          "id": "68d8b9f888d9",
+          "type": "subheading",
+          "id": "a948db397b89",
+          "properties": [],
+          "separator": " Weapons",
+          "fallback": "-"
+        },
+        {
+          "type": "inline",
+          "id": "0a082aea686b",
           "properties": [],
           "nested": [
             {
-              "type": "traits",
-              "id": "faf9e8d809aa",
+              "type": "property",
+              "id": "086ba9c90a98",
               "properties": [
-                "weapons"
+                "weapon1"
               ],
               "fallback": "-",
-              "markdown": false,
-              "heading": "Weapons",
-              "headingProp": false,
-              "hasRule": false
+              "display": "Weapon"
+            },
+            {
+              "type": "property",
+              "id": "e9b9181949aa",
+              "properties": [
+                "dmg"
+              ],
+              "fallback": "-",
+              "display": "DMG",
+              "dice": true
+            },
+            {
+              "type": "property",
+              "id": "bacbfafaab38",
+              "properties": [
+                "effect"
+              ],
+              "fallback": "-",
+              "display": "Effect"
+            },
+            {
+              "type": "property",
+              "id": "6b6a69582a0b",
+              "properties": [
+                "rof"
+              ],
+              "fallback": "-",
+              "display": "ROF"
             }
           ]
+        },
+        {
+          "type": "inline",
+          "id": "1a3ae9f859eb",
+          "properties": [],
+          "nested": [
+            {
+              "type": "property",
+              "id": "49fbaa38db09",
+              "properties": [
+                "weapon2"
+              ],
+              "fallback": "-",
+              "display": "Weapon"
+            },
+            {
+              "type": "property",
+              "id": "182b79bb4ada",
+              "properties": [
+                "weapon2dmg"
+              ],
+              "fallback": "-",
+              "display": "DMG"
+            },
+            {
+              "type": "property",
+              "id": "0bea59480989",
+              "properties": [
+                "weapon2effect"
+              ],
+              "fallback": "-",
+              "display": "Effect"
+            },
+            {
+              "type": "property",
+              "id": "5828ab9ab92a",
+              "properties": [
+                "weapon2rof"
+              ],
+              "fallback": "-",
+              "display": "ROF"
+            }
+          ],
+          "conditioned": true
+        },
+        {
+          "type": "inline",
+          "id": "9919eb280809",
+          "properties": [],
+          "nested": [
+            {
+              "type": "property",
+              "id": "2bbaba08b9fa",
+              "properties": [
+                "weapon3"
+              ],
+              "fallback": "-",
+              "display": "Weapon"
+            },
+            {
+              "type": "property",
+              "id": "783b49ca39f9",
+              "properties": [
+                "weapon3dmg"
+              ],
+              "fallback": "-",
+              "display": "DMG"
+            },
+            {
+              "type": "property",
+              "id": "9a59e80a0b3a",
+              "properties": [
+                "weapon3effect"
+              ],
+              "fallback": "-",
+              "display": "Effect"
+            },
+            {
+              "type": "property",
+              "id": "5acb29794a39",
+              "properties": [
+                "weapon3rof"
+              ],
+              "fallback": "-",
+              "display": "ROF"
+            }
+          ],
+          "conditioned": true
+        },
+        {
+          "type": "inline",
+          "id": "db49792b1818",
+          "properties": [],
+          "nested": [
+            {
+              "type": "property",
+              "id": "981aa97ab9d9",
+              "properties": [
+                "weapon4"
+              ],
+              "fallback": "-",
+              "display": "Weapon"
+            },
+            {
+              "type": "property",
+              "id": "8ada9afb6aa8",
+              "properties": [
+                "weapon4dmg"
+              ],
+              "fallback": "-",
+              "display": "DMG"
+            },
+            {
+              "type": "property",
+              "id": "89590bc98b78",
+              "properties": [
+                "weapon4effect"
+              ],
+              "fallback": "-",
+              "display": "Effect"
+            },
+            {
+              "type": "property",
+              "id": "5af979188a89",
+              "properties": [
+                "weapon4rof"
+              ],
+              "fallback": "-",
+              "display": "ROF"
+            }
+          ],
+          "conditioned": true
+        }
+      ]
+    },
+    {
+      "name": "Cyberpunk RED Layout",
+      "blocks": [
+        {
+          "type": "heading",
+          "id": "191b4ac9db49",
+          "properties": [
+            "name"
+          ],
+          "fallback": "-"
+        },
+        {
+          "type": "table",
+          "id": "5ac8ab688bab",
+          "properties": [
+            "statstop"
+          ],
+          "headers": [
+            "INT",
+            "REF",
+            "DEX",
+            "TECH",
+            "COOL"
+          ],
+          "calculate": false,
+          "fallback": "-"
+        },
+        {
+          "type": "table",
+          "id": "7a9b7b3bea48",
+          "properties": [
+            "statsbottom"
+          ],
+          "headers": [
+            "WILL",
+            "LUCK",
+            "MOVE",
+            "BODY",
+            "EMP"
+          ],
+          "calculate": false,
+          "fallback": "-"
+        },
+        {
+          "type": "inline",
+          "id": "fa89e9c9dbd9",
+          "properties": [],
+          "nested": [
+            {
+              "type": "property",
+              "id": "ebb89a8b6b58",
+              "properties": [
+                "HitPoints"
+              ],
+              "fallback": "-",
+              "display": "Hit Points:",
+              "conditioned": true
+            }
+          ]
+        },
+        {
+          "type": "inline",
+          "id": "59da1b6bbb99",
+          "properties": [],
+          "nested": [
+            {
+              "type": "property",
+              "id": "f8fa2b8bfbeb",
+              "properties": [
+                "SeriouslyWounded"
+              ],
+              "fallback": "-",
+              "display": "Seriously Wounded:",
+              "conditioned": true
+            }
+          ]
+        },
+        {
+          "type": "inline",
+          "id": "6acac9f9c928",
+          "properties": [],
+          "nested": [
+            {
+              "type": "property",
+              "id": "f9f98bbb3aeb",
+              "properties": [
+                "DeathSave"
+              ],
+              "fallback": "-",
+              "display": "Death Save:",
+              "conditioned": true
+            }
+          ],
+          "hasRule": true
+        },
+        {
+          "type": "inline",
+          "id": "992a5beb696a",
+          "properties": [],
+          "nested": [
+            {
+              "type": "property",
+              "id": "99cb59788aa9",
+              "properties": [
+                "Weapon1"
+              ],
+              "fallback": "-",
+              "display": "Wpn: ",
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "a9a9eb990a19",
+              "properties": [
+                "Weapon1Dmg"
+              ],
+              "fallback": "-",
+              "display": "Dmg:",
+              "conditioned": true
+            }
+          ],
+          "conditioned": true
+        },
+        {
+          "type": "inline",
+          "id": "fbd97bda0b2a",
+          "properties": [],
+          "nested": [
+            {
+              "type": "property",
+              "id": "2b681b69888b",
+              "properties": [
+                "Weapon2"
+              ],
+              "fallback": "-",
+              "display": "Wpn: ",
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "68785948c99b",
+              "properties": [
+                "Weapon2Dmg"
+              ],
+              "fallback": "-",
+              "display": "Dmg: ",
+              "conditioned": true
+            }
+          ]
+        },
+        {
+          "type": "inline",
+          "id": "7be939da285a",
+          "properties": [],
+          "nested": [
+            {
+              "type": "property",
+              "id": "2a1ab9b9681b",
+              "properties": [
+                "Weapon3"
+              ],
+              "fallback": "-",
+              "display": "Wpn:",
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "5ab8aa2b59c9",
+              "properties": [
+                "Weapon3Dmg"
+              ],
+              "fallback": "-",
+              "display": "Dmg:",
+              "conditioned": true
+            }
+          ]
+        },
+        {
+          "type": "inline",
+          "id": "38296b3808aa",
+          "properties": [],
+          "nested": [
+            {
+              "type": "property",
+              "id": "7acbca1b9bbb",
+              "properties": [
+                "Weapon4"
+              ],
+              "fallback": "-",
+              "display": "Wpn:",
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "abeb488bab7b",
+              "properties": [
+                "Weapon4Dmg"
+              ],
+              "fallback": "-",
+              "display": "Dmg:",
+              "conditioned": true
+            }
+          ],
+          "hasRule": true,
+          "conditioned": true
+        },
+        {
+          "type": "inline",
+          "id": "db894a7b8b08",
+          "properties": [],
+          "nested": [
+            {
+              "type": "property",
+              "id": "1bdb69cb9aa8",
+              "properties": [
+                "Armor"
+              ],
+              "fallback": "-",
+              "display": "Armor:"
+            },
+            {
+              "type": "property",
+              "id": "6a2a0a7a481b",
+              "properties": [
+                "ArmorHead"
+              ],
+              "fallback": "-",
+              "display": "Head:"
+            },
+            {
+              "type": "property",
+              "id": "4ac9a82b9a7b",
+              "properties": [
+                "ArmorBody"
+              ],
+              "fallback": "-",
+              "display": "Body:"
+            }
+          ],
+          "hasRule": true,
+          "conditioned": true
+        },
+        {
+          "type": "group",
+          "id": "cb29d99a58ca",
+          "properties": [],
+          "nested": [
+            {
+              "type": "property",
+              "id": "b8fb4aea8b3a",
+              "properties": [
+                "SkillBases"
+              ],
+              "fallback": "-",
+              "display": "Skill Bases:",
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "ba3bf8fb19fa",
+              "properties": [
+                "SpecEquip"
+              ],
+              "fallback": "-",
+              "display": "Cyberware & Special Equipment:",
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "6b6be9496b3a",
+              "properties": [
+                "CyberdeckProg"
+              ],
+              "fallback": "-",
+              "display": "Cyberdeck Program:",
+              "conditioned": true,
+              "hasRule": false
+            }
+          ],
+          "hasRule": true
+        },
+        {
+          "type": "property",
+          "id": "bad868ba9a5b",
+          "properties": [
+            "Tip"
+          ],
+          "fallback": "-",
+          "conditioned": true
         }
       ]
     }

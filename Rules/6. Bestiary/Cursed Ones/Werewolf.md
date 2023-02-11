@@ -74,25 +74,24 @@ These beasts are very difficult to fight, owing to their innate intelligence and
 
 While it can be difficult to determine what actions led to any one case of lycanthropy, you can narrow it down. Lycanthropy is often a punishment for violent, beastial actions. Lifting the curse usually requires great pain and or personal loss.
 
--tx-
-Weapons||||                  Loot|Skills|
-|---------------------|-------|----------|-------|
-|==Name==                      |==DMG==    |==Effect==|==ROF==|Random items (1d6)|Athletics +8|
-Claws|4d6+2|Bleed (25%)    |2|Werewolf saliva (1d6)|Awareness+10|
-Bite|5d6|Bleed (75%)|1|Wolf hide|Brawling +8|
---|--|--|--|--|Courage +10|
---|--|--|--|--|Dodge/Escape +8|
-|--|--|--|--|--|Endurance +8|
-|--|--|--|--|--|Melee +9|
-|--|--|--|--|--|Resist Coercion+10|
-|--|--|--|--|--|Resist Magic +9|
-|--|--|--|--|--|Stealth +9|
-|--|--|--|--|--|Wilderness Survival +9|
+| Weapons  |               |             |         | Loot                          | Skills                 |
+| -------- | ------------- | ----------- | ------- | ----------------------------- | ---------------------- |
+| **Name** | **DMG**       | **Effect**  | **ROF** | Random Items (`dice: 1d6`)    | Athletics +8           |
+| Claws    | `dice: 4d6+2` | Bleed (25%) | 2       | Werewolf Saliva (`dice: 1d6`) | Awareness +10          |
+| Bite     | `dice: 5d6`   | Bleed (75%) | 1       | Wolf Hide                     | Brawling +8            |
+|          |               |             |         |                               | Courage +10            |
+|          |               |             |         |                               | Dodge/Escape +8        |
+|          |               |             |         |                               | Endurance +8           |
+|          |               |             |         |                               | Melee +9               |
+|          |               |             |         |                               | Resist Coercion +10    |
+|          |               |             |         |                               | Resist Magic +9        |
+|          |               |             |         |                               | Stealth +9             |
+|          |               |             |         |                               | Wilderness Survival +9 |
 
--tx-
-|Becoming a Werewolf|||
-|:---:|:---:|:---:|:---:|
-A character afflicted with Lycanthropy has a 30% chance of changing into a werewolf every night, when the moon rises. In their werewolf form, they are a vicious predator with a human’s cunning and an urge to kill. If the character is a player character, they are taken over by the GM until the sun rises. While in their beast state the lycanthrope has all of the werewolf’s weapons, armor, and abilities. The character also adds a bonus to four of their statistics.||
-==Werewolf Bonuses==||
-Body +3|Empathy -5|
-Reflex +2|Speed +4
+## Becoming a Werewolf
+A character afflicted with Lycanthropy has a 30% chance of changing into a werewolf every night, when the moon rises. In their werewolf form, they are a vicious predator with a human’s cunning and an urge to kill. If the character is a player character, they are taken over by the GM until the sun rises. While in their beast state the lycanthrope has all of the werewolf’s weapons, armor, and abilities. The character also adds a bonus to four of their statistics.
+
+| ==Werewolf Bonuses== |            |
+| ---------------- | ---------- |
+| Body +3          | Empathy -5 |
+| Reflex +2        | Speed +4   |

@@ -74,16 +74,15 @@ To some extent it is true that cave, rock, and ice trolls are more similar than 
 
 Now the differences. Don’t bother hiring rock trolls as builders—they’re useless. Rock trolls are smaller in stature than cave trolls, standing only two meters tall at most. How- ever they are incredibly heavy, with a hard plate of rock on their back that acts as a natural shield against attacks from the rear. This means that unlike cave trolls, you must face a rock troll head on to do real damage to it. Trying to attack through the solid stone on a rock troll does very little damage, and just about any weapon will dull on its stony back.
 
--tx-
-Weapons||||                  Loot|Skills|
-|---------------------|-------|----------|-------|
-|==Name==                      |==DMG==    |==Effect==|==ROF==|Mundane items (1d6)|Athletics +3|
-Punch|6d6|N/A    |2|Stone (2d10)|Awareness +9|
---|--|--|--|Troll liver (1)|Brawling +8|
---|--|--|--|--|Courage +10|
---|--|--|--|--|Dodge/Escape +5|
-|--|--|--|--|--|Endurance +8|
-|--|--|--|--|--|Resist Coercion+6|
-|--|--|--|--|--|Resist Magic +8|
-|--|--|--|--|--|Stealth +3|
-|--|--|--|--|--|Wilderness Survival +5|
+| Weapons  |             |            |         | Loot                        | Skills                 |
+|----------|-------------|------------|---------|-----------------------------|------------------------|
+| **Name** | **DMG**     | **Effect** | **ROF** | Mundane Items (`dice: 1d6`) | Athletics +3           |
+| Punch    | `dice: 6d6` | N/A        | 2       | Stone (`dice: 2d10`)        | Awareness +9           |
+|          |             |            |         | Troll Liver (1)             | Brawling +8            |
+|          |             |            |         |                             | Courage +10            |
+|          |             |            |         |                             | Dodge/Escape +5        |
+|          |             |            |         |                             | Endurance +8           |
+|          |             |            |         |                             | Resist Coercion +6     |
+|          |             |            |         |                             | Resist Magic +8        |
+|          |             |            |         |                             | Stealth +3             |
+|          |             |            |         |                             | Wilderness Survival +5 |

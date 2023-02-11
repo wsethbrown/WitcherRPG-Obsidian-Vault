@@ -71,17 +71,16 @@ Don’ t tie yourself to the mast. You will die a horrible death. Contrary to po
 
 A siren will swoop down from on high, swinging with its claws (or its tail if it’s feeling confident) before ascending again. Some will try to knock you into the water where their sisters can better tear you apart. Unfortunately, sirens in the air or in the water are very fast and very maneuverable, mak- ing them hard to catch or attack. Luckily you can knock a siren out of the air with a direct ranged weapon hit. In this time the siren is incredibly vulnerable and can usually be finished off by two men with sturdy weapons. Technically, sirens are intelligent, and are capable of reason and diplomacy. That be- ing said, they aren’t interested in it–they see all non-sirens as prey. It’s not entirely unheard of to encounter a siren willing to talk with you. In this case, be very wary: it might be trying to lure you into a trap. Still, old wives’ tales persist that sirens were once friendly. It’s just hard to tell whether these tales refer to the sirens we find off the coast now or a race that (like many others) was wiped out in the numerous race wars.
 
--tx-
-Weapons||||                  Loot|Skills|
-|---------------------|-------|----------|-------|
-|==Name==                      |==DMG==    |==Effect==|==ROF==|Essence of water (1d6)|Athletics +8|
-Claws|2d6+2|WA +1    |1|Mundane Items (1d6/3)|Awareness+7|
-Tail|3d6+2|N/A|1|Siren vocal chords|Brawling +7|
---|--|--|--|--|Courage +5|
---|--|--|--|--|Dodge/Escape +6|
-|--|--|--|--|--|Endurance +6|
-|--|--|--|--|--|Melee +7|
-|--|--|--|--|--|Resist Coercion+6|
-|--|--|--|--|--|Resist Magic +6|
-|--|--|--|--|--|Stealth +8|
-|--|--|--|--|--|Wilderness Survival +5|
+| Weapons  |               |            |         | Loot                          | Skills                 |
+|----------|---------------|------------|---------|-------------------------------|------------------------|
+| **Name** | **DMG**       | **Effect** | **ROF** | Essence of Water (`dice: 1d6) | Athletics +8           |
+| Claws    | `dice: 2d6+2` | WA +1      | 2       | Mundane Items (`dice: 1d6/3   | Awareness +7           |
+| Tail     | `dice: 3d6+2` | N/A        | 1       | Siren Vocal Chords            | Brawling +7            |
+|          |               |            |         |                               | Courage +5             |
+|          |               |            |         |                               | Dodge/Escape +6        |
+|          |               |            |         |                               | Endurance +6           |
+|          |               |            |         |                               | Melee +7               |
+|          |               |            |         |                               | Resist Coercion +6     |
+|          |               |            |         |                               | Resist Magic +6        |
+|          |               |            |         |                               | Stealth +8             |
+|          |               |            |         |                               | Wilderness Survival +5 |

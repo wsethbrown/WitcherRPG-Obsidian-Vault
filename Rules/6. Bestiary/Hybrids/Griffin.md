@@ -72,16 +72,15 @@ Griffins are technically very simple creatures. They operate a lot like a combin
 
 If you have to fight a griffin, do yourself a favor and stock up on ranged ammunition and hybrid oil. You’ll need the ammunition because griffins like to attack from the air, swooping down on their opponents. A direct hit with a crossbow bolt, spear, arrow, or other ranged weapon forces the griffin to re-adjust in the air. If it fails, it will plummet to the ground, take falling damage, and be more vulnerable. On the ground you have to watch out for the griffin’s razor-sharp claws. Not only will they tear you open, they leave vast bleed- ing wounds. If you get too far from a griffin it’ll close distance with a charge: a tremendously powerful but inaccurate attack, easier to dodge than the normal claw attacks, but a hit will spell doom for the average man. The last thing to watch for is the griffin’s sonic cry. Fail to resist that and you’ll be a sitting duck.
 
--tx-
-Weapons||||                  Loot|Skills|
-|---------------------|-------|----------|-------|
-|==Name==                      |==DMG==    |==Effect==|==ROF==|Griffin egg (1d6/2)|Athletics +7|
-Claws|6d6|N/A    |2|Griffin feather (1d10)|Awareness+10|
-Bite|7d6+2|Bleed (50%)|1|Infused dust (1d6/2)|Brawling +7|
---|--|--|--|--|Courage +10|
---|--|--|--|--|Dodge/Escape +7|
-|--|--|--|--|--|Endurance +3|
-|--|--|--|--|--|Melee +9|
-|--|--|--|--|--|Resist Magic +9|
-|--|--|--|--|--|Stealth +4|
-|--|--|--|--|--|Wilderness Survival +8|
+| Weapons  |               |             |         | Loot                          | Skills                 |
+|----------|---------------|-------------|---------|-------------------------------|------------------------|
+| **Name** | **DMG**       | **Effect**  | **ROF** | Griffin Egg (`dice: 1d6/2)    | Athletics +7           |
+| Claws    | `dice: 6d6`   | N/A         | 2       | Griffin Feather (`dice: 1d10) | Awareness +10          |
+| Bite     | `dice: 7d6+2` | Bleed (50%) | 1       | Infused Dust (`dice: 1d6/2)   | Brawling +7            |
+|          |               |             |         |                               | Courage +10            |
+|          |               |             |         |                               | Dodge/Escape +7        |
+|          |               |             |         |                               | Endurance +3           |
+|          |               |             |         |                               | Melee +9               |
+|          |               |             |         |                               | Resist Magic +9        |
+|          |               |             |         |                               | Stealth +4             |
+|          |               |             |         |                               | Wilderness Survival +8 |

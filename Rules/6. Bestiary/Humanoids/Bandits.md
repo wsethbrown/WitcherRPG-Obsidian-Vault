@@ -2,7 +2,6 @@
 >[!infobox]+
 ># Bandits
 >![[bandit.png]]
->[[bandit.png|hover]]
 >###### 
 >|Threat|
 >|:---:|
@@ -71,20 +70,18 @@ Bandits are one of the most common threats on the road, but they are far from th
 
 However, some who travel in more tightly woven groups may fight all the harder if you kill their buddies. In the war-torn North, be a bit more wary. Lack of easily accessible food has driven some bandits to cannibalism. Cannibals often go a bit mad and attack wildly, refusing to give up even when half dead. If you don’t want a fight, keep a wary eye on the roads.
 
--tx-
-Weapons||||                  Loot|Skills|
-|---|---|---|---|
-|==Name==|==DMG==|==Effect==|==ROF==|
-[[Iron Long Sword]]|2d6+2|N/A|1|[[Aedirnian gambeson]]|Athletics +4|
-[[Dagger]]|1d6|N/A|1|Bolts (20)|Awareness  +4|
-[[Hand Crossbow]]|2d6+2|RNG: 50m Slow Loading WA +1|1|Crowns (3d10)|Brawling +6|
-|--|--|--|--|[[Double Woven Hood]]|Courage +7|
-|--|--|--|--|Mundane items (1d6)|Crossbow +4|
-|--|--|--|--|[[Padded Trousers]]|Dodge/Escape +4|
-|--|--|--|--|--|Endurance +5|
-|--|--|--|--|--|Resist Coercion +5|
-|--|--|--|--|--|Resist Magic +4|
-|--|--|--|--|--|Small Blades +5|
-|--|--|--|--|--|Stealth +3|
-|--|--|--|--|--|Swordsmanship +6|
-|--|--|--|--|--|Wilderness Survival +5|
+| Weapons             |               |                                |         | Loot                      | Skills                 |
+|---------------------|---------------|--------------------------------|---------|---------------------------|------------------------|
+| **Name**            | **DMG**       | **Effect**                     | **ROF** | [[Aedirnian Gambeson]]    | Athletics +4           |
+| [[Iron Long Sword]] | `dice: 2d6+2` | N/A                            | 1       | Bolts (20)                | Awareness +4           |
+| [[Dagger]]          | `dice: 1d6`   | N/A                            | 1       | Crowns (`dice: 3d10`)     | Brawling +6            |
+| [[Hand Crossbow]]   | `dice: 2d6+2` | RNG: 50m, Slow, Loading, WA +1 | 1       | [[Double Woven Hood]]     | Courage +7             |
+|                     |               |                                |         | Mudan Items (`dice: 1d6`) | Crossbow +4            |
+|                     |               |                                |         | [[Padded Trousers]]       | Dodge/Escape +4        |
+|                     |               |                                |         |                           | Endurance +5           |
+|                     |               |                                |         |                           | Resist Coercion +5     |
+|                     |               |                                |         |                           | Resist Magic +4        |
+|                     |               |                                |         |                           | Small Blades +5        |
+|                     |               |                                |         |                           | Stealth +3             |
+|                     |               |                                |         |                           | Swordsmanship +6       |
+|                     |               |                                |         |                           | Wilderness Survival +5 |

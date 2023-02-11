@@ -68,31 +68,31 @@ Nekkers are a quandary for some witchers, a strange middle ground between purely
 
 If you have to fight a group of nekkers (which you likely will if you travel the war-torn roads in the Northern Kingdoms) keep in mind that nekkers are pack hunters who take orders from a chieftain, and killing it should be a priority. The chieftain will usually wear a skull headdress and carry a staff of some kind. Nekkers will try to gang up on you, so stay moving constantly. Area of effect or cone-based attacks, such as spells or bombs, are good to thin the ranks of the nekkers. Ogroid oil applied to a blade is also a good idea if you have some to hand. Technically, nekkers are somewhat intelligent–with great difficulty you might be able to convince them to leave you alone if you show them more fruitful prey. In general, it’s not a great plan to stake your life on your diplomacy, though.
 
--tx-
-Weapons||||                  Loot|Skills|
-|---------------------|-------|----------|-------|
-|==Name==                      |==DMG==    |==Effect==|==ROF==|Nekker claws (2)|Athletics +7|
-Claws|2d6|N/a    |1|Nekker heart (1)|Awareness +8|
---|--|--|--|Nekker teeth (1d6/2)|Brawling +5|
---|--|--|--|--|Courage +6|
---|--|--|--|--|Dodge/Escape +6|
-|--|--|--|--|--|Endurance +6|
-|--|--|--|--|--|Melee +5|
-|--|--|--|--|--|Resist Coercion+9|
-|--|--|--|--|--|Resist Magic +4|
-|--|--|--|--|--|Stealth +8|
-|--|--|--|--|--|Wilderness Survival +8|
+| Weapons  |             |            |         | Loot                         | Skills                 |
+|----------|-------------|------------|---------|------------------------------|------------------------|
+| **Name** | **DMG**     | **Effect** | **ROF** | Nekker Claws (2)             | Athletics +7           |
+| Claws    | `dice: 2d6` | N/A        | 1       | Nekker Heart (1)             | Awareness +8           |
+|          |             |            |         | Nekker Teeth (`dice: 1d6/2`) | Brawling +5            |
+|          |             |            |         |                              | Courage +6             |
+|          |             |            |         |                              | Dodge/Escape +6        |
+|          |             |            |         |                              | Endurance +6           |
+|          |             |            |         |                              | Melee +5               |
+|          |             |            |         |                              | Resist Coercion +9     |
+|          |             |            |         |                              | Resist Magic +4        |
+|          |             |            |         |                              | Stealth +8             |
+|          |             |            |         |                              | Wilderness Survival +8 |
 
--tx-
-|Nekker Chieftain|||||
-|:---:|:---:|:---:|:---:|:---:|
-Nekker chieftains are usually slightly larger than regular nekkers. Some people think that they are a larger breed of nekker, but it’s more likely that (like humans) larger, more powerful nekkers are chosen to be chieftains. They are often a reddish hue, possibly due to war paint.||||
-INT|2|STUN|4|
-REF|6|RUN|21|
-DEX|8|LEAP|4|
-BODY|4|STA|20|
-SPD|7|ENC|40|
-EMP|2|REC|4|
-CRA|2|HP|20|
-WILL|5|VIGOR|0|
-LUCK|0|--|--|
+## Nekker Chieftain
+Nekker chieftains are usually slightly larger than regular nekkers. Some people think that they are a larger breed of nekker, but it’s more likely that (like humans) larger, more powerful nekkers are chosen to be chieftains. They are often a reddish hue, possibly due to war paint.
+
+|      |     |       |     |
+| ---- | --- | ----- | --- |
+| INT  | 2   | STUN  | 4   |
+| REF  | 6   | RUN   | 21  |
+| DEX  | 8   | LEAP  | 4   |
+| BODY | 4   | STA   | 20  |
+| SPD  | 7   | ENC   | 40  |
+| EMP  | 2   | REC   | 4   |
+| CRA  | 2   | HP    | 20  |
+| WILL | 5   | VIGOR | 0   |
+| LUCK | 0   |       |     |

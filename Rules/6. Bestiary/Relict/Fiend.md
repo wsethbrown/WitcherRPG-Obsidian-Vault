@@ -73,17 +73,16 @@ Fiends are among the most dangerous relicts you can encounter on the Continent. 
 
 At this point it will charge, aiming to spear you on its antlers. Fiends are not demons, but relicts. There is some debate as to their intelligence since they appear to be related to the very smart and crafty succubi. However, fiends appear about as intelligent as your average bear and never act with complex reasoning. When fighting a fiend, stay light on your feet and dodge it. While you can block and parry, it is more advisable to keep maneuvering around the fiend. Relict oil can be tremendously useful when fighting a fiend, as well as moondust bombs to keep it from regenerating for a time and dimeritium bombs to stop the fiend’s hypnosis. Fiends also have incredibly sensitive hearing–loud noises such as banging on a shield or the explosion of bombs can stagger them.
 
--tx-
-Weapons||||                  Loot|Skills|
-|---------------------|-------|----------|-------|
-|==Name==                      |==DMG==    |==Effect==|==ROF==|Fiend dung (1d6)|Athletics +5|
-Claws|6d6+2|N/A    |2|Fiend eyes (3)|Awareness +10|
-Bite|7d6|Bleed (50%)|1|Fifth essence (1d10)|Brawling +8|
-Horns|8d6|WA -1|1|--|Courage +10|
---|--|--|--|--|Dodge/Escape +7|
-|--|--|--|--|--|Endurance +7|
-|--|--|--|--|--|Melee +9|
-|--|--|--|--|--|Physique+10|
-|--|--|--|--|--|Resist Magic +10|
-|--|--|--|--|--|Stealth +1|
-|--|--|--|--|--|Wilderness Survival +6|
+| Weapons  |               |             |         | Loot                         | Skills                 |
+| -------- | ------------- | ----------- | ------- | ---------------------------- | ---------------------- |
+| **Name** | **DMG**       | **Effect**  | **ROF** | Fiend Dung (`dice: 1d6`)     | Athletics +5           |
+| Claws    | `dice: 6d6+2` | N/A         | 2       | Fiend Eyes (3)               | Awareness +10          |
+| Bite     | `dice: 7d6`   | Bleed (50%) | 1       | Fifth Essence (`dice: 1d10`) | Brawling +8            |
+| Horns    | `dice: 8d6`   | WA -1       | 1       |                              | Courage +10            |
+|          |               |             |         |                              | Dodge/Escape +7        |
+|          |               |             |         |                              | Endurance +7           |
+|          |               |             |         |                              | Melee +9               |
+|          |               |             |         |                              | Physique +10           |
+|          |               |             |         |                              | Resist Magic +10       |
+|          |               |             |         |                              | Stealth +1             |
+|          |               |             |         |                              | Wilderness Survival +6 |

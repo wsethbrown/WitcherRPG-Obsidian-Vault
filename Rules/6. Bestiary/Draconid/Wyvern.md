@@ -79,16 +79,15 @@ While their hides are tough to pierce, they can be felled with regular steel wea
 
 When hunting a wyvern, start by preparing a draconid oil. Cover yourself from head to toe as much as possible to avoid acidic venom getting on any uncovered areas. Golden oriole potion is also a good idea, to negate poison effects. You should also stock up on ranged ammunition or make sure you know a few damaging spells. While a wyvern flies around its prey, a well-placed arrow or the like stands a good chance of knocking the monster out of the air, making it far easier to hit. While engaging a flying wyvern, be wary of their claws–they will try to slash at you as they fly by. On the ground a wyvern falls back to its fanged bite or the poisonous barbs on its tail.
 
--tx-
-Weapons||||                  Loot|Skills|
-|---------------------|-------|----------|-------|
-|==Name==                      |==DMG==    |==Effect==|==ROF==|Draconid scales (1d10)|Athletics +8|
-Claws|6d6|N/A    |2|Venom extract (1d10)|Awareness +10|
-Bite|7d6|Poison (25%)|1|Wyvern egg (1d6/2)|Brawling +7|
-Tail Barbs|5d6+2|Poison (75%)|1|Wyvern eyes (1d6/2)|Courage +8|
---|--|--|--|--|Dodge/Escape +6|
-|--|--|--|--|--|Endurance +8|
-|--|--|--|--|--|Melee +8|
-|--|--|--|--|--|Resist Magic +8|
-|--|--|--|--|--|Stealth +6|
-|--|--|--|--|--|Wilderness Survival +9|
+| Weapons    |               |              |         | Loot                           | Skills                 |
+|------------|---------------|--------------|---------|--------------------------------|------------------------|
+| **Name**   | **DMG**       | **Effect**   | **ROF** | Draconid Scales (`dice: 1d10`) | Athletics +8           |
+| Claws      | `dice: 6d6`   | N/A          | 2       | Venom Extract (`dice: 1d10`    | Awareness +10          |
+| Bite       | `dice: 7d6`   | Poison (25%) | 1       | Wyvern Egg (`dice: 1d6/2`)     | Brawling +7            |
+| Tail Barbs | `dice: 5d6+2` | Poison (75%) | 1       | Wyvern Eyes (`dice: 1d6/2`)    | Courage +8             |
+|            |               |              |         |                                | Dodge/Escape +6        |
+|            |               |              |         |                                | Endurance +8           |
+|            |               |              |         |                                | Melee +8               |
+|            |               |              |         |                                | Resist Magic +8        |
+|            |               |              |         |                                | Stealth +6             |
+|            |               |              |         |                                | Wilderness Survival +9 |

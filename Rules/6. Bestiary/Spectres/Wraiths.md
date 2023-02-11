@@ -75,17 +75,16 @@ Interestingly enough, specters are one of the only monster types that are connec
 When fighting a specter, keep moving all the time. They will swing widely with their sword and lantern and use their selectively incorporeal nature to ‘dodge’ attacks. Every once in a while a specter will teleport, usually to get behind a target and attack. This is the specter’s most dangerous move, since they literally come out of nowhere. If you catch a specter with a Yrden Sign or a moondust bomb, you can keep it from turning incorporeal or teleporting. That and an application of specter oil will really shorten your fight.
 No one knows where a wraith’s consciousness goes when they are destroyed; it has been argued for centuries.
 
--tx-
-Weapons||||                  Loot|Skills|
-|---------------------|-------|----------|-------|
-|==Name==                                       |==DMG==    |==Effect==|==ROF==         |Infused dust (1d6/2)|Athletics +5|
-Wraith sword                      |3d6      |N/A              |1      |Specter dust  (1d6/2)|Awareness+8|
-Wraith lantern                   |2d6+2|Fire (25%)|1      |Wraith essence (1d6/2)|Brawling +6|
---|--|--|--|--|Dodge/Escape +6|
-|--|--|--|--|--|Endurance +7|
-|--|--|--|--|--|Melee +6|
-|--|--|--|--|--|Resist Magic +6|
-|--|--|--|--|--|Spell Casting +6|
-|--|--|--|--|--|Stealth +9|
-|--|--|--|--|--|Swordsmanship +7|
-|--|--|--|--|--|Wilderness Survival +6|
+| Weapons      |             |            |         | Loot                          | Skills                 |
+|--------------|-------------|------------|---------|-------------------------------|------------------------|
+| **Name**     | **DMG**     | **Effect** | **ROF** | Infused Dust (`dice: 1d6/2)   | Athletics +5           |
+| Wraith Sword | `dice: 3d6` | N/A        | 1       | Specter Dust (`dust: 1d6/2)   | Awareness +8           |
+|              |             |            |         | Wraith Essence (`dice: 1d6/2) | Brawling +6            |
+|              |             |            |         |                               | Dodge/Escape +6        |
+|              |             |            |         |                               | Endurance +7           |
+|              |             |            |         |                               | Melee +6               |
+|              |             |            |         |                               | Resist Magic +6        |
+|              |             |            |         |                               | Spell Casting +6       |
+|              |             |            |         |                               | Stealth +9             |
+|              |             |            |         |                               | Swordsmanship +7       |
+|              |             |            |         |                               | Wilderness Survival +6 |

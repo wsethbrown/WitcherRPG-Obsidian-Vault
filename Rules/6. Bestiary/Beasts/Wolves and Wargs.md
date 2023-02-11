@@ -71,30 +71,31 @@ While there are many strange stories and myths based around wolves, everyone can
 
 While wargs appear to function like regular wolves, they have gained an eerie reputation for their bright red eyes and cunning minds. When facing a wolf pack lead by a warg, remember to single out the warg as quickly as possible. With the warg alive, the pack can operate as one unit and is capable of greater strategy than normal. Wargs command their brethren to circle around prey, attack specific targets to weaken a group, and even hinder more dangerous targets so the warg can score a killing blow more easily. The warg will often stay towards the back of a pack until its prey has been weakened, so for the most part ranged attacks will be your best bet. Silver is ineffective on wargs but a good old-fashioned steel weapon will do the trick. With an application of beast oil, killing the warg shouldn’t be tremendously difficult. Always keep in mind—a warg is just a big, tough wolf.
 
--tx-
-Weapons||||                  Loot|Skills|
-|---------------------|-------|----------|-------|
-|==Name==                      |==DMG==    |==Effect==|==ROF==|Beast bones (1d6)|Athletics +6|
-Bite|2d6|N/A    |1|Dog tallow (1d6)|Awareness+6|
---|--|--|--|Wolf hide|Brawling +6|
---|--|--|--|--|Courage +6|
---|--|--|--|--|Dodge/Escape +5|
-|--|--|--|--|--|Endurance +6|
-|--|--|--|--|--|Melee +6|
-|--|--|--|--|--|Resist Magic +2|
-|--|--|--|--|--|Stealth +6|
-|--|--|--|--|--|Wilderness Survival +9|
+| Weapons  |         |            |         | Loot                     | Skills                 |
+|----------|---------|------------|---------|--------------------------|------------------------|
+| **Name** | **DMG** | **Effect** | **ROF** | Dog Tallow (`dice: 1d6`) | Athletics +6           |
+| Bite     | 2d6     | N/A        | 1       | Beast Bones (`dice: 1d6`)        | Awareness +6           |
+|          |         |            |         | Wolf Hide                | Brawling +6            |
+|          |         |            |         |                          | Courage +6             |
+|          |         |            |         |                          | Dodge/Escape +5        |
+|          |         |            |         |                          | Endurance +6           |
+|          |         |            |         |                          | Melee +6               |
+|          |         |            |         |                          | Resist Magic +2        |
+|          |         |            |         |                          | Stealth +6             |
+|          |         |            |         |                          | Wilderness Survival +9 |
 
--tx-
-|Wargs|||||
-|:---:|:---:|:---:|:---:|:---:|
-Wargs are larger than average wolves, with reddish-brown fur and bright red eyes. The way they prowl makes them seem much cleverer than the average wolf.||||
-INT|2|STUN|6|
-REF|5|RUN|24|
-DEX|7|LEAP|4|
-[[Body (BODY)]]|6|STA|8|
-SPD|8|ENC|60|
-EMP|1|REC|6|
-CRA|1|HP|30|
-[[Will (WILL)]]|6|VIGOR|0|
-LUCK|0|--|--|
+## Wargs 
+Wargs are larger than average wolves, with reddish-brown fur and bright red eyes. The way they prowl makes them seem much cleverer than the average wolf.
+
+| INT         | 2 | STUN  | 6  |
+|-------------|---|-------|----|
+| REF         | 5 | RUN   | 24 |
+| DEX         | 7 | LEAP  | 4  |
+| Body (BODY) | 6 | STA   | 8  |
+| SPD         | 8 | ENC   | 60 |
+| EMP         | 1 | REC   | 6  |
+| CRA         | 1 | HP    | 30 |
+| Will (WILL) | 6 | VIGOR | 0  |
+| LUCK        | 0 | --    | -- |
+
+

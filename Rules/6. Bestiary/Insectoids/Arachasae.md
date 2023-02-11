@@ -74,16 +74,15 @@ Arachas are indeed very dangerous ambush predators. They stalk the swamps and fl
 
 When fighting an arachas, apply something to help fight poison, such as gold oriole potion. It’s also good to load up on insectoid oil and, when possible, stay behind the arachas. Arachas back armor is always the weakest—a well- placed strike to the back will usually penetrate. It’s also good to position yourself so a pouncing arachas may plummet off of drops or ram hard objects and take damage. Arachasae are often confused with endrega queens. An endrega queen is so similar to an arachas that many academics believe the two species may be related, with many thinking that arachasae mutated from endrega. The best way to distinguish an arachas from an endrega queen is their location. Arachasae are solitary predators and can be found alone in the wilderness. Endrega queens are found in their nest, surrounded by other endrega.
 
--tx-
-Weapons||||                  Loot|Skills|
-|---------------------|-------|----------|-------|
-|==Name==                      |==DMG==    |==Effect==|==ROF==|Arachas eyes (1d6/2)|Athletics +5|
-Claws|5d6|Poison (25%)    |2|Arachas venom (1d6)|Awareness +6|
---|--|--|--|Chitin (1d6)|Brawling +5|
---|--|--|--|Venom extract (1d6)|Courage +10|
---|--|--|--|--|Dodge/Escape +8|
-|--|--|--|--|--|Endurance +5|
-|--|--|--|--|--|Melee +5|
-|--|--|--|--|--|Resist Magic +9|
-|--|--|--|--|--|Stealth +6|
-|--|--|--|--|--|Wilderness Survival +4|
+| Weapons  |             |              |         | Loot                         | Skills                 |
+|----------|-------------|--------------|---------|------------------------------|------------------------|
+| **Name** | **DMG**     | **Effect**   | **ROF** | Arachas eyes (`dice: 1d6/2`) | Athletics +5           |
+| Claws    | `dice: 5d6` | Poison (25%) | 2       | Arachas venom (`dice: 1d6`)  | Awareness +6           |
+|          |             |              |         | Chitin (`dice: 1d6`)         | Brawling +5            |
+|          |             |              |         | Venom extract (`dice: 1d6`)  | Courage +10            |
+|          |             |              |         |                              | Dodge/Escape +8        |
+|          |             |              |         |                              | Endurance +5           |
+|          |             |              |         |                              | Melee +5               |
+|          |             |              |         |                              | Resist Magic +9        |
+|          |             |              |         |                              | Stealth +6             |
+|          |             |              |         |                              | Wilderness Survival +4 |

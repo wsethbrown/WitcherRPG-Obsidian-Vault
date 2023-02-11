@@ -74,18 +74,18 @@ Of all monster families, the difference in power from least to most is at its mo
 
 Katakans are intelligent creatures, often more so than the average human. They are highly magical, able to hide from all forms of magical scanning including witcher medallions and other divination, and can communicate with prey telepath- ically. They cannot take any form but their own. In combat they are stealthy, hiding behind magical invisibility while they drive their prey mad with telepathic fear tactics. Katakan are hard to kill, regenerating from most wounds very quickly and dancing around attacks with their superior speed. They are still more animalistic than their more powerful cousins and are prone to lick blood off the cobblestones after eviscerating their prey with their claws. Popularly-known protections do not work on a katakan. Most will probably just annoy it, save for the stake through the heart. When fighting a katakan, fire is your best weapon since they are very flammable. Black blood can also be quite useful if the katakan tries to bite and feed on you. Alternatively, remember that any drug or amount of alcohol in your blood will affect a vampire that bites you.
 
--tx-
-Weapons||||                  Loot|Skills|
-|---------------------|-------|----------|-------|
-|==Name==                      |==DMG==    |==Effect==|==ROF==|Mundane items (1d6)|Athletics +10|
-Claws|6d6|Bleed (50%)    |2|Random rune|Awareness +10|
-Bite|7d6+2|Bleed (100%)|1|Vampire saliva (1d6)|Brawling +7|
---|--|--|--|Vampire teeth (1d6/2)|Courage +8|
---|--|--|--|--|Dodge/Escape +10|
-|--|--|--|--|--|Endurance +8|
-|--|--|--|--|--|Intimidate +8|
-|--|--|--|--|--|Melee +8|
-|--|--|--|--|--|Resist Coercion+10|
-|--|--|--|--|--|Resist Magic +8|
-|--|--|--|--|--|Stealth +10|
-|--|--|--|--|--|Wilderness Survival +8|
+| Weapons  |               |              |         | Loot                          | Skills                 |
+|----------|---------------|--------------|---------|-------------------------------|------------------------|
+| **Name** | **DMG**       | **Effect**   | **ROF** | Mundane Items (`dice: 1d6`)   | Athletics +10          |
+| Claws    | `dice: 6d6`   | Bleed (50%)  | 2       | Random Rune                   | Awareness +10          |
+| Bite     | `dice: 7d6+2` | Bleed (100%( | 1       | Vampire Saliva (`dice: 1d6`)  | Brawling +7            |
+|          |               |              |         | Vampire Teeth (`dice: 1d6/2`) | Courage +8             |
+|          |               |              |         |                               | Dodge/Escape +10       |
+|          |               |              |         |                               | Endurance +8           |
+|          |               |              |         |                               | Intimidate +8          |
+|          |               |              |         |                               | Melee +8               |
+|          |               |              |         |                               | Resist Coercion +10    |
+|          |               |              |         |                               | Resist Magic +8        |
+|          |               |              |         |                               | Stealth +10            |
+|          |               |              |         |                               | Swordsmanship +7       |
+|          |               |              |         |                               | Wilderness Survival +8 |

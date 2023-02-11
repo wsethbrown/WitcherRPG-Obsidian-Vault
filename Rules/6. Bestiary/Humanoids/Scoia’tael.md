@@ -71,20 +71,18 @@ Scoia’tael can be difficult to fight. They rarely rush at you and attack rando
 
 When they do attack, Scoia’tael will usually begin their ambush with a barrage of arrows from the forest line. With the first barrage fired, half of the unit will switch to their falchions and charge, sometimes screaming a battle cry such as “Aelirenn!” or “Shaerrawedd!”, that calls back to the great elven hero Aelirenn and the place of her death, Shaerrawedd Palace. While the melee group engages you, the other half of the commando will stay back, firing into the melee. Scoia’tael who are too far for melee and within 10m or so will often throw knives at the nearest target. The best way to fight Scoia’tael archers is to have cover. If you have a cart or caravan, get behind it (or better yet inside it) and force them to come to you. Try your best to stay out of the archer’s line of sight and deal with the melee fighters first. Negotiation is not advised.
 
--tx-
-Weapons|    |             |          |                  Loot|Skills|
-|---------------------|-------|----------|-------|
-|Name                      |DMG    |Effect|ROF|
-[[Hunter's Falchion]]|3d6|N/A    |1|[[Aedirnian gambeson]]|Archery +8|
-[[Dagger]]|1d6|N/A|1|Arrows (30)|Athletics +7|
-Throwing Knives|1d6|RNG: 20m |1|Crowns (1d10)|Awareness + 9|
-|Longbow|4d6|RNG: 200m|1|[[Double Woven Hood]]|Brawling +4|
-|--|--|--|--|Elven Burrowers (10)|Courage +5|
-|--|--|--|--|Mundane Items (1d6)|Dodge/Escape +6|
-|--|--|--|--|[[Padded Trousers]]|Endurance +7|
-|--|--|--|--|--|Resist Coercion +6|
-|--|--|--|--|--|Resist Magic +4|
-|--|--|--|--|--|Small Blades +6|
-|--|--|--|--|--|Stealth +8|
-|--|--|--|--|--|Swordsmanship +6|
-|--|--|--|--|--|Wilderness Survival +10|
+| Weapons               |             |            |         | Loot                       | Skills                  |
+|-----------------------|-------------|------------|---------|----------------------------|-------------------------|
+| **Name**              | **DMG**     | **Effect** | **ROF** | [[Aedirnian Gambeson]]     | Archery +8              |
+| [[Hunter’s Falchion]] | `dice: 3d6` | N/A        | 1       | Arrows (30)                | Athletics +7            |
+| [[Dagger]]            | `dice: 1d6` | N/A        | 1       | Crowns (`dice: 1d10)       | Awareness +9            |
+| Throwing Knives       | `dice: 1d6` | RNG: 20m   | 1       | [[Double Woven Hood]]      | Brawling +4             |
+|                       |             |            |         | Elven Burrowers (10)       | Courage +5              |
+|                       |             |            |         | Mundane Items (`dice: 1d6) | Dodge/Escape +6         |
+|                       |             |            |         | [[Padded Trousers]]        | Endurance +7            |
+|                       |             |            |         |                            | Resist Coercion +6      |
+|                       |             |            |         |                            | Resist Magic +4         |
+|                       |             |            |         |                            | Small Blades +6         |
+|                       |             |            |         |                            | Stealth +8              |
+|                       |             |            |         |                            | Swordsmanship +6        |
+|                       |             |            |         |                            | Wilderness Survival +10 |

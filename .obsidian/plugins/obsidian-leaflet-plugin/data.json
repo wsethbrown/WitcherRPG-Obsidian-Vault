@@ -1,5 +1,52 @@
 {
-  "mapMarkers": [],
+  "mapMarkers": [
+    {
+      "id": "leaflet-map",
+      "locked": false,
+      "lastAccessed": 1675987564040,
+      "markers": [
+        {
+          "id": "ID_684a497b4a2a",
+          "type": "default",
+          "loc": [
+            -6.8415069580078125,
+            5.856785247958799
+          ],
+          "layer": "%5B%5BThe%20Continent%20Map.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5496103458495061,
+            0.46291153198097
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e95a685a0968",
+          "type": "default",
+          "loc": [
+            -2.7551116943359375,
+            7.318731227419139
+          ],
+          "link": "Wolveswater",
+          "layer": "%5B%5BThe%20Continent%20Map.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Wolveswater",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": []
+    }
+  ],
   "defaultMarker": {
     "type": "default",
     "iconName": "map-marker",

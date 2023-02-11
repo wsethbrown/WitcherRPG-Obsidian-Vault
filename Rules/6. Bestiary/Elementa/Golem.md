@@ -74,14 +74,13 @@ Golems are incredibly simple monsters that are nonetheless incredibly dangerous.
 
 If you have to fight a golem, stock up on dimeritium bombs. While they won’t ‘shut off ’ a golem, they will make it sluggish. Elementa oil is also good, as are spells that incorporate electricity. When struck by enough electricity a golem will freeze up as its magical bonds try to reassert themselves. Never block or parry a golem–their fists are so strong that they stand a good chance of shattering any weapon. Since they’re con- structs you can also forget bleeding wounds, poison, mind-affecting spells, or fire. Lastly but possibly most important, if you see a golem charging at you...don’t be what it hits.
 
--tx-
-Weapons||||                  Loot|Skills|
-|---------------------|-------|----------|-------|
-|==Name==                      |==DMG==    |==Effect==|==ROF==|Golem heart|Athletics +2|
-Punch|8d6|Ablating    |1|Infused dust (1d6)|Awareness +8|
---|--|--|--|Random rune|Brawling +5|
---|--|--|--|--|Dodge/Escape +4|
-|--|--|--|--|--|Physique +10|
-|--|--|--|--|--|Resist Magic +10|
-|--|--|--|--|--|Stealth +2|
-|--|--|--|--|--|Wilderness Survival +4|
+| Weapons  |             |            |         | Loot                       | Skills                 |
+|----------|-------------|------------|---------|----------------------------|------------------------|
+| **Name** | **DMG**     | **Effect** | **ROF** | Golem Heart                | Athletics +2           |
+| Punch    | `dice: 8d6` | Ablating   | 1       | Infused Dust (`dice: 1d6`) | Awareness +8           |
+|          |             |            |         | Random Rune                | Brawling +5            |
+|          |             |            |         |                            | Dodge/Escape +4        |
+|          |             |            |         |                            | Physique +10           |
+|          |             |            |         |                            | Resist Magic +10       |
+|          |             |            |         |                            | Stealth +2             |
+|          |             |            |         |                            | Wilderness Survival +4 |

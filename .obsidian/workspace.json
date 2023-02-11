@@ -4,62 +4,134 @@
     "type": "split",
     "children": [
       {
-        "id": "6f85217415c633eb",
+        "id": "2ef33ab98b1b409a",
         "type": "tabs",
         "children": [
           {
-            "id": "7c654e08a9675107",
+            "id": "b07b7d48d7580d30",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
               "stack": [
                 {
                   "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "The Continent Map",
+                  "icon": "lucide-image",
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"z_Templates/zz_assets/The Continent Map.jpg\"}}",
                   "eState": "{}"
                 },
                 {
                   "title": "GM Notes",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Adventures/A Lost Love/GM Notes.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":79},\"to\":{\"line\":31,\"ch\":79}},\"scroll\":13.973639991598404}"
+                },
+                {
+                  "title": "Werewolf",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Cursed Ones/Werewolf.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{\"scroll\":84.84892086330936}"
+                },
+                {
+                  "title": "Wolves and Wargs",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Beasts/Wolves and Wargs.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{\"scroll\":65.83584905660378}"
+                },
+                {
+                  "title": "Drowners",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Necrophages/Drowners.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":77,\"ch\":0},\"to\":{\"line\":77,\"ch\":0}},\"scroll\":74.23198784722223}"
+                },
+                {
+                  "title": "Grave Hag",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Necrophages/Grave Hag.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":89,\"ch\":0},\"to\":{\"line\":89,\"ch\":0}},\"scroll\":75.78947368421052}"
+                },
+                {
+                  "title": "Ghoul",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Necrophages/Ghoul.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{\"scroll\":68.04642857142858}"
+                },
+                {
+                  "title": "Statblock Test (WORK IN PROGRESS)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Statblock Test (WORK IN PROGRESS).md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":54,\"ch\":18},\"to\":{\"line\":54,\"ch\":18}},\"scroll\":0}"
+                },
+                {
+                  "title": "Drowners",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Necrophages/Drowners.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "6. Bestiary",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/6. Bestiary.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Canvas Test",
+                  "icon": "lucide-layout-dashboard",
+                  "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"Canvas Test.canvas\",\"viewState\":{\"x\":87,\"y\":-160.5,\"zoom\":-0.04338134638538508,\"snapToGrid\":false}}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Interactive Map View",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"map\",\"state\":{\"name\":\"Default\",\"mapZoom\":2,\"mapCenter\":{\"lat\":43.32517767999296,\"lng\":-145.26766125493646},\"query\":\"\",\"chosenMapSource\":0,\"defaultState\":{\"name\":\"Default\",\"mapZoom\":1,\"mapCenter\":{\"lat\":40.44694705960048,\"lng\":-180.70312500000003},\"query\":\"\",\"chosenMapSource\":0},\"savedStates\":[],\"markerIconRules\":[{\"ruleName\":\"default\",\"preset\":true,\"iconDetails\":{\"prefix\":\"fas\",\"icon\":\"fa-circle\",\"markerColor\":\"blue\"}},{\"ruleName\":\"#trip\",\"preset\":false,\"iconDetails\":{\"prefix\":\"fas\",\"icon\":\"fa-hiking\",\"markerColor\":\"green\"}},{\"ruleName\":\"#trip-water\",\"preset\":false,\"iconDetails\":{\"prefix\":\"fas\",\"markerColor\":\"blue\"}},{\"ruleName\":\"#dogs\",\"preset\":false,\"iconDetails\":{\"prefix\":\"fas\",\"icon\":\"fa-paw\"}}],\"zoomOnGoFromNote\":15,\"autoZoom\":true,\"markerClickBehavior\":\"replaceCurrent\",\"markerCtrlClickBehavior\":\"dedicatedPane\",\"markerMiddleClickBehavior\":\"dedicatedTab\",\"openMapBehavior\":\"replaceCurrent\",\"openMapCtrlClickBehavior\":\"dedicatedPane\",\"openMapMiddleClickBehavior\":\"dedicatedTab\",\"newNoteNameFormat\":\"Location added on {{date:YYYY-MM-DD}}T{{date:HH-mm}}\",\"showNoteNamePopup\":true,\"showNotePreview\":true,\"showClusterPreview\":false,\"debug\":false,\"openIn\":[{\"name\":\"Google Maps\",\"urlPattern\":\"https://maps.google.com/?q={x},{y}\"}],\"urlParsingRules\":[{\"name\":\"OpenStreetMap Show Address\",\"regExp\":\"https:\\\\/\\\\/www.openstreetmap.org\\\\S*query=([0-9\\\\.\\\\-]+%2C[0-9\\\\.\\\\-]+)\\\\S*\",\"ruleType\":\"latLng\",\"preset\":true},{\"name\":\"Generic Lat,Lng\",\"regExp\":\"([0-9\\\\.\\\\-]+), ([0-9\\\\.\\\\-]+)\",\"ruleType\":\"latLng\",\"preset\":true}],\"mapControls\":{\"filtersDisplayed\":true,\"viewDisplayed\":true,\"presetsDisplayed\":false},\"maxClusterRadiusPixels\":20,\"searchProvider\":\"osm\",\"useGooglePlaces\":false,\"mapSources\":[{\"name\":\"CartoDB\",\"urlLight\":\"https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png\",\"preset\":true}],\"chosenMapMode\":\"auto\",\"saveHistory\":true,\"letZoomBeyondMax\":false,\"queryForFollowActiveNote\":\"path:\\\"$PATH$\\\"\",\"supportRealTimeGeolocation\":false,\"fixFrontMatterOnPaste\":true,\"queryError\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "The Continent Map",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"The Continent Map.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Note",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Note.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "title": "The Continent Map",
-                  "icon": "lucide-layout-dashboard",
-                  "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"The Continent Map.canvas\",\"viewState\":{\"x\":-24.926723777783856,\"y\":90.57760180238427,\"zoom\":1,\"snapToGrid\":false}}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Canvas Test",
-                  "icon": "lucide-layout-dashboard",
-                  "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"Canvas Test.canvas\",\"viewState\":{\"x\":33.33018947368419,\"y\":334.02896842105275,\"zoom\":-0.04338134638538508,\"snapToGrid\":true}}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Location - Iva's House",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Adventures/A Lost Love/2. The Investigation/Location - Iva's House.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"The Continent Map.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{\"scroll\":0.8495440729483283}"
                 },
                 {
-                  "title": "Canvas Test",
+                  "title": "The Continent Map",
                   "icon": "lucide-layout-dashboard",
-                  "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"Canvas Test.canvas\",\"viewState\":{\"x\":76.25999999999999,\"y\":98.57999999999998,\"zoom\":-0.1439366904894511,\"snapToGrid\":false}}}",
+                  "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"The Continent Map.canvas\",\"viewState\":{\"x\":-28.770745959231743,\"y\":76.71325561208968,\"zoom\":1,\"snapToGrid\":true}}}",
                   "eState": "{}"
+                },
+                {
+                  "title": "The Continent Map",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"The Continent Map.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{\"scroll\":0.8495440729483283}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rules/A. On the Path/On the Path.md",
+                "file": "Adventures/A Lost Love/GM Notes.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "830ebd0213873997",
+            "id": "f1ecdaebbff40bde",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -69,24 +141,144 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "Consumables",
+                  "title": "Wraiths",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/A. On the Path/Consumables.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Spectres/Wraiths.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":90,\"ch\":0},\"to\":{\"line\":90,\"ch\":0}},\"scroll\":74.52506510416667}"
+                },
+                {
+                  "title": "Noonwraith",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Spectres/Noonwraith.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":84,\"ch\":0},\"to\":{\"line\":84,\"ch\":0}},\"scroll\":70.06696428571429}"
+                },
+                {
+                  "title": "Fiend",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Relict/Fiend.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{\"scroll\":72.66}"
+                },
+                {
+                  "title": "Rock Troll",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Ogroid/Rock Troll.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":88,\"ch\":0},\"to\":{\"line\":88,\"ch\":0}},\"scroll\":73.5603448275862}"
+                },
+                {
+                  "title": "Nekker",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Ogroid/Nekker.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{\"scroll\":65.07142857142857}"
+                },
+                {
+                  "title": "Grave Hag",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Necrophages/Grave Hag.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":83,\"ch\":89},\"to\":{\"line\":83,\"ch\":89}},\"scroll\":74.07565789473684}"
+                },
+                {
+                  "title": "Ghoul",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Necrophages/Ghoul.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{\"scroll\":69.26428571428572}"
+                },
+                {
+                  "title": "Drowners",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Necrophages/Drowners.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{\"scroll\":75.695}"
+                },
+                {
+                  "title": "Endraga",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Insectoids/Endraga.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":93,\"ch\":0},\"to\":{\"line\":93,\"ch\":0}},\"scroll\":81.23697916666667}"
+                },
+                {
+                  "title": "Arachasae",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Insectoids/Arachasae.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":88,\"ch\":0},\"to\":{\"line\":88,\"ch\":0}},\"scroll\":72.8774181547619}"
+                },
+                {
+                  "title": "Siren",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Hybrids/Siren.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":86,\"ch\":0},\"to\":{\"line\":86,\"ch\":0}},\"scroll\":68.6195652173913}"
+                },
+                {
+                  "title": "Griffin",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Hybrids/Griffin.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":86,\"ch\":0},\"to\":{\"line\":86,\"ch\":0}},\"scroll\":70.76323784722223}"
+                },
+                {
+                  "title": "Scoia’tael",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Humanoids/Scoia’tael.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":88,\"ch\":0},\"to\":{\"line\":88,\"ch\":0}},\"scroll\":71.47265625}"
+                },
+                {
+                  "title": "Mages",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Humanoids/Mages.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":91,\"ch\":0},\"to\":{\"line\":91,\"ch\":0}},\"scroll\":73.38248697916667}"
+                },
+                {
+                  "title": "Bandits",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Humanoids/Bandits.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":87,\"ch\":0},\"to\":{\"line\":87,\"ch\":0}},\"scroll\":53.72700296735905}"
+                },
+                {
+                  "title": "Golem",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Elementa/Golem.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{\"scroll\":77.34905660377359}"
+                },
+                {
+                  "title": "Werewolf",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Cursed Ones/Werewolf.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{\"scroll\":66.63364055299539}"
+                },
+                {
+                  "title": "Wyvern",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Draconid/Wyvern.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{\"scroll\":77.58467741935483}"
+                },
+                {
+                  "title": "Werewolf",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Cursed Ones/Werewolf.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "Wyvern",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Draconid/Wyvern.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "eState": "{\"scroll\":77.81451612903226}"
                 },
                 {
                   "title": "Statblock Test (WORK IN PROGRESS)",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Statblock Test (WORK IN PROGRESS).md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":21},\"to\":{\"line\":2,\"ch\":21}},\"scroll\":0}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":53,\"ch\":0},\"to\":{\"line\":53,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "ChatGPT Ideas",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ChatGPT Ideas.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statblock Test (WORK IN PROGRESS).md",
-                "mode": "preview",
+                "file": "Rules/6. Bestiary/Vampires/Katakan.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -194,7 +386,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statblock Test (WORK IN PROGRESS).md",
+                "file": "Rules/6. Bestiary/Vampires/Katakan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +412,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statblock Test (WORK IN PROGRESS).md",
+                "file": "Rules/6. Bestiary/Vampires/Katakan.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -261,7 +453,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statblock Test (WORK IN PROGRESS).md"
+                "file": "Rules/6. Bestiary/Vampires/Katakan.md"
               }
             }
           },
@@ -409,17 +601,17 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "830ebd0213873997",
+  "active": "f1ecdaebbff40bde",
   "lastOpenFiles": [
-    "Rules/A. On the Path/Consumables.md",
-    "Statblock Test (WORK IN PROGRESS).md",
-    "Rules/A. On the Path/On the Path.md",
-    "Adventures/A Lost Love/GM Notes.md",
-    "The Continent Map.canvas",
-    "The Continent Map.md",
-    "The Continent - Map.md",
-    "Canvas Test.canvas",
-    "Adventures/A Lost Love/2. The Investigation/Location - Iva's House.md",
-    "README.md"
+    "Rules/6. Bestiary/Spectres/Wraiths.md",
+    "Rules/6. Bestiary/Spectres/Noonwraith.md",
+    "Rules/6. Bestiary/Relict/Fiend.md",
+    "Rules/6. Bestiary/Ogroid/Rock Troll.md",
+    "Rules/6. Bestiary/Ogroid/Nekker.md",
+    "Rules/6. Bestiary/Necrophages/Grave Hag.md",
+    "Rules/6. Bestiary/Necrophages/Ghoul.md",
+    "Rules/6. Bestiary/Necrophages/Drowners.md",
+    "Rules/6. Bestiary/Insectoids/Endraga.md",
+    "Rules/6. Bestiary/Insectoids/Arachasae.md"
   ]
 }

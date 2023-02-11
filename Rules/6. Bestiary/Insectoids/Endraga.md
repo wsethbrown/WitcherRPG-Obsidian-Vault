@@ -79,16 +79,15 @@ Folk say endrega are just like any other bug. Heh, just an infestation ya have t
 Endrega are technically insects—in the same way a lion is a cat. When you go out in swamp- lands and flood plains you risk running into large groups of endrega. When fighting these beasts, keep in mind that all endrega can pounce 4m from a standing start. A chasm or a wall may not save you. Endrega of all forms are immune to poisons thanks to the highly toxic nature of their bodies, and can resist slashing weapons thanks to their hard outer shells. Before hunting endrega, stock up on anything good against poison, such as golden oriole potions. Nearing a nest, you’ll probably run across workers first– the most common form of endrega. Keep moving and avoid getting boxed in. Worker endrega claws are mildly poisonous. Not too bad fighting one on one, but terrible if
 you’re surrounded by five or six. Survive 8-9 workers and you’ll start seeing warriors. Warrior endrega are the meaner, more dangerous cousins of the simple workers. They are incredibly aggressive and will attack constantly with their poisonous tail, leaping after a target when it gets out of range. Once you’re on top of the nest you’ll meet endrega drones. These drones exist to fight and fertilize their queen. They are the most aggressive endrega, and attack on sight with no provocation at all. Drones will start by launching a barrage of poisonous quills from their abdomen before pouncing with their pincers. Since only the strongest drone can fertilize the queen, drones are always look- ing for a fight. Past all of these hazards you’ll find the queen and her eggs. If you make it to this point, you’ll have to avoid not only the queen but also all other endrega in the area. When threatened, the queen will summon her entire hive to her aid.
 
--tx-
-Weapons||||                  Loot|Skills|
-|---------------------|-------|----------|-------|
-|==Name==                      |==DMG==    |==Effect==|==ROF==|Chitin (1d6/2)|Athletics +5|
-Claws|3d6|N/A|1|Endrega saliva (1d6/2)|Awareness+5|
-Tail|3d6+2|N/A|1|Venom extract (1d6/2)|Brawling +5|
---|--|--|--|--|Courage +5|
---|--|--|--|--|Dodge/Escape +6|
-|--|--|--|--|--|Endurance +6|
-|--|--|--|--|--|Melee +6|
-|--|--|--|--|--|Resist Magic +6|
-|--|--|--|--|--|Stealth +7|
-|--|--|--|--|--|Wilderness Survival +6|
+| Weapons  |               |            |         | Loot                           | Skills                 |
+|----------|---------------|------------|---------|--------------------------------|------------------------|
+| **Name** | **DMG**       | **Effect** | **ROF** | Chitin (`dice: 1d6/2`)         | Athletics +5           |
+| Claws    | `dice: 3d6`   | N/A        | 1       | Endrega Saliva (`dice: 1d6/2`) | Awareness +5           |
+| Tail     | `dice: 3d6+2` | N/A        | 1       | Venom Extract (`dice: 1d6/2`)  | Brawling +5            |
+|          |               |            |         |                                | Courage +5             |
+|          |               |            |         |                                | Dodge/Escape +6        |
+|          |               |            |         |                                | Endurance +6           |
+|          |               |            |         |                                | Melee +6               |
+|          |               |            |         |                                | Resist Magic +9        |
+|          |               |            |         |                                | Stealth +7             |
+|          |               |            |         |                                | Wilderness Survival +6 |

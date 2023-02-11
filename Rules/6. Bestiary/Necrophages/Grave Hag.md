@@ -74,17 +74,16 @@ Grave hags are one of the few fully sentient necrophages, which makes them very 
 
 What we do know is that grave hags are ambush predators that live near graveyards and other sources of rot- ten corpses. They are perfectly content to eat carrion, but will attack fresh prey if given the chance. When on the attack a grave hag will close the distance at tremendous speed and at- tack with its scything claws. If the target falls back to recover, the grave hag will use its poisonous tongue like a barbed whip to weaken the prey. The grave hag’s tongue can be sliced off with a successful parry with a bladed weapon. The safest ways to engage a grave hag are to keep distance or stock up on necrophage oil and get in close with a shielding spell or the Quen Sign. Grave hags can be reasoned with, but are incredibly stubborn and prone to attack immediately. If you must fight a grave hag in its home, check first for a magical skull circle or other necrophages it’s bent to its will. Deal with them first if you can.
 
--tx-
-Weapons||||                  Loot|Skills|
-|---------------------|-------|----------|-------|
-|==Name==                      |==DMG==    |==Effect==|==ROF==|Ghoul Claws (2)|Athletics +6|
-Claws|5d6|Bleed (50%)   |2|Grave Hag ear (2)|Awareness+8|
-Bite|6d6|Poison (75%)|1|Hag teeth (1d6/2)|Brawling +6|
---|--|--|--|Random rune|Courage +9|
---|--|--|--|Strange possessions (1d6)|Dodge/Escape +8|
-|--|--|--|--|Venom extract (1d6)|Endurance +7|
-|--|--|--|--|--|Melee +8|
-|--|--|--|--|--|Resist Coercion+10|
-|--|--|--|--|--|Resist Magic +10|
-|--|--|--|--|--|Stealth +8|
-|--|--|--|--|--|Wilderness Survival +6|
+| Weapons  |               |                        |         | Loot                             | Skills                 |
+| -------- | ------------- | ---------------------- | ------- | -------------------------------- | ---------------------- |
+| **Name** | **DMG**       | **Effect**             | **ROF** | Ghoul Claws (2)                  | Athletics +6           |
+| Claws    | `dice: 5d6`   | Bleed (50%)            | 2       | Grave Hag Ear (2)                | Awareness +8           |
+| Bite     | `dice: 6d6`   | Poison (75%)           | 1       | Hag Teeth (`dice: 1d6/2`)        | Brawling +6            |
+| Tongue   | `dice: 3d6+2` | Poison (100%), RNG: 4m | 1       | Random Rune                      | Courage +9             |
+|          |               |                        |         | Strange Posessions (`dice: 1d6`) | Dodge/Escape +8        |
+|          |               |                        |         | Venom Extract (`dice: 1d6`)                                 | Endurance +7           |
+|          |               |                        |         |                                  | Melee +8               |
+|          |               |                        |         |                                  | Resist Coercion +10    |
+|          |               |                        |         |                                  | Resist Magic +10       |
+|          |               |                        |         |                                  | Stealth +8             |
+|          |               |                        |         |                                  | Wilderness Survival +6 |

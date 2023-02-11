@@ -72,16 +72,15 @@ If you knock a ghoul below 10 Health Points, it will enter a fury. In this fury 
 
 If you need to lure a group of ghouls out of an area, it’s best to start by exhuming any buried bodies. Once exhumed, the bodies should be moved to draw the ghouls away.
 
--tx-
-Weapons||||                  Loot|Skills|
-|---------------------|-------|----------|-------|
-|==Name==                      |==DMG==    |==Effect==|==ROF==|Ghoul Claws (2)|Athletics +7|
-Claws|3d6|N/A    |1|Ghoul Marrow (1d6/2)|Awareness+7|
-Bite|3d6+2|Bleed (25%) WA -1|1|Venom Extract (1d6/2)|Brawling +6|
---|--|--|--|--|Courage +7
---|--|--|--|--|Dodge/Escape +6|
-|--|--|--|--|--|Endurance +6|
-|--|--|--|--|--|Melee +6|
-|--|--|--|--|--|Resist Magic +4|
-|--|--|--|--|--|Stealth +4|
-|--|--|--|--|--|Wilderness Survival +5|
+| Weapons  |               |                    |         | Loot                          | Skills                 |
+| -------- | ------------- | ------------------ | ------- | ----------------------------- | ---------------------- |
+| **Name** | **DMG**       | **Effect**         | **ROF** | Ghoul Claws (2)               | Athletics +7           |
+| Claws    | `dice: 3d6`   | N/A                | 1       | Ghoul Marrow (`dice: 1d6/2`)  | Awareness +7           |
+| Bite     | `dice: 3d6+2` | Bleed (25%), WA -1 | 1       | Venom Extract (`dice: 1d6/2`) | Brawling +6            | 
+|          |               |                    |         |                               | Courage +7             |
+|          |               |                    |         |                               | Dodge/Escape +6        |
+|          |               |                    |         |                               | Endurance +6           |
+|          |               |                    |         |                               | Melee +6               |
+|          |               |                    |         |                               | Resist Magic +4        |
+|          |               |                    |         |                               | Stealth +4             |
+|          |               |                    |         |                               | Wilderness Survival +5 |
