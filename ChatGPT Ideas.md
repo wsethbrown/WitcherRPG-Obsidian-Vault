@@ -39,3 +39,14 @@ Given the information you've provided, there are a number of potential political
 6.  The players may uncover evidence of Lord Kozonn's involvement in Iva's murder, putting them in a difficult position as they navigate the political landscape of Kaedwen and try to avoid making enemies of the powerful noble.
     
 7.  The players' own motivations and allegiances could come into conflict with one another, as they navigate the complex political landscape of Kaedwen and try to protect their own interests.
+
+## How to Point out that Hunytr, Lu Du, and Olsen are Related 
+What are some ways they may discover they're related?
+
+1.  A shared physical characteristic: The three brothers might have a distinct physical characteristic that they each inherited from their mother. Upon seeing each other, they might realize that they all have this feature and start to suspect that they might be related.
+
+2.  A family heirloom: They might each come into possession of a family heirloom, such as a piece of jewelry, that is unique to their family. This could lead them to investigate their family history and discover the truth about their relationship.
+  
+3.  A shared memory: They might each have a vague memory of a woman who played a significant role in their childhood, but they might not have remembered her name or her face. Upon comparing notes, they might realize that they are all talking about the same person and that she was likely their mother.
+
+4.  A chance encounter: They might all come across their mother, who has been searching for them, at the same time and place. This chance encounter could lead to the revelation of their shared relationship.

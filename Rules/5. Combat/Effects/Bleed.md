@@ -1,0 +1,1 @@
+Your wound opens a vein, causing horrible bleeding. You take 2 points of damage each turn until the bleeding is stopped. You can end the bleeding by either casting a Healing spell on it or making a successful **First Aid check at a DC:15** which takes 1 action

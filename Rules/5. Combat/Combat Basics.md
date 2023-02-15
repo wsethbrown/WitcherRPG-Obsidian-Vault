@@ -1,3 +1,8 @@
+---
+banner: "![[fumble-tables.png]]"
+banner_x: 0.024
+banner_y: 0.31
+---
 ### Rounds
 Before you begin playing the Witcher TRPG you’ll have to know the ins and outs of rounds. A round is a time block of about 3 seconds. Rounds signify the order in which things happen in game. Rounds primarily are used during combat but GMs also use them to keep track of screen time, AKA how long people get to be the center of attention in the game. In and out of combat, during a round every person in the scene has a chance to act. These actions are all taken simultaneously within the space of 3 seconds.
 

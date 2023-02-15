@@ -1,0 +1,1 @@
+Your access to air has been cut off and you are choking to death. Every round you take 3 damage which armor does not negate. Depending on your situation there are different ways to end this suffocation. Restoring your air supply (surfacing from water, escaping a chokehold, etc.) ends this effect.

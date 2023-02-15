@@ -1,0 +1,1 @@
+You are now engulfed in flames. Every turn you take 5 points of damage to every body location. Armor soaks the damage, but fire does 1 point of damage to armor and weapons every turn. To put out the fire you must take a turn to either pour water on yourself or stop, drop, and roll.

@@ -1,0 +1,1 @@
+You are thrown off balance and take a -2 to your attack and defense. At the begining of your next turn you recover your balance and this penalty ends.

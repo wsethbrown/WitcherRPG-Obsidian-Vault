@@ -1,0 +1,1 @@
+You’re stumbling drunk. Your REF, DEX, and INT are at a -2 and you are at a -3 for Verbal Combat. There’s a 25% chance your won’t clearly remember everything you did while you were intoxicated.

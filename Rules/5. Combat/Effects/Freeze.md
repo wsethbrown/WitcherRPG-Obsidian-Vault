@@ -1,0 +1,1 @@
+You’re not literally frozen in a block of ice, but your whole body is stiff and an icy glaze has formed on your clothes. Until you break the ice you have a -3 to your SPD and a -1 to Reflex. You can break free with a **DC:16 Physique** check which takes 1 action.

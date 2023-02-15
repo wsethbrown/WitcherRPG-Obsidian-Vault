@@ -1315,6 +1315,14 @@
           ]
         },
         {
+          "type": "subheading",
+          "id": "49fb694b988b",
+          "properties": [],
+          "separator": " Stats",
+          "fallback": "-",
+          "hasRule": true
+        },
+        {
           "type": "inline",
           "id": "ab9b0858e8db",
           "properties": [],
@@ -1491,83 +1499,331 @@
         },
         {
           "type": "group",
-          "id": "09d9d9ea59a9",
+          "id": "79bb492a895b",
           "properties": [],
           "nested": [
             {
-              "type": "inline",
-              "id": "aa4b5898f84b",
+              "type": "group",
+              "id": "ca2beb993b8a",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "subheading",
+                  "id": "29a8ba39b8d8",
+                  "properties": [],
+                  "separator": " Vulnerabilities",
+                  "fallback": "-",
+                  "hasRule": true
+                },
+                {
+                  "type": "property",
+                  "id": "88ebb85b7b6b",
+                  "properties": [
+                    "oil"
+                  ],
+                  "fallback": "-",
+                  "display": ""
+                },
+                {
+                  "type": "text",
+                  "id": "d91ba97918bb",
+                  "properties": [
+                    "vuln1"
+                  ],
+                  "text": null,
+                  "fallback": "-",
+                  "markdown": false,
+                  "conditioned": false,
+                  "heading": "",
+                  "headingProp": false
+                },
+                {
+                  "type": "text",
+                  "id": "fb4b3a2bcb29",
+                  "properties": [
+                    "vuln2"
+                  ],
+                  "text": null,
+                  "fallback": "-",
+                  "conditioned": true
+                },
+                {
+                  "type": "text",
+                  "id": "595bcacb6b3a",
+                  "properties": [
+                    "vuln3"
+                  ],
+                  "text": null,
+                  "fallback": "-",
+                  "conditioned": true
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "id": "b81918cbdb09",
               "properties": [],
               "nested": [
                 {
                   "type": "text",
-                  "id": "7a58aad8aaf8",
+                  "id": "6b0bab390a3a",
                   "properties": [
-                    "superstition"
+                    "ability1"
                   ],
                   "text": null,
                   "fallback": "-",
-                  "heading": "Commoner Superstition",
+                  "heading": "Abilities"
+                },
+                {
+                  "type": "text",
+                  "id": "4a6a5a0bc87b",
+                  "properties": [
+                    "ability2"
+                  ],
+                  "text": null,
+                  "fallback": "-",
                   "conditioned": true
                 },
                 {
-                  "type": "property",
-                  "id": "c84918cbaa49",
+                  "type": "text",
+                  "id": "7b097b08da28",
                   "properties": [
-                    "education"
+                    "ability3"
                   ],
+                  "text": null,
                   "fallback": "-",
-                  "display": "Education DC: "
+                  "conditioned": true
+                },
+                {
+                  "type": "text",
+                  "id": "c948091b7bc9",
+                  "properties": [
+                    "ability4"
+                  ],
+                  "text": null,
+                  "fallback": "-",
+                  "conditioned": true
                 }
               ]
             }
           ]
         },
         {
-          "type": "inline",
-          "id": "398b78283be9",
+          "type": "subheading",
+          "id": "eaebfacb6a08",
           "properties": [],
-          "nested": [
-            {
-              "type": "text",
-              "id": "9b1afbe8ea9a",
-              "properties": [
-                "witcher_knowledge"
-              ],
-              "text": null,
-              "fallback": "-",
-              "markdown": false,
-              "heading": "Witcher Knowledge",
-              "conditioned": true
-            },
-            {
-              "type": "property",
-              "id": "1bb96ababafa",
-              "properties": [
-                "witcher_training"
-              ],
-              "fallback": "-",
-              "display": "Witcher Training DC:",
-              "conditioned": true,
-              "markdown": true
-            }
-          ]
+          "separator": " Skills",
+          "fallback": "-",
+          "hasRule": true
         },
         {
-          "type": "group",
-          "id": "9b9b8baa08cb",
+          "type": "inline",
+          "id": "491b398a0ad8",
           "properties": [],
           "nested": [
             {
-              "type": "traits",
-              "id": "f81b6ac8aa5b",
-              "properties": [
-                "skills"
-              ],
-              "fallback": "-",
-              "headingProp": true,
-              "heading": "Skills",
-              "hasRule": false
+              "type": "group",
+              "id": "9b0afa8bd8da",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "fa29ea08595a",
+                  "properties": [
+                    "archery"
+                  ],
+                  "fallback": "-",
+                  "display": "Archery",
+                  "conditioned": true
+                },
+                {
+                  "type": "property",
+                  "id": "5b4a8b596929",
+                  "properties": [
+                    "athletics"
+                  ],
+                  "fallback": "-",
+                  "display": "Athletics",
+                  "conditioned": true
+                },
+                {
+                  "type": "property",
+                  "id": "4b7a994aa93a",
+                  "properties": [
+                    "awareness"
+                  ],
+                  "fallback": "-",
+                  "display": "Awareness",
+                  "conditioned": true
+                },
+                {
+                  "type": "property",
+                  "id": "2b9b7baac9e9",
+                  "properties": [
+                    "brawling"
+                  ],
+                  "fallback": "-",
+                  "display": "Brawling",
+                  "conditioned": true
+                },
+                {
+                  "type": "property",
+                  "id": "dbaaa95a4aab",
+                  "properties": [
+                    "courage"
+                  ],
+                  "fallback": "-",
+                  "display": "Courage",
+                  "conditioned": true
+                },
+                {
+                  "type": "property",
+                  "id": "b99b5a9839e9",
+                  "properties": [
+                    "crossbows"
+                  ],
+                  "fallback": "-",
+                  "display": "Crossbows",
+                  "conditioned": true
+                },
+                {
+                  "type": "property",
+                  "id": "eb09f9baaa3a",
+                  "properties": [
+                    "dodge"
+                  ],
+                  "fallback": "-",
+                  "display": "Dodge/Escape",
+                  "conditioned": true
+                },
+                {
+                  "type": "property",
+                  "id": "3a585809ab58",
+                  "properties": [
+                    "endurance"
+                  ],
+                  "fallback": "-",
+                  "display": "Endurance",
+                  "conditioned": true
+                },
+                {
+                  "type": "property",
+                  "id": "1b18486b68f9",
+                  "properties": [
+                    "hex_weaving"
+                  ],
+                  "fallback": "-",
+                  "display": "Hex Weaving",
+                  "conditioned": true
+                },
+                {
+                  "type": "property",
+                  "id": "ba19f899ca49",
+                  "properties": [
+                    "melee"
+                  ],
+                  "fallback": "-",
+                  "display": "Melee",
+                  "conditioned": true
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "id": "c83b4a4afbf8",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "380819c9fba9",
+                  "properties": [
+                    "ritual_crafting"
+                  ],
+                  "fallback": "-",
+                  "display": "Ritual Crafting",
+                  "conditioned": true
+                },
+                {
+                  "type": "property",
+                  "id": "bb390b1ac849",
+                  "properties": [
+                    "resist_coercion"
+                  ],
+                  "fallback": "-",
+                  "display": "Resist Coercion",
+                  "conditioned": true
+                },
+                {
+                  "type": "property",
+                  "id": "eb2969eb0b89",
+                  "properties": [
+                    "resist_magic"
+                  ],
+                  "fallback": "-",
+                  "display": "Resist Magic",
+                  "conditioned": true
+                },
+                {
+                  "type": "property",
+                  "id": "9b39db3bbbc8",
+                  "properties": [
+                    "spellcasting"
+                  ],
+                  "fallback": "-",
+                  "display": "Spell Casting",
+                  "conditioned": true
+                },
+                {
+                  "type": "property",
+                  "id": "9b388bcb5a1a",
+                  "properties": [
+                    "small_blades"
+                  ],
+                  "fallback": "-",
+                  "display": "Small Blades",
+                  "conditioned": true
+                },
+                {
+                  "type": "property",
+                  "id": "3b0b19aba89a",
+                  "properties": [
+                    "staff"
+                  ],
+                  "fallback": "-",
+                  "display": "Staff/Spear",
+                  "conditioned": true
+                },
+                {
+                  "type": "property",
+                  "id": "89cbbb49f9c9",
+                  "properties": [
+                    "stealth"
+                  ],
+                  "fallback": "-",
+                  "display": "Stealth",
+                  "conditioned": true
+                },
+                {
+                  "type": "property",
+                  "id": "ca4afb5a0a9a",
+                  "properties": [
+                    "swordsmanship"
+                  ],
+                  "fallback": "-",
+                  "display": "Swordsmanship",
+                  "conditioned": true
+                },
+                {
+                  "type": "property",
+                  "id": "18ca89f92a89",
+                  "properties": [
+                    "wilderness_survival"
+                  ],
+                  "fallback": "-",
+                  "display": "Wilderness Survival",
+                  "conditioned": true
+                }
+              ]
             }
           ]
         },
@@ -1596,7 +1852,7 @@
               "type": "property",
               "id": "e9b9181949aa",
               "properties": [
-                "dmg"
+                "weapon1dmg"
               ],
               "fallback": "-",
               "display": "DMG",
@@ -1606,7 +1862,7 @@
               "type": "property",
               "id": "bacbfafaab38",
               "properties": [
-                "effect"
+                "weapon1effect"
               ],
               "fallback": "-",
               "display": "Effect"
@@ -1615,7 +1871,7 @@
               "type": "property",
               "id": "6b6a69582a0b",
               "properties": [
-                "rof"
+                "weapon1rof"
               ],
               "fallback": "-",
               "display": "ROF"
@@ -1634,7 +1890,8 @@
                 "weapon2"
               ],
               "fallback": "-",
-              "display": "Weapon"
+              "display": "Weapon",
+              "conditioned": true
             },
             {
               "type": "property",
@@ -1643,7 +1900,9 @@
                 "weapon2dmg"
               ],
               "fallback": "-",
-              "display": "DMG"
+              "display": "DMG",
+              "conditioned": true,
+              "dice": true
             },
             {
               "type": "property",
@@ -1652,7 +1911,8 @@
                 "weapon2effect"
               ],
               "fallback": "-",
-              "display": "Effect"
+              "display": "Effect",
+              "conditioned": true
             },
             {
               "type": "property",
@@ -1661,7 +1921,8 @@
                 "weapon2rof"
               ],
               "fallback": "-",
-              "display": "ROF"
+              "display": "ROF",
+              "conditioned": true
             }
           ],
           "conditioned": true
@@ -1678,7 +1939,8 @@
                 "weapon3"
               ],
               "fallback": "-",
-              "display": "Weapon"
+              "display": "Weapon",
+              "conditioned": true
             },
             {
               "type": "property",
@@ -1687,7 +1949,9 @@
                 "weapon3dmg"
               ],
               "fallback": "-",
-              "display": "DMG"
+              "display": "DMG",
+              "conditioned": true,
+              "dice": true
             },
             {
               "type": "property",
@@ -1696,7 +1960,8 @@
                 "weapon3effect"
               ],
               "fallback": "-",
-              "display": "Effect"
+              "display": "Effect",
+              "conditioned": true
             },
             {
               "type": "property",
@@ -1705,7 +1970,8 @@
                 "weapon3rof"
               ],
               "fallback": "-",
-              "display": "ROF"
+              "display": "ROF",
+              "conditioned": true
             }
           ],
           "conditioned": true
@@ -1722,7 +1988,8 @@
                 "weapon4"
               ],
               "fallback": "-",
-              "display": "Weapon"
+              "display": "Weapon",
+              "conditioned": true
             },
             {
               "type": "property",
@@ -1731,7 +1998,8 @@
                 "weapon4dmg"
               ],
               "fallback": "-",
-              "display": "DMG"
+              "display": "DMG",
+              "conditioned": true
             },
             {
               "type": "property",
@@ -1740,7 +2008,8 @@
                 "weapon4effect"
               ],
               "fallback": "-",
-              "display": "Effect"
+              "display": "Effect",
+              "conditioned": true
             },
             {
               "type": "property",
@@ -1749,7 +2018,8 @@
                 "weapon4rof"
               ],
               "fallback": "-",
-              "display": "ROF"
+              "display": "ROF",
+              "conditioned": true
             }
           ],
           "conditioned": true

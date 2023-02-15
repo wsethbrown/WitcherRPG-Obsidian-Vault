@@ -12,7 +12,7 @@ Some of the spells listed here are impossible without the invocation of at least
 You’ll find that the ranges of most spells are very short compared to the greater reach of crossbows and other ranged weapons. This is because containing the power required to cast a spell at greater ranges is very difficult. Mages in combat tend to be similar to grenadiers: great power but shorter range.
 
 -tx-
-|[[Mixed Element]]|[[Earth]]|[[Air]]|[[Fire]]|Water|
+|[[Mixed Element]]|[[Earth]]|[[Air]]|[[Rules/3. Magic/Mage Spells/Fire/Fire]]|Water|
 |:---:|:---:|:---:|:---:|:---:|
 |==[[Novice Spells]]==|||||
 |[[Afan's Mirror]]|[[Cenlly Graig]]|[[Adenydd]]|[[Aenye]]|[[Cary's Hail]]|

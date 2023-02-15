@@ -1,0 +1,1 @@
+Poison or venom courses through your body, doing 3 points of damage every turn which armor does not negate. To shake off the poison you must make a **DC:15 Endurance** check which takes 1 action.

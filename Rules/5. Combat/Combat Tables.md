@@ -27,62 +27,58 @@
 >>|Wooden barrel|10|
 >>|Brambles|7|
 
-# Human Damage Locations
-
->[!infobox]
->|Location|Roll|Penalty|DMG|
->|:---:|:---:|:---:|:---:|
->|Head|1|-6|x3|
->|Torso|2-4|-1|x1|
->|R. Arm|5|-3|x1/2|
->|L. Arm|6|-3|x1/2|
->|R. Leg|7-8|-2|x1/2|
->|L. Leg|9-10|-2|x1/2
-
-# Monster Damage Location
-
->[!infobox]
->|Location|Roll|Penalty|DMG|
->|:---:|:---:|:---:|:---:|
->|Head|1|-6|x3|
->|Torso|2-5|-1|x1|
->|R. Limb|6-7|-3|x1/2|
->|L. Limb|8-9|-3|x1/2|
->|Tail or Wing|10|-2|x1/2|
+# Damage Location Rolls
+>[!cards|2]
+>># Humanoid Damage Locations
+>>| Location | Roll | Penalty | DMG  |
+>>|:--------:|:----:|:-------:|:----:|
+>>|   Head   |  1   |   -6    |  x3  |
+>>|  Torso   | 2-4  |   -1    |  x1  |
+>>|  R. Arm  |  5   |   -3    | x1/2 |
+>>|  L. Arm  |  6   |   -3    | x1/2 |
+>>|  R. Leg  | 7-8  |   -2    | x1/2 |
+>>|  L. Leg  | 9-10 |   -2    | x1/2 |
+>
+>># Monster Damage Location
+>>|   Location   | Roll | Penalty | DMG  |
+>>|:------------:|:----:|:-------:|:----:|
+>>|     Head     |  1   |   -6    |  x3  |
+>>|    Torso     | 2-5  |   -1    |  x1  |
+>>|   R. Limb    | 6-7  |   -3    | x1/2 |
+>>|   L. Limb    | 8-9  |   -3    | x1/2 |
+>>| Tail or Wing |  10  |   -2    | x1/2 |
 
 # Ranges and Target DC
 
->[!infobox]
->|Ranges|Target DC|Mod|
->|:---:|:---:|:---:|
->|Point Blank - The weapon is within half a meter or physically touching the target.|10|+5|
->|Close - 1/4 the listed range of the weapon|15|+0|
->|Medium - 1/2 the listed range of the weapon|20|-2|
->|Long - The listed range of the weapon|25|-4|
->|Extreme - 2x the listed range of the weapon|30|-6|
+|                                       Ranges                                       | Target DC | Mod |
+|:----------------------------------------------------------------------------------:|:---------:|:---:|
+| Point Blank - The weapon is within half a meter or physically touching the target. |    10     | +5  |
+|                     Close - 1/4 the listed range of the weapon                     |    15     | +0  |
+|                    Medium - 1/2 the listed range of the weapon                     |    20     | -2  |
+|                       Long - The listed range of the weapon                        |    25     | -4  |
+|                    Extreme - 2x the listed range of the weapon                     |    30     | -6  |
 
 >[!cards|2]
->># Opponent Size Modifiers
->>|Size|Mod|
->>|:---:|:---:|
->>|Small (cat or nekker)|+2|
->>|Medium (man sized)|+0|
->>|Large (Troll or horse)| -2|
->>Huge (Fiend)|-4|
+>># Opponent Size Modifiers (For Ramming Damage)
+>>|          Size          | Mod |
+>>|:----------------------:|:---:|
+>>| Small (cat or nekker)  | +2  |
+>>|   Medium (man sized)   | +0  |
+>>| Large (Troll or horse) | -2  |
+>>|      Huge (Fiend)      | -4  |
 >
->># Critical Levels
->>|Beat Defense By...|Critical Level|Bonus DMG|
->>|:---:|:---:|:---:|
->>|7|Simple|3|
->>|10|Complex|5|
->>|13|Difficult|8|
->>|15|Deadly|10|
+>># Light Levels 
+>>|                   Light Level                    |                             Effect                              |
+>>|:------------------------------------------------:|:---------------------------------------------------------------:|
+>>| Bright Light (Desert sun or reflecting off snow) | -3 to Awareness and -3 to Attack and Defense if facing the sun. |
+>>|               Daylight (Daylight)                |                          No penalties                           |
+>>|              Dim Light (Moonlight)               |                       -2 to [[Awareness]]                       |
+>>|    Darkness (New moon night or a deep cavern)    |          -4 to Awareness and -2 to Attack and Defense           |
 
-> [!infobox]
-> # Light Levels
->|Light Level| Effect|
->|:---:|:---:|
->|Bright Light (Desert sun or reflecting off snow)|-3 to Awareness and -3 to Attack and Defense if facing the sun.|
->|Daylight (Daylight)|No penalties|
->|Dim Light (Moonlight)|-2 to [[Awareness]]|
->|Darkness (New moon night or a deep cavern)|-4 to Awareness and -2 to Attack and Defense|
+## Critical Hit Bonus Damage 
+| Level     | Bonus |
+|-----------|-------|
+| Simple    | 5     |
+| Complex   | 10    |
+| Difficult | 15    |
+| Deadly    | 20    |

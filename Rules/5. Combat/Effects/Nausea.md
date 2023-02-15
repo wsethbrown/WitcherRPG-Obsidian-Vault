@@ -1,0 +1,1 @@
+Your stomach is churning and you have to concentrate not to vomit. Every 3 rounds you must roll under your BODY or spend the round vomiting or dry-heaving.

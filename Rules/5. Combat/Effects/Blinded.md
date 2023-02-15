@@ -1,0 +1,1 @@
+Your eyes have been blocked or damaged. Until you take a turn to clear your eyes you are at a -3 to all Attack and Defense and a -5 to sight-based Awareness.

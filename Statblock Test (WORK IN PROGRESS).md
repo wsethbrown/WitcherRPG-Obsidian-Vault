@@ -1,4 +1,5 @@
 ```statblock
+columns: 2
 name: Wyverns
 image: [[wyvern.png]]
 threat: Hard Simple
@@ -24,32 +25,23 @@ rec: 8
 hp: 80
 vigor: 0
 
-superstition: Wyverns are like two-legged dragons, I think. Hell, folks don't see em much, so folks don't talk about em much. Anyhow, wyverns are like the lesser cousins of dragons and they hunt virgin maidens and such. You gotta watch out for em swoopin down out of a clear blue sky to carry off your daughters. Can only be killed by silver, so a silver blade's a necessity when rescuin a damsel from one of these scaly whoresons. They say once you've killed the beast, though, drinkin it's blood'll give you power over fire itself.
-education: 16
+oil: Necrophage Oil
+vuln1: WHIP TONGUE If you successfully parry a grave hag’s tongue attack with a bladed weapon, it is severed. The grave hag takes 5 points of damage and can- not use its tongue again.
 
-witcher_knowledge: Draconids accrue the most strange and fantastical legends around them. Something about this family of monsters inspires the storyteller in everyone. Wyverns are draconids, in the same family as dragons but far from being dragons. They are violent, primal beasts that stalk high mountain areas and hunt people mostly when they happen upon them. Wyverns have no predisposition towards virgins–they pursue any living creature they think they can kill and eat. It is true that wyverns like to swoop down on their prey from above and try to stay in the air if possible. Unlike dragons, wyverns can’t breathe fire, but they can spit an acidic poison with great accuracy. That can make fighting a wyvern at range a daunt- ing task. Luckily they aren’t immune to everything but silver. While their hides are tough to pierce, they can be felled with regular steel weapons and magic, just like most other creatures. When hunting a wyvern, start by preparing a draconid oil. Cover yourself from head to toe as much as possible to avoid acidic venom getting on any uncovered areas. Golden oriole potion is also a good idea, to negate poison effects. You should also stock up on ranged ammunition or make sure you know a few damaging spells. While a wyvern flies around its prey, a well-placed arrow or the like stands a good chance of knocking the monster out of the air, making it far easier to hit. While engaging a flying wyvern, be wary of their claws–they will try to slash at you as they fly by. On the ground a wyvern falls back to its fanged bite or the poisonous barbs on its tail.
+ability1: SKULL CIRCLE A grave hag can take 1 hour to make a skull circle. If they are within 100m of their skull circle they get +3 to all actions.
+ability2: COMMAND THE UNDEAD Instead of attacking, a grave hag can give a command to each necrophage within 20m. The necrophages will carry out this order instead of acting normally. The order cannot be more complex than ‘grab that thing and bring it here’ or ‘go there and wait’.
+ability3: NIGHT VISION Grave hags operate in areas of dim light with no penalties.
 
-skills:  
- - name: "Athletics"  
-   desc: "8"  
- - name: "Awareness"  
-   desc: "10"  
- - name: "Brawling"  
-   desc: "7"
- - name: "Courage"
-   desc: "8"
- - name: "Dodge/Escape"
-   desc: "6"
- - name: "Endurance"
-   desc: "8"
- - name: "Melee"
-   desc: "8"
- - name: "Resist Magic"
-   desc: "8"
- - name: "Stealth"
-   desc: "6"
- - name: "Wilderness Survival"
-   desc: "9"
+athletics : 8
+awareness: 10
+brawling: 7
+courage:
+dodge: 6
+endurance: 8
+melee: 8
+resist_magic: 8
+stealth: 6
+wilderness_survival: 9
 
 weapon1: Claws
 weapon1dmg: 2d6
@@ -62,3 +54,10 @@ weapon2rof: 2
 ```
 
 test test
+
+```encounter
+name: Example
+creatures:
+ - 3: wyvern
+```
+

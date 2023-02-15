@@ -1,5 +1,16 @@
 {
-  "players": [],
+  "players": [
+    {
+      "name": "Olsen",
+      "hp": 30,
+      "player": true
+    },
+    {
+      "name": "Huntyr",
+      "hp": 45,
+      "player": true
+    }
+  ],
   "parties": [],
   "defaultParty": null,
   "homebrew": [],
@@ -71,9 +82,10 @@
   ],
   "version": null,
   "canUseDiceRoll": false,
+  "preferStatblockLink": false,
   "initiative": "1d20 + %mod%",
   "modifier": null,
-  "sync": false,
+  "sync": true,
   "leafletIntegration": false,
   "playerMarker": "default",
   "monsterMarker": "default",
@@ -95,5 +107,6 @@
   "hpOverflow": "ignore",
   "additiveTemp": false,
   "logging": false,
-  "logFolder": "/"
+  "logFolder": "/",
+  "integrateSRD": false
 }
