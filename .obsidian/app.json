@@ -3,5 +3,7 @@
   "spellcheck": true,
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "z_Templates/zz_assets"
+  "attachmentFolderPath": "z_Templates/zz_assets",
+  "defaultViewMode": "preview",
+  "livePreview": false
 }

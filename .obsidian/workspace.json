@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "122cc1bc1f96f829",
+        "id": "7779edae37762da2",
         "type": "tabs",
         "children": [
           {
-            "id": "cec1dc82e3a68e75",
+            "id": "6c36a6250f5abcff",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 1,
               "stack": [
                 {
-                  "title": "Location - Iva's House",
+                  "title": "7. The World of the Witcher",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Adventures/A Lost Love/2. The Investigation/Location - Iva's House.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/7. The World of the Witcher/7. The World of the Witcher.md\",\"mode\":\"preview\",\"source\":true}}",
                   "eState": "{}"
                 },
                 {
@@ -24,19 +24,19 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "Location - Iva's House",
+                  "title": "7. The World of the Witcher",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Adventures/A Lost Love/2. The Investigation/Location - Iva's House.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/7. The World of the Witcher/7. The World of the Witcher.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Continent Map.md",
+                "file": "Rules/7. The World of the Witcher/The North.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               }
             }
           }
@@ -87,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "temeria",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The Continent Map.md",
+                "file": "Rules/7. The World of the Witcher/The North.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The Continent Map.md",
+                "file": "Rules/7. The World of the Witcher/The North.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -209,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The Continent Map.md"
+                "file": "Rules/7. The World of the Witcher/The North.md"
               }
             }
           },
@@ -339,17 +339,17 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "cec1dc82e3a68e75",
+  "active": "6c36a6250f5abcff",
   "lastOpenFiles": [
-    "Adventures/A Lost Love/2. The Investigation/Location - Iva's House.md",
-    "The Continent Map.md",
-    "Adventures/A Lost Love/GM Notes.md",
-    "Rules/5. Combat/Combat Tables.md",
-    "Rules/5. Combat/Effects/Effects.md",
-    "Rules/5. Combat/Effects/Stun.md",
-    "Rules/5. Combat/Effects/Bleed.md",
-    "Rules/5. Combat/Effects/Freeze.md",
-    "Rules/5. Combat/Effects/Staggered.md",
-    "Rules/5. Combat/Effects/Intoxication.md"
+    "Rules/7. The World of the Witcher/7. The World of the Witcher.md",
+    "Rules/7. The World of the Witcher/The North.md",
+    "Rules/5. Combat/In Depth Combat/Transportation & Cavalry/Transportation & Cavalry.md",
+    "Rules/5. Combat/In Depth Combat/Transportation & Cavalry/Vehicle Combat.md",
+    "z_Templates/zz_assets/Map of the North.png",
+    "Rules/5. Combat/Verbal Combat/Verbal Combat.md",
+    "Rules/5. Combat/In Depth Combat/Healing/Healing.md",
+    "z_Templates/zz_assets/Screen Shot 2023-01-04 at 6.52.59 PM.png",
+    "z_Templates/zz_assets/Screen Shot 2023-01-04 at 6.53.58 PM.png",
+    "z_Templates/zz_assets/Screenshot 2023-02-08 at 7.36.03 PM.png"
   ]
 }
