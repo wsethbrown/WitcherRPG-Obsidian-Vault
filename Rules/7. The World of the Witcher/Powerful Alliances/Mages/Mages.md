@@ -1,0 +1,18 @@
+>[!aside]
+># Elven Mage Tutors
+>t is well known that the elves have a legacy of magic. Per- haps they keep their magic to themselves. Obviously there is no love lost between elves and humans. It is also possible that the power is deserting the elves as they dwindle. After the Landing of the Exiles, humans took 200 identified child sources to the elves to be trained. But this didn’t last. 
+>–Brandon of Oxenfurt
+Like many things, magic seems to favor humans. Only humans and a few elves are sources, those born with the ability to use magic.
+
+Humans have taken to magic with a vengeance. Many non-magic users expect mages to be arrogant, selfish, and power-hungry. But that is a particularly visible type of mage. There are magical people all around us. The woman in the village that heals may be magical. The young girl who is especially good at finding things may be magical. People can manipulate the “Power” in a myriad of different ways, and at many different levels of effectiveness. “Then why,” you ask, “do mages have such a bad reputation?” Because those who are most truly gifted with the “Power” are specially trained at the girl’s school, Aretuza, the boy’s school, Ban Ard, or Nilfgaard’s Gweision Haul Magic Academy. Powerful sorcerers emerge from these schools thinking themselves superior persons a world apart. They rarely use their powers for the good of the common man. They become advisers to kings, but when push comes to shove, they choose personal power over the good of king and country.
+
+The first organization of great mages was the Brotherhood of the Sorcerers in the Eighth Century. Its ruling body was the Conclave, which attempted to bring all mages under a united code controlling their actions. This started a civil war among the mages. After the war a parallel organization joined the Brotherhood: the Supreme Council. It dealt primarily with magic experimentation and research. Eventually a Chapter of Sorcerers was founded within the Conclave as a higher chamber with superior authority. By this time sorcerers (male and female) were settled as advisors to most of the kings of the North.
+
+At a great meeting of the Council at the island of Thanedd, sorcerers loyal to the kings and the Conclave itself mounted a surprise revolt. News had come to them that a cabal of sorcerers who had been swayed (some might say “bought”) by Nilfgaard were pre- paring to take over the Conclave. The loyal sorcerers arrested as many of the conspirators as they could, putting them in dimeritium handcuffs. But this could not be kept quiet for long, and soon general violence ensued. The actions at Thanned ruined the Brotherhood, and many sorcerers were expelled from the courts of the kings under suspicion of conspiracy.
+
+Soon after, Philippa Eilhart, once an advisor and regent of Redania, secretly formed the Lodge of Sorceresses. This was to be an all-female organization for the protection and betterment of magic, to counter the earlier events that had seriously deflated the prestige of the sorcerers. Unlike the old days, the Lodge was much more secretive. Then at the meeting of the four major nations and Nilfgaard at Loc Muinne, it was discovered that Letho, the Viper witcher, had been hired by the Lodge to kill the kings of the four nations. He success- fully murdered King Demavend of Aedirn and King Foltest of Temeria and, incidentally or intentionally, destroyed the Lodge.
+
+>[!aside|left]
+># Mirt
+>The first seat of magical power that we know of was at Mirt, before the relationship between elves and men had completely soured. Unfortunately Mirt was destroyed by Falka, princess of Redania, daughter of King Vridank, during her rebellion.
+>–Brandon of Oxenfurt

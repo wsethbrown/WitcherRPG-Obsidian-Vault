@@ -1,0 +1,21 @@
+>[!aside]
+># Rumors of Skellige
+>Because these islands are so remote, many people believe the rumors about Skellige. That it is primitive and the people are ruthless, uncultured barbarians. But this is not entirely true. They are a hardy people. The men dominate and do the fishing and raiding, but the women are given much respect in their domain. The sea is rough around the islands and their ships, the result of hundreds of years on the sea, are simple and light. Skelligers are used to the facts of a dangerous life.
+>–Brandon of Oxenfurt
+
+The Skellige Isles are an archipelago off the coast of Verden. There are six clans, each with its own territory. Each clan has a jarl but there is only one king, chosen by vote. Other than that, all Skelligers are considered equal. Their islands take the brunt of ocean storms, and are not particularly rich or fertile. Their coastlines are rugged with tall, jagged cliffs and few natural harbors to land in, but many fjords to hide in. Before the First Nilfgaardian War they had strong alliances with the Kingdom of Cintra. The strong, wise, and beautiful Queen Calanthe of Cintra, after being widowed, couldn’t rule due to her gender. She married Eist Tuirseach of the Skellige Clan Tuirseach as her second husband. Eist, who was at that time King of Cintra and Skellige, fell in the
+
+Battle of Marndal, leading Cintran and Skellige warriors against Nilfgaard. Since then the Skelligers have hated Nilfgaard. They are not so much part of the North as they are an ally with similar goals. No nation’s ships are safe while sailing through Skellige waters.
+
+
+>[!aside|left]
+># Jarl Houndsnout
+>Jarl Houndsnout 
+>The Jarl of Clan Tordarroch at the time of the ice giant attack, Harald Houndsnout, returned to Undvik to reclaim it, but there has been no word from him in some time.
+>–Brandon of Oxenfurt
+
+All six clans trace their lineage back to their legendary champion, Hemdall. The most powerful is Clan An Craite with their current jarl, Crach an Craite. Their territory is the northern half of the largest island, Ard Skellige. This clan has had many strong jarls and kings. Their colors, which identify them on the battlefield, are red, brown, and black. Clan Tuirseach lives on the island of An Skellige. Their colors are blue with bearskin and their current jarl is Svanrige. The previous jarl, Eist Tuirseach, became King of both Cin- tra and Skellige. Torgeir Tuirseach the Red was a legendary pirate of the clan who sacked Nilfgaard’s capital, the City of Golden Towers, several times with his companion Gerd, of the Bear Witchers. Clan Brokvar, and their jarl Udalryk, live on Spikeroog. Clan Brokvar is known to produce archers without equal, but many clans still consider them cowards after they once left the field of battle because their opponents were too numerous. Their colors are black and gray. Clan Hemaey, and their jarl Donar an Hindar, live on Hindarsfjall. This is also the site of the largest temple and sacred grove of the goddess Freya. Donar an Hindar is a much-revered and patient elder jarl and the Hemaey are a pious group. Their colors are yellow, black, and white. Clan Dimun lives on Faroe, the smallest island. They are the most merciless of raiders. Their jarl is Holger Black Hand who said “After you’ve taken their wenches and their gold, burn their home to the ground. That’s how Clan Dimun lives.” Their colors are brown, black, and olive. Clan Drummond, with their jarl Madman Lugos, live on the southern half of Ard Skellige. The Drummonds still rage over the seizure of the northern half of their island by the more powerful Clan an Craite. One’s position in Clan Drummond is based on personal combat. The Drummond colors are purple and black with minor blue points. Clan Tordarroch is in limbo now, as their people, once known as excellent smiths and fisherman, have recently been chased off Undvik by an ice giant and an army of sirens. Most of them are living in An Craite territory on Ard Skellige.
+>[!info]
+># The Death of Bran
+>Recently, King Bran of Skellige passed on. In his old age he decided, as many elderly Skelligers do, that he would rather die in battle than in his bed. King Bran died fighting a great Skellige bear with only a knife. His death has left a vacuum of power on the Skellige Isles.
+>–Brandon of Oxenfurt

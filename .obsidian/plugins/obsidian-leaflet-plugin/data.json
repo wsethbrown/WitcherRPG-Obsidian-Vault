@@ -1,5 +1,619 @@
 {
-  "mapMarkers": [],
+  "mapMarkers": [
+    {
+      "id": "hex-map",
+      "lastAccessed": 1676655071343,
+      "markers": [
+        {
+          "id": "ID_db4a9aeb7b4b",
+          "type": "City",
+          "loc": [
+            -2.3450393676757812,
+            0.8231506284002816
+          ],
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.16335392315540473,
+            0.3531353400735294
+          ],
+          "description": "Cintra",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8a4b6a094abb",
+          "type": "Region",
+          "loc": [
+            -2.499988555908203,
+            0.9214995041482349
+          ],
+          "link": "Cintra",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.18287121942786677,
+            0.3764688648897059
+          ],
+          "description": "Cintra",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d90ac9e95828",
+          "type": "City",
+          "loc": [
+            -2.573352813720703,
+            0.7598836427105241
+          ],
+          "link": "Cintra#The Duchy of Attre",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.15079861436735983,
+            0.38751665900735294
+          ],
+          "description": "Atrre",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_19ca5a583ae9",
+          "type": "Region",
+          "loc": [
+            -2.672473907470703,
+            0.9677734375
+          ],
+          "link": "Cintra#The Duchy of Attre",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.19205426356589148,
+            0.40244312959558826
+          ],
+          "description": "Duchy of Attre",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_69893b99e87b",
+          "type": "Region",
+          "loc": [
+            -1.685455322265625,
+            0.6470896088263922
+          ],
+          "link": "Cidaris",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.12841468206167164,
+            0.2538097426470588
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6ae8bbc85859",
+          "type": "City",
+          "loc": [
+            -1.5753517150878906,
+            0.6698339271717805
+          ],
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.13292828322168668,
+            0.23722943474264707
+          ],
+          "description": "Cidaris",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_eb599b2b3a08",
+          "type": "Region",
+          "loc": [
+            -1.828826904296875,
+            1.4349785134862447
+          ],
+          "link": "Temeria",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.28477092980812296,
+            0.2753998161764706
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_08bb3a7a4a2b",
+          "type": "Region",
+          "loc": [
+            -2.1538162231445312,
+            2.2991490062052424
+          ],
+          "link": "Lyria & Rivia",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.4562652291384047,
+            0.32433938419117647
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5bba48fa29eb",
+          "type": "City",
+          "loc": [
+            -2.118183135986328,
+            2.5246528307751555
+          ],
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Lyria",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6898499bc909",
+          "type": "City",
+          "loc": [
+            -2.080078125,
+            2.115234375
+          ],
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.4197674418604651,
+            0.31323529411764706
+          ],
+          "description": "Rivia",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9aaa5ab879fb",
+          "type": "Region",
+          "loc": [
+            -1.7299156188964844,
+            2.737176761071556
+          ],
+          "link": "Aedirn",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e879c8f80baa",
+          "type": "Region",
+          "loc": [
+            -1.2159194946289062,
+            1.4565468176609864
+          ],
+          "link": "Redania",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.28905115141179266,
+            0.18310317095588236
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7948089a183b",
+          "type": "Region",
+          "loc": [
+            -1.0387535095214844,
+            2.0498815468999863
+          ],
+          "link": "Kaedwen",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b9bad8790948",
+          "type": "Region",
+          "loc": [
+            -0.6472320556640625,
+            1.4714645643538595
+          ],
+          "link": "The Hengfors League",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9b48c8ab9b39",
+          "type": "Region",
+          "loc": [
+            -0.22267532348632812,
+            0.7947092937476643
+          ],
+          "link": "Kovir & Poviss",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_58ab6959ba89",
+          "type": "Region",
+          "loc": [
+            -4.2421875,
+            2.015625
+          ],
+          "link": "The Heart of Nilfgaard",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.4,
+            0.6388235294117647
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f8090b28b8bb",
+          "type": "Region",
+          "loc": [
+            -5.7093505859375,
+            4.152396051905081
+          ],
+          "link": "Vicovaro",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_38dafbbbbb79",
+          "type": "Region",
+          "loc": [
+            -5.529911041259766,
+            3.2612589642706995
+          ],
+          "link": "Gemmera",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7b1a28badb5a",
+          "type": "Region",
+          "loc": [
+            -5.281398773193359,
+            2.7440149052239406
+          ],
+          "link": "Etolia",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_da2b1bb94a0a",
+          "type": "Region",
+          "loc": [
+            -4.679588317871094,
+            2.074988748618975
+          ],
+          "link": "Ebbing",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ca892a097a3b",
+          "type": "Region",
+          "loc": [
+            -4.737579345703125,
+            3.364331620778708
+          ],
+          "link": "Maecht",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b8e9a9e938d9",
+          "type": "Region",
+          "loc": [
+            -4.041843414306641,
+            2.9529142477230064
+          ],
+          "link": "Gheso",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fb0b7bcb489a",
+          "type": "Region",
+          "loc": [
+            -3.8100547790527344,
+            2.2408069036919125
+          ],
+          "link": "Mettina",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_58ea9baaf809",
+          "type": "Region",
+          "loc": [
+            -3.5689697265625,
+            2.784976878866055
+          ],
+          "link": "Mag Turga",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5526775821625659,
+            0.5374448529411765
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_68e938b8986a",
+          "type": "Region",
+          "loc": [
+            -3.0916748046875,
+            1.7154329346738555
+          ],
+          "link": "Nazair",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_992ba98bb83a",
+          "type": "Region",
+          "loc": [
+            -2.77239990234375,
+            2.171381991421622
+          ],
+          "link": "World",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0b780b8ba839",
+          "type": "Region",
+          "loc": [
+            -3.634906768798828,
+            4.500651004889127
+          ],
+          "link": "desert",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_790b0be9b828",
+          "type": "Region",
+          "loc": [
+            -2.693683624267578,
+            4.677014314621917
+          ],
+          "link": "Zerrikania",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4bdae9b95a9a",
+          "type": "Region",
+          "loc": [
+            -1.4464988708496094,
+            2.708221789884325
+          ],
+          "link": "Dol Blathanna",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5374455645041761,
+            0.21782571231617648
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2a0968384ae9",
+          "type": "Region",
+          "loc": [
+            -1.1832695007324219,
+            4.35554002911559
+          ],
+          "link": "haak",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7bfb88e8ba29",
+          "type": "Region",
+          "loc": [
+            -2.013744354248047,
+            0.5000861315835644
+          ],
+          "link": "Skellige",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.0992418989809244,
+            0.30324620863970586
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_cb4af9188be9",
+          "type": "Region",
+          "loc": [
+            -2.1652450561523438,
+            0.8940506326234747
+          ],
+          "link": "Verden",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.1774240015128756,
+            0.3260604319852941
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2a7b7b7b0859",
+          "type": "Town",
+          "loc": [
+            -1.0384979248046875,
+            2.2191364315117568
+          ],
+          "link": "Wolveswater",
+          "layer": "%5B%5Bcontinent-hex.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "Hex Map.md"
+      ]
+    }
+  ],
   "defaultMarker": {
     "type": "default",
     "iconName": "map-marker",

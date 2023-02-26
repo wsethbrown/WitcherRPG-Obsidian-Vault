@@ -13,3 +13,4 @@
 	2. 80-99 -1
 	3. 100+ -2
 3. When rolling to Craft against the final DC, an exploding dice results in two potions instead of one
+4. All prices are doubled

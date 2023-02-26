@@ -4,29 +4,44 @@
     "type": "split",
     "children": [
       {
-        "id": "7779edae37762da2",
+        "id": "5b063c4bbe5911d5",
         "type": "tabs",
         "children": [
           {
-            "id": "6c36a6250f5abcff",
+            "id": "9a737e860d624855",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "7. The World of the Witcher",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/7. The World of the Witcher/7. The World of the Witcher.md\",\"mode\":\"preview\",\"source\":true}}",
-                  "eState": "{}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
                 },
                 {
-                  "title": "7. The World of the Witcher",
+                  "title": "GM Notes",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/7. The World of the Witcher/7. The World of the Witcher.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"GM Notes.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rules/7. The World of the Witcher/Beyond the Borders/Beyond the Borders.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "8b4beb4aacfcbe37",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
                   "eState": "{}"
                 }
               ]
@@ -34,13 +49,184 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rules/7. The World of the Witcher/The North.md",
+                "file": "Rules/7. The World of the Witcher/Beyond the Borders/Zerrikania.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "422472227a3cabbb",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Beyond the Borders",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/7. The World of the Witcher/Beyond the Borders/Beyond the Borders.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":140},\"to\":{\"line\":13,\"ch\":140}}}"
+                },
+                {
+                  "title": "Ofier",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/7. The World of the Witcher/Beyond the Borders/Ofier.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":692},\"to\":{\"line\":0,\"ch\":692}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rules/7. The World of the Witcher/Powerful Alliances/Powerful Alliances.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "fc46e27dc070f78d",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Witchers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/7. The World of the Witcher/Powerful Alliances/Witchers.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.7432432432432432}"
+                },
+                {
+                  "title": "Powerful Alliances",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/7. The World of the Witcher/Powerful Alliances/Powerful Alliances.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Witchers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/7. The World of the Witcher/Powerful Alliances/Witchers.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Mages",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/7. The World of the Witcher/Powerful Alliances/Mages/Mages.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":178},\"to\":{\"line\":16,\"ch\":178}},\"scroll\":6.265625}"
+                },
+                {
+                  "title": "Witchers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/7. The World of the Witcher/Powerful Alliances/Witchers.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":545},\"to\":{\"line\":32,\"ch\":545}},\"scroll\":19.706774353057526}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rules/7. The World of the Witcher/Powerful Alliances/Witchers/Witchers.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "7b94d5c61b4a8291",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "obsidian-leaflet-map-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "74a0333a06feb7d7",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "The Continent Map",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"The Continent Map.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Hex Map",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Hex Map.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                },
+                {
+                  "title": "The Continent Map",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"The Continent Map.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":1},\"to\":{\"line\":11,\"ch\":10}}}"
+                },
+                {
+                  "title": "Hex Map",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Hex Map.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":29},\"to\":{\"line\":2,\"ch\":29}}}"
+                },
+                {
+                  "title": "The Continent Map",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"The Continent Map.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Hex Map",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Hex Map.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":11},\"to\":{\"line\":1,\"ch\":11}}}"
+                },
+                {
+                  "title": "The Continent Map",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"The Continent Map.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Hex Map",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Hex Map.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hex Map.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -142,7 +328,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rules/7. The World of the Witcher/The North.md",
+                "file": "Hex Map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +354,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rules/7. The World of the Witcher/The North.md",
+                "file": "Hex Map.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -209,7 +395,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rules/7. The World of the Witcher/The North.md"
+                "file": "Hex Map.md"
               }
             }
           },
@@ -316,12 +502,11 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -339,17 +524,17 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "6c36a6250f5abcff",
+  "active": "74a0333a06feb7d7",
   "lastOpenFiles": [
-    "Rules/7. The World of the Witcher/7. The World of the Witcher.md",
-    "Rules/7. The World of the Witcher/The North.md",
-    "Rules/5. Combat/In Depth Combat/Transportation & Cavalry/Transportation & Cavalry.md",
-    "Rules/5. Combat/In Depth Combat/Transportation & Cavalry/Vehicle Combat.md",
-    "z_Templates/zz_assets/Map of the North.png",
-    "Rules/5. Combat/Verbal Combat/Verbal Combat.md",
-    "Rules/5. Combat/In Depth Combat/Healing/Healing.md",
-    "z_Templates/zz_assets/Screen Shot 2023-01-04 at 6.52.59 PM.png",
-    "z_Templates/zz_assets/Screen Shot 2023-01-04 at 6.53.58 PM.png",
-    "z_Templates/zz_assets/Screenshot 2023-02-08 at 7.36.03 PM.png"
+    "The Continent Map.md",
+    "Hex Map.md",
+    "Rules/7. The World of the Witcher/Powerful Religions/Melitele.md",
+    "Rules/7. The World of the Witcher/Powerful Religions/Powerful Religions.md",
+    "Rules/7. The World of the Witcher/Powerful Alliances/The Crescent Moon.md",
+    "Rules/7. The World of the Witcher/Powerful Alliances/The Mage Hunters.md",
+    "Rules/7. The World of the Witcher/Powerful Alliances/Scoia'tael.md",
+    "Rules/7. The World of the Witcher/Powerful Alliances/Havekar.md",
+    "Rules/7. The World of the Witcher/Powerful Alliances/Mages/Mages.md",
+    "Rules/7. The World of the Witcher/Powerful Alliances/Witchers/The Viper.md"
   ]
 }
