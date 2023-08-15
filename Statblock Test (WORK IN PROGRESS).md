@@ -6,24 +6,9 @@ threat: Hard Simple
 bounty: 100 Crowns
 armor: 10
 
-int: 1
-ref: 10
-dex: 10
-body: 10
-spd: 7
-emp: 1
-cra: 1
-will: 6
-luck: 0
+stats: [1, 10, 10, 10, 7, 1, 1, 6, 0]
 
-stun: 8
-run: 21
-leap: 4
-sta: 40
-enc: 100
-rec: 8
-hp: 80
-vigor: 0
+defenses: [8, 21, 4, 40, 100, 8, 80, 0]
 
 oil: Necrophage Oil
 vuln1: WHIP TONGUE If you successfully parry a grave hag’s tongue attack with a bladed weapon, it is severed. The grave hag takes 5 points of damage and can- not use its tongue again.

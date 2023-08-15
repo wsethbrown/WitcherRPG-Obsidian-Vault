@@ -3,7 +3,6 @@
   "table-editor-obsidian",
   "auto-note-mover",
   "obsidian-banners",
-  "breadcrumbs",
   "obsidian-dice-roller",
   "obsidian-excel-to-markdown-table",
   "obsidian-icon-folder",
@@ -28,5 +27,6 @@
   "dbfolder",
   "obsidian-text-expander-js",
   "obsidian-leaflet-plugin",
-  "various-complements"
+  "various-complements",
+  "buttons"
 ]

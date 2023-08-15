@@ -1,3 +1,11 @@
 {
-  "ITS-AT@@select": "wotc-beyond"
+  "ITS-AT@@select": "wotc-beyond",
+  "ITS-AT@@slrvb-b": false,
+  "ITS-AT@@slrvb-g": false,
+  "ITS-AT@@s-d": false,
+  "ITS-AT@@drwn": false,
+  "ITS-AT@@notion": false,
+  "ITS-AT@@its-d": false,
+  "ITS-AT@@mini": false,
+  "ITS-AT@@t-d": false
 }

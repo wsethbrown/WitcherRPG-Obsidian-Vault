@@ -2,7 +2,7 @@
   "mapMarkers": [
     {
       "id": "hex-map",
-      "lastAccessed": 1676655071343,
+      "lastAccessed": 1677450330153,
       "markers": [
         {
           "id": "ID_db4a9aeb7b4b",
@@ -811,10 +811,10 @@
   "long": -82.98333,
   "notePreview": true,
   "layerMarkers": true,
-  "previousVersion": "5.1.2",
+  "previousVersion": "5.7.2",
   "version": {
     "major": 5,
-    "minor": 1,
+    "minor": 7,
     "patch": 2
   },
   "warnedAboutMapMarker": false,
@@ -828,5 +828,6 @@
   "defaultUnitType": "metric",
   "defaultTile": "https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png",
   "defaultTileDark": "https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png",
-  "defaultAttribution": "Map tiles by <a href=\"http://stamen.com\">Stamen Design</a>, under <a href=\"http://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>. Data by <a href=\"http://openstreetmap.org\">OpenStreetMap</a>, under <a href=\"http://www.openstreetmap.org/copyright\">ODbL</a>."
+  "defaultAttribution": "Map tiles by <a href=\"http://stamen.com\">Stamen Design</a>, under <a href=\"http://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>. Data by <a href=\"http://openstreetmap.org\">OpenStreetMap</a>, under <a href=\"http://www.openstreetmap.org/copyright\">ODbL</a>.",
+  "defaultTileSubdomains": "a,b,c"
 }

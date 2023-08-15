@@ -28,6 +28,8 @@ columns:
       media_height: 100
       isInline: true
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   Name:
     input: text
     key: Name
@@ -39,9 +41,13 @@ columns:
     sortIndex: -1
     config:
       enable_media_view: true
+      link_alias_enabled: true
       media_width: 100
       media_height: 100
       isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   Stamina:
     input: text
     accessorKey: Stamina
@@ -59,6 +65,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   Effect:
     input: text
     accessorKey: Effect
@@ -76,6 +84,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   Range:
     input: text
     accessorKey: Range
@@ -93,6 +103,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   Duration:
     input: text
     accessorKey: Duration
@@ -110,6 +122,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   Defense:
     input: text
     accessorKey: Defense
@@ -127,6 +141,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   Type:
     input: text
     accessorKey: Type
@@ -144,6 +160,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
   Level:
     input: text
     accessorKey: Level
@@ -161,6 +179,8 @@ columns:
       media_height: 100
       isInline: false
       task_hide_completed: true
+      footer_type: none
+      persist_changes: false
 config:
   remove_field_when_delete_column: false
   cell_size: normal
@@ -187,6 +207,10 @@ config:
   inline_new_position: top
   date_format: yyyy-MM-dd
   datetime_format: "yyyy-MM-dd HH:mm:ss"
+  font_size: 16
+  metadata_date_format: "yyyy-MM-dd HH:mm:ss"
+  enable_footer: false
+  implementation: default
 filters:
   enabled: false
   conditions:

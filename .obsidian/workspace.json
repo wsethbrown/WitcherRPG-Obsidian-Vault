@@ -4,38 +4,440 @@
     "type": "split",
     "children": [
       {
-        "id": "5b063c4bbe5911d5",
+        "id": "aad31629ac07b079",
         "type": "tabs",
         "children": [
           {
-            "id": "9a737e860d624855",
+            "id": "9cdd77ee2dc33870",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
               "stack": [
                 {
                   "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "2023-03-01",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"GM Notes/2023-03-01.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "House Rules",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"GM Notes/House Rules.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "ChatGPT Ideas",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"GM Notes/ChatGPT Ideas.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "2023-03-01",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"GM Notes/2023-03-01.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{\"scroll\":0.4049079754601227}"
+                },
+                {
+                  "title": "ChatGPT Ideas",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"GM Notes/ChatGPT Ideas.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{\"scroll\":21.676470588235293}"
+                },
+                {
+                  "title": "Hex Map",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Hex Map.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "The Continent Map",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"The Continent Map.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Statblock Test (WORK IN PROGRESS)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Statblock Test (WORK IN PROGRESS).md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "README",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":84},\"to\":{\"line\":1,\"ch\":84}},\"scroll\":0}"
+                },
+                {
+                  "title": "ChatGPT Ideas",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"GM Notes/ChatGPT Ideas.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Hex Map",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Hex Map.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "House Rules",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"GM Notes/House Rules.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "The Continent Map",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"The Continent Map.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Statblock Test (WORK IN PROGRESS)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Statblock Test (WORK IN PROGRESS).md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Hex Map",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Hex Map.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Template - Time Period",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/1_Story World Templates/Events/Template - Time Period.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Template - Event List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/1_Story World Templates/Events/Template - Event List.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Template - Incident",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/1_Story World Templates/Events/Template - Incident.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "Template - Event List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/1_Story World Templates/Events/Template - Event List.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "2_Mechanics Gallery",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/2_Mechanics Gallery.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Template - General Gameplay Article",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Gameplay/Template - General Gameplay Article.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Template - Campaign Element",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Gameplay/Template - Campaign Element.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Call Out Boxes (Admonition)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/3_Markdown/Call Out Boxes (Admonition)/Call Out Boxes (Admonition).md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Insert Random Encounter Table (Initiative Tracker)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/3_Markdown/Combat Templates/Insert Random Encounter Table (Initiative Tracker).md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Insert Multiple Encounters Table (Initiative Tracker)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/3_Markdown/Combat Templates/Insert Multiple Encounters Table (Initiative Tracker).md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Insert Multiple Encounters (Initiative Tracker) 1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/3_Markdown/Combat Templates/Insert Multiple Encounters (Initiative Tracker) 1.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Insert Monster Into Table (Initiative Tracker)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/3_Markdown/Combat Templates/Insert Monster Into Table (Initiative Tracker).md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Insert Monster (TTRPG Statblock)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/3_Markdown/Combat Templates/Insert Monster (TTRPG Statblock).md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Insert Encounter (Initiative Tracker)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/3_Markdown/Combat Templates/Insert Encounter (Initiative Tracker).md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Insert Custom Encounter (Initiative Tracker)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/3_Markdown/Combat Templates/Insert Custom Encounter (Initiative Tracker).md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Call Out Boxes (Admonition)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/3_Markdown/Call Out Boxes (Admonition)/Call Out Boxes (Admonition).md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{\"scroll\":54.3448275862069}"
+                },
+                {
+                  "title": "Insert Map (Leaflet)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/3_Markdown/Insert Map (Leaflet).md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Insert Markdown Images",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/3_Markdown/Insert Markdown Images.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Insert Monster (TTRPG Statblock)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/3_Markdown/Insert Monster (TTRPG Statblock).md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Template - Race",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Characters/Template - Race.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "Template - Background",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Characters/Template - Background.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Template - Career",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Characters/Template - Career.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Template - General Characters Article",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Characters/Template - General Characters Article.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Template - Race",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Characters/Template - Race.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Template - Archetype_Domain_Etc.",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Characters/Template - Archetype_Domain_Etc..md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Insert Markdown Images",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/3_Markdown/Insert Markdown Images.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Insert Custom Encounter (Initiative Tracker)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/3_Markdown/Insert Custom Encounter (Initiative Tracker).md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Insert Encounter (Initiative Tracker)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/3_Markdown/Insert Encounter (Initiative Tracker).md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Insert Custom Encounter (Initiative Tracker)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/3_Markdown/Insert Custom Encounter (Initiative Tracker).md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Insert Checkbox",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/3_Markdown/Insert Checkbox.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Indent Paragraph",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/3_Markdown/Indent Paragraph.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Handlebar Template (5eTools Monster)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/3_Markdown/Handlebar Template (5eTools Monster).md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Embed Website (iframe)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/3_Markdown/Embed Website (iframe).md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Chart Examples (Mermaid)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/3_Markdown/Chart Examples (Mermaid).md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{\"scroll\":12.521739130434783}"
+                },
+                {
+                  "title": "Mechanics Gallery",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Mechanics Gallery.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Template - Mechanics Source",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Mechanic Sources/Template - Mechanics Source.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Template - Mundane Weapon",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Equipment/Template - Mundane Weapon.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Template - Mundane Item",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Equipment/Template - Mundane Item.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Template - Mundane Armor_Shield",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Equipment/Template - Mundane Armor_Shield.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Template - Trap",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Dangers/Template - Trap.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Template - Archetype_Domain_Etc.",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Characters/Template - Archetype_Domain_Etc..md\",\"mode\":\"preview\",\"source\":true}}",
                   "eState": "{}"
                 },
                 {
                   "title": "GM Notes",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"GM Notes.md\",\"mode\":\"source\",\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"GM Notes/GM Notes.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Template-Session-Note",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Game Mastering/Template-Session-Note.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "GM Notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"GM Notes/GM Notes.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Template-Session-Note",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Game Mastering/Template-Session-Note.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "GM Notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"GM Notes/GM Notes.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":2.225}"
+                },
+                {
+                  "title": "Template-Session-Note",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Game Mastering/Template-Session-Note.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "2023-02-26 Session 001",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Session Notes/2023-02-26 Session 001.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":0},\"to\":{\"line\":29,\"ch\":0}},\"scroll\":5.461538461538462}"
+                },
+                {
+                  "title": "Template-Session-Note",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Game Mastering/Template-Session-Note.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":36},\"to\":{\"line\":14,\"ch\":36}},\"scroll\":0.02702702702702703}"
+                },
+                {
+                  "title": "GM Notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"GM Notes/GM Notes.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":0},\"to\":{\"line\":24,\"ch\":0}},\"scroll\":0.7937164117403885}"
+                },
+                {
+                  "title": "Template - General Game Mastering Article",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Game Mastering/Template - General Game Mastering Article.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "GM Notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"GM Notes/GM Notes.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Template-Session-Note",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"z_Templates/2_Mechanics Gallery/Game Mastering/Template-Session-Note.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{\"scroll\":0}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rules/7. The World of the Witcher/Beyond the Borders/Beyond the Borders.md",
+                "file": "Statblock Test (WORK IN PROGRESS).md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "8b4beb4aacfcbe37",
+            "id": "16a22f88deab71a6",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -43,190 +445,52 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Katakan",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Vampires/Katakan.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Bruxa",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/6. Bestiary/Vampires/Bruxa.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rules/7. The World of the Witcher/Beyond the Borders/Zerrikania.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "422472227a3cabbb",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Beyond the Borders",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/7. The World of the Witcher/Beyond the Borders/Beyond the Borders.md\",\"mode\":\"source\",\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":140},\"to\":{\"line\":13,\"ch\":140}}}"
-                },
-                {
-                  "title": "Ofier",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/7. The World of the Witcher/Beyond the Borders/Ofier.md\",\"mode\":\"source\",\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":692},\"to\":{\"line\":0,\"ch\":692}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rules/7. The World of the Witcher/Powerful Alliances/Powerful Alliances.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "fc46e27dc070f78d",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Witchers",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/7. The World of the Witcher/Powerful Alliances/Witchers.md\",\"mode\":\"source\",\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.7432432432432432}"
-                },
-                {
-                  "title": "Powerful Alliances",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/7. The World of the Witcher/Powerful Alliances/Powerful Alliances.md\",\"mode\":\"source\",\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Witchers",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/7. The World of the Witcher/Powerful Alliances/Witchers.md\",\"mode\":\"source\",\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Mages",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/7. The World of the Witcher/Powerful Alliances/Mages/Mages.md\",\"mode\":\"source\",\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":178},\"to\":{\"line\":16,\"ch\":178}},\"scroll\":6.265625}"
-                },
-                {
-                  "title": "Witchers",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Rules/7. The World of the Witcher/Powerful Alliances/Witchers.md\",\"mode\":\"source\",\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":545},\"to\":{\"line\":32,\"ch\":545}},\"scroll\":19.706774353057526}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rules/7. The World of the Witcher/Powerful Alliances/Witchers/Witchers.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "7b94d5c61b4a8291",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "obsidian-leaflet-map-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "74a0333a06feb7d7",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "The Continent Map",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"The Continent Map.md\",\"mode\":\"source\",\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Hex Map",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Hex Map.md\",\"mode\":\"source\",\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
-                },
-                {
-                  "title": "The Continent Map",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"The Continent Map.md\",\"mode\":\"source\",\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":1},\"to\":{\"line\":11,\"ch\":10}}}"
-                },
-                {
-                  "title": "Hex Map",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Hex Map.md\",\"mode\":\"source\",\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":29},\"to\":{\"line\":2,\"ch\":29}}}"
-                },
-                {
-                  "title": "The Continent Map",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"The Continent Map.md\",\"mode\":\"source\",\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Hex Map",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Hex Map.md\",\"mode\":\"source\",\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":11},\"to\":{\"line\":1,\"ch\":11}}}"
-                },
-                {
-                  "title": "The Continent Map",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"The Continent Map.md\",\"mode\":\"source\",\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Hex Map",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Hex Map.md\",\"mode\":\"source\",\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hex Map.md",
+                "file": "Rules/6. Bestiary/Vampires/Bruxa.md",
                 "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "84fd80bed10697ec",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -273,7 +537,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "temeria",
+                "query": "Olsen",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -296,6 +560,23 @@
             },
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "b3c5d394867aae6d",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -328,7 +609,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hex Map.md",
+                "file": "Statblock Test (WORK IN PROGRESS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -354,9 +635,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hex Map.md",
+                "file": "Statblock Test (WORK IN PROGRESS).md",
                 "linksCollapsed": true,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -395,7 +676,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hex Map.md"
+                "file": "Statblock Test (WORK IN PROGRESS).md"
               }
             }
           },
@@ -417,7 +698,7 @@
             }
           },
           {
-            "id": "c85fd402aed2173f",
+            "id": "aebaaf54e612af40",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -429,29 +710,12 @@
               ]
             },
             "state": {
-              "type": "BC-matrix",
+              "type": "inline-scripts-button-view",
               "state": {}
             }
           },
           {
-            "id": "98b507ad044fdd49",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "BC-tree",
-              "state": {}
-            }
-          },
-          {
-            "id": "235ea65a54e238b1",
+            "id": "da6656b26ed5538f",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -468,41 +732,29 @@
             }
           },
           {
-            "id": "af38857042738e37",
+            "id": "0087d2c6a714147e",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "initiative-tracker-view",
               "state": {}
             }
-          },
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "6d8c8b57cd492b08",
+        "type": "tabs",
+        "children": [
           {
-            "id": "aebaaf54e612af40",
+            "id": "16a92e530b151bb3",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
-              "type": "inline-scripts-button-view",
+              "type": "initiative-tracker-creature-view",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -516,25 +768,48 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-import-json:JSON/CSV Importer": false,
-      "dbfolder:Create a new database table": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false
+      "dbfolder:Create a new database table": false
     }
   },
-  "active": "74a0333a06feb7d7",
+  "active": "9cdd77ee2dc33870",
   "lastOpenFiles": [
+    "GM Notes/2023-03-01.md",
+    "Statblock Test (WORK IN PROGRESS).md",
+    "Untitled.md",
+    "Rules/6. Bestiary/Vampires/Bruxa.md",
     "The Continent Map.md",
+    "World.md",
+    "Rules/6. Bestiary/Vampires/Katakan.md",
+    "Untitled 1.md",
+    "Rules/6. Bestiary/Cursed Ones/Werewolf.md",
+    "[Werewolf.md",
+    "Rules/7. The World of the Witcher/Cidaris.md",
     "Hex Map.md",
-    "Rules/7. The World of the Witcher/Powerful Religions/Melitele.md",
-    "Rules/7. The World of the Witcher/Powerful Religions/Powerful Religions.md",
-    "Rules/7. The World of the Witcher/Powerful Alliances/The Crescent Moon.md",
-    "Rules/7. The World of the Witcher/Powerful Alliances/The Mage Hunters.md",
-    "Rules/7. The World of the Witcher/Powerful Alliances/Scoia'tael.md",
-    "Rules/7. The World of the Witcher/Powerful Alliances/Havekar.md",
-    "Rules/7. The World of the Witcher/Powerful Alliances/Mages/Mages.md",
-    "Rules/7. The World of the Witcher/Powerful Alliances/Witchers/The Viper.md"
+    "Rules/7. The World of the Witcher/Nilfgaard/Angren.md",
+    "Rules/3. Magic/Mage Spells/Earth/Earth.md",
+    "Rules/3. Magic/Mage Spells/Spell Database.md",
+    "Rules/3. Magic/Mage Spells/Novice Spells.md",
+    "Rules/3. Magic/Mage Spells/Air/Adenydd.md",
+    "GM Notes/2023-03-22.md",
+    "GM Notes/ChatGPT Ideas.md",
+    "GM Notes/Custom Crafting.md",
+    "z_Templates/zz_assets/CRAFTING EXPANDED A Crafting Expansion for THE WITCHER.pdf",
+    "GM Notes/House Rules.md",
+    "Rules/7. The World of the Witcher/7. The World of the Witcher.md",
+    "README.md",
+    "GM Notes",
+    "The Continent Map.canvas",
+    "Screenshot 2023-02-16 at 10.41.10 AM.png.md",
+    "z_Templates/1_Story World Templates/Events/Template - Time Period.md",
+    "z_Templates/1_Story World Templates/Events/Template - Event List.md",
+    "z_Templates/2_Mechanics Gallery/Game Mastering/Session-counter.txt.sb-0ee18410-LiaFm2",
+    "Session Notes",
+    "z_Templates/2_Mechanics Gallery/Game Mastering/previous-session-name.txt",
+    "z_Templates/2_Mechanics Gallery/Game Mastering/Session-counter.txt"
   ]
 }
